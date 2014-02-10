@@ -1,14 +1,10 @@
-Python 2.7.3 (default, Sep 26 2013, 20:03:06) 
-[GCC 4.6.3] on linux2
-Type "copyright", "credits" or "license()" for more information.
-==== No Subprocess ====
->>> #-------------------
->>> # TestXML.py
->>> #-------------------
->>> 
->>> from xml.etree.ElementTree import Element, fromstring
->>> 
->>> print("TestXML.py")
+#-------------------
+# TestXML.py
+#-------------------
+
+from xml.etree.ElementTree import Element, fromstring
+
+print("TestXML.py")
 print()
 
 s = "<xml>" + "".join(open("ElementTree.xml")) + "</xml>"
