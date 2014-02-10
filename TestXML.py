@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #-------------------
 # TestXML.py
 #-------------------
@@ -6,34 +7,34 @@ from xml.etree.ElementTree import Element, fromstring
 
 print("TestXML.py")
 print()
+=======
+>>>>>>> 4a3c794bc81c8bc230a4a46524ce9a0eb5c8a3c9
 
-s = "<xml>" + "".join(open("ElementTree.xml")) + "</xml>"
+
+
+from xml.etree.ElementTree import Element, fromstring, tostring
+
+#-------------------
+# TestXML.py
+#-------------------
+
+
+print("TestXML.py")
+print()
+
+def traverse (a, d = "") :
+    print(d + a.tag)
+    for v in a :
+        traverse(v, d + "\t")
+    print(d + "/" + a.tag)
+
+s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
 assert(type(s) is str)
-print(s)
-print()
 
-x = fromstring(s)
-assert(type(x) is Element)
+a = fromstring(s)
+assert(type(a) is Element)
 
-print("First Level Elements")
-print()
-for u in x :
-    print(u)
-print()
-
-print("Second Level Elements")
-print()
-for u in x :
-    for v in u :
-        print(v)
-print()
-
-print("Third Level Elements")
-print()
-for u in x :
-    for v in u :
-        for w in v :
-            print(w)
+traverse(a)
 print()
 
 print("Done.")
