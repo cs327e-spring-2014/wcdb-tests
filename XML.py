@@ -7,7 +7,7 @@
 from xml.etree.ElementTree import Element, fromstring, tostring
 
 print("XML.py")
-print()
+print("")
 
 def traverse (a, d = "") :
     print(d + a.tag)
@@ -22,7 +22,7 @@ a = fromstring(s)
 assert(type(a) is Element)
 
 traverse(a)
-print()
+print("")
 
 print("Done.")
 
