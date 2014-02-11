@@ -3,6 +3,7 @@
 # TestXML.py
 #-------------------
 
+<<<<<<< HEAD
 from xml.etree.ElementTree import Element, fromstring
 
 print("TestXML.py")
@@ -10,6 +11,8 @@ print()
 =======
 >>>>>>> 4a3c794bc81c8bc230a4a46524ce9a0eb5c8a3c9
 
+=======
+>>>>>>> ec8b78355662f129f98cb83b09808649ae7a3623
 import io
 import unittest
 
