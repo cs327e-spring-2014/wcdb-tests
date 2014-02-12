@@ -26,10 +26,6 @@ print("")
 
 
 
-for x in a.findall("./"):
-    print (x[0])
-
-
 for n in a.findall("./"):
     m = tostringlist(n[0])
     print(m)
