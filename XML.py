@@ -2,7 +2,7 @@
 # XML.py
 #--------------
 
-from xml.etree.ElementTree import Element, fromstring, tostring, tostringlist
+from xml.etree.ElementTree import Element, fromstring, tostring
 
 print("XML.py")
 print("")
@@ -21,13 +21,10 @@ assert(type(s) is str)
 a = fromstring(s)
 assert(type(a) is Element)
 
-traverse(a)
-print("")
 
 
-
-for n in a.findall("./"):
-    traverse(n[0])
+for n in a.findall("."):
+    traverse(n[1])
 
 
 print("Done.")
