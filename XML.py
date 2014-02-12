@@ -14,11 +14,6 @@ def traverse (a, d = "") :
         traverse(v, d + "\t")
     print(d + "/" + a.tag)
 
-<<<<<<< HEAD
-                       
-=======
-        
->>>>>>> e55eb10709c1084e5fb26e287ae05e03aa9af1ae
     
 s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
 assert(type(s) is str)
@@ -30,15 +25,15 @@ traverse(a)
 print("")
 
 
-<<<<<<< HEAD
+
 for x in a.findall("./"):
     print (x[0])
 
-=======
+
 for n in a.findall("./"):
     m = tostringlist(n[0])
     print(m)
->>>>>>> e55eb10709c1084e5fb26e287ae05e03aa9af1ae
+
 
 
 print("Done.")
