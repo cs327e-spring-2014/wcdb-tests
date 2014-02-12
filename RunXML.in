@@ -72,3 +72,108 @@
     </green>
 </red>
 <green><purple></purple></green>
+
+<Cat>
+<Hat>
+<AC></AC>
+<Jelly></Jelly>
+<Cooly></Cooly>
+</Hat>
+<JiaJia>
+<Hat>
+<Ahyangyi></Ahyangyi>
+<Dragon></Dragon>
+<Cooly><Amber></Amber></Cooly>
+</Hat>
+</JiaJia>
+</Cat>
+<Hat><Cooly></Cooly></Hat>
+
+<Abracadabra>
+    <Alchemy>
+        <blue><yellow></yellow></blue>
+        <Amulet></Amulet>
+    </Alchemy>
+</Abracadabra>
+<Alchemy><Amulet></Amulet></Alchemy>
+
+<Eek>
+    <Elf>
+        <lime></Elf></Elf></lime>
+        <pink></Elf></Elf></pink>
+    </Elf>
+</Eek>
+<Elf><purple></purple></Elf>
+
+
+<A>
+    <my>
+        <b><y></y></b>
+        <Am></Am>
+    </my>
+</A>
+<my><Am></Am></my>
+
+<Atlas>
+    <world>
+    <map>
+        <b><y></y></b>
+        <Am></Am>
+    </map>
+    </world>
+</Atlas>
+<my><Am></Am></my>
+
+<S>
+
+  <A>
+
+  </A>
+
+  <R>
+
+  </R>
+
+  <A>
+
+  </A>
+
+</S>
+
+<J>
+
+  <A>
+
+  </A>
+
+  <N>
+
+  </N>
+
+<J>
+
+<hello>
+
+    <goodbye>
+
+        <hello>
+
+        </hello>
+
+    </goodbye>
+
+</hello>
+
+ <RED>
+           <GREEN>
+                           <BLUE></BLUE>
+                           <YELLOW></YELLOW>
+            </GREEN>
+            <Pink>
+                             <GREEN>
+                                            <BLUE></BLUE>
+                             </GREEN>
+            </Pink>
+
+</RED>
+
