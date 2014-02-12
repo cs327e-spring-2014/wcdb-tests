@@ -27,7 +27,7 @@ print("")
 
 
 for n in a.findall("./"):
-    m = tostring(n[0])
+    m = tostring(n[0], encoding="us-ascii", method="xml")
     print(m)
 
 
