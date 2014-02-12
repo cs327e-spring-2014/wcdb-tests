@@ -1,4 +1,3 @@
-
 #--------------
 # XML.py
 #--------------
@@ -11,8 +10,10 @@ print("")
 
 def traverse (a, d = "") :
     print(d + a.tag)
-    for v in a :
-        traverse(v, d + "\t")
+    for m in a :
+        traverse(m, d + "\t")
+        for n in a :
+            traverse(n, d + "\t")
     print(d + "/" + a.tag)
 
 s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
