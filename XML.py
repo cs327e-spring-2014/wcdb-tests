@@ -23,6 +23,10 @@ assert(type(a) is Element)
 
 traverse(a)
 
+for s in a.findall('s') :
+    r = s.find('s').text
+    print(r)
+
 print("")
 
 print("Done.")
