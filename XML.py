@@ -27,7 +27,7 @@ print("")
 
 
 for n in a.findall("./"):
-    m = tostringlist(n[0])
+    m = tostring(n[0])
     print(m)
 
 
