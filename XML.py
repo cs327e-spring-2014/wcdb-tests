@@ -15,7 +15,7 @@ def traverse (a, d = "") :
         traverse(v, d + "\t")
     print(d + "/" + a.tag)
 
-    print(len(a))
+        print(len(a))
     
 s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
 assert(type(s) is str)
