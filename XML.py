@@ -15,8 +15,8 @@ def traverse (a, d = "") :
         traverse(v, d + "\t")
     print(d + "/" + a.tag)
 
-    for s in a.findall('s') :
-        r = s.find('s').text
+    for xml in a.findall('xml') :
+        r = xml.find('xml').text
         print(r)
     
 s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
