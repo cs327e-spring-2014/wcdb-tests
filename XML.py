@@ -1,3 +1,4 @@
+
 #--------------
 # XML.py
 #--------------
@@ -10,15 +11,13 @@ print("")
 
 def traverse (a, d = "") :
     print(d + a.tag)
-    for m in a :
-        traverse(m, d + "\t")
-        for n in a :
-            traverse(n, d + "\t")
+    for v in a :
+        traverse(v, d + "\t")
     print(d + "/" + a.tag)
 
     for s in a.findall('s') :
-    r = s.find('s').text
-    print(r)
+        r = s.find('s').text
+        print(r)
     
 s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
 assert(type(s) is str)
@@ -28,13 +27,7 @@ assert(type(a) is Element)
 
 traverse(a)
 
-<<<<<<< HEAD
 
-=======
-for s in a.findall('s') :
-    r = s.find('s').text
-    print(r)
->>>>>>> 7fc5cefd9ab054739c8f259f677eb0296fe76324
 
 print("")
 
