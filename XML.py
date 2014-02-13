@@ -3,7 +3,7 @@
 #--------------
 
 
-from xml.etree.ElementTree import Element, fromstring, tostring, SubElement
+from xml.etree.ElementTree import Element, fromstring, tostring
 
 print("XML.py")
 print("")
@@ -48,7 +48,6 @@ a = fromstring(s)
 assert(type(a) is Element)
 
 q = a[1]
-#for n in a.findall("."):
     
 traverse(a[0], 0)
 print(tot)
@@ -57,6 +56,4 @@ traverse(a[0], 1)
 
 
 
-#def compare() :
- #   while (traverse(a[0], "")
  
