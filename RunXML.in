@@ -99,8 +99,8 @@
 
 <Eek>
     <Elf>
-        <lime></Elf></Elf></lime>
-        <pink></Elf></Elf></pink>
+        <lime><Elf></Elf></lime>
+        <pink><Elf></Elf></pink>
     </Elf>
 </Eek>
 <Elf><purple></purple></Elf>
