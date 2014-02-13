@@ -15,7 +15,11 @@ def traverse (a, d = "") :
         x += 1
         traverse(v, d + "\t")
     #print(d + "/" + a.tag)
-    
+
+        p = iter(v)
+        e = next (p)
+        print(e.tag)
+
     
 s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
 assert(type(s) is str)
@@ -28,10 +32,12 @@ assert(type(a) is Element)
  #   traverse(n[1])
 
 traverse(a[0], "")
-    
+
+
 x = 1
 
 print ("Done.")
+
 
 
 #def compare() :
