@@ -10,7 +10,7 @@
 
 import sys
 
-from XML import numchild, match, traverse
+from XML import traverse
 
 #-------
 # main
