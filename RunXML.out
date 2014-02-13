@@ -3,7 +3,7 @@
 #---------------
 
 
-
+# Given acceptance tests 
 2
 2
 7
@@ -32,27 +32,32 @@
 0
 
 #starting new inputs from line 76 
-
 2
 2
 7
 
+# line 92
 1
 2
 
+#line 100
 0
 
+#line 109 
 1
 2
 
 #line 117
 0
+
 #line 127
 1
 1
 
+#line 137 
 1
 1
+
 #line 145 
 2
 1
@@ -60,4 +65,16 @@
 
 #line 153
 
+#line 167
+2
+2
+7
+
+#line 183
+#line 196
+#line 209 
+#line 222
+#line 235
+#line 248
+#line
 
