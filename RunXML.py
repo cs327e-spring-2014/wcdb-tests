@@ -18,3 +18,4 @@ from XML import traverse
 
 
 traverse(sys.stdin, sys.stdout)
+
