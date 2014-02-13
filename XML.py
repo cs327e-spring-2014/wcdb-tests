@@ -5,7 +5,6 @@
 
 from xml.etree.ElementTree import Element, fromstring, tostring
 
-print("XML.py")
 print("")
 x = 1
 tot = 0
