@@ -41,8 +41,8 @@ def traverse (a, opt) :
         x += 1
         traverse(v, opt)
 
-    
-s = "<xml>" + "".join() + "</xml>"
+
+s = "<xml>" + "".join(sys.stdin) + "</xml>"
 assert(type(s) is str)
 
 a = fromstring(s)
