@@ -1,9 +1,3 @@
-#------------------
-# RunXML.in
-#------------------
-
-
-
 <THU>
 <Team>
 <ACRush></ACRush>
@@ -99,14 +93,14 @@
 
 <Eek>
     <Elf>
-        <lime></Elf></Elf></lime>
-        <pink></Elf></Elf></pink>
+        <lime><Elf></Elf></lime>
+        <pink><Elf></Elf></pink>
     </Elf>
 </Eek>
 <Elf><purple></purple></Elf>
 
 
-<A>
+<A> 
     <my>
         <b><y></y></b>
         <Am></Am>
@@ -998,3 +992,4 @@
             </ a >
 </ f >
 <a ></ a >
+
