@@ -4,6 +4,7 @@
 
 
 from xml.etree.ElementTree import Element, fromstring, tostring
+import sys
 
 print("")
 x = 1
@@ -40,11 +41,13 @@ def traverse (a, opt) :
         x += 1
         traverse(v, opt)
     
-s = "<xml>" + "".join(open("Input.xml")) + "</xml>"
-assert(type(s) is str)
+def xml_read(m, a)
+    #s = "<xml>" + "".join("sys.stdin") + "</xml>"
+    s = m.readlines()
+    assert(type(s) is str)
 
-a = fromstring(s)
-assert(type(a) is Element)
+    a = fromstring(s)
+    assert(type(a) is Element)
 
 q = a[1]
     
