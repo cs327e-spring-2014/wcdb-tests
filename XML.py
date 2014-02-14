@@ -54,3 +54,4 @@ traverse(a[0], 0)
 print(tot)
 x = 1
 traverse(a[0], 1)
+
