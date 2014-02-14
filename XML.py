@@ -4,7 +4,7 @@
 
 
 from xml.etree.ElementTree import Element, fromstring, tostring
-import fileinput
+import sys
 
 print("")
 x = 1
@@ -42,7 +42,7 @@ def traverse (a, opt) :
         traverse(v, opt)
 
     
-s = "<xml>" + "".join(input()) + "</xml>"
+s = "<xml>" + "".join() + "</xml>"
 assert(type(s) is str)
 
 a = fromstring(s)
