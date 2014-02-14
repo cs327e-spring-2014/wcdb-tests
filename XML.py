@@ -6,7 +6,6 @@
 from xml.etree.ElementTree import Element, fromstring, tostring
 import sys
 
-print("")
 x = 1
 tot = 0
 

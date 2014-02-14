@@ -9,8 +9,8 @@
 
 
 import sys
-
-from XML import traverse
+from xml.etree.ElementTree import Element, fromstring, tostring
+from XML import numchild, match, traverse
 
 #-------
 # main
