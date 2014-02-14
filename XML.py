@@ -4,7 +4,7 @@
 
 
 from xml.etree.ElementTree import Element, fromstring, tostring
-import sys
+import fileinput
 
 print("")
 x = 1
@@ -14,7 +14,7 @@ def numchild (a) :
     n = 0
     for v in a :
         n += 1
-    return n    
+    return n
 
 def match (a, b) :
     if a.tag != b.tag :
@@ -40,14 +40,13 @@ def traverse (a, opt) :
     for v in a :
         x += 1
         traverse(v, opt)
-    
-def xml_read(m, a)
-    #s = "<xml>" + "".join("sys.stdin") + "</xml>"
-    s = m.readlines()
-    assert(type(s) is str)
 
-    a = fromstring(s)
-    assert(type(a) is Element)
+    
+s = "<xml>" + "".join(input()) + "</xml>"
+assert(type(s) is str)
+
+a = fromstring(s)
+assert(type(a) is Element)
 
 q = a[1]
     
@@ -55,7 +54,3 @@ traverse(a[0], 0)
 print(tot)
 x = 1
 traverse(a[0], 1)
-
-
-
- 
