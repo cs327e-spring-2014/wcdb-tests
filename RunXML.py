@@ -16,5 +16,16 @@ from XML import traverse
 # main
 #-------
 
-traverse(a, opt)
+s = "<xml>" + "".join(sys.stdin) + "</xml>"
 
+assert(type(s) is str)
+
+a = fromstring(s)
+assert(type(a) is Element)
+
+q = a[1]
+    
+traverse(a[0], 0)
+print(tot)
+x = 1
+traverse(a[0], 1)
