@@ -17,5 +17,5 @@ from XML import traverse
 #-------
 
 
-traverse(a, sys.stdout)
+traverse(sys.stdin, sys.stdout)
 
