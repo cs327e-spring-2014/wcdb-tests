@@ -17,7 +17,6 @@ from XML import numchild, match, traverse
 #-------
 
 s = "<xml>" + "".join(sys.stdin) + "</xml>"
-
 assert(type(s) is str)
 
 a = fromstring(s)
@@ -29,3 +28,5 @@ traverse(a[0], 0)
 print(tot)
 x = 1
 traverse(a[0], 1)
+
+print(sys.stdout)

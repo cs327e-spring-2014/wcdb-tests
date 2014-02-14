@@ -38,6 +38,6 @@ def traverse (a, opt) :
 
     for v in a :
         x += 1
-        traverse(v, opt)
+        traverse(v, opt + "\t")
 
 
