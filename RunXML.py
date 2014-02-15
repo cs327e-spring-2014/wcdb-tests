@@ -1,32 +1,29 @@
-#--------------
-# RunXML.py
-#--------------
+#!/usr/bin/env python
 
+"""
+To run the program
+% python RunXML.py < RunXML.in > RunXML.out
+% chmod ugo+x RunXML.py
+% RunXML.py < RunXML.in > RunXML.out
 
-#--------------
-# import
-#--------------
+To document the program
+% pydoc -w XML
+"""
 
+# -------
+# imports
+# -------
 
 import sys
-from XML import numchild, match, traverse
+from XML import main
 
-#-------
+# ----
 # main
-#-------
-
-string = sys.stdin.readlines()
-s = "<xml>" + "".join(string) + "</xml>"
-assert(type(s) is str)
-
-a = fromstring(s)
-assert(type(a) is Element)
-
-q = a[len(a)]
-    
-traverse(a[0], 0)
-print(tot)
-x = 1
-traverse(a[0], 1)
-
-
+# ----
+"""
+calls main from XML.py
+"""
+try :
+	main()
+except :
+	pass
