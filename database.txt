@@ -24,8 +24,8 @@ Unique People
    5. Oleksandr Turchynov
    
 Attributes of Crisis
-  - name, 
-  - kind, 
+name, 
+kind, 
 location, 
 date and time, 
 human impact, 
