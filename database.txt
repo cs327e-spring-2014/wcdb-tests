@@ -1,0 +1,70 @@
+cs327e-wcdb
+===========
+Unique Crisis
+
+   1. Venezuela protests
+   2. Fighting in Ukraine
+   3. members of "Pussy Riot" band imprisoned for protesting in Russia
+   4. UN calls for Kim Jong Un to answer for his crimes
+   5. Syrian Civil War
+   
+Unique Organizations
+
+   1. CNN
+   2. New York Times
+   3. University of Texas
+   4. Al Jazeera
+   5. Pussy Riot
+   
+Unique People
+   1. Kim Jong Un
+   2. Nicolás Maduro
+   3. Leopoldo Lopez
+   4. Putin
+   5. Oleksandr Turchynov
+   
+Attributes of Crisis
+  - name, 
+  - kind, 
+location, 
+date and time, 
+human impact, 
+economic impact, 
+resources needed, 
+ways to help, 
+image URLs (e.g. Bing, Flickr, Google), 
+video URLs (e.g. Bing, Google, Vimeo), 
+map URLs (e.g. Google Maps), 
+social network feed URLs (e.g. Facebook, Twitter), 
+citations, 
+external link URLs, 
+organizations, 
+people
+
+Attributes of Organizations
+name, 
+kind, 
+location, 
+history, 
+contact info, 
+image URLs (e.g. Bing, Flickr, Google), 
+video URLs (e.g. Bing, Google, Vimeo), 
+map URLs (e.g. Google Maps), 
+social network feed URLs (e.g. Facebook, Twitter), 
+citations, 
+external link URLs, 
+crises, 
+people
+
+Attributes of People
+name, 
+kind, 
+location, 
+image URLs (e.g. Bing, Flickr, Google), 
+video URLs (e.g. Bing, Google, Vimeo), 
+map URLs (e.g. Google Maps), 
+social network feed URLs (e.g. Facebook, Twitter), 
+citations, 
+external links, 
+crises, 
+organizations
