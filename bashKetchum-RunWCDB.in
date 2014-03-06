@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <crises>
+        <crisis>
+            <crisisId>123</crisisId>
+            <name>Katrina</name>
+            <kind>Natural Disaster</kind>
+            <location>New Orleans</location>
+            <date>2012-12-13</date>
+            <humanImpact>Big</humanImpact>
+            <economicImpact>Expensive</economicImpact>
+        </crisis>
+    </crises>
+
+    <crisisResources>
+        <crisisResource>
+            <resourceId>345</resourceId>
+            <crisisId>123</crisisId>
+            <resource>Food</resource>
+        </crisisResource>
+    </crisisResources>
+
+    <crisisWaysToHelp>
+        <crisisWayToHelp>
+            <helpId>90</helpId>
+            <crisisId>123</crisisId>
+            <wayToHelp>Bring food</wayToHelp>
+        </crisisWayToHelp>
+    </crisisWaysToHelp>
+
+    <crisisCitations>
+        <crisisCitation>
+            <citationId>756</citationId>
+            <crisisId>123</crisisId>
+            <citation>Awesome citation here</citation>
+        </crisisCitation>
+    </crisisCitations>
+
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>123</crisisId>
+            <orgId>987</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>123</crisisId>
+            <personId>490</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>123</crisisId>
+            <urlId>287</urlId>
+        </crisisUrlPair>
+    </crisisUrls>
+
+    <orgs>
+        <org>
+            <orgId>987</orgId>
+            <name>US Navy</name>
+            <kind>Military Force</kind>
+            <location>West Point, Virginia</location>
+            <history>Very cool history</history>
+            <contactInfo>555-555-5555</contactInfo>
+        </org>
+    </orgs>
+
+    <orgCitations>
+        <orgCitation>
+            <citationId>713</citationId>
+            <orgId>987</orgId>
+            <citation>Awesome stuff</citation>
+        </orgCitation>
+    </orgCitations>
+
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>987</orgId>
+            <urlId>287</urlId>
+        </orgUrlPair>
+    </orgUrls>
+
+    <people>
+        <person>
+            <personId>490</personId>
+            <name>Rosie O'Donnell</name>
+            <kind>Actor / Actress</kind>
+            <location>Florida</location>
+        </person>
+    </people>
+
+    <personCitations>
+        <personCitation>
+            <citationId>279</citationId>
+            <personId>490</personId>
+            <citation>Such awesome</citation>
+        </personCitation>
+    </personCitations>
+
+    <personOrgs>
+        <personOrgPair>
+            <personId>490</personId>
+            <orgId>987</orgId>
+        </personOrgPair>
+    </personOrgs>
+
+    <personUrls>
+        <personUrlPair>
+            <personId>490</personId>
+            <urlId>287</urlId>
+        </personUrlPair>
+    </personUrls>
+
+    <urls>
+        <url>
+            <urlId>287</urlId>
+            <type>Image</type>
+            <urlAddress>https://dzm1iu7iury1r.cloudfront.net/wp-content/uploads/2012/11/golden-retreiver-puppies.jpeg</urlAddress>
+        </url>
+    </urls>
+</root>
