@@ -1020,3 +1020,40 @@
 
 
 </root>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+
+<parent>
+  <child1>
+  </child1>
+  <child2>
+  </child2>
+  <child3>
+  </child3>
+</parent>
