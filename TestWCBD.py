@@ -12,22 +12,19 @@ class TestXML (unittest.TestCase) :
     def test_toElementTree_3 (self):
 
     def test_toString_1 (self):
-        s = "<parent><child></child></parent>"
-        x = fromstring(s)
-        l = toString(x)
-        self.assertTrue(l == "<parent><child></child></parent>")
+        r = StringIO.StringIO("<parent><child></child></parent>")
+        w = StringIO.StringIO()
+        WCBD_solve(r, w)
+        self.assertTrue(w.getValue() == "<parent><child></child></parent>")
 
     def test_toString_2 (self):
-        s = "<parent></parent>"
-        x = fromstring(s)
-        l = toString(x)
-        self.assertTrue(l != "")
-        self.assertTrue(l == "<parent></parent>")
+        r = StringIO.StringIO("<parent></parent>")
+        w = StringIO.StringIO()
+        WCBD_solve(r, w)
+        self.assertTrue(w.getValue() == "<parent></parent>")
 
     def test_toString_3 (self):
-        s = "<parent><child><grandchild></grandchild></child></parent>"
-        x = fromstring(s)
-        l = toString(x)
-        self.assertTrue(l != "")
-        self.assertTrue(l == "<parent><child><grandchild></grandchild></child></parent>")
-
+        r = StringIO.StringIO("<parent><child><grandchild></grandchild></child></parent>")
+        w = StringIO.StringIO()
+        WCBD_solve(r, w)
+        self.assertTrue(w.getValue() == "<parent><child><grandchild></grandchild></child></parent>")
