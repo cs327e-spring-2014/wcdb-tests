@@ -48,3 +48,7 @@ class TestXML (unittest.TestCase) :
         w = StringIO.StringIO()
         WCBD_solve(r, w)
         self.assertTrue(w.getValue() == "<parent><child><grandchild></grandchild></child></parent>")
+
+print("Testing TestWCDB.py")
+unittest.main()
+print("Done")
