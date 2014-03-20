@@ -32,6 +32,10 @@ def toString (x, l=""):
     assert(type(l) is str)
     return l
 
+
+"""
+Is WCBD_run necessary? Also, it should be WCDB.
+"""
 def WCBD_run (r):
     string = r.readline()
     line = string
@@ -48,6 +52,9 @@ def WCBD_run (r):
     assert(type(l) is str)
     return l
 
+"""
+Is WCBD_solve necessary either? I thought we were just doing import/export.
+"""
 def WCBD_solve(r,w):
     while True:
         output = WCBD_run(r)

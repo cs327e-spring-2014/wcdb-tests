@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- Database definition -->
+    <xsd:element name="root">
+        <!-- Main table list -->
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="crises" type="CrisesType" />
+                <xsd:element name="crisisResources" type="CrisisResourcesType" />
+                <xsd:element name="crisisWaysToHelp" type="CrisisWaysToHelpType" />
+                <xsd:element name="crisisCitations" type="CrisisCitationsType" />
+                <xsd:element name="crisisOrgs" type="CrisisOrgsType" />
+                <xsd:element name="crisisPeople" type="CrisisPeopleType" />
+                <xsd:element name="crisisUrls" type="CrisisUrlsType" />
+
+                <xsd:element name="orgs" type="OrgsType"/>
+                <xsd:element name="orgCitations" type="OrgCitationsType"/>
+                <xsd:element name="orgUrls" type="OrgUrlsType"/>
+
+                <xsd:element name="people" type="PeopleType"/>
+                <xsd:element name="personCitations" type="PersonCitationsType"/>
+                <xsd:element name="personOrgs" type="PersonOrgsType"/>
+                <xsd:element name="personUrls" type="PersonUrlsType"/>
+
+                <xsd:element name="urls" type="UrlsType" />
+            </xsd:sequence>
+        </xsd:complexType>
+
+
+        <!-- Keys -->
+        <xsd:key name="crisisIdKey">
+            <xsd:selector xpath="crises/crisis/crisisId" />
+            <xsd:field xpath="." />
+        </xsd:key>
+        <xsd:key name="urlIdKey">
+            <xsd:selector xpath="urls/url/urlId" />
+            <xsd:field xpath="." />
+        </xsd:key>
+        <!-- TODO: Add Organization keys -->
+        <xsd:key name="orgIdKey">
+            <xsd:selector xpath="orgs/org/orgId" />
+            <xsd:field xpath="."/>
+        </xsd:key>
+        <!-- TODO: Add People keys -->
+        <xsd:key name="personIdKey">
+            <xsd:selector xpath="people/person/personId" />
+            <xsd:field xpath="."/>
+        </xsd:key>
+
+
+        <!-- Key References -->
+        <xsd:keyref name="crisisResourcesCrisisIdRef" refer="crisisIdKey">
+            <xsd:selector xpath="crisisResources/crisisResource/crisisId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="crisisWaysToHelpCrisisIdRef" refer="crisisIdKey">
+            <xsd:selector xpath="crisisWaysToHelp/crisisWayToHelp/crisisId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="crisisCitationsCrisisIdRef" refer="crisisIdKey">
+            <xsd:selector xpath="crisisCitations/crisisCitation/crisisId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="crisisOrgsCrisisIdRef" refer="crisisIdKey">
+            <xsd:selector xpath="crisisOrgs/crisisOrgPair/crisisId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="crisisPeopleCrisisIdRef" refer="crisisIdKey">
+            <xsd:selector xpath="crisisPeople/crisisPersonPair/crisisId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="crisisUrlsCrisisIdRef" refer="crisisIdKey">
+            <xsd:selector xpath="crisisUrls/crisisUrlPair/crisisId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="crisisUrlsUrlIdRef" refer="urlIdKey">
+            <xsd:selector xpath="crisisUrls/crisisUrlPair/urlId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+
+        <xsd:keyref name="orgCitationsCrisisIdRef" refer="orgIdKey">
+            <xsd:selector xpath="orgCitations/orgCitation/orgId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="orgUrlsOrgIdRef" refer="orgIdKey">
+            <xsd:selector xpath="orgUrls/orgUrlPair/orgId"/>
+            <xsd:field xpath="."/>
+        </xsd:keyref>
+        <xsd:keyref name="orgUrlsUrlIdRef" refer="urlIdKey">
+            <xsd:selector xpath="orgUrls/orgUrlPair/urlId"/>
+            <xsd:field xpath="."/>
+        </xsd:keyref>
+
+        <xsd:keyref name="personCitationsPersonIdRef" refer="personIdKey">
+            <xsd:selector xpath="personCitations/personCitation/personId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+        <xsd:keyref name="personUrlsPersonIdRef" refer="personIdKey">
+            <xsd:selector xpath="personUrls/personUrlPair/personId"/>
+            <xsd:field xpath="."/>
+        </xsd:keyref>
+        <xsd:keyref name="personUrlsUrlIdRef" refer="urlIdKey">
+            <xsd:selector xpath="personUrls/personUrlPair/urlId"/>
+            <xsd:field xpath="."/>
+        </xsd:keyref>
+        <xsd:keyref name="personOrgPersonIdRef" refer="personIdKey">
+            <xsd:selector xpath="personOrg/personOrgPair/personId" />
+            <xsd:field xpath="." />
+        </xsd:keyref>
+    </xsd:element>
+
+
+    <!-- Type definitions -->
+    <xsd:complexType name="CrisesType">
+        <xsd:sequence>
+            <xsd:element name="crisis" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="crisisId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="name" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="kind" minOccurs="1" maxOccurs="1" >
+                            <xsd:simpleType>
+                                <xsd:restriction base="xsd:string">
+                                    <xsd:enumeration value="Natural Disaster"/>
+                                    <xsd:enumeration value="War / Conflict"/>
+                                    <xsd:enumeration value="Act of Terrorism"/>
+                                    <xsd:enumeration value="Human Error Disaster"/>
+                                    <xsd:enumeration value="Assassination / Shooting"/>
+                                </xsd:restriction>
+                            </xsd:simpleType>
+                        </xsd:element>
+                        <xsd:element name="location" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="date" type="xsd:date" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="humanImpact" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="economicImpact" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CrisisResourcesType">
+        <xsd:sequence>
+            <xsd:element name="crisisResource" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="resourceId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="crisisId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="resource" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CrisisWaysToHelpType">
+        <xsd:sequence>
+            <xsd:element name="crisisWayToHelp" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="helpId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="crisisId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="wayToHelp" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CrisisCitationsType">
+        <xsd:sequence>
+            <xsd:element name="crisisCitation" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="citationId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="crisisId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="citation" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CrisisOrgsType">
+        <xsd:sequence>
+            <xsd:element name="crisisOrgPair" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="crisisId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="orgId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CrisisPeopleType">
+        <xsd:sequence>
+            <xsd:element name="crisisPersonPair" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="crisisId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="personId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="UrlsType">
+        <xsd:sequence>
+            <xsd:element name="url" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="urlId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="type" minOccurs="1" maxOccurs="1" >
+                            <xsd:simpleType>
+                                <xsd:restriction base="xsd:string">
+                                    <xsd:enumeration value="Image"/>
+                                    <xsd:enumeration value="Video"/>
+                                    <xsd:enumeration value="Map"/>
+                                    <xsd:enumeration value="SocialNetwork"/>
+                                    <xsd:enumeration value="ExternalLink"/>
+                                </xsd:restriction>
+                            </xsd:simpleType>
+                        </xsd:element>
+                        <xsd:element name="urlAddress" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CrisisUrlsType">
+        <xsd:sequence>
+            <xsd:element name="crisisUrlPair" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="crisisId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="urlId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="OrgsType">
+        <xsd:sequence>
+           <xsd:element name="org" maxOccurs="unbounded" minOccurs="0">
+              <xsd:complexType>
+                 <xsd:sequence>
+                    <xsd:element name="orgId" type="xsd:int" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="name" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="kind" maxOccurs="1" minOccurs="1">
+                       <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                             <xsd:enumeration value="Government Agency"/>
+                             <xsd:enumeration value="Military Force"/>
+                             <xsd:enumeration value="Intergovernmental Agency"/>
+                             <xsd:enumeration value="Intergovernmental Public Health Agency"/>
+                             <xsd:enumeration value="Nonprofit / Humanitarian Organization"/>
+                          </xsd:restriction>
+                       </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="location" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="history" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="contactInfo" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                 </xsd:sequence>
+              </xsd:complexType>
+           </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="OrgCitationsType">
+        <xsd:sequence>
+            <xsd:element name="orgCitation" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="citationId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="orgId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="citation" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="OrgUrlsType">
+        <xsd:sequence>
+            <xsd:element name="orgUrlPair" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="orgId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="urlId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PeopleType">
+        <xsd:sequence>
+           <xsd:element name="person" maxOccurs="unbounded" minOccurs="0">
+              <xsd:complexType>
+                 <xsd:sequence>
+                    <xsd:element name="personId" type="xsd:int" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="name" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="kind" maxOccurs="1" minOccurs="1">
+                       <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                             <xsd:enumeration value="Celebrity"/>
+                             <xsd:enumeration value="Actor / Actress"/>
+                             <xsd:enumeration value="Musician"/>
+                             <xsd:enumeration value="Politician"/>
+                             <xsd:enumeration value="President"/>
+                             <xsd:enumeration value="CEO"/>
+                             <xsd:enumeration value="Humanitarian"/>
+                          </xsd:restriction>
+                       </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="location" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                 </xsd:sequence>
+              </xsd:complexType>
+           </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="PersonCitationsType">
+        <xsd:sequence>
+            <xsd:element name="personCitation" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="citationId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="personId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="citation" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="PersonUrlsType">
+        <xsd:sequence>
+            <xsd:element name="personUrlPair" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="personId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="urlId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="PersonOrgsType">
+        <xsd:sequence>
+            <xsd:element name="personOrgPair" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="personId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                        <xsd:element name="orgId" type="xsd:int" minOccurs="1" maxOccurs="1" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>
