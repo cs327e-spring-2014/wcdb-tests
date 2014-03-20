@@ -1,0 +1,84 @@
+<THU>
+    <Team>
+        <ACRush></ACRush>
+        <Jelly></Jelly>
+        <Cooly></Cooly>
+    </Team>
+    <JiaJia>
+        <Team>
+            <Ahyangyi></Ahyangyi>
+            <Dragon></Dragon>
+            <Cooly><Amber></Amber></Cooly>
+        </Team>
+    </JiaJia>
+</THU>
+<Team><Cooly></Cooly></Team>
+
+<THU><Team><ACRush></ACRush><Jelly></Jelly><Cooly></Cooly></Team><JiaJia><Team><Ahyangyi></Ahyangyi><Dragon></Dragon><Cooly><Amber></Amber></Cooly></Team></JiaJia></THU>
+<Team><Cooly></Cooly></Team>
+
+<THU><Team><ACRush></ACRush><Jelly></Jelly><Cooly></Cooly></Team><JiaJia><Team><Ahyangyi></Ahyangyi><Dragon></Dragon><Cooly><Amber></Amber></Cooly></Team></JiaJia></THU><Team><Cooly></Cooly></Team>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<red><green></green></red>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<red><blue></blue></red>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<red><yellow></yellow></red>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<green><blue></blue></green>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<green><yellow></yellow></green>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<green><purple></purple></green>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<green><blue></blue><yellow></yellow></green>
+
+<red>
+    <green>
+        <blue></blue>
+        <yellow></yellow>
+    </green>
+</red>
+<green><yellow></yellow><blue></blue></green>
