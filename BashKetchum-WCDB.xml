@@ -403,7 +403,7 @@
         <person>
             <personId>PER_007</personId>
             <name>Hillary Clinton</name>
-            <streetAddress>3067 Whitehaven St NW</strretAddress>
+            <streetAddress>3067 Whitehaven St NW</streetAddress>
             <city>Washington, D.C.</city>
             <stateOrProvince />
             <postalCode>20008</postalCode>
@@ -422,7 +422,7 @@
             <personId>PER_009</personId>
             <name>&#211;lafur Ragnar Gr&#237;msson</name>
             <streetAddress />
-            <city>Bessastaoir</city<
+            <city>Bessastaoir</city>
             <stateOrProvince>Garoabaer</stateOrProvince>
             <postalCode>20472</postalCode>
             <country>Iceland</country>
