@@ -1,7 +1,7 @@
 import io
 import unittest
 
-from WCBD import *
+from WCDB import *
 from xml.etree.ElementTree import Element, fromstring, tostring
 
 class TestXML (unittest.TestCase) :
