@@ -19,6 +19,9 @@ def toString (x, l=""):
     l is a string
     return a string
     """
+    if x in ["", "\n"]:
+        return x
+
     assert(type(x) is Element)
     temp = x.tag
     l= l + "<" + temp+ ">"
@@ -29,21 +32,27 @@ def toString (x, l=""):
     assert(type(l) is str)
     return l
 
-def WCBD_solve (r,w):
+def WCBD_run (r):
     string = r.readline()
     line = string
-    while not line in [ "", "\n"]:
+    while not line in ["", "\n"]:
         line = r.readline()
         string = string + "".join(line)
+
+    print line
+    if string in ["", "\n", None]:
+        return string
     a = toElementTree(string)
     assert(type(a) is Element)
     l = toString(a)
     assert(type(l) is str)
-    w.write(l+"\n")
+    return l
 
+def WCBD_solve(r,w):
+    while True:
+        output = WCBD_run(r)
+        if output in ["", "\n", None]:
+            break;
+        else:
+            w.write(output + "\n")
 
-i = toElementTree("<THU><Team><ACRush></ACRush><Jelly></Jelly><Cooly></Cooly></Team><JiaJia><Team><Ahyangyi></Ahyangyi><Dragon></Dragon><Cooly><Amber></Amber></Cooly></Team></JiaJia></THU>")
-print i
-
-s= toString(i)
-print s
