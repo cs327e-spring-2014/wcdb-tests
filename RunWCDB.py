@@ -1,7 +1,7 @@
 
 import sys
 
-from WCBD_kosakukira import *
+from WCBD import *
 
 # ----
 # main
