@@ -1,11 +1,10 @@
 
 import sys
 
-from WCBD import *
+from WCBD_kosakukira import *
 
 # ----
 # main
 # ----
-
 
 WCBD_solve(sys.stdin,sys.stdout)
