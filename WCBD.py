@@ -29,6 +29,19 @@ def toString (x, l=""):
     assert(type(l) is str)
     return l
 
+def WCBD_solve (r,w):
+    string = r.readline()
+    line = string
+    while not line in [ "", "\n"]:
+        line = r.readline()
+        string = string + "".join(line)
+    a = toElementTree(string)
+    assert(type(a) is Element)
+    l = toString(a)
+    assert(type(l) is str)
+    w.write(l+"\n")
+
+
 i = toElementTree("<THU><Team><ACRush></ACRush><Jelly></Jelly><Cooly></Cooly></Team><JiaJia><Team><Ahyangyi></Ahyangyi><Dragon></Dragon><Cooly><Amber></Amber></Cooly></Team></JiaJia></THU>")
 print i
 
