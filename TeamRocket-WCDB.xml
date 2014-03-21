@@ -2,106 +2,106 @@
     <crises>
         <crisis>
             <crisisId>CRI_001</crisisId>
-            <name>Katrina</name>
+            <name>Venezuela Protest</name>
             <streetAddress />
-            <city>New Orleans</city>
-            <stateOrProvince>Louisiana</stateOrProvince>
+            <city />
+            <stateOrProvince />
             <postalCode />
-            <country>United States</country>
-            <dateAndTime>2005-08-26T09:00:00</dateAndTime>
-            <fatalities>1300</fatalities>
+            <country>Venezuela</country>
+            <dateAndTime>January 2014</dateAndTime>
+            <fatalities />
             <injuries />
             <populationIll />
             <populationDisplaced />
-            <environmentalImpact />
-            <politicalChanges />
+            <politicalChanges>Increased Crime Rates</politicalChanges>
+            <culturalChanges>Inflation and shortage of foodstamps</culturalChanges>
             <culturalChanges />
             <jobsLost />
-            <damageInUSD>10000000000</damageInUSD>
+            <damageInUSD />
             <reparationCost />
             <regulatoryChanges />
         </crisis>
         <crisis>
             <crisisId>CRI_002</crisisId>
-            <name>Fukushima Daiichi nuclear disaster (Japan nuclear meltdown)</name>
+            <name>Ukraine Crisis</name>
             <streetAddress />
-            <city>Okuma</city>
-            <stateOrProvince>Fukushima</stateOrProvince>
+            <city />
+            <stateOrProvince />
             <postalCode />
-            <country>Japan</country>
-            <dateAndTime>2011-03-11T05:52:00</dateAndTime>
-            <fatalities>20100</fatalities>
+            <country>Crimea</country>
+            <dateAndTime>February 23, 2014</dateAndTime>
+            <fatalities />
             <injuries />
             <populationIll />
             <populationDisplaced />
-            <environmentalImpact />
-            <politicalChanges />
+            <politicalChanges>Impeachment of Viktor Yanukovych</politicalChanges>
+            <culturalChanges>wants to be considered part of Russia</culturalChanges>
             <culturalChanges />
             <jobsLost />
-            <damageInUSD>375000000000</damageInUSD>
+            <damageInUSD />
             <reparationCost />
             <regulatoryChanges />
         </crisis>
         <crisis>
             <crisisId>CRI_003</crisisId>
-            <name>Tohuku Earthquake and Tsunami (2011)</name>
+            <name>Pussy Riot</name>
             <streetAddress />
             <city />
-            <stateOrProvince>Tohuku</stateOrProvince>
+            <stateOrProvince />
             <postalCode />
-            <country>Japan</country>
-            <dateAndTime>2011-03-11T05:46:00</dateAndTime>
-            <fatalities>15884</fatalities>
+            <country>Russia</country>
+            <dateAndTime>August 14</dateAndTime>
+            <fatalities />
             <injuries />
             <populationIll />
             <populationDisplaced />
-            <environmentalImpact />
-            <politicalChanges />
+            <politicalChanges>More strictly enforced rules against public riots</politicalChanges>
+            <culturalChanges>Increase in fight for woment's rights in Russia</culturalChanges>
             <culturalChanges />
             <jobsLost />
-            <damageInUSD>122000000000</damageInUSD>
+            <damageInUSD />
             <reparationCost />
             <regulatoryChanges />
         </crisis>
         <crisis>
             <crisisId>CRI_004</crisisId>
-            <name>Sumatra-Andaman Earthquake</name>
+            <name>Syrian Protests</name>
             <streetAddress />
             <city />
-            <stateOrProvince>Sumatra</stateOrProvince>
+            <stateOrProvince />
             <postalCode />
-            <country>Indonesia</country>
-            <dateAndTime>2004-12-26T00:58:53</dateAndTime>
-            <fatalities>227898</fatalities>
+            <country>Syria</country>
+            <dateAndTime>March 15, 2011 ~</dateAndTime>
+            <fatalities />
             <injuries />
             <populationIll />
             <populationDisplaced />
-            <environmentalImpact />
-            <politicalChanges />
+            <politicalChanges>abuse of power against the people of Syria</politicalChanges>
+            <culturalChanges>Increase in unemployment rate and growing</culturalChanges>
             <culturalChanges />
             <jobsLost />
-            <damageInUSD>10000000000</damageInUSD>
+            <damageInUSD />
             <reparationCost />
             <regulatoryChanges />
         </crisis>
         <crisis>
             <crisisId>CRI_005</crisisId>
-            <name>Sichuan Earthquake (China 2008)</name>
+            <name>Crimes in NK</name>
             <streetAddress />
             <city />
-            <stateOrProvince>Sichuan</stateOrProvince>
+            <stateOrProvince />
             <postalCode />
-            <country />
-            <dateAndTime>2008-05-12T06:28:01</dateAndTime>
-            <fatalities>69197</fatalities>
+            <country>North Korea</country>
+            <dateAndTime>December 2011~</dateAndTime>
+            <fatalities />
             <injuries />
             <populationIll />
             <populationDisplaced />
-            <environmentalImpact />
-            <politicalChanges />
+            <politicalChanges>Stronger power demonstrated through public execution</politicalChanges>
+            <culturalChanges>people of NK even more scared of dictatorship</culturalChanges>
             <culturalChanges />
             <jobsLost />
-            <damageInUSD>146500000000</damageInUSD>
+            <damageInUSD />
             <reparationCost />
             <regulatoryChanges />
         </crisis>
@@ -438,27 +438,28 @@
         </person>
     </people>
 
-    <crisisKinds>
+<crisisKinds>
         <crisisKindPair>
             <crisisId>CRI_001</crisisId>
-            <kind>Natural Disaster</kind>
+            <kind>Protest</kind>
         </crisisKindPair>
         <crisisKindPair>
             <crisisId>CRI_002</crisisId>
-            <kind>Human Error Disaster</kind>
+            <kind>Protest</kind>
         </crisisKindPair>
         <crisisKindPair>
             <crisisId>CRI_003</crisisId>
-            <kind>Natural Disaster</kind>
+            <kind>Riot</kind>
         </crisisKindPair>
         <crisisKindPair>
             <crisisId>CRI_004</crisisId>
-            <kind>Natural Disaster</kind>
+            <kind>Uprising</kind>
         </crisisKindPair>
         <crisisKindPair>
             <crisisId>CRI_005</crisisId>
-            <kind>Natural Disaster</kind>
+            <kind>Dictatorshipr</kind>
         </crisisKindPair>
+
         <crisisKindPair>
             <crisisId>CRI_006</crisisId>
             <kind>Natural Disaster</kind>
@@ -589,7 +590,11 @@
         <resourcePair>
             <resourceId>RES_005</resourceId>
             <resource>Electricity</resource>
-        </resourcePair>
+	</resourcePair>
+        <resourcePair>
+            <resourceId>RES_006</resourceId>
+            <resource>Money</resource>
+	</resourcePair>
         <resourcePair>
             <resourceId>RES_006</resourceId>
             <resource>Sea Wall</resource>
@@ -631,43 +636,39 @@
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_001</crisisId>
-            <resourceId>RES_005</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_002</crisisId>
-            <resourceId>RES_002</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_002</crisisId>
             <resourceId>RES_006</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_002</crisisId>
-            <resourceId>RES_008</resourceId>
+            <resourceId>RES_001</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_003</crisisId>
+            <crisisId>CRI_002</crisisId>
             <resourceId>RES_002</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_003</crisisId>
+            <crisisId>CRI_002</crisisId>
             <resourceId>RES_003</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_003</crisisId>
+            <crisisId>CRI_002</crisisId>
             <resourceId>RES_004</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
+            <crisisId>CRI_002</crisisId>
+            <resourceId>RES_006</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
             <crisisId>CRI_003</crisisId>
-            <resourceId>RES_005</resourceId>
+            <resourceId>RES_001</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_003</crisisId>
             <resourceId>RES_006</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_003</crisisId>
-            <resourceId>RES_007</resourceId>
+            <crisisId>CRI_004</crisisId>
+            <resourceId>RES_001</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_004</crisisId>
@@ -683,19 +684,11 @@
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_004</crisisId>
-            <resourceId>RES_005</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_004</crisisId>
             <resourceId>RES_006</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_004</crisisId>
-            <resourceId>RES_007</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_004</crisisId>
-            <resourceId>RES_009</resourceId>
+            <crisisId>CRI_005</crisisId>
+            <resourceId>RES_001</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_005</crisisId>
@@ -715,12 +708,9 @@
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_005</crisisId>
-            <resourceId>RES_009</resourceId>
+            <resourceId>RES_006</resourceId>
         </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_005</crisisId>
-            <resourceId>RES_010</resourceId>
-        </crisisResourcePair>
+
         <crisisResourcePair>
             <crisisId>CRI_006</crisisId>
             <resourceId>RES_002</resourceId>
@@ -794,7 +784,11 @@
         </wayToHelpPair>
         <wayToHelpPair>
             <helpId>HEL_004</helpId>
-            <wayToHelp>Donate Sanitization Items</wayToHelp>
+            <wayToHelp>Send in troops</wayToHelp>
+        </wayToHelpPair>
+        <wayToHelpPair>
+            <helpId>HEL_005</helpId>
+            <wayToHelp>Media Coverage</wayToHelp>
         </wayToHelpPair>
     </waysToHelp>
 
@@ -812,6 +806,14 @@
             <helpId>HEL_003</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_004</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_005</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
             <crisisId>CRI_002</crisisId>
             <helpId>HEL_001</helpId>
         </crisisWayToHelpPair>
@@ -824,6 +826,18 @@
             <helpId>HEL_003</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
+            <crisisId>CRI_002</crisisId>
+            <helpId>HEL_004</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_002</crisisId>
+            <helpId>HEL_005</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_002</crisisId>
+            <helpId>HEL_006</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
             <crisisId>CRI_003</crisisId>
             <helpId>HEL_001</helpId>
         </crisisWayToHelpPair>
@@ -833,9 +847,9 @@
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_003</crisisId>
-            <helpId>HEL_003</helpId>
+            <helpId>HEL_005</helpId>
         </crisisWayToHelpPair>
-        <crisisWayToHelpPair>
+	<crisisWayToHelpPair>
             <crisisId>CRI_004</crisisId>
             <helpId>HEL_001</helpId>
         </crisisWayToHelpPair>
@@ -852,6 +866,14 @@
             <helpId>HEL_004</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
+            <crisisId>CRI_004</crisisId>
+            <helpId>HEL_005</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_004</crisisId>
+            <helpId>HEL_006</helpId>
+        </crisisWayToHelpPair>
+	<crisisWayToHelpPair>
             <crisisId>CRI_005</crisisId>
             <helpId>HEL_001</helpId>
         </crisisWayToHelpPair>
@@ -866,6 +888,10 @@
         <crisisWayToHelpPair>
             <crisisId>CRI_005</crisisId>
             <helpId>HEL_004</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_005</crisisId>
+            <helpId>HEL_006</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_006</crisisId>
@@ -889,10 +915,10 @@
         </crisisWayToHelpPair>
     </crisisWaysToHelp>
 
-    <contactInfos>
+<contactInfos>
         <contactInfo>
             <contactInfoId>CON_001</contactInfoId>
-            <phoneNumber>1-800-621-3362</phoneNumber>
+            <phoneNumber>1-404-827-1500</phoneNumber>
             <emailAddress />
             <facebookUrlId>URL_204</facebookUrlId>
             <twitterUrlId>URL_205</twitterUrlId>
@@ -900,31 +926,31 @@
         </contactInfo>
         <contactInfo>
             <contactInfoId>CON_002</contactInfoId>
-            <phoneNumber>1-800-481-4462</phoneNumber>
-            <emailAddress>inquiry@internationalmedicalcorps.org</emailAddress>
+            <phoneNumber>1-888-698-6397</phoneNumber>
+            <emailAddress>nytnews@nytimes.com</emailAddress>
             <facebookUrlId>URL_212</facebookUrlId>
             <twitterUrlId>URL_214</twitterUrlId>
             <websiteUrlId>URL_213</websiteUrlId>
         </contactInfo>
         <contactInfo>
             <contactInfoId>CON_003</contactInfoId>
-            <phoneNumber>1-800-292-3355</phoneNumber>
-            <emailAddress />
+            <phoneNumber />
+            <emailAddress>longhornbraven@gmail.com</emailAddress>
             <facebookUrlId>URL_219</facebookUrlId>
             <twitterUrlId>URL_220</twitterUrlId>
             <websiteUrlId>URL_223</websiteUrlId>
         </contactInfo>
         <contactInfo>
             <contactInfoId>CON_004</contactInfoId>
-            <phoneNumber>1-800-728-7825</phoneNumber>
-            <emailAddress />
+            <phoneNumber />
+            <emailAddress>america@aljazeera.net</emailAddress>
             <facebookUrlId>URL_227</facebookUrlId>
             <twitterUrlId>URL_228</twitterUrlId>
             <websiteUrlId>URL_230</websiteUrlId>
         </contactInfo>
         <contactInfo>
             <contactInfoId>CON_005</contactInfoId>
-            <phoneNumber>1-212-832-1155</phoneNumber>
+            <phoneNumber />
             <emailAddress />
             <facebookUrlId>URL_234</facebookUrlId>
             <twitterUrlId>URL_235</twitterUrlId>
@@ -1015,66 +1041,68 @@
         </orgContactInfoPair>
     </orgContactInfos>
 
-    <citations>
+   <citations>
         <citationPair>
             <citationId>CIT_101</citationId>
-            <citation>http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf</citation>
+            <citation> "Venezuela's Maduro says 2013 annual inflation was 56.2 pct". Reuters. 30 December 2013</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_102</citationId>
-            <citation>http://www.psr.org/environment-and-health/environmental-health-policy-institute/responses/costs-and-consequences-of-fukushima.html</citation>
+            <citation> "At least two killed by gunfire at Venezuela protests". Reuters. 12 February 2014</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_103</citationId>
-            <citation>http://en.wikipedia.org/wiki/Aftermath_of_the_2011_T%C5%8Dhoku_earthquake_and_tsunami</citation>
+            <citation>"Ukraine crisis: Early results show Crimea votes to join Russia" CNN. 14, March 2014</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_104</citationId>
-            <citation>http://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami</citation>
+            <citation>"Ukraine crisis: EU and US impose sanctions over Crimea" CNN. 17, March 2014</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_105</citationId>
-            <citation>http://en.wikipedia.org/wiki/2008_Sichuan_earthquake#Property_damage</citation>
+            <citation> "Press aghast at Pussy Riot verdict". BBC News. August 18, 2012. Archived from the original on October 27, 2012. Retrieved October 27, 2012.</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_106</citationId>
-            <citation>http://en.wikipedia.org/wiki/2010_Haiti_earthquake</citation>
+            <citation> "Pussy Riot found guilty of hooliganism by Moscow court". BBC News. August 17, 2012.</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_107</citationId>
-            <citation>http://en.wikipedia.org/wiki/Hurricane_Ike</citation>
+            <citation>"Syrian mourners call for revolt, forces fire tear gas". Reuters. 19, March 2011</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_108</citationId>
-            <citation>http://en.wikipedia.org/wiki/2012_Benghazi_attack#Fatalities_and_injuries</citation>
+            <citation>"Syrian Unemployment Rate". Index Mundy. 2013</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_109</citationId>
-            <citation>http://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull</citation>
+            <citation>"""Could Kim Jong Un face prosecution for the treatment of his people?"" CNN. 17, Feb 2014
+"</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_110</citationId>
-            <citation>http://en.wikipedia.org/wiki/Cold_War</citation>
+            <citation>"U.N. Panel Faults China on North Korean Refugees" NYT. 18, Feb 2014</citation>
         </citationPair>
+
         <citationPair>
             <citationId>CIT_201</citationId>
-            <citation>http://en.wikipedia.org/wiki/Federal_Emergency_Management_Agency</citation>
+            <citation>http://www.cnn.com/</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_202</citationId>
-            <citation>http://en.wikipedia.org/wiki/International_medical_corps</citation>
+            <citation>http://www.nytimes.com/</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_203</citationId>
-            <citation>http://en.wikipedia.org/wiki/Mercy_Corps</citation>
+            <citation>http://deanofstudents.utexas.edu/sa/vieworgs.php?org=5583</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_204</citationId>
-            <citation>http://en.wikipedia.org/wiki/Salvation_army</citation>
+            <citation>http://america.aljazeera.com/</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_205</citationId>
-            <citation>http://en.wikipedia.org/wiki/Japan_Society_(Manhattan)</citation>
+            <citation>http://en.wikipedia.org/wiki/Pussy_Riot</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_206</citationId>
@@ -1146,39 +1174,39 @@
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_102</citationId>
-            <crisisId>CRI_002</crisisId>
+            <crisisId>CRI_001</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_103</citationId>
-            <crisisId>CRI_003</crisisId>
+            <crisisId>CRI_002</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_104</citationId>
-            <crisisId>CRI_004</crisisId>
+            <crisisId>CRI_002</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_105</citationId>
-            <crisisId>CRI_005</crisisId>
+            <crisisId>CRI_003</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_106</citationId>
-            <crisisId>CRI_006</crisisId>
+            <crisisId>CRI_003</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_107</citationId>
-            <crisisId>CRI_007</crisisId>
+            <crisisId>CRI_004</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_108</citationId>
-            <crisisId>CRI_008</crisisId>
+            <crisisId>CRI_004</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_109</citationId>
-            <crisisId>CRI_009</crisisId>
+            <crisisId>CRI_005</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
             <citationId>CIT_110</citationId>
-            <crisisId>CRI_010</crisisId>
+            <crisisId>CRI_005</crisisId>
         </crisisCitationPair>
     </crisisCitations>
 
@@ -1269,60 +1297,60 @@
     </personCitations>
 
     <urls>
-        <url>
+<url>
             <urlId>URL_101</urlId>
-            <type>Image</type>
-            <urlAddress>http://web.mit.edu/12.000/www/m2010/images/katrina-08-28-2005.jpg</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://www.reuters.com/article/2013/12/30/venezuela-inflation-annual-idUSL2N0K90V020131230</urlAddress>
         </url>
         <url>
             <urlId>URL_102</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.history.com/topics/hurricane-katrina/videos/hurricane-katrina</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://www.reuters.com/article/2014/02/12/us-venezuela-protests-idUSBREA1B1K220140212</urlAddress>
         </url>
         <url>
             <urlId>URL_103</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/New+Orleans,+LA/@30.0228322,-89.882052,11z/data=!3m1!4b1!4m2!3m1!1s0x8620a454b2118265:0xdb065be85e22d3b4</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://www.cnn.com/2014/03/16/world/europe/ukraine-crisis/</urlAddress>
         </url>
         <url>
             <urlId>URL_104</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/pages/Hurricane-Katrina/111726428866071</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://www.bbc.com/news/world-europe-26613567</urlAddress>
         </url>
         <url>
             <urlId>URL_105</urlId>
             <type>ExternalLink</type>
-            <urlAddress>http://thinkprogress.org/report/katrina-timeline/#</urlAddress>
+            <urlAddress>http://www.bbc.com/news/world-europe-19307077</urlAddress>
         </url>
         <url>
             <urlId>URL_106</urlId>
-            <type>Image</type>
-            <urlAddress>http://static.infowars.com/bindnfocom/2013/08/fujex.jpg</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://www.bbc.com/news/world-europe-19297373</urlAddress>
         </url>
         <url>
             <urlId>URL_107</urlId>
-            <type>Video</type>
-            <urlAddress>http://abcnews.go.com/topics/news/nuclear-meltdown.htm</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress></urlAddress>
         </url>
         <url>
             <urlId>URL_108</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Fukushima/@37.8004935,140.4004537,11z/data=!3m1!4b1!4m2!3m1!1s0x5f8a8ed12a3a4dd9:0xc064d0fc14fe346</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://www.reuters.com/article/2011/03/19/us-syria-idUSTRE72I22020110319</urlAddress>
         </url>
         <url>
             <urlId>URL_109</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/FukushimaResponseCampaign</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://www.indexmundi.com/syria/unemployment_rate.html</urlAddress>
         </url>
         <url>
             <urlId>URL_110</urlId>
             <type>ExternalLink</type>
-            <urlAddress>http://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster</urlAddress>
+            <urlAddress>http://ac360.blogs.cnn.com/2014/02/17/could-kim-jong-un-face-prosecution-for-the-treatment-of-his-people/?hpt=ac_mid</urlAddress>
         </url>
         <url>
             <urlId>URL_111</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.japansociety.org.uk/wp-content/uploads/2011/03/191102_182750075103717_182740125104712_433276_3988833_o1.jpg</urlAddress>
+            <type>ExternalLink</type>
+            <urlAddress>http://sinosphere.blogs.nytimes.com/2014/02/18/u-n-panel-faults-china-on-north-korean-refugees/?ref=kimjongun</urlAddress>
         </url>
         <url>
             <urlId>URL_112</urlId>
@@ -1522,32 +1550,32 @@
         <url>
             <urlId>URL_201</urlId>
             <type>Image</type>
-            <urlAddress>http://www.fema.gov/profiles/fema_gov/themes/fema_gov_theme/images/logo-fema-text.png</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=MmVIMUV0cBdONM%3A&imgrefurl=http%3A%2F%2Fwww.media-alliance.org%2Farticle.php%3Fid%3D2176&docid=x4EPpD8BPYbLoM&imgurl=http%3A%2F%2Fwww.media-alliance.org%2Fimg%2Foriginal%2Fcnn.jpg&w=1012&h=520&ei=wfEpU_PTEuqC2wW20IG4CQ&zoom=1&ved=0CGwQhBwwAQ&iact=rc&dur=2920&page=1&start=0&ndsp=16</urlAddress>
         </url>
         <url>
             <urlId>URL_202</urlId>
             <type>Video</type>
-            <urlAddress>http://www.youtube.com/user/FEMA</urlAddress>
+            <urlAddress>http://www.cnn.com/2014/02/19/world/russia-sochi-pussy-riot/</urlAddress>
         </url>
         <url>
             <urlId>URL_203</urlId>
             <type>Map</type>
-            <urlAddress>https://goo.gl/maps/wRtez</urlAddress>
+            <urlAddress>https://www.google.com/maps/place/CNN+Center/@33.7582513,-84.3939943,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x8b5593524ddbef24</urlAddress>
         </url>
         <url>
             <urlId>URL_204</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/FEMA</urlAddress>
+            <urlAddress>https://www.facebook.com/cnn</urlAddress>
         </url>
         <url>
             <urlId>URL_205</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/fema</urlAddress>
+            <urlAddress>https://twitter.com/teamcnn</urlAddress>
         </url>
         <url>
             <urlId>URL_206</urlId>
             <type>ExternalLink</type>
-            <urlAddress>http://www.fema.gov</urlAddress>
+            <urlAddress>http://www.cnn.com/</urlAddress>
         </url>
         <url>
             <urlId>URL_207</urlId>
@@ -1556,38 +1584,38 @@
         </url>
         <url>
             <urlId>URL_208</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.usa.gov/</urlAddress>
+            <type>Image</type>
+            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=kqOdwAEoL_ggsM%3A&imgrefurl=https%3A%2F%2Ftwitter.com%2FCNN&docid=-JqKDaECW0aJ0M&imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F378800000049679889%2F9097753c470683f49aa12a6c15eba5c7.jpeg&w=240&h=240&ei=wfEpU_PTEuqC2wW20IG4CQ&zoom=1&ved=0CHsQhBwwBg&iact=rc&dur=861&page=1&start=0&ndsp=16</urlAddress>
         </url>
         <url>
             <urlId>URL_209</urlId>
             <type>Image</type>
-            <urlAddress>https://internationalmedicalcorps.org/view.image?Id=407</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=-wGmGiQuF8pv_M%3A&imgrefurl=http%3A%2F%2Fwww.thesaleslion.com%2Fyork-times-praises-marcus-sheridans-content-marketing-approach%2F&docid=FBFTZWpddJNYuM&imgurl=http%3A%2F%2Fwww.thesaleslion.com%2Fwp-content%2Fuploads%2F2013%2F03%2Fthe-new-york-times.jpg&w=1320&h=1056&ei=W_MpU4CgLMns2AWTj4HACA&zoom=1&ved=0CGwQhBwwAQ&iact=rc&dur=5824&page=1&start=0&ndsp=19</urlAddress>
         </url>
         <url>
             <urlId>URL_210</urlId>
             <type>Video</type>
-            <urlAddress>https://www.youtube.com/user/IMCworldwideDotOrg</urlAddress>
+            <urlAddress>http://www.nytimes.com/video/world/americas/100000002726623/protests-swell-in-venezuela.html</urlAddress>
         </url>
         <url>
             <urlId>URL_211</urlId>
             <type>Map</type>
-            <urlAddress>https://goo.gl/maps/sOoCI</urlAddress>
+            <urlAddress>https://www.google.com/maps/place/New+York+Times/@40.7562075,-73.9902208,17z/data=!3m1!4b1!4m2!3m1!1s0x89c258534ad1dec7:0x905f44fb3208227e</urlAddress>
         </url>
         <url>
             <urlId>URL_212</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://www.facebook.com/internationalmedicalcorps</urlAddress>
+            <urlAddress>https://www.facebook.com/nytimes</urlAddress>
         </url>
         <url>
             <urlId>URL_213</urlId>
             <type>ExternalLink</type>
-            <urlAddress>https://internationalmedicalcorps.org/</urlAddress>
+            <urlAddress>http://www.nytimes.com/</urlAddress>
         </url>
         <url>
             <urlId>URL_214</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://twitter.com/IMC_worldwide</urlAddress>
+            <urlAddress>https://twitter.com/nytimes</urlAddress>
         </url>
         <url>
             <urlId>URL_215</urlId>
@@ -1597,112 +1625,112 @@
         <url>
             <urlId>URL_216</urlId>
             <type>Image</type>
-            <urlAddress>http://www.mercycorps.org/sites/default/files/mercycorps_logo_plain_0.png</urlAddress>
+            <urlAddress>https://scontent-b-dfw.xx.fbcdn.net/hphotos-prn2/t1.0-9/1621688_605918476168189_1468644792_n.jpg</urlAddress>
         </url>
         <url>
             <urlId>URL_217</urlId>
             <type>Video</type>
-            <urlAddress>http://www.youtube.com/mercycorps</urlAddress>
+            <urlAddress>https://scontent-a-dfw.xx.fbcdn.net/hphotos-ash3/t1.0-9/562355_518596344900403_1634982429_n.jpg</urlAddress>
         </url>
         <url>
             <urlId>URL_218</urlId>
             <type>Map</type>
-            <urlAddress>https://goo.gl/maps/49EiM</urlAddress>
+            <urlAddress>https://www.google.com/maps/preview?ie=UTF-8&q=ut+austin&fb=1&gl=us&hq=ut+austin&cid=9309483928212087262&ei=cZQrU9X9HejcyQHv0IDIBg&sqi=2&ved=0CLYBEPwS</urlAddress>
         </url>
         <url>
             <urlId>URL_219</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://www.facebook.com/mercycorps</urlAddress>
+            <urlAddress>https://www.facebook.com/longhornBraVen</urlAddress>
         </url>
         <url>
             <urlId>URL_220</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://www.twitter.com/mercycorps</urlAddress>
+            <urlAddress>https://twitter.com/UTAustin</urlAddress>
         </url>
         <url>
             <urlId>URL_221</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://mercycorps.tumblr.com/</urlAddress>
+            <urlAddress>http://utaustin.tumblr.com/</urlAddress>
         </url>
         <url>
             <urlId>URL_222</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://instagram.com/mercycorps</urlAddress>
+            <urlAddress>http://instagram.com/UTAustinTX</urlAddress>
         </url>
         <url>
             <urlId>URL_223</urlId>
             <type>ExternalLink</type>
-            <urlAddress>http://www.mercycorps.org/</urlAddress>
+            <urlAddress>http://deanofstudents.utexas.edu/sa/vieworgs.php?org=5583</urlAddress>
         </url>
         <url>
             <urlId>URL_224</urlId>
             <type>Image</type>
-            <urlAddress>https://s3.amazonaws.com/usn-cache.salvationarmy.org/fcdf3a7c-5319-4556-bf5d-206018c4bc8b_KettleIconIllustrated.png</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=SMb_ede-h4DmgM%3A&imgrefurl=http%3A%2F%2Fwww.mrc.org%2Farticles%2Fals-jazeera-gore-sells-current-network-aligned-views&docid=QB-YGpHM65ajXM&imgurl=http%3A%2F%2F2.bp.blogspot.com%2F_6izHM7-NzcQ%2FTOVQ7PylymI%2FAAAAAAAABKQ%2FqBzMQIFsjiQ%2Fs1600%2Faljazeera-logo.jpg&w=500&h=375&ei=VfUpU4jOFKjq2AX18ID4Dw&zoom=1&ved=0CGwQhBwwAg&iact=rc&dur=559&page=1&start=0&ndsp=18</urlAddress>
         </url>
         <url>
             <urlId>URL_225</urlId>
             <type>Video</type>
-            <urlAddress>http://www.youtube.com/salvationarmyusa</urlAddress>
+            <urlAddress>https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=2&cad=rja&uact=8&sqi=2&ved=0CDYQtwIwAQ&url=http%3A%2F%2Fwww.aljazeera.com%2Fnews%2Fmiddleeast%2F2014%2F03%2Fun-syria-war-crimes-proof-enough-indict-2014318113449296850.html&ei=zPUpU-_ANui02gXPkoHoDw&usg=AFQjCNGYqWCorK3Ud2idcB6XQLqgGVQjrQ&bvm=bv.62922401,d.b2I</urlAddress>
         </url>
         <url>
             <urlId>URL_226</urlId>
             <type>Map</type>
-            <urlAddress>https://goo.gl/maps/FVRxO</urlAddress>
+            <urlAddress>https://www.google.com/maps/place/Al-Jazeera+Network+Headquarter/@25.3130717,51.4998078,17z/data=!3m1!4b1!4m2!3m1!1s0x3e45db38b0eaeda7:0x109223afef3517be</urlAddress>
         </url>
         <url>
             <urlId>URL_227</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/SalvationArmyUSA</urlAddress>
+            <urlAddress>https://www.facebook.com/aljazeera</urlAddress>
         </url>
         <url>
             <urlId>URL_228</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/salvationarmyus</urlAddress>
+            <urlAddress>https://twitter.com/AJEnglish</urlAddress>
         </url>
         <url>
             <urlId>URL_229</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://blog.salvationarmyusa.org/</urlAddress>
+            <urlAddress>https://www.facebook.com/AlJazeeraAmerica</urlAddress>
         </url>
         <url>
             <urlId>URL_230</urlId>
             <type>ExternalLink</type>
-            <urlAddress>http://www.salvationarmyusa.org/usn/</urlAddress>
+            <urlAddress>http://america.aljazeera.com/</urlAddress>
         </url>
         <url>
             <urlId>URL_231</urlId>
             <type>Image</type>
-            <urlAddress>http://www.japansociety.org/resources/content/9/7/8/images/travel_ad_1913_med_inline.jpg</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=WNg9Np2CwWU4CM%3A&imgrefurl=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPussy_Riot&docid=By4PlIBVZHLtnM&imgurl=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fa1%2FPussy_Riot_by_Igor_Mukhin.jpg&w=1200&h=810&ei=QvYpU-mZB8X02QWT4oHwBA&zoom=1&ved=0CGMQhBwwAA&iact=rc&dur=398&page=1&start=0&ndsp=15</urlAddress>
         </url>
         <url>
             <urlId>URL_232</urlId>
             <type>Video</type>
-            <urlAddress>http://www.youtube.com/user/JapanSocietyNYC</urlAddress>
+            <urlAddress>https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0CDUQtwIwAA&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgjI0KYl9gWs&ei=avYpU5avE6Tu2wWv8oG4Aw&usg=AFQjCNELU9lSxqVNOLDyPpd1cEzzWb3QBg&bvm=bv.62922401,d.b2I</urlAddress>
         </url>
         <url>
             <urlId>URL_233</urlId>
             <type>Map</type>
-            <urlAddress>https://goo.gl/maps/7uXZy</urlAddress>
+            <urlAddress>https://www.google.com/maps/preview?q=moscow+russia&ie=UTF-8&hq=&hnear=0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c,Moscow,+Russia&gl=us&ei=SJUrU5KxFpCFyQGUpIGgCQ&sqi=2&ved=0CLUBELYD</urlAddress>
         </url>
         <url>
             <urlId>URL_234</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://www.facebook.com/japansociety</urlAddress>
+            <urlAddress>https://www.facebook.com/pages/Pussy-Riot/179114452191616</urlAddress>
         </url>
         <url>
             <urlId>URL_235</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://twitter.com/japansociety</urlAddress>
+            <urlAddress>https://twitter.com/Pussy_Riot</urlAddress>
         </url>
         <url>
             <urlId>URL_236</urlId>
             <type>ExternalLink</type>
-            <urlAddress>http://www.japansociety.org/</urlAddress>
+            <urlAddress>http://pussy-riot.livejournal.com/</urlAddress>
         </url>
         <url>
             <urlId>URL_237</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>http://japansocietyny.blogspot.com/</urlAddress>
+            <urlAddress>http://pussy-riot.livejournal.com/</urlAddress>
         </url>
         <url>
             <urlId>URL_238</urlId>
@@ -2284,7 +2312,7 @@
     </urls>
 
     <crisisUrls>
-        <crisisUrlPair>
+       <crisisUrlPair>
             <crisisId>CRI_001</crisisId>
             <urlId>URL_101</urlId>
         </crisisUrlPair>
@@ -2293,96 +2321,40 @@
             <urlId>URL_102</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_001</crisisId>
+            <crisisId>CRI_002</crisisId>
             <urlId>URL_103</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_001</crisisId>
+            <crisisId>CRI_002</crisisId>
             <urlId>URL_104</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_001</crisisId>
+            <crisisId>CRI_002</crisisId>
             <urlId>URL_105</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_002</crisisId>
+            <crisisId>CRI_003</crisisId>
             <urlId>URL_106</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_002</crisisId>
+            <crisisId>CRI_003</crisisId>
             <urlId>URL_107</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_002</crisisId>
+            <crisisId>CRI_004</crisisId>
             <urlId>URL_108</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_002</crisisId>
+            <crisisId>CRI_004</crisisId>
             <urlId>URL_109</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_002</crisisId>
+            <crisisId>CRI_005</crisisId>
             <urlId>URL_110</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
-            <crisisId>CRI_003</crisisId>
+            <crisisId>CRI_005</crisisId>
             <urlId>URL_111</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_003</crisisId>
-            <urlId>URL_112</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_003</crisisId>
-            <urlId>URL_113</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_003</crisisId>
-            <urlId>URL_114</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_003</crisisId>
-            <urlId>URL_115</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_004</crisisId>
-            <urlId>URL_116</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_004</crisisId>
-            <urlId>URL_117</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_004</crisisId>
-            <urlId>URL_118</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_004</crisisId>
-            <urlId>URL_119</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_004</crisisId>
-            <urlId>URL_120</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_005</crisisId>
-            <urlId>URL_121</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_005</crisisId>
-            <urlId>URL_122</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_005</crisisId>
-            <urlId>URL_123</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_005</crisisId>
-            <urlId>URL_124</urlId>
-        </crisisUrlPair>
-        <crisisUrlPair>
-            <crisisId>CRI_005</crisisId>
-            <urlId>URL_125</urlId>
         </crisisUrlPair>
         <crisisUrlPair>
             <crisisId>CRI_006</crisisId>
@@ -3077,7 +3049,7 @@
 
     <crisisPeople>
         <crisisPersonPair>
-            <crisisId>CRI_001</crisisId>
+            <crisisId>CRI_005</crisisId>
             <personId>PER_001</personId>
         </crisisPersonPair>
         <crisisPersonPair>
