@@ -212,71 +212,71 @@
         </crisis>
     </crises>
 
-    <orgs>
+<orgs>
         <org>
             <orgId>ORG_001</orgId>
-            <name>FEMA</name>
-            <streetAddress>500 C Street SW</streetAddress>
-            <city>Washington, D.C.</city>
-            <stateOrProvince />
-            <postalCode>20472</postalCode>
+            <name>CNN</name>
+            <streetAddress>384 Northyards Blvd NW</streetAddress>
+            <city>Atlanta</city>
+            <stateOrProvince>Georgia</stateOrProvince>
+            <postalCode>30313</postalCode>
             <country>USA</country>
-            <foundingMission>Support and protect citizens including during disaster or recovery</foundingMission>
-            <dateFounded>1979-04-01</dateFounded>
+            <foundingMission>the first 24 hour news TV channel</foundingMission>
+            <dateFounded>1980-05-01</dateFounded>
             <dateAbolished />
-            <majorEvents>First establishment of a federal emergency management in U.S. by Congressional Act of 1803</majorEvents>
+            <majorEvents />
         </org>
         <org>
             <orgId>ORG_002</orgId>
-            <name>International Medical Corps</name>
-            <streetAddress>1919 Santa Monica Blvd. Suite 400</streetAddress>
-            <city>Santa Monica</city>
-            <stateOrProvince>CA</stateOrProvince>
-            <postalCode>90404</postalCode>
+            <name>The New York Times</name>
+            <streetAddress>620 Eighth Avenue</streetAddress>
+            <city>New York City</city>
+            <stateOrProvince>New York</stateOrProvince>
+            <postalCode>10018</postalCode>
             <country>USA</country>
-            <foundingMission>Provide relief and  aide through health care training and programs</foundingMission>
-            <dateFounded>1984-09-01</dateFounded>
+            <foundingMission />
+            <dateFounded>1851-09-18</dateFounded>
             <dateAbolished />
-            <majorEvents>Founded by Robert Simon</majorEvents>
+            <majorEvents>Has won 112 Pulitzer Prizes, most for any news org</majorEvents>
         </org>
         <org>
             <orgId>ORG_003</orgId>
-            <name>Mercy Corps</name>
-            <streetAddress>45 SW Ankeny St.</streetAddress>
-            <city>Portland</city>
-            <stateOrProvince>OR</stateOrProvince>
-            <postalCode>97204</postalCode>
+            <name>BRAVEN (Brazilian and Venezuelan Student Association)</name>
+            <streetAddress />
+            <city>Austin</city>
+            <stateOrProvince>Texas</stateOrProvince>
+            <postalCode>78712</postalCode>
             <country>USA</country>
-            <foundingMission>Provide aide during disasters to communities in need through donations and entrepeneurship programs</foundingMission>
-            <dateFounded>1979-01-01</dateFounded>
+            <foundingMission>“bring together two different however, very much alike cultures” and “aid not only on the adjustments of new incoming students but also make the University of Texas at Austin a home away from home.”</foundingMission>
+            <dateFounded>2013-09-26</dateFounded>
             <dateAbolished />
-            <majorEvents>Founded by Dan ONeill to aide refugees during the time of the Killing Fields in Cambodia</majorEvents>
+            <majorEvents />
         </org>
         <org>
             <orgId>ORG_004</orgId>
-            <name>Salvation Army</name>
-            <streetAddress>615 Slaters Lane P.O. Box 269</streetAddress>
-            <city>Alexandria</city>
-            <stateOrProvince>VA</stateOrProvince>
-            <postalCode>22313</postalCode>
-            <country>USA</country>
-            <foundingMission>Spread religious message and aide those in need, particularly the poor and homeless</foundingMission>
-            <dateFounded>1865-05-19</dateFounded>
+            <name>Al Jazeera</name>
+            <streetAddress />
+            <city>Doha</city>
+            <stateOrProvince />
+            <postalCode />
+            <country>Qatar</country>
+            <foundingMission>Launched as an Arabic news channel</foundingMission>
+            <dateFounded>1996-11-01</dateFounded>
             <dateAbolished />
-            <majorEvents>Founded by William Booth and his wife to preach their message and help the poor</majorEvents>
+            <majorEvents>Covered war live</majorEvents>
         </org>
         <org>
             <orgId>ORG_005</orgId>
-            <name>Japan Society</name>
-            <streetAddress>333 East 47th Street</streetAddress>
-            <city>New York</city>
-            <stateOrProvince>NY</stateOrProvince>
-            <postalCode>10017</postalCode>
-            <country>USA</country>
-            <foundingMission>Promotion and appreciation of the Japanese culture</foundingMission>
-            <dateFounded>1907-01-01</dateFounded>
+            <name>Pussy Riot</name>
+            <streetAddress />
+            <city>Moscow</city>
+            <stateOrProvince />
+            <postalCode />
+            <country>Russia</country>
+            <foundingMission>Russian Feminist punk rock protest group</foundingMission>
+            <dateFounded>2011-08-01</dateFounded>
             <dateAbolished />
-            <majorEvents>Increased Japanese cultural awareness in 20th century, playing a larger role during political crises and disasters</majorEvents>
+            <majorEvents>Beaten and imprissoned in Russia</majorEvents>
         </org>
         <org>
             <orgId>ORG_006</orgId>
@@ -348,48 +348,48 @@
     <people>
         <person>
             <personId>PER_001</personId>
-            <name>George Clooney</name>
-            <streetAddress>8817 Lookout Mountain Ave</streetAddress>
-            <city>Los Angeles</city>
-            <stateOrProvince>California</stateOrProvince>
+            <name>Kim Jong Un</name>
+            <streetAddress>434 Gangnam Style Avenue</streetAddress>
+            <city>Some town</city>
+            <stateOrProvince>Provencal</stateOrProvince>
             <postalCode>90046-1819</postalCode>
-            <country>USA</country>
+            <country>North Korea</country>
         </person>
         <person>
             <personId>PER_002</personId>
-            <name>Oprah Winfrey</name>
-            <streetAddress>1633 East Valley Road</streetAddress>
-            <city>Montecito</city>
-            <stateOrProvince>California</stateOrProvince>
+            <name>Nicolas Maduro</name>
+            <streetAddress>1234 Riivolution Way</streetAddress>
+            <city>Podunk</city>
+            <stateOrProvince>Poslam</stateOrProvince>
             <postalCode>93108</postalCode>
-            <country>USA</country>
+            <country>Venezuela</country>
         </person>
         <person>
             <personId>PER_003</personId>
-            <name>Lady Gaga</name>
-            <streetAddress>1325 Avenue of the Americas</streetAddress>
-            <city>New York City</city>
-            <stateOrProvince>New York</stateOrProvince>
+            <name>Leopoldo Lopez</name>
+            <streetAddress>1234 Banaste Calle</streetAddress>
+            <city>Some city</city>
+            <stateOrProvince>Some prov</stateOrProvince>
             <postalCode>10019</postalCode>
-            <country>USA</country>
+            <country>Venezuela</country>
         </person>
         <person>
             <personId>PER_004</personId>
-            <name>Mike Shinoda</name>
-            <streetAddress>8383 Wilshire Blvd. Suite 1050</streetAddress>
-            <city>Beverly Hills</city>
-            <stateOrProvince>California</stateOrProvince>
+            <name>Vladimir Putin</name>
+            <streetAddress>1337 Waifu Lane</streetAddress>
+            <city>Flash Sentry</city>
+            <stateOrProvince>Groznyjgrad</stateOrProvince>
             <postalCode>90211</postalCode>
-            <country>USA</country>
+            <country>Russia</country>
         </person>
         <person>
             <personId>PER_005</personId>
-            <name>Rosie O'Donnell</name>
+            <name>Oleksandr Valentynovych Turchynov</name>
             <streetAddress />
             <city />
-            <stateOrProvince>Florida</stateOrProvince>
+            <stateOrProvince>Crimea River</stateOrProvince>
             <postalCode />
-            <country>USA</country>
+            <country>Ukraine</country>
         </person>
         <person>
             <personId>PER_006</personId>
@@ -420,7 +420,7 @@
         </person>
         <person>
             <personId>PER_009</personId>
-            <name>&#211;lafur Ragnar Gr&#237;msson</name>
+            <name>Olafur Ragnar Grimsson</name>
             <streetAddress />
             <city>Bessastaoir</city>
             <stateOrProvince>Garoabaer</stateOrProvince>
@@ -527,23 +527,23 @@
     <personKinds>
         <personKindPair>
             <personId>PER_001</personId>
-            <kind>Actor / Actress</kind>
+            <kind>Dictator</kind>
         </personKindPair>
         <personKindPair>
             <personId>PER_002</personId>
-            <kind>Other Celebrity</kind>
+            <kind>President</kind>
         </personKindPair>
         <personKindPair>
             <personId>PER_003</personId>
-            <kind>Musician</kind>
+            <kind>Politician</kind>
         </personKindPair>
         <personKindPair>
             <personId>PER_004</personId>
-            <kind>Musician</kind>
+            <kind>President</kind>
         </personKindPair>
         <personKindPair>
             <personId>PER_005</personId>
-            <kind>Actor / Actress</kind>
+            <kind>President</kind>
         </personKindPair>
         <personKindPair>
             <personId>PER_006</personId>
@@ -1096,23 +1096,23 @@
         </citationPair>
         <citationPair>
             <citationId>CIT_301</citationId>
-            <citation>http://www.contactmusic.com/news-article/clooney-donates-to-katrina-relief-efforts</citation>
+            <citation>Chang-Won, Lim (6 September 2009). N Korea backs Kim's succession plan: analysts. AFP.</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_302</citationId>
-            <citation>http://www.brainyquote.com/quotes/authors/o/oprah_winfrey.html</citation>
+            <citation>Fangmann, Alexander (13 April 2013). "Maduro prepares cutbacks for post-election Venezuela". World Socialist Web Site. Retrieved 14 April 2013.</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_303</citationId>
-            <citation>http://techcrunch.com/2011/03/28/lady-gaga-donates-750k-to-zyngas-japan-earthquake-relief-campaign/</citation>
+            <citation>"Leopoldo Lopez: Venezuela blueblood, ardent Maduro foe". Yahoo News. 19 February 2014. Retrieved 23 February 2014.</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_304</citationId>
-            <citation>http://www.brainyquote.com/quotes/authors/m/mike_shinoda.html</citation>
+            <citation>Russia's Putin: Pussy Riot duo to be freed despite 'disgraceful' protest</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_305</citationId>
-            <citation>http://www.brainyquote.com/quotes/authors/r/rosie_odonnell.html</citation>
+            <citation>Oleksandr Turchynov, Baptist Pastor, Named As Ukraine's Acting President</citation>
         </citationPair>
         <citationPair>
             <citationId>CIT_306</citationId>
