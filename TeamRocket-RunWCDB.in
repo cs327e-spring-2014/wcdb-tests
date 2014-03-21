@@ -1,3 +1,25 @@
+<crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Venezuela Protest</name>
+            <streetAddress />
+            <city />
+            <stateOrProvince />
+            <postalCode />
+            <country>Venezuela</country>
+            <dateAndTime>January 2014</dateAndTime>
+            <fatalities />
+            <injuries />
+            <populationIll />
+            <populationDisplaced />
+            <politicalChanges>Increased Crime Rates</politicalChanges>
+            <culturalChanges>Inflation and shortage of foodstamps</culturalChanges>
+            <culturalChanges />
+            <jobsLost />
+            <damageInUSD />
+            <reparationCost />
+            <regulatoryChanges />
+        </crisis>
+
 <red>
         <white>
                 <blue>
