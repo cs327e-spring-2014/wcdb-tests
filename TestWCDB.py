@@ -8,18 +8,18 @@ class TestXML (unittest.TestCase) :
     def test_toElementTree_1 (self):
         s= "<apple><orange></orange></apple>"
         x = toElementTree(s)
-        v = x.tostring
+        v = tostring(x)
         self.assertTrue(v == "<apple><orange></orange></apple>")
 
     def test_toElementTree_2 (self):
         s= "<apple> this is an apple </apple>"
         x = toElementTree(s)
-        v = x.tostring
+        v = tostring(x)
         self.assertTrue(v == "<apple> this is an apple </apple>")
     def test_toElementTree_3 (self):
         s= "<a>comment</a>"
         x = toElementTree(s)
-        v = x.tostring
+        v = tostring(x)
         self.assertTrue(v == "<a>comment</a>")
 
     def test_toXML_1 (self):
