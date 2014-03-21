@@ -24,7 +24,7 @@ def toXML (x):
     assert(type(l) is str)
     return l
 
-def WCBD_run (r):
+def WCDB_run (r):
     string = r.readline()
     line = string
     while not line in ["", "\n"]:
@@ -40,9 +40,9 @@ def WCBD_run (r):
     assert(type(l) is str)
     return l
 
-def WCBD_solve(r,w):
+def WCDB_solve(r,w):
     while True:
-        output = WCBD_run(r)
+        output = WCDB_run(r)
         if output in ["", "\n", None]:
             break;
         else:

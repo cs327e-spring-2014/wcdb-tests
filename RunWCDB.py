@@ -1,9 +1,9 @@
 import sys
 
-from WCBD import *
+from WCDB import *
 
 # ----
 # main
 # ----
 
-WCBD_solve(sys.stdin,sys.stdout)
+WCDB_solve(sys.stdin,sys.stdout)

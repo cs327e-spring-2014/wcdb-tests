@@ -45,19 +45,19 @@ class TestXML (unittest.TestCase) :
     def test_WCBD_solve_1 (self):
         r = io.StringIO("<parent><child></child></parent>")
         w = io.StringIO()
-        WCBD_solve(r, w)
+        WCDB_solve(r, w)
         self.assertTrue(w.getValue() == "<parent><child></child></parent>")
 
     def test_WCBD_solve_2 (self):
         r = io.StringIO("<parent></parent>")
         w = io.StringIO()
-        WCBD_solve(r, w)
+        WCDB_solve(r, w)
         self.assertTrue(w.getValue() == "<parent></parent>")
 
     def test_WCBD_solve_3 (self):
         r = io.StringIO("<parent><child><grandchild></grandchild></child></parent>")
         w = io.StringIO()
-        WCBD_solve(r, w)
+        WCDB_solve(r, w)
         self.assertTrue(w.getValue() == "<parent><child><grandchild></grandchild></child></parent>")
 
 print("Testing TestWCDB.py")
