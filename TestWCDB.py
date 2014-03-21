@@ -50,19 +50,19 @@ class TestXML (unittest.TestCase) :
         r = StringIO.StringIO("<parent><child></child></parent>")
         w = StringIO.StringIO()
         WCDB_solve(r, w)
-        self.assertTrue(w.getValue() == "<parent><child></child></parent>")
+        self.assertTrue(w.getvalue() == "<parent><child></child></parent>")
 
     def test_WCBD_solve_2 (self):
         r = StringIO.StringIO("<parent></parent>")
         w = StringIO.StringIO()
         WCDB_solve(r, w)
-        self.assertTrue(w.getValue() == "<parent></parent>")
+        self.assertTrue(w.getvalue() == "<parent></parent>")
 
     def test_WCBD_solve_3 (self):
         r = StringIO.StringIO("<parent><child><grandchild></grandchild></child></parent>")
         w = StringIO.StringIO()
         WCDB_solve(r, w)
-        self.assertTrue(w.getValue() == "<parent><child><grandchild></grandchild></child></parent>")
+        self.assertTrue(w.getvalue() == "<parent><child><grandchild></grandchild></child></parent>")
 
 print("Testing TestWCDB.py")
 unittest.main()

@@ -25,6 +25,10 @@ def toXML (x):
     return l
 
 def WCDB_run (r):
+    """
+    reads an Element tree input with a unique root separated by a blank line
+    return a string
+    """
     string = r.readline()
     line = string
     while not line in ["", "\n"]:
@@ -41,6 +45,10 @@ def WCDB_run (r):
     return l
 
 def WCDB_solve(r,w):
+    """
+    reads an input file per block of Element tree until the end of the file
+    return string
+    """
     while True:
         output = WCDB_run(r)
         if output in ["", "\n", None]:
