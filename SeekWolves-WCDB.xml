@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
     <crises>
         <crisis>
@@ -93,7 +92,6 @@
             <economicImpact>loss of money from trade due to air traffic disruption and pollution</economicImpact>
         </crisis>
     </crises>
-
     <crisisResources> 
         <crisisResource>
             <resourceId>R1</resourceId>
@@ -174,7 +172,6 @@
             <resource>Electricity</resource>
         </crisisResource>
     </crisisResources>
-
     <crisisWaysToHelp>
         <crisisWayToHelp>
             <helpId>H1</helpId>
@@ -204,7 +201,6 @@
             <wayToHelp>Donate Food</wayToHelp>
         </crisisWayToHelp>
     </crisisWaysToHelp>
-
     <crisisCitations>
         <crisisCitation>
             <citationId>T1</citationId>
@@ -262,8 +258,6 @@
             <citation>BBC</citation>
         </crisisCitation>        
     </crisisCitations>
-
-
     <crisisOrgs>
         <crisisOrgPair>
             <crisisId>C1</crisisId>
@@ -314,7 +308,6 @@
             <orgId>O1</orgId>
         </crisisOrgPair>
     </crisisOrgs>
-
     <crisisPeople>
         <crisisPersonPair>
             <crisisId>C1</crisisId>
@@ -361,7 +354,6 @@
             <personId>P1</personId>
         </crisisPersonPair>
     </crisisPeople>
-
     <crisisUrls>
         <crisisUrlPair>
             <crisisId>C1</crisisId>
@@ -383,7 +375,6 @@
             <crisisId>C1</crisisId>
             <urlId>C1_5</urlId>
         </crisisUrlPair>
-        
         <crisisUrlPair>
             <crisisId>C2</crisisId>
             <urlId>C2_1</urlId>
@@ -404,7 +395,6 @@
             <crisisId>C2</crisisId>
             <urlId>C2_5</urlId>
         </crisisUrlPair>
-        
         <crisisUrlPair>
             <crisisId>C3</crisisId>
             <urlId>C3_1</urlId>
@@ -425,7 +415,6 @@
             <crisisId>C3</crisisId>
             <urlId>C3_5</urlId>
         </crisisUrlPair>
- 
          <crisisUrlPair>
             <crisisId>C4</crisisId>
             <urlId>C4_1</urlId>
@@ -446,7 +435,6 @@
             <crisisId>C4</crisisId>
             <urlId>C4_5</urlId>
         </crisisUrlPair>
-        
         <crisisUrlPair>
             <crisisId>C5</crisisId>
             <urlId>C5_1</urlId>
@@ -467,7 +455,6 @@
             <crisisId>C5</crisisId>
             <urlId>C5_5</urlId>
         </crisisUrlPair> 
-        
         <crisisUrlPair>
             <crisisId>C6</crisisId>
             <urlId>C6_1</urlId>
@@ -488,7 +475,6 @@
             <crisisId>C6</crisisId>
             <urlId>C6_5</urlId>
         </crisisUrlPair> 
-        
         <crisisUrlPair>
             <crisisId>C7</crisisId>
             <urlId>C7_1</urlId>
@@ -509,7 +495,6 @@
             <crisisId>C7</crisisId>
             <urlId>C7_5</urlId>
         </crisisUrlPair> 
-        
         <crisisUrlPair>
             <crisisId>C8</crisisId>
             <urlId>C8_1</urlId>
@@ -530,7 +515,6 @@
             <crisisId>C8</crisisId>
             <urlId>C8_5</urlId>
         </crisisUrlPair> 
-        
         <crisisUrlPair>
             <crisisId>C9</crisisId>
             <urlId>C9_1</urlId>
@@ -551,7 +535,6 @@
             <crisisId>C9</crisisId>
             <urlId>C9_5</urlId>
         </crisisUrlPair> 
-        
         <crisisUrlPair>
             <crisisId>C10</crisisId>
             <urlId>C10_1</urlId>
@@ -572,10 +555,7 @@
             <crisisId>C10</crisisId>
             <urlId>C10_5</urlId>
         </crisisUrlPair>  
-        
     </crisisUrls>
-
-
     <orgs>
         <org>
             <orgId>O1</orgId>
@@ -655,7 +635,6 @@
             <contactInfo>200 West ST, New York, New York US</contactInfo>
         </org>
     </orgs>
-
     <orgCitations>
         <orgCitation>
             <citationId>OC1</citationId>
@@ -696,7 +675,6 @@
             <citation>unicef.com</citation>
         </orgCitation>
     </orgCitations>
-
     <orgUrls>
         <orgUrlPair>
             <orgId>O1</orgId>
@@ -718,7 +696,6 @@
             <orgId>O1</orgId>
             <urlId>O1_5</urlId>
         </orgUrlPair>
-  
         <orgUrlPair>
             <orgId>O2</orgId>
             <urlId>O2_1</urlId>
@@ -739,7 +716,6 @@
             <orgId>O2</orgId>
             <urlId>O2_5</urlId>
         </orgUrlPair>
-
         <orgUrlPair>
             <orgId>O3</orgId>
             <urlId>O3_1</urlId>
@@ -756,7 +732,6 @@
             <orgId>O3</orgId>
             <urlId>O3_4</urlId>
         </orgUrlPair>
-
         <orgUrlPair>
             <orgId>O4</orgId>
             <urlId>O4_1</urlId>
@@ -777,7 +752,6 @@
             <orgId>O4</orgId>
             <urlId>O4_5</urlId>
         </orgUrlPair>
-
         <orgUrlPair>
             <orgId>O5</orgId>
             <urlId>O5_1</urlId>
@@ -790,7 +764,6 @@
             <orgId>O5</orgId>
             <urlId>O5_3</urlId>
         </orgUrlPair>
-
         <orgUrlPair>
             <orgId>O6</orgId>
             <urlId>O6_1</urlId>
@@ -807,7 +780,6 @@
             <orgId>O6</orgId>
             <urlId>O6_4</urlId>
         </orgUrlPair>
-
         <orgUrlPair>
             <orgId>O7</orgId>
             <urlId>O7_1</urlId>
@@ -820,7 +792,6 @@
             <orgId>O7</orgId>
             <urlId>O7_3</urlId>
         </orgUrlPair>
-
         <orgUrlPair>
             <orgId>O8</orgId>
             <urlId>O8_1</urlId>
@@ -837,7 +808,6 @@
             <orgId>O8</orgId>
             <urlId>O8_4</urlId>
         </orgUrlPair>
- 
         <orgUrlPair>
             <orgId>O9</orgId>
             <urlId>O9_1</urlId>
@@ -854,7 +824,6 @@
             <orgId>O9</orgId>
             <urlId>O9_4</urlId>
         </orgUrlPair>
-
         <orgUrlPair>
             <orgId>O10</orgId>
             <urlId>O10_1</urlId>
@@ -872,7 +841,6 @@
             <urlId>O10_4</urlId>
         </orgUrlPair>
     </orgUrls>
-
  <people>
         <person>
             <personId>P1</personId>
@@ -880,72 +848,61 @@
             <kind>President</kind>
             <location>Washington, D.C.</location>
         </person>
-        
         <person>
             <personId>P2</personId>
             <name>George W. Bush</name>
             <kind>President</kind>
             <location>Dallas, Texas</location>
         </person>
-        
         <person>
             <personId>P3</personId>
             <name>Hillary Clinton</name>
             <kind>Politician</kind>
             <location>Westchester County, NY </location>
         </person>
-        
         <person>
             <personId>P4</personId>
             <name>Ben S. Bernanke</name>
             <kind>Politician</kind>
             <location>Augusta, Georgia</location>
         </person>
-        
         <person>
             <personId>P5</personId>
             <name>Richard S. Fuld</name>
             <kind>CEO</kind>
             <location>New York</location>
         </person>
-        
         <person>
             <personId>P6</personId>
             <name>Tamerlan Tsarnaev</name>
             <kind>Other</kind>
             <location>Boston, Massachusetts</location>
         </person>
-        
         <person>
             <personId>P7</personId>
             <name>Dzhokhar Tsarnaev</name>
             <kind>Other</kind>
             <location>Boston, Massachusetts</location>
         </person>
-        
         <person>
             <personId>P8</personId>
             <name>Omar al-Bashir</name>
             <kind>President</kind>
             <location>Sudan</location>
         </person>
-        
         <person>
             <personId>P9</personId>
             <name>Tijani Sese</name>
             <kind>Politician</kind>
             <location>Sudan</location>
         </person>
-        
         <person>
             <personId>P10</personId>
             <name>Jean-Max Bellerive</name>
             <kind>Politician</kind>
             <location>Haiti</location>
         </person>
-        
  </people>
-
  <personCitations>
         <personCitation>
             <citationId>P1_1</citationId>
@@ -962,7 +919,6 @@
             <personId>P1</personId>
             <citation>Twitter</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P2_1</citationId>
             <personId>P2</personId>
@@ -978,7 +934,6 @@
             <personId>P2</personId>
             <citation>Facebook</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P3_1</citationId>
             <personId>P3</personId>
@@ -994,7 +949,6 @@
             <personId>P3</personId>
             <citation>Twitter</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P4_1</citationId>
             <personId>P4</personId>
@@ -1010,7 +964,6 @@
             <personId>P4</personId>
             <citation>Twitter</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P5_1</citationId>
             <personId>P5</personId>
@@ -1021,7 +974,6 @@
             <personId>P5</personId>
             <citation>YouTube</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P6_1</citationId>
             <personId>P6</personId>
@@ -1032,7 +984,6 @@
             <personId>P6</personId>
             <citation>YouTube</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P7_1</citationId>
             <personId>P7</personId>
@@ -1043,7 +994,6 @@
             <personId>P7</personId>
             <citation>YouTube</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P8_1</citationId>
             <personId>P8</personId>
@@ -1059,7 +1009,6 @@
             <personId>P8</personId>
             <citation>Facebook</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P9_1</citationId>
             <personId>P9</personId>
@@ -1075,7 +1024,6 @@
             <personId>P9</personId>
             <citation>Google Images</citation>
         </personCitation>
-        
         <personCitation>
             <citationId>P10_1</citationId>
             <personId>P10</personId>
@@ -1086,9 +1034,7 @@
             <personId>P10</personId>
             <citation>YouTube</citation>
         </personCitation>
-        
  </personCitations>
- 
  <personOrgs>
         <personOrgPair>
             <personId>P1</personId>
@@ -1102,7 +1048,6 @@
             <personId>P1</personId>
             <orgId>O9</orgId>
         </personOrgPair>
-        
          <personOrgPair>
             <personId>P2</personId>
             <orgId>O1</orgId>
@@ -1115,49 +1060,39 @@
             <personId>P2</personId>
             <orgId>O9</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P3</personId>
             <orgId>O1</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P4</personId>
             <orgId>O4</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P5</personId>
             <orgId>O5</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P6</personId>
             <orgId>O9</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P7</personId>
             <orgId>O9</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P8</personId>
             <orgId>O7</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P9</personId>
             <orgId>O7</orgId>
         </personOrgPair>
-        
         <personOrgPair>
             <personId>P10</personId>
             <orgId>O6</orgId>
         </personOrgPair>
-        
  </personOrgs>
-
  <personUrls>
         <personUrlPair>
             <personId>P1</personId>
@@ -1179,7 +1114,6 @@
             <personId>P1</personId>
             <urlId>P1_5</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P2</personId>
             <urlId>P2_1</urlId>
@@ -1200,7 +1134,6 @@
             <personId>P2</personId>
             <urlId>P2_5</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P3</personId>
             <urlId>P3_1</urlId>
@@ -1221,7 +1154,6 @@
             <personId>P3</personId>
             <urlId>P3_5</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P4</personId>
             <urlId>P4_1</urlId>
@@ -1242,7 +1174,6 @@
             <personId>P4</personId>
             <urlId>P4_5</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P5</personId>
             <urlId>P5_1</urlId>
@@ -1259,7 +1190,6 @@
             <personId>P5</personId>
             <urlId>P5_4</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P6</personId>
             <urlId>P6_1</urlId>
@@ -1276,7 +1206,6 @@
             <personId>P6</personId>
             <urlId>P6_4</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P7</personId>
             <urlId>P7_1</urlId>
@@ -1293,7 +1222,6 @@
             <personId>P7</personId>
             <urlId>P7_4</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P8</personId>
             <urlId>P8_1</urlId>
@@ -1314,7 +1242,6 @@
             <personId>P8</personId>
             <urlId>P8_5</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P9</personId>
             <urlId>P9_1</urlId>
@@ -1327,7 +1254,6 @@
             <personId>P9</personId>
             <urlId>P9_3</urlId>
         </personUrlPair>
-        
         <personUrlPair>
             <personId>P10</personId>
             <urlId>P10_1</urlId>
@@ -1340,10 +1266,7 @@
             <personId>P10</personId>
             <urlId>P10_3</urlId>
         </personUrlPair>
-        
  </personUrls>
-
-
     <urls>
         <url>
             <urlId>C1_1</urlId>
@@ -1800,7 +1723,6 @@
             <type>SocialNetwork</type>
             <urlAddress>https://www.facebook.com/goldmansachs</urlAddress>
         </url>
-
  <url>
             <urlId>P1_1</urlId>
             <type>Image</type>
@@ -1826,7 +1748,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/Barack_Obama</urlAddress>
         </url>
-        
         <url>
             <urlId>P2_1</urlId>
             <type>Image</type>
@@ -1852,7 +1773,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/George_W._Bush</urlAddress>
         </url>
-        
         <url>
             <urlId>P3_1</urlId>
             <type>Image</type>
@@ -1878,7 +1798,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/Hillary_Rodham_Clinton</urlAddress>
         </url>
-        
         <url>
             <urlId>P4_1</urlId>
             <type>Image</type>
@@ -1904,7 +1823,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/Ben_S._Bernanke</urlAddress>
         </url>
-        
         <url>
             <urlId>P5_1</urlId>
             <type>Image</type>
@@ -1925,7 +1843,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/Richard_S._Fuld,_Jr.</urlAddress>
         </url>
-        
         <url>
             <urlId>P6_1</urlId>
             <type>Image</type>
@@ -1946,7 +1863,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/Tamerlan_Tsarnaev#Tamerlan_Tsarnaev</urlAddress>
         </url>
-        
         <url>
             <urlId>P7_1</urlId>
             <type>Image</type>
@@ -1967,7 +1883,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/Dzhokhar_Tsarnaev#Dzhokhar_Tsarnaev</urlAddress>
         </url>
-        
         <url>
             <urlId>P8_1</urlId>
             <type>Image</type>
@@ -1993,7 +1908,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://en.wikipedia.org/wiki/Omar_al-Bashir</urlAddress>
         </url>
-        
         <url>
             <urlId>P9_1</urlId>
             <type>Image</type>
@@ -2009,7 +1923,6 @@
             <type>Map</type>
             <urlAddress>http://upload.wikimedia.org/wikipedia/commons/2/25/Sudan_on_the_globe_%28de-facto_%2B_claimed_hatched%29_%28North_Africa_centered%29.svg</urlAddress>
         </url>
-        
         <url>
             <urlId>P10_1</urlId>
             <type>Image</type>
