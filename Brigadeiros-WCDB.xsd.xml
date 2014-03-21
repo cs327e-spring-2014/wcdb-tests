@@ -362,6 +362,7 @@
                                     <xs:enumeration value="CEO"/>
                                     <xs:enumeration value="Philanthropist"/>
                                     <xs:enumeration value="Humanitarian"/>
+                                    <xs:enumeration value="Perpetrator"/>                                    
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:element>
