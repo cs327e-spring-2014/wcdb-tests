@@ -1,3 +1,9 @@
+<red>
+        <white>
+                <blue>
+                        <purple>
+                        </purple>
+                        <white>
                                 <blue>
                                         <white>
                                         </white>
@@ -6,28 +12,6 @@
                                         <yellow>
                                         </yellow>
                                 </blue>
-
-<Chunky>
-        <Cooly>
-        </Cooly>
-</Chunky>
-
-<yellow>
-                                        <purple>
-                                        </purple>
-                                        <green>
-                                        </green>
-                                        <black>
-                                        </black>
-</yellow>
-                                
-<red>
-        <white>
-                <blue>
-                        <purple>
-                        </purple>
-                        <white>
-
                                 <purple>
                                         <yellow>
                                         </yellow>
@@ -41,7 +25,12 @@
                 <white>
                         <yellow>
                                 <blue>
-
+                                        <green>
+                                        </green>
+                                        <black>
+                                        </black>
+                                        <blue>
+                                        </blue>
                                 </blue>
                                 <green>
                                         <blue>
@@ -203,17 +192,6 @@
                 </purple>
         </black>
 </red>
-
-<Team>
-                                                        <Jelly>
-                                                        </Jelly>
-                                                        <Funny>
-                                                        </Funny>
-                                                        <Cooly>
-                                                        </Cooly>
-                                                        <Chunky>
-                                                        </Chunky>
-                                                </Team>
 
 <THU>
         <Team>
