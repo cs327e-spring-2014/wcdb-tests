@@ -1,3 +1,4 @@
+<xml>
 <red>
         <white>
                 <blue>
@@ -702,3 +703,37 @@
                 </Funny>
         </Jelly>
 </apple>
+
+<blue><orange></orange></blue>
+
+<Jelly>
+       <Sleepy>I am not sleepy
+       </Sleepy>
+       <Funny>You are funny
+       </Funny>
+</Jelly>
+
+<author><name>James Joyce</name><country>USA</country></author>
+
+<a>
+    <b>
+        <c>
+            <d>
+            This is the end
+            </d>
+        </c>
+    </b>
+</a>
+
+<a><b></b></a>
+
+<Hello><Bye></Bye></Hello>
+
+<website>
+   <google>
+   </google>
+</website>
+
+<x><y><z></z></y></z>
+
+</xml>
