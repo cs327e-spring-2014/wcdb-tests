@@ -1,25 +1,4 @@
-<crisis>
-            <crisisId>CRI_001</crisisId>
-            <name>Venezuela Protest</name>
-            <streetAddress />
-            <city />
-            <stateOrProvince />
-            <postalCode />
-            <country>Venezuela</country>
-            <dateAndTime>January 2014</dateAndTime>
-            <fatalities />
-            <injuries />
-            <populationIll />
-            <populationDisplaced />
-            <politicalChanges>Increased Crime Rates</politicalChanges>
-            <culturalChanges>Inflation and shortage of foodstamps</culturalChanges>
-            <culturalChanges />
-            <jobsLost />
-            <damageInUSD />
-            <reparationCost />
-            <regulatoryChanges />
-        </crisis>
-
+<xml>
 <red>
         <white>
                 <blue>
@@ -724,3 +703,42 @@
                 </Funny>
         </Jelly>
 </apple>
+
+<blue><orange></orange></blue>
+
+<Jelly>
+       <Sleepy>I am not sleepy
+       </Sleepy>
+       <Funny>You are funny
+       </Funny>
+</Jelly>
+
+<author><name>James Joyce</name><country>USA</country></author>
+
+<a>
+    <b>
+        <c>
+            <d>
+            This is the end
+            </d>
+        </c>
+    </b>
+</a>
+
+
+<a><b></b></a>
+
+<author><name>James Joyce</name><country>USA</country></author>
+
+<Hello><Bye></Bye></Hello>
+
+<website>
+   <google>
+   </google>
+</website>
+
+<x><y><z></z></y></z>
+
+</xml>
+
+
