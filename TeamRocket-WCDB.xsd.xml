@@ -338,6 +338,7 @@
                                     <xs:enumeration value="Intergovernmental Agency"/>
                                     <xs:enumeration value="Intergovernmental Public Health Agency"/>
                                     <xs:enumeration value="Nonprofit / Humanitarian Organization"/>
+                                    <xs:enumeration value="Corporation"/>
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:element>
