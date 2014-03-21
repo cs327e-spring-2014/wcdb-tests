@@ -481,14 +481,15 @@
         </crisisKindPair>
     </crisisKinds>
 
+
     <orgKinds>
         <orgKindPair>
             <orgId>ORG_001</orgId>
-            <kind>Government Agency</kind>
+            <kind>Corporation</kind>
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_002</orgId>
-            <kind>Nonprofit / Humanitarian Organization</kind>
+            <kind>Corporation</kind>
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_003</orgId>
@@ -496,7 +497,7 @@
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_004</orgId>
-            <kind>Nonprofit / Humanitarian Organization</kind>
+            <kind>Corporation</kind>
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_005</orgId>
@@ -523,6 +524,7 @@
             <kind>Intergovernmental Agency</kind>
         </orgKindPair>
     </orgKinds>
+
 
     <personKinds>
         <personKindPair>
