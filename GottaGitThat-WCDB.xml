@@ -1,4 +1,3 @@
-<?xml version="1.0" ?>
 <WorldCrises>
 <!-- Final Version of WCDB.XML
 Author: Xiaoqin Li, Josh Shen, Robert Salinas, Shawn Kulkarni, Al Jin, Kevin Boening
@@ -100,8 +99,6 @@ Date 03/18/2014
 		<Kind CKindIdent = "CK_001" /> 
 		<Location> 
 			<City></City>
-			<County></County>
-			<Province></Province>
 			<State></State>
 			<Country>Gulf of Mexico</Country>
 		</Location>
@@ -157,8 +154,6 @@ Date 03/18/2014
 		<Kind CKindIdent = "CK_002" /> 
 		<Location> 
 			<City></City>
-			<County></County>
-			<Province></Province>
 			<State></State>
 			<Country>Haiti, USA, Bahamas, Cuba, Dominican Republic</Country>
 		</Location>
@@ -217,8 +212,6 @@ Date 03/18/2014
 		<Kind CKindIdent = "CK_004" /> <!--The list of kinds are at the bottom. If you have a better kind, add it according to the format-->
 		<Location> <!--Whatever you don't have, delete the tag-->
 			<City>New York City</City>
-			<County></County>
-			<Province></Province>
 			<State>New York</State>
 			<Country>United States</Country>
 		</Location>
@@ -266,8 +259,6 @@ Date 03/18/2014
 		<Kind CKindIdent = "CK_002" /> 
 		<Location> 
 			<City>Léogâne</City>
-			<County></County>
-			<Province></Province>
 			<State></State>
 			<Country>Haiti</Country>
 		</Location>
@@ -319,8 +310,6 @@ Date 03/18/2014
 		<Kind CKindIdent = "CK_002"/>
 		<Location>
 			<City>Galveston</City>
-			<County>Galveston County</County>
-			<Province></Province>
 			<State>Texas</State>
 			<Country>United States</Country>
 		</Location>
@@ -371,8 +360,6 @@ Date 03/18/2014
 		<Kind CKindIdent = "CK_001" /> <!--The list of kinds are at the bottom. If you have a better kind, add it according to the format-->
 		<Location> <!--Whatever you don't have, delete the tag-->
 			<City>Lakehurst</City>
-			<County>Ocean</County>
-			<Province></Province>
 			<State>New Jersey</State>
 			<Country>United States</Country>
 		</Location>
@@ -564,8 +551,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress>International Headquarters 1 St James's Square</StreetAddress>
 			<City>London</City>
-			<County></County> 
-			<Province>England</Province> 
 			<State></State> 
 			<PostalCode>SW1Y 4PD</PostalCode> 
 			<Country>United Kingdom</Country> 
@@ -606,8 +591,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress>International Headquarters 1 St James's Square</StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
 			<City>Port Au Prince</City>
-			<County></County> <!--Optional, delete if not applicable-->
-			<Province></Province> <!--Optional, delete if not applicable-->
 			<State></State> <!--Optional, delete if not applicable-->
 			<PostalCode></PostalCode> <!--Optional, delete if not applicable-->
 			<Country>Haiti</Country> <!--at least one-->
@@ -641,8 +624,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
 			<City></City>
-			<County></County> <!--Optional, delete if not applicable-->
-			<Province></Province> <!--Optional, delete if not applicable-->
 			<State></State> <!--Optional, delete if not applicable-->
 			<PostalCode></PostalCode> <!--Optional, delete if not applicable-->
 			<Country>Pakistan</Country> <!--at least one-->
@@ -673,8 +654,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> 
 			<City> New York City</City>
-			<County></County> 
-			<Province></Province> 
 			<State> New York</State> 
 			<PostalCode>10038</PostalCode> 
 			<Country>United States</Country>
@@ -707,8 +686,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress>Johnson and Johnson One Johnson and Johnson Plaza</StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
 			<City>New Brunswick</City>
-			<County>Middlesex</County> <!--Optional, delete if not applicable-->
-			<Province></Province> <!--Optional, delete if not applicable-->
 			<State>New Jersey</State> <!--Optional, delete if not applicable-->
 			<PostalCode>08933</PostalCode> <!--Optional, delete if not applicable-->
 			<Country>United States</Country> <!--at least one-->
@@ -740,8 +717,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
 			<City>Friedrichshafen</City>
-			<County></County> <!--Optional, delete if not applicable-->
-			<Province></Province> <!--Optional, delete if not applicable-->
 			<State></State> <!--Optional, delete if not applicable-->
 			<PostalCode></PostalCode> <!--Optional, delete if not applicable-->
 			<Country>Germany</Country> <!--at least one-->
@@ -861,8 +836,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> 
 			<City>Lake Worth</City>
-			<County></County> 
-			<Province></Province> 
 			<State>Florida</State> 
 			<PostalCode></PostalCode> 
 			<Country>United States</Country>
@@ -894,8 +867,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> 
 			<City>New York City</City>
-			<County>Queens County</County> 
-			<Province></Province>
 			<State>New York</State> 
 			<PostalCode></PostalCode> 
 			<Country>USA</Country>
@@ -929,8 +900,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
 			<City>Jérémie</City>
-			<County></County>
-			<Province></Province>		<!--Optional, delete if not applicable-->
 			<State></State> <!--Optional, delete if not applicable-->
 			<PostalCode></PostalCode> <!--Optional, delete if not applicable-->
 			<Country>Haiti</Country>
@@ -962,8 +931,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
 			<City>Abbottābad</City>
-			<County></County> <!--Optional, delete if not applicable-->
-			<Province></Province> 
 			<State></State> <!--Optional, delete if not applicable-->
 			<PostalCode></PostalCode> <!--Optional, delete if not applicable-->
 			<Country>Pakistan</Country>
@@ -994,8 +961,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> 
 			<City>New York City</City>
-			<County></County> 
-			<Province></Province>
 			<State></State> 
 			<PostalCode></PostalCode> 
 			<Country>United States</Country>
@@ -1025,9 +990,7 @@ Date 03/18/2014
 		<Kind PKindIdent="PK_005"/>
 		<Location>
 			<StreetAddress></StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
-			<City>New Brunswick</City>
-			<County>Middlesex</County> <!--Optional, delete if not applicable-->
-			<Province></Province> 			
+			<City>New Brunswick</City>			
 			<State>New Jersey</State> <!--Optional, delete if not applicable-->
 			<PostalCode>08933</PostalCode> <!--Optional, delete if not applicable-->
 			<Country>United States</Country>
@@ -1059,8 +1022,6 @@ Date 03/18/2014
 		<Location>
 			<StreetAddress></StreetAddress> <!--Put name, apt#, PO box, etc. all on one line-->
 			<City>Ludwigshafen am Rhein</City>
-			<County></County> <!--Optional, delete if not applicable-->
-			<Province></Province> 
 			<State></State> <!--Optional, delete if not applicable-->
 			<PostalCode></PostalCode> <!--Optional, delete if not applicable-->
 			<Country>Germany</Country>
