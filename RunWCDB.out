@@ -1,70 +1,37 @@
 <xml>
 
 <Organization OIdent="ORG_002">
-   <Name>Austin Police Department</Name>
-   <Kind OKindIdent= "OK_002" />
-   <Location>
-   	<StreetAddress>Austin Police Department, PO Box 689001</StreetAddress>
-   	<City>Austin</City>
-   	<State>Texas</State>
-   	<PostalCode>78768-9001</PostalCode>
-   	<Country>United States</Country>
-   </Location>
-   <History>The Austin Police Deparment is commmitted to protecting the safety and well being of the diverse Austin community.
+            <Name>Austin Police Department</Name>
+                        <Kind OKindIdent= "OK_002" />
+            <Location>
+            <StreetAddress>Austin Police Department, PO Box 689001</StreetAddress>
+            <City>Austin</City>
+            <State>Texas</State>
+            <PostalCode>78768-9001</PostalCode>
+            <Country>United States</Country>
+            </Location>
+            <History>
+            The Austin Police Deparment is commmitted to protecting the safety and well being of the diverse Austin community.
 The city is divided into nine districts, and each one is overseen by a commander. The number
 of officers working in each district is based on that district's size and call volume.
-   </History>
-   <ContactInfo>
-   	<Telephone>512-974-5750</Telephone>
-   </ContactInfo>
-   <ExternalInfo>
-   	<ImageURL>http://austintexas.gov/sites/default/files/null/POLICE-apply_now-206x300.jpg</ImageURL>
-	<VideoURL>http://www.youtube.com/watch?v=V9QEg4VXliE</VideoURL>
-	<SocialNetworkFeedURL>https://www.facebook.com/AustinPolice</SocialNetworkFeedURL>
-	<Citation>http://www.austintexas.gov/department/police/about</Citation>
-	<Citation>http://www.lawofficer.com/article/magazine-feature/austin-police-department</Citation>
-	<ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL>
-   </ExternalInfo>
-   <RelatedCrises>
-   	<RelatedCrisis CIdent= "CRI_002"/>
-   </RelatedCrises>
-   <RelatedPersons>
-	<RelatedPerson PIdent = "PER_002"/>
-   </RelatedPersons>
-
-
-<Organization OIdent="ORG_002"> 
-	<Name>Austin Police Department</Name>
-	<Kind OKindIdent= "OK_002" />
-	<Location>
-		<StreetAddress>Austin Police Department, PO Box 689001</StreetAddress> 
-		<City>Austin</City>
-		<State>Texas</State> 
-		<PostalCode>78768-9001</PostalCode> 
-		<Country>United States</Country> 
-	</Location>
-	<History>The Austin Police Deparment is commmitted to protecting the safety and well being of the diverse Austin community.
-		The city is divided into nine districts, and each one is overseen by a commander. The number 
-		of officers working in each district is based on that district's size and call volume.
-	</History>
-	<ContactInfo> 
-		<Telephone>512-974-5750</Telephone> 
-	</ContactInfo>
-	<ExternalInfo>
-		<ImageURL>http://austintexas.gov/sites/default/files/null/POLICE-apply_now-206x300.jpg</ImageURL>
-		<VideoURL>http://www.youtube.com/watch?v=V9QEg4VXliE</VideoURL>
-		<SocialNetworkFeedURL>https://www.facebook.com/AustinPolice</SocialNetworkFeedURL> 
-		<Citation>http://www.austintexas.gov/department/police/about</Citation>
-		<Citation>http://www.lawofficer.com/article/magazine-feature/austin-police-department</Citation>
-		<ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL> 
-	</ExternalInfo>
-	<RelatedCrises> 
-		<RelatedCrisis CIdent= "CRI_002"/>
-	</RelatedCrises>
-	<RelatedPersons> 
-		<RelatedPerson PIdent = "PER_002"/>
-	</RelatedPersons>
-
+            </History>
+            <ContactInfo>
+            <Telephone>512-974-5750</Telephone>
+            </ContactInfo>
+            <ExternalInfo>
+                        <ImageURL>http://austintexas.gov/sites/default/files/null/POLICE-apply_now-206x300.jpg</ImageURL>
+                        <VideoURL>http://www.youtube.com/watch?v=V9QEg4VXliE</VideoURL>
+                        <SocialNetworkFeedURL>https://www.facebook.com/AustinPolice</SocialNetworkFeedURL>
+                        <Citation>http://www.austintexas.gov/department/police/about</Citation>
+                        <Citation>http://www.lawofficer.com/article/magazine-feature/austin-police-department</Citation>
+                        <ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL>
+            </ExternalInfo>
+            <RelatedCrises>
+                        <RelatedCrisis CIdent= "CRI_002"/>
+            </RelatedCrises>
+            <RelatedPersons>
+                        <RelatedPerson PIdent = "PER_002"/>
+            </RelatedPersons>
 </Organization>
 
 <citations>
@@ -110,14 +77,6 @@ of officers working in each district is based on that district's size and call v
 <Province></Province>
 <State></State>
 <Country>Gulf of Mexico</Country>
-</Location>
-
-<Location> 
-		<City></City>
-		<County></County>
-		<Province></Province>
-		<State></State>
-		<Country>Gulf of Mexico</Country>
 </Location>
 
 <red>
@@ -314,7 +273,6 @@ of officers working in each district is based on that district's size and call v
                 </purple>
         </black>
 </red>
-
 <THU>
         <Team>
         </Team>
@@ -815,7 +773,6 @@ of officers working in each district is based on that district's size and call v
                 </Sleepy>
         </Jelly>
 </THU>
-
 <apple>
         <Jelly>
                <Sleepy>I am sleepy
@@ -846,6 +803,7 @@ of officers working in each district is based on that district's size and call v
     </b>
 </a>
 
+
 <a><b></b></a>
 
 <author><name>James Joyce</name><country>USA</country></author>
@@ -860,4 +818,3 @@ of officers working in each district is based on that district's size and call v
 <x><y><z></z></y></z>
 
 </xml>
-
