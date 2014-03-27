@@ -1,6 +1,6 @@
 import sys
 
-from RunWCDB1 import *
+from WCDB import *
 
 # ----
 # main
