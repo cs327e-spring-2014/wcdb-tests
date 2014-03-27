@@ -1,5 +1,5 @@
 <xml>
-<<<<<<< HEAD
+
 <Organization OIdent="ORG_002"> 
 	<Name>Austin Police Department</Name>
 	<Kind OKindIdent= "OK_002" />
@@ -78,8 +78,6 @@
 		<Country>Gulf of Mexico</Country>
 </Location>
 	
-=======
->>>>>>> df9d46ad5dacc65b5eec9b92c66128fad078a2a7
 <red>
         <white>
                 <blue>
@@ -784,9 +782,6 @@
                 </Funny>
         </Jelly>
 </apple>
-<<<<<<< HEAD
-</xml>
-=======
 
 <blue><orange></orange></blue>
 
@@ -826,4 +821,3 @@
 </xml>
 
 
->>>>>>> df9d46ad5dacc65b5eec9b92c66128fad078a2a7
