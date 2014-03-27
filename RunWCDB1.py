@@ -20,7 +20,7 @@ return an Element
 
     if l in ["", "\n", None]:
         return l
-        break
+        
 
 def WCDB_solve(r,w):
     """
@@ -30,5 +30,5 @@ return string
     while True:
         output = WCDB_run(r)
         if output in ["", "\n", None]:
-            break
+            return output
         w.write(output + "\n")
