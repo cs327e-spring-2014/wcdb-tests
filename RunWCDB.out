@@ -1,0 +1,835 @@
+<<<<<<< HEAD
+=======
+<xml>
+<Organization OIdent="ORG_002">
+   <Name>Austin Police Department</Name>
+   <Kind OKindIdent= "OK_002" />
+   <Location>
+    <StreetAddress>Austin Police Department, PO Box 689001</StreetAddress>
+    <City>Austin</City>
+    <State>Texas</State>
+    <PostalCode>78768-9001</PostalCode>
+    <Country>United States</Country>
+   </Location>
+   <History>The Austin Police Deparment is commmitted to protecting the safety and well being of the diverse Austin community.
+The city is divided into nine districts, and each one is overseen by a commander. The number
+of officers working in each district is based on that district's size and call volume.
+   </History>
+   <ContactInfo>
+    <Telephone>512-974-5750</Telephone>
+   </ContactInfo>
+   <ExternalInfo>
+    <ImageURL>http://austintexas.gov/sites/default/files/null/POLICE-apply_now-206x300.jpg</ImageURL>
+<VideoURL>http://www.youtube.com/watch?v=V9QEg4VXliE</VideoURL>
+<SocialNetworkFeedURL>https://www.facebook.com/AustinPolice</SocialNetworkFeedURL>
+<Citation>http://www.austintexas.gov/department/police/about</Citation>
+<Citation>http://www.lawofficer.com/article/magazine-feature/austin-police-department</Citation>
+<ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL>
+   </ExternalInfo>
+   <RelatedCrises>
+    <RelatedCrisis CIdent= "CRI_002"/>
+   </RelatedCrises>
+   <RelatedPersons>
+<RelatedPerson PIdent = "PER_002"/>
+   </RelatedPersons>
+<Organization OIdent="ORG_002">
+<Name>Austin Police Department</Name>
+<Kind OKindIdent= "OK_002" />
+<Location>
+<StreetAddress>Austin Police Department, PO Box 689001</StreetAddress>
+<City>Austin</City>
+<State>Texas</State>
+<PostalCode>78768-9001</PostalCode>
+<Country>United States</Country>
+</Location>
+<History>The Austin Police Deparment is commmitted to protecting the safety and well being of the diverse Austin community.
+The city is divided into nine districts, and each one is overseen by a commander. The number
+of officers working in each district is based on that district's size and call volume.
+</History>
+<ContactInfo>
+<Telephone>512-974-5750</Telephone>
+</ContactInfo>
+<ExternalInfo>
+<ImageURL>http://austintexas.gov/sites/default/files/null/POLICE-apply_now-206x300.jpg</ImageURL>
+<VideoURL>http://www.youtube.com/watch?v=V9QEg4VXliE</VideoURL>
+<SocialNetworkFeedURL>https://www.facebook.com/AustinPolice</SocialNetworkFeedURL>
+<Citation>http://www.austintexas.gov/department/police/about</Citation>
+<Citation>http://www.lawofficer.com/article/magazine-feature/austin-police-department</Citation>
+<ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL>
+</ExternalInfo>
+<RelatedCrises>
+<RelatedCrisis CIdent= "CRI_002"/>
+</RelatedCrises>
+<RelatedPersons>
+<RelatedPerson PIdent = "PER_002"/>
+</RelatedPersons>
+</Organization>
+<citations>
+    <citationPair>
+        <citationId>CIT_000</citationId>
+        <citation>Hosni Mubarak." Wikipedia. Wikimedia Foundation, 15 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_001</citationId>
+        <citation>Chris Christie." Wikipedia. Wikimedia Foundation, 14 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_002</citationId>
+        <citation>Richard Nixon." Wikipedia. Wikimedia Foundation, 3 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_003</citationId>
+        <citation>Jimmy Carter." Wikipedia. Wikimedia Foundation, 17 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_004</citationId>
+        <citation>Timothy McVeigh." Wikipedia. Wikimedia Foundation, 9 Mar. 2014. Web. 18 Mar. 2014.</citation>
+    </citationPair>
+</citations>
+<crisis>
+            <crisisId>C1</crisisId>
+            <name>Boston Marathon Bombing</name>
+            <kind>Act of Terrorism</kind>
+            <location>Boston</location>
+            <date>2013-04-15</date>
+            <humanImpact>Deaths: 3, Injuries: 264</humanImpact>
+            <economicImpact>&gt;= $333 million</economicImpact>
+</crisis>
+<record>
+        <name>Silva, Holmes V.</name>
+        <email>erat@interdumligulaeu.edu</email>
+        <company>Cursus Et PC</company>
+</record>
+<record>
+        <name>Dillard, Lois O.</name>
+        <email>augue.eu@sapienimperdiet.org</email>
+        <company>Ac Nulla In Incorporated</company>
+</record>
+<Location>
+<City></City>
+<County></County>
+<Province></Province>
+<State></State>
+<Country>Gulf of Mexico</Country>
+</Location>
+<red>
+        <white>
+                <blue>
+                        <purple>
+                        </purple>
+                        <white>
+                                <blue>
+                                        <white>
+                                        </white>
+                                        <purple>
+                                        </purple>
+                                        <yellow>
+                                        </yellow>
+                                </blue>
+                                <purple>
+                                        <yellow>
+                                        </yellow>
+                                        <blue>
+                                        </blue>
+                                        <green>
+                                        </green>
+                                </purple>
+                        </white>
+                </blue>
+                <white>
+                        <yellow>
+                                <blue>
+                                        <green>
+                                        </green>
+                                        <black>
+                                        </black>
+                                        <blue>
+                                        </blue>
+                                </blue>
+                                <green>
+                                        <blue>
+                                        </blue>
+                                </green>
+                        </yellow>
+                        <white>
+                                <white>
+                                        <green>
+                                        </green>
+                                        <yellow>
+                                        </yellow>
+                                </white>
+                                <blue>
+                                </blue>
+                                <black>
+                                        <yellow>
+                                        </yellow>
+                                        <blue>
+                                        </blue>
+                                        <green>
+                                        </green>
+                                </black>
+                        </white>
+                </white>
+                <yellow>
+                        <green>
+                                <yellow>
+                                        <purple>
+                                        </purple>
+                                        <green>
+                                        </green>
+                                        <black>
+                                        </black>
+                                </yellow>
+                                <purple>
+                                </purple>
+                        </green>
+                        <blue>
+                                <blue>
+                                        <black>
+                                        </black>
+                                        <white>
+                                        </white>
+                                </blue>
+                                <yellow>
+                                        <blue>
+                                        </blue>
+                                </yellow>
+                        </blue>
+                        <purple>
+                        </purple>
+                </yellow>
+        </white>
+        <blue>
+                <blue>
+                        <white>
+                                <white>
+                                        <purple>
+                                        </purple>
+                                        <white>
+                                        </white>
+                                </white>
+                        </white>
+                        <black>
+                                <white>
+                                </white>
+                                <yellow>
+                                        <purple>
+                                        </purple>
+                                        <white>
+                                        </white>
+                                        <green>
+                                        </green>
+                                </yellow>
+                                <green>
+                                        <blue>
+                                        </blue>
+                                        <black>
+                                        </black>
+                                        <green>
+                                        </green>
+                                </green>
+                        </black>
+                </blue>
+        </blue>
+        <black>
+                <yellow>
+                        <yellow>
+                                <purple>
+                                </purple>
+                                <blue>
+                                        <green>
+                                        </green>
+                                        <purple>
+                                        </purple>
+                                        <black>
+                                        </black>
+                                </blue>
+                                <white>
+                                        <purple>
+                                        </purple>
+                                </white>
+                        </yellow>
+                        <green>
+                                <blue>
+                                        <yellow>
+                                        </yellow>
+                                        <blue>
+                                        </blue>
+                                        <purple>
+                                        </purple>
+                                </blue>
+                        </green>
+                        <white>
+                                <white>
+                                        <blue>
+                                        </blue>
+                                        <yellow>
+                                        </yellow>
+                                        <black>
+                                        </black>
+                                </white>
+                                <blue>
+                                </blue>
+                        </white>
+                </yellow>
+                <purple>
+                        <black>
+                                <blue>
+                                        <purple>
+                                        </purple>
+                                        <black>
+                                        </black>
+                                        <white>
+                                        </white>
+                                </blue>
+                                <green>
+                                        <green>
+                                        </green>
+                                </green>
+                        </black>
+                        <blue>
+                        </blue>
+                        <white>
+                                <yellow>
+                                        <purple>
+                                        </purple>
+                                        <yellow>
+                                        </yellow>
+                                        <black>
+                                        </black>
+                                </yellow>
+                                <green>
+                                        <white>
+                                        </white>
+                                </green>
+                        </white>
+                </purple>
+        </black>
+</red>
+<THU>
+        <Team>
+        </Team>
+        <Sleepy>
+                <Sleepy>
+                        <Cooly>
+                                <Jelly>
+                                        <Jelly>
+                                                <Team>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                </Team>
+                                                <Cooly>
+                                                </Cooly>
+                                                <Funny>
+                                                </Funny>
+                                                <Chunky>
+                                                </Chunky>
+                                        </Jelly>
+                                </Jelly>
+                                <Team>
+                                        <Chunky>
+                                                <Cooly>
+                                                        <Team>
+                                                        </Team>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Cooly>
+                                                <Team>
+                                                        <Team>
+                                                        </Team>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Team>
+                                                <Sleepy>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                </Sleepy>
+                                        </Chunky>
+                                        <Funny>
+                                                <Cooly>
+                                                        <Team>
+                                                        </Team>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                </Cooly>
+                                        </Funny>
+                                        <Team>
+                                        </Team>
+                                </Team>
+                                <Sleepy>
+                                        <Team>
+                                                <Sleepy>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Sleepy>
+                                                <Cooly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Team>
+                                                        </Team>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Cooly>
+                                        </Team>
+                                        <Funny>
+                                                <Cooly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Cooly>
+                                                <Chunky>
+                                                </Chunky>
+                                                <Sleepy>
+                                                </Sleepy>
+                                        </Funny>
+                                        <Cooly>
+                                                <Cooly>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Team>
+                                                        </Team>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Cooly>
+                                        </Cooly>
+                                </Sleepy>
+                                <Funny>
+                                        <Team>
+                                        </Team>
+                                </Funny>
+                        </Cooly>
+                        <Team>
+                        </Team>
+                </Sleepy>
+        </Sleepy>
+        <Jelly>
+                <Funny>
+                </Funny>
+                <Chunky>
+                </Chunky>
+                <Cooly>
+                        <Funny>
+                                <Chunky>
+                                        <Cooly>
+                                                <Chunky>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Chunky>
+                                                <Funny>
+                                                        <Team>
+                                                        </Team>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                </Funny>
+                                                <Sleepy>
+                                                </Sleepy>
+                                                <Jelly>
+                                                </Jelly>
+                                        </Cooly>
+                                </Chunky>
+                                <Sleepy>
+                                        <Jelly>
+                                                <Chunky>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                </Chunky>
+                                                <Funny>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Funny>
+                                        </Jelly>
+                                        <Team>
+                                        </Team>
+                                </Sleepy>
+                                <Team>
+                                        <Jelly>
+                                                <Sleepy>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Sleepy>
+                                        </Jelly>
+                                        <Cooly>
+                                                <Chunky>
+                                                </Chunky>
+                                        </Cooly>
+                                </Team>
+                                <Jelly>
+                                        <Jelly>
+                                                <Funny>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Funny>
+                                                <Sleepy>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Team>
+                                                        </Team>
+                                                </Sleepy>
+                                        </Jelly>
+                                        <Chunky>
+                                                <Chunky>
+                                                </Chunky>
+                                        </Chunky>
+                                        <Funny>
+                                                <Cooly>
+                                                        <Team>
+                                                        </Team>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Cooly>
+                                                <Team>
+                                                        <Team>
+                                                        </Team>
+                                                </Team>
+                                                <Funny>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                </Funny>
+                                        </Funny>
+                                        <Cooly>
+                                                <Sleepy>
+                                                </Sleepy>
+                                                <Chunky>
+                                                </Chunky>
+                                                <Jelly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Jelly>
+                                                <Funny>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Team>
+                                                        </Team>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                </Funny>
+                                        </Cooly>
+                                </Jelly>
+                        </Funny>
+                        <Cooly>
+                                <Jelly>
+                                        <Cooly>
+                                                <Jelly>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Jelly>
+                                                <Chunky>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                </Chunky>
+                                                <Sleepy>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Sleepy>
+                                        </Cooly>
+                                        <Chunky>
+                                        </Chunky>
+                                </Jelly>
+                                <Cooly>
+                                        <Cooly>
+                                                <Sleepy>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Sleepy>
+                                        </Cooly>
+                                        <Funny>
+                                                <Cooly>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Cooly>
+                                                <Jelly>
+                                                </Jelly>
+                                        </Funny>
+                                        <Chunky>
+                                                <Chunky>
+                                                </Chunky>
+                                                <Team>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Team>
+                                        </Chunky>
+                                </Cooly>
+                        </Cooly>
+                        <Chunky>
+                        </Chunky>
+                        <Team>
+                                <Chunky>
+                                        <Chunky>
+                                                <Funny>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Funny>
+                                                <Chunky>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Chunky>
+                                                <Jelly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                </Jelly>
+                                                <Cooly>
+                                                </Cooly>
+                                        </Chunky>
+                                </Chunky>
+                                <Team>
+                                        <Chunky>
+                                        </Chunky>
+                                        <Team>
+                                        </Team>
+                                        <Sleepy>
+                                                <Jelly>
+                                                </Jelly>
+                                                <Sleepy>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Team>
+                                                        </Team>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                </Sleepy>
+                                                <Cooly>
+                                                </Cooly>
+                                                <Funny>
+                                                        <Team>
+                                                        </Team>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Funny>
+                                        </Sleepy>
+                                        <Funny>
+                                                <Sleepy>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Sleepy>
+                                                <Jelly>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Jelly>
+                                        </Funny>
+                                </Team>
+                                <Cooly>
+                                        <Chunky>
+                                                <Funny>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Funny>
+                                        </Chunky>
+                                        <Cooly>
+                                                <Cooly>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Team>
+                                                        </Team>
+                                                </Cooly>
+                                                <Team>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                </Team>
+                                        </Cooly>
+                                        <Funny>
+                                                <Funny>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Funny>
+                                                        </Funny>
+                                                </Funny>
+                                                <Sleepy>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Sleepy>
+                                                <Chunky>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Chunky>
+                                                <Jelly>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                </Jelly>
+                                        </Funny>
+                                        <Team>
+                                                <Sleepy>
+                                                </Sleepy>
+                                                <Jelly>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Team>
+                                                        </Team>
+                                                </Jelly>
+                                                <Funny>
+                                                        <Cooly>
+                                                        </Cooly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                </Funny>
+                                                <Cooly>
+                                                </Cooly>
+                                        </Team>
+                                </Cooly>
+                        </Team>
+                </Cooly>
+                <Sleepy>
+                        <Cooly>
+                                <Jelly>
+                                        <Jelly>
+                                        </Jelly>
+                                        <Team>
+                                                <Team>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Team>
+                                                        </Team>
+                                                </Team>
+                                                <Sleepy>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Team> THIS IS MY TEAM
+                                                        </Team>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                </Sleepy>
+                                                <Jelly> I LOVE JELLY
+                                                </Jelly>
+                                                <Chunky>
+                                                        <Sleepy>
+                                                        </Sleepy>
+                                                        <Jelly>
+                                                        </Jelly>
+                                                        <Funny>
+                                                        </Funny>
+                                                        <Chunky>
+                                                        </Chunky>
+                                                </Chunky>
+                                        </Team>
+                                </Jelly>
+                        </Cooly>
+                        <Chunky>
+                        </Chunky>
+                        <Funny>
+                                <Funny>
+                                </Funny>
+                        </Funny>
+                        <Jelly>
+                                <Sleepy>
+                                </Sleepy>
+                                <Funny>
+                                </Funny>
+                        </Jelly>
+                </Sleepy>
+        </Jelly>
+</THU>
+<apple>
+        <Jelly>
+               <Sleepy>I am sleepy
+               </Sleepy>
+                <Funny>You are not funny
+                </Funny>
+        </Jelly>
+</apple>
+<blue><orange></orange></blue>
+<Jelly>
+       <Sleepy>I am not sleepy
+       </Sleepy>
+       <Funny>You are funny
+       </Funny>
+</Jelly>
+<author><name>James Joyce</name><country>USA</country></author>
+<a>
+    <b>
+        <c>
+            <d>
+            This is the end
+            </d>
+        </c>
+    </b>
+</a>
+<a><b></b></a>
+<author><name>James Joyce</name><country>USA</country></author>
+<Hello><Bye></Bye></Hello>
+<website>
+   <google>
+   </google>
+</website>
+<x><y><z></z></y></x>
+</xml>
+>>>>>>> f031746d2db69fbae9138128666744b6adcb8831
