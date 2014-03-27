@@ -9,7 +9,8 @@ a is an element
 return an Element
 """
     s = r.readline()
-    assert(type(s) is str)
+    if s in ["", "\n", None]:
+	return s
     a = fromstring(s)
     assert(type(a) is Element)
     return a
