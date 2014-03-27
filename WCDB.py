@@ -38,11 +38,12 @@ def WCDB_run (r):
 
     if string in ["", "\n", None]:
         return string
-    a = toElementTree(string)
-    assert(type(a) is Element)
-    l = toXML(a)
-    assert(type(l) is str)
-    return l
+    else:
+        a = toElementTree(string)
+        assert(type(a) is Element)
+        l = toXML(a)
+        assert(type(l) is str)
+        return l
 
 def WCDB_solve(r,w):
     """
