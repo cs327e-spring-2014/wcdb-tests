@@ -40,9 +40,7 @@ def WCDB_run (r):
         return string
     else:
 	p = toElementTree(string)
-        assert(type(p) is Element)
         q = toXML(p)
-        assert(type(q) is str)
 
 def WCDB_solve(r,w):
     """
