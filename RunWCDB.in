@@ -32,7 +32,6 @@ of officers working in each district is based on that district's size and call v
 	<RelatedPerson PIdent = "PER_002"/>
    </RelatedPersons>
 
-
 <Organization OIdent="ORG_002"> 
 	<Name>Austin Police Department</Name>
 	<Kind OKindIdent= "OK_002" />
@@ -103,14 +102,6 @@ of officers working in each district is based on that district's size and call v
         <email>augue.eu@sapienimperdiet.org</email>
         <company>Ac Nulla In Incorporated</company>
 </record>
-
-<Location>
-<City></City>
-<County></County>
-<Province></Province>
-<State></State>
-<Country>Gulf of Mexico</Country>
-</Location>
 
 <Location> 
 		<City></City>
@@ -860,4 +851,3 @@ of officers working in each district is based on that district's size and call v
 <x><y><z></z></y></z>
 
 </xml>
-
