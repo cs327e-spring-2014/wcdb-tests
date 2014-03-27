@@ -1,7 +1,7 @@
 <xml>
 <Organization OIdent="ORG_002">
    <Name>Austin Police Department</Name>
-   <Kind OKindIdent= "OK_002" />
+   <Kind OKindIdent="OK_002"/>
    <Location>
    	<StreetAddress>Austin Police Department, PO Box 689001</StreetAddress>
    	<City>Austin</City>
@@ -25,14 +25,14 @@ of officers working in each district is based on that district's size and call v
 	<ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL>
    </ExternalInfo>
    <RelatedCrises>
-   	<RelatedCrisis CIdent= "CRI_002"/>
+   	<RelatedCrisis CIdent="CRI_002"/>
    </RelatedCrises>
    <RelatedPersons>
-	<RelatedPerson PIdent = "PER_002"/>
+	<RelatedPerson PIdent="PER_002"/>
    </RelatedPersons>
 <Organization OIdent="ORG_002">
 	<Name>Austin Police Department</Name>
-	<Kind OKindIdent= "OK_002" />
+	<Kind OKindIdent="OK_002"/>
 	<Location>
 		<StreetAddress>Austin Police Department, PO Box 689001</StreetAddress> 
 		<City>Austin</City>
@@ -56,10 +56,10 @@ of officers working in each district is based on that district's size and call v
 		<ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL> 
 	</ExternalInfo>
 	<RelatedCrises> 
-		<RelatedCrisis CIdent= "CRI_002"/>
+		<RelatedCrisis CIdent="CRI_002"/>
 	</RelatedCrises>
 	<RelatedPersons> 
-		<RelatedPerson PIdent = "PER_002"/>
+		<RelatedPerson PIdent="PER_002"/>
 	</RelatedPersons>
 </Organization>
 <citations>
