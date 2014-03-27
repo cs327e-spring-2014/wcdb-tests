@@ -1,5 +1,4 @@
 <xml>
-
 <Organization OIdent="ORG_002">
    <Name>Austin Police Department</Name>
    <Kind OKindIdent= "OK_002" />
@@ -31,8 +30,7 @@ of officers working in each district is based on that district's size and call v
    <RelatedPersons>
 	<RelatedPerson PIdent = "PER_002"/>
    </RelatedPersons>
-
-<Organization OIdent="ORG_002"> 
+<Organization OIdent="ORG_002">
 	<Name>Austin Police Department</Name>
 	<Kind OKindIdent= "OK_002" />
 	<Location>
@@ -63,9 +61,7 @@ of officers working in each district is based on that district's size and call v
 	<RelatedPersons> 
 		<RelatedPerson PIdent = "PER_002"/>
 	</RelatedPersons>
-
 </Organization>
-
 <citations>
     <citationPair>
         <citationId>CIT_000</citationId>
@@ -80,7 +76,6 @@ of officers working in each district is based on that district's size and call v
         <citation>Timothy McVeigh." Wikipedia. Wikimedia Foundation, 9 Mar. 2014. Web. 18 Mar. 2014.</citation>
     </citationPair>
 </citations>
-
 <crisis>
             <crisisId>C1</crisisId>
             <name>Boston Marathon Bombing</name>
@@ -90,27 +85,23 @@ of officers working in each district is based on that district's size and call v
             <humanImpact>Deaths: 3, Injuries: 264</humanImpact>
             <economicImpact>&gt;= $333 million</economicImpact>
 </crisis>
-
 <record>
         <name>Silva, Holmes V.</name>
         <email>erat@interdumligulaeu.edu</email>
         <company>Cursus Et PC</company>
 </record>
-
 <record>
         <name>Dillard, Lois O.</name>
         <email>augue.eu@sapienimperdiet.org</email>
         <company>Ac Nulla In Incorporated</company>
 </record>
-
-<Location> 
+<Location>
 		<City></City>
 		<County></County>
 		<Province></Province>
 		<State></State>
 		<Country>Gulf of Mexico</Country>
 </Location>
-
 <red>
         <white>
                 <blue>
@@ -305,7 +296,6 @@ of officers working in each district is based on that district's size and call v
                 </purple>
         </black>
 </red>
-
 <THU>
         <Team>
         </Team>
@@ -806,7 +796,6 @@ of officers working in each district is based on that district's size and call v
                 </Sleepy>
         </Jelly>
 </THU>
-
 <apple>
         <Jelly>
                <Sleepy>I am sleepy
@@ -815,18 +804,14 @@ of officers working in each district is based on that district's size and call v
                 </Funny>
         </Jelly>
 </apple>
-
 <blue><orange></orange></blue>
-
 <Jelly>
        <Sleepy>I am not sleepy
        </Sleepy>
        <Funny>You are funny
        </Funny>
 </Jelly>
-
 <author><name>James Joyce</name><country>USA</country></author>
-
 <a>
     <b>
         <c>
@@ -836,18 +821,12 @@ of officers working in each district is based on that district's size and call v
         </c>
     </b>
 </a>
-
 <a><b></b></a>
-
 <author><name>James Joyce</name><country>USA</country></author>
-
 <Hello><Bye></Bye></Hello>
-
 <website>
    <google>
    </google>
 </website>
-
-<x><y><z></z></y></z>
-
+<x><y><z></z></y></x>
 </xml>
