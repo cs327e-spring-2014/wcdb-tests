@@ -35,12 +35,11 @@ def WCDB_run (r):
     #    line = r.readline()
      #   string = string + "".join(line)
 
-
     if string in ["", "\n", None]:
-        return string
-    else:
-	p = toElementTree(string)
-        q = toXML(p)
+       # return string
+	break;
+    p = toElementTree(string)
+    q = toXML(p)
 
 def WCDB_solve(r,w):
     """
