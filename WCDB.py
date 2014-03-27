@@ -30,10 +30,10 @@ def WCDB_run (r):
     return a string
     """
     string = r.readline()
-    line = string
-    while not line in ["", "\n"]:
-        line = r.readline()
-        string = string + "".join(line)
+  #  line = string
+   # while not line in ["", "\n"]:
+    #    line = r.readline()
+     #   string = string + "".join(line)
 
 
     if string in ["", "\n", None]:
@@ -51,5 +51,5 @@ def WCDB_solve(r,w):
         output = WCDB_run(r)
         if output in ["", "\n", None]:
             break;
-        else:
-            w.write(output + "\n")
+       # else:
+        w.write(output + "\n")
