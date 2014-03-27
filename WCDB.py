@@ -36,8 +36,7 @@ def WCDB_run (r):
      #   string = string + "".join(line)
 
     if string in ["", "\n", None]:
-       # return string
-	break;
+        return string
     p = toElementTree(string)
     q = toXML(p)
 
