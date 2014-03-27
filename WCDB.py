@@ -39,11 +39,10 @@ def WCDB_run (r):
     if string in ["", "\n", None]:
         return string
     else:
-        a = toElementTree(string)
-        assert(type(a) is Element)
-        l = toXML(a)
-        assert(type(l) is str)
-        return l
+	p = toElementTree(string)
+        assert(type(p) is Element)
+        q = toXML(p)
+        assert(type(q) is str)
 
 def WCDB_solve(r,w):
     """
@@ -56,4 +55,3 @@ def WCDB_solve(r,w):
             break;
         else:
             w.write(output + "\n")
-
