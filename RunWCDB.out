@@ -1,24 +1,84 @@
+<xml>
+
+<Organization OIdent="ORG_002">
+            <Name>Austin Police Department</Name>
+                        <Kind OKindIdent= "OK_002" />
+            <Location>
+            <StreetAddress>Austin Police Department, PO Box 689001</StreetAddress>
+            <City>Austin</City>
+            <State>Texas</State>
+            <PostalCode>78768-9001</PostalCode>
+            <Country>United States</Country>
+            </Location>
+            <History>
+            The Austin Police Deparment is commmitted to protecting the safety and well being of the diverse Austin community.
+The city is divided into nine districts, and each one is overseen by a commander. The number
+of officers working in each district is based on that district's size and call volume.
+            </History>
+            <ContactInfo>
+            <Telephone>512-974-5750</Telephone>
+            </ContactInfo>
+            <ExternalInfo>
+                        <ImageURL>http://austintexas.gov/sites/default/files/null/POLICE-apply_now-206x300.jpg</ImageURL>
+                        <VideoURL>http://www.youtube.com/watch?v=V9QEg4VXliE</VideoURL>
+                        <SocialNetworkFeedURL>https://www.facebook.com/AustinPolice</SocialNetworkFeedURL>
+                        <Citation>http://www.austintexas.gov/department/police/about</Citation>
+                        <Citation>http://www.lawofficer.com/article/magazine-feature/austin-police-department</Citation>
+                        <ExternalLinkURL>http://www.austintexas.gov/</ExternalLinkURL>
+            </ExternalInfo>
+            <RelatedCrises>
+                        <RelatedCrisis CIdent= "CRI_002"/>
+            </RelatedCrises>
+            <RelatedPersons>
+                        <RelatedPerson PIdent = "PER_002"/>
+            </RelatedPersons>
+</Organization>
+
+<citations>
+    <citationPair>
+        <citationId>CIT_000</citationId>
+        <citation>Hosni Mubarak." Wikipedia. Wikimedia Foundation, 15 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_001</citationId>
+        <citation>Chris Christie." Wikipedia. Wikimedia Foundation, 14 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_002</citationId>
+        <citation>Richard Nixon." Wikipedia. Wikimedia Foundation, 3 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_003</citationId>
+        <citation>Jimmy Carter." Wikipedia. Wikimedia Foundation, 17 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_004</citationId>
+        <citation>Timothy McVeigh." Wikipedia. Wikimedia Foundation, 9 Mar. 2014. Web. 18 Mar. 2014.</citation>
+    </citationPair>
+</citations>
+
 <crisis>
-            <crisisId>CRI_001</crisisId>
-            <name>Venezuela Protest</name>
-            <streetAddress />
-            <city />
-            <stateOrProvince />
-            <postalCode />
-            <country>Venezuela</country>
-            <dateAndTime>January 2014</dateAndTime>
-            <fatalities />
-            <injuries />
-            <populationIll />
-            <populationDisplaced />
-            <politicalChanges>Increased Crime Rates</politicalChanges>
-            <culturalChanges>Inflation and shortage of foodstamps</culturalChanges>
-            <culturalChanges />
-            <jobsLost />
-            <damageInUSD />
-            <reparationCost />
-            <regulatoryChanges />
-        </crisis>
+            <crisisId>C1</crisisId>
+            <name>Boston Marathon Bombing</name>
+            <kind>Act of Terrorism</kind>
+            <location>Boston</location>
+            <date>2013-04-15</date>
+            <humanImpact>Deaths: 3, Injuries: 264</humanImpact>
+            <economicImpact>&gt;= $333 million</economicImpact>
+</crisis>
+
+<record>
+        <name>Silva, Holmes V.</name>
+        <email>erat@interdumligulaeu.edu</email>
+        <company>Cursus Et PC</company>
+</record>
+
+<record>
+        <name>Dillard, Lois O.</name>
+        <email>augue.eu@sapienimperdiet.org</email>
+        <company>Ac Nulla In Incorporated</company>
+</record>
+
+<Location>
+<City></City>
+<County></County>
+<Province></Province>
+<State></State>
+<Country>Gulf of Mexico</Country>
+</Location>
+
 <red>
         <white>
                 <blue>
@@ -721,3 +781,40 @@
                 </Funny>
         </Jelly>
 </apple>
+
+<blue><orange></orange></blue>
+
+<Jelly>
+       <Sleepy>I am not sleepy
+       </Sleepy>
+       <Funny>You are funny
+       </Funny>
+</Jelly>
+
+<author><name>James Joyce</name><country>USA</country></author>
+
+<a>
+    <b>
+        <c>
+            <d>
+            This is the end
+            </d>
+        </c>
+    </b>
+</a>
+
+
+<a><b></b></a>
+
+<author><name>James Joyce</name><country>USA</country></author>
+
+<Hello><Bye></Bye></Hello>
+
+<website>
+   <google>
+   </google>
+</website>
+
+<x><y><z></z></y></z>
+
+</xml>
