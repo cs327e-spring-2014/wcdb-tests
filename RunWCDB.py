@@ -6,4 +6,4 @@ from WCDB import *
 # main
 # ----
 
-WCDB_solve(sys.stdin,sys.stdout)
+WCDB_run(sys.stdin)
