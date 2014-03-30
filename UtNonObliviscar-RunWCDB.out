@@ -1,0 +1,509 @@
+<root>
+    <people>
+        <person>
+            <personId>PER_000</personId>
+            <name>Hosni Mubarak</name>
+            <kind>President</kind>
+            <streetAddress>El-Gomhoreya Square, Rahbet Abdin</streetAddress>
+            <city>Abdeen</city>
+            <stateOrProvince>Cairo Governorate</stateOrProvince>
+            <postalCode>NULL</postalCode>
+            <country>Egypt</country>
+        </person>
+        <person>
+            <personId>PER_001</personId>
+            <name>Chris Christie</name>
+            <kind>Politician</kind>
+            <streetAddress>125 W State St</streetAddress>
+            <city>Trenton</city>
+            <stateOrProvince>NJ</stateOrProvince>
+            <postalCode>08608</postalCode>
+            <country>USA</country>
+        </person>
+        <person>
+            <personId>PER_002</personId>
+            <name>Richard Nixon</name>
+            <kind>President</kind>
+            <streetAddress>1600 Pennsylvania Ave NW</streetAddress>
+            <city>Washington</city>
+            <stateOrProvince>DC</stateOrProvince>
+            <postalCode>20500</postalCode>
+            <country>USA</country>
+        </person>
+        <person>
+            <personId>PER_003</personId>
+            <name>Jimmy Carter</name>
+            <kind>President</kind>
+            <streetAddress>1600 Pennsylvania Ave NW</streetAddress>
+            <city>Washington</city>
+            <stateOrProvince>DC</stateOrProvince>
+            <postalCode>20500</postalCode>
+            <country>USA</country>
+        </person>
+        <person>
+            <personId>PER_004</personId>
+            <name>Timothy James McVeigh</name>
+            <kind>Perpetrator</kind>
+            <streetAddress>5880 Colorado 67</streetAddress>
+            <city>Florence</city>
+            <stateOrProvince>CO</stateOrProvince>
+            <postalCode>81226</postalCode>
+            <country>USA</country>
+        </person>
+    </people>
+</root>
+
+<crises>
+    <crisis>
+            <crisisId>CRI_000</crisisId>
+            <name>Egypt Revolution of 2011</name>
+            <kind>War / Conflict</kind>
+            <streetAddress>Egypt</streetAddress>
+            <city>Arab Spring</city>
+            <stateOrProvince>Egypt</stateOrProvince>
+            <country>Egypt</country>
+            <dateAndTime>2011-01-25T05:40:00</dateAndTime>
+            <fatalities>846</fatalities>
+            <injuries>6467</injuries>
+            <environmentalImpact>Buildings destroyed</environmentalImpact>
+            <regulatoryChanges>overthrow of Mubarak government</regulatoryChanges>e>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Hurricane Sandy</name>
+            <kind>Natural</kind>
+            <country>North America</country>
+            <dateAndTime>2012-10-25T05:40:00</dateAndTime>
+            <fatalities>148</fatalities>
+            <injuries>138</injuries>
+            <environmentalImpact>Buildings destroyed</environmentalImpact>
+            <regulatoryChanges>economic repair</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_002</crisisId>
+            <name>Nixon Shock</name>
+            <kind>Human Error Disaster</kind>
+            <country>United States</country>
+            <dateAndTime>1971-09-13T02:10:00</dateAndTime>
+            <fatalities>0</fatalities>
+            <injuries>0</injuries>
+            <regulatoryChanges>Nixon resignation</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_003</crisisId>
+            <name>HIran Hostage Crisis</name>
+            <kind>Act of Terrorism</kind>
+            <country>Iran</country>
+            <dateAndTime>1979-09-13T02:10:00</dateAndTime>
+            <fatalities>10</fatalities>
+            <injuries>0</injuries>
+            <regulatoryChanges>Prisoners exchange</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_004</crisisId>
+            <name>Oklahoma City Bombing</name>
+            <kind>Act of Terrorism</kind>
+            <country>North America</country>
+            <dateAndTime>1995-4-19T05:40:00</dateAndTime>
+            <fatalities>168</fatalities>
+            <injuries>680</injuries>
+            <environmentalImpact>Buildings destroyed</environmentalImpact>
+            <regulatoryChanges>Buildings repair</regulatoryChanges>
+        </crisis>
+</crises>
+
+<root>
+    <orgs>
+        <org>
+            <orgId>ORG_000</orgId>
+            <name>US Navy</name>
+            <kind>Military Force</kind>
+            <streetAddress>1234 Broad Street</streetAddress>
+            <city>Austin</city>
+            <stateOrProvince>TX</stateOrProvince>
+            <postalCode>78731</postalCode>
+            <country>USA</country>
+            <foundingMission>Protect the seas</foundingMission>
+            <dateFounded>2012-12-24</dateFounded>
+            <majorEvents>This event, that event</majorEvents>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_000</personId>
+            <name>Rosie O'Donnell</name>
+            <kind>Actor / Actress</kind>
+            <streetAddress>1234 Broad Street</streetAddress>
+            <city>Austin</city>
+            <stateOrProvince>TX</stateOrProvince>
+            <postalCode>78731</postalCode>
+            <country>USA</country>
+        </person>
+    </people>
+</root>
+
+<resources>
+        <resourcePair>
+            <resourceId>RES_000</resourceId>
+            <resource>Food</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>LaborUnion</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_002</resourceId>
+            <resource>Police</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_003</resourceId>
+            <resource>Repair</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_004</resourceId>
+            <resource>National Guards</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_005</resourceId>
+            <resource>Machinery</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_006</resourceId>
+            <resource>Servicemen</resource>
+        </resourcePair>
+</resources>
+
+<citations>
+    <citationPair>
+        <citationId>CIT_000</citationId>
+        <citation>Hosni Mubarak." Wikipedia. Wikimedia Foundation, 15 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_001</citationId>
+        <citation>Chris Christie." Wikipedia. Wikimedia Foundation, 14 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_002</citationId>
+        <citation>Richard Nixon." Wikipedia. Wikimedia Foundation, 3 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_003</citationId>
+        <citation>Jimmy Carter." Wikipedia. Wikimedia Foundation, 17 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        <citationId>CIT_004</citationId>
+        <citation>Timothy McVeigh." Wikipedia. Wikimedia Foundation, 9 Mar. 2014. Web. 18 Mar. 2014.</citation>
+    </citationPair>
+</citations>
+
+<personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_00</citationId>
+        </personCitationPair>
+         <personCitationPair>
+            <personId>PER_001</personId>
+            <citationId>CIT_001</citationId>
+        </personCitationPair>
+         <personCitationPair>
+            <personId>PER_002</personId>
+            <citationId>CIT_002</citationId>
+        </personCitationPair>
+         <personCitationPair>
+            <personId>PER_003</personId>
+            <citationId>CIT_003</citationId>
+        </personCitationPair>
+         <personCitationPair>
+            <personId>PER_004</personId>
+            <citationId>CIT_004</citationId>
+        </personCitationPair>
+</personCitations>
+
+<urls>
+    <url>
+        <urlId>URL_000</urlId>
+        <type>Image</type>
+        <urlAddress>http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Hosni_Mubarak_ritratto.jpg/220px-Hosni_Mubarak_ritratto.jpg</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_001</urlId>
+        <type>Video</type>
+        <urlAddress>http://www.youtube.com/watch?v=9DtOr6BBOHg</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_002</urlId>
+        <type>Map</type>
+        <urlAddress>https://www.google.com/maps/place/Abdeen+Palace/@30.0426165,31.2474427,18z/data=!3m1!4b1!4m2!3m1!1s0x145840baf551f617:0xbafb145a268367fd</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_003</urlId>
+        <type>SocialNetwork</type>
+        <urlAddress>NULL</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_004</urlId>
+        <type>ExternalLink</type>
+        <urlAddress>http://www.cnn.com/2011/WORLD/africa/02/11/egypt.protests/</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_005</urlId>
+        <type>Image</type>
+        <urlAddress>http://themescompany.com/wp-content/uploads/2012/02/Chris_Christie_61.jpg</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_006</urlId>
+        <type>Video</type>
+        <urlAddress>http://abcnews.go.com/Video/playerIndex?id=18167870</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_007</urlId>
+        <type>Map</type>
+        <urlAddress>https://www.google.com/maps/place/Governor's+Office/@40.2209415,-74.7697604,17z/data=!4m2!3m1!1s0x89c159d1c586c895:0x86d3a04f8b013c56</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_008</urlId>
+        <type>SocialNetwork</type>
+        <urlAddress>https://twitter.com/ChrisChristie</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_009</urlId>
+        <type>ExternalLink</type>
+        <urlAddress>http://www.nj.com/politics/index.ssf/2014/02/chris_christie_promotes_sandy_relief_program_for_struggling_families.html</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_010</urlId>
+        <type>Image</type>
+        <urlAddress>http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Richard_Nixon.jpg/220px-Richard_Nixon.jpg</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_011</urlId>
+        <type>Video</type>
+        <urlAddress>http://www.youtube.com/watch?v=rcnhF09QN78</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_012</urlId>
+        <type>Map</type>
+        <urlAddress>https://www.google.com/maps/place/The+White+House/@38.896278,-77.0306687,16z/data=!3m1!4b1!4m2!3m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_013</urlId>
+        <type>SocialNetwork</type>
+        <urlAddress>NULL</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_014</urlId>
+        <type>ExternalLink</type>
+        <urlAddress>http://online.wsj.com/news/articles/SB10001424053111904007304576494073418802358</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_015</urlId>
+        <type>Image</type>
+        <urlAddress>http://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/JimmyCarterPortrait2.jpg/220px-JimmyCarterPortrait2.jpg</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_016</urlId>
+        <type>Video</type>
+        <urlAddress>http://www.youtube.com/watch?v=j5Sre4tk5l0</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_017</urlId>
+        <type>Map</type>
+        <urlAddress>https://www.google.com/maps/place/The+White+House/@38.896278,-77.0306687,16z/data=!3m1!4b1!4m2!3m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_018</urlId>
+        <type>SocialNetwork</type>
+        <urlAddress>NULL</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_019</urlId>
+        <type>ExternalLink</type>
+        <urlAddress>http://www.jimmycarterlibrary.gov/documents/hostages.phtml</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_020</urlId>
+        <type>Image</type>
+        <urlAddress>http://www.apfn.org/apfn/MCVEIGH.jpg</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_021</urlId>
+        <type>Video</type>
+        <urlAddress>http://www.cbsnews.com/videos/2000-timothy-mcveigh/</urlAddress>
+    </url>
+
+    <url>
+        <urlId>URL_018</urlId>
+        <type>SocialNetwork</type>
+        <urlAddress>NULL</urlAddress>
+    </url>
+    <url>
+        <urlId>URL_019</urlId>
+        <type>ExternalLink</type>
+        <urlAddress>http://www.fbi.gov/about-us/history/famous-cases/oklahoma-city-bombing</urlAddress>
+    </url>
+</urls>
+
+<personUrls>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_000</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_001</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_002</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_003</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_004</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_005</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_006</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_007</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_008</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_009</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_0010</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_011</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_012</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_013</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_014</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_015</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_016</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_017</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_018</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_019</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_020</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_021</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_0022</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_023</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_024</urlId>
+        </personUrlPair>
+</personUrls>
+
+<crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_000</crisisId>
+            <orgId>ORG_000</orgId>
+        </crisisOrgPair>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+        <crisisOrgPair>
+            <crisisId>CRI_002</crisisId>
+            <orgId>ORG_002</orgId>
+        </crisisOrgPair>
+        <crisisOrgPair>
+            <crisisId>CRI_003</crisisId>
+            <orgId>ORG_003</orgId>
+        </crisisOrgPair>
+        <crisisOrgPair>
+            <crisisId>CRI_004</crisisId>
+            <orgId>ORG_004</orgId>
+        </crisisOrgPair>
+</crisisOrgs>
+
+<root>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_000</crisisId>
+            <personId>PER_000</personId>
+        </crisisPersonPair>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+        <crisisPersonPair>
+            <crisisId>CRI_002</crisisId>
+            <personId>PER_002</personId>
+        </crisisPersonPair>
+        <crisisPersonPair>
+            <crisisId>CRI_003</crisisId>
+            <personId>PER_003</personId>
+        </crisisPersonPair>
+        <crisisPersonPair>
+            <crisisId>CRI_004</crisisId>
+            <personId>PER_004</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+            <orgPersonPair>
+                <orgId>ORG_000</orgId>
+                <personId>PER_000</personId>
+            </orgPersonPair>
+            <orgPersonPair>
+                <orgId>ORG_001</orgId>
+                <personId>PER_001</personId>
+            </orgPersonPair>
+            <orgPersonPair>
+                <orgId>ORG_002</orgId>
+                <personId>PER_002</personId>
+            </orgPersonPair>
+            <orgPersonPair>
+                <orgId>ORG_003</orgId>
+                <personId>PER_003</personId>
+            </orgPersonPair>
+            <orgPersonPair>
+                <orgId>ORG_004</orgId>
+                <personId>PER_004</personId>
+            </orgPersonPair>
+    </orgPeople>
+</root>
