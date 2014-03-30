@@ -142,7 +142,7 @@
             <stateOrProvince></stateOrProvince>
             <postalCode></postalCode>
             <country>USA</country>
-            <dateAndTime>2014-01-01T12:00:00-05:00</dateAndTime>
+            <dateAndTime>2014-01-01T00:00:00</dateAndTime>
             <fatalities>12</fatalities>
             <injuries>0</injuries>
             <populationIll>0</populationIll>
