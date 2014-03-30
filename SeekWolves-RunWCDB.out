@@ -1,4 +1,4 @@
-﻿<root>
+<root>
 	<crises>
 		<crisis>
 			<crisisId>CRI_001</crisisId>
@@ -9,7 +9,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>USA</country>
-			<dateAndTime>2013-04-15</dateAndTime>
+			<dateAndTime>2013-04-15T00:00:00</dateAndTime>
 			<fatalities>3</fatalities>
 			<injuries>264</injuries>
 			<populationIll>0</populationIll>
@@ -170,7 +170,7 @@
 			<stateOrProvince>TX</stateOrProvince>
 			<postalCode></postalCode>
 			<country></country>
-			<dateAndTime>2013-04-17</dateAndTime>
+			<dateAndTime>2013-04-17T00:00:00</dateAndTime>
 			<fatalities>15</fatalities>
 			<injuries>160</injuries>
 			<populationIll>0</populationIll>
@@ -331,7 +331,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>USA</country>
-			<dateAndTime>2008-09-01</dateAndTime>
+			<dateAndTime>2008-09-01T00:00:00</dateAndTime>
 			<fatalities>0</fatalities>
 			<injuries>0</injuries>
 			<populationIll>0</populationIll>
@@ -492,7 +492,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>Darfur</country>
-			<dateAndTime>2003-02-01</dateAndTime>
+			<dateAndTime>2003-02-01T00:00:00</dateAndTime>
 			<fatalities>461520</fatalities>
 			<injuries>0</injuries>
 			<populationIll>0</populationIll>
@@ -653,7 +653,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>USA</country>
-			<dateAndTime>2001-06-04</dateAndTime>
+			<dateAndTime>2001-06-04T00:00:00</dateAndTime>
 			<fatalities>41</fatalities>
 			<injuries>0</injuries>
 			<populationIll>0</populationIll>
@@ -814,7 +814,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>USA</country>
-			<dateAndTime>2008-08-01</dateAndTime>
+			<dateAndTime>2008-08-01T00:00:00</dateAndTime>
 			<fatalities>195</fatalities>
 			<injuries>23</injuries>
 			<populationIll>0</populationIll>
@@ -975,7 +975,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>USA</country>
-			<dateAndTime>2014-01-01</dateAndTime>
+			<dateAndTime>2014-01-01T00:00:00</dateAndTime>
 			<fatalities>12</fatalities>
 			<injuries>0</injuries>
 			<populationIll>0</populationIll>
@@ -1136,7 +1136,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>Libya</country>
-			<dateAndTime>2012-09-11</dateAndTime>
+			<dateAndTime>2012-09-11T00:00:00</dateAndTime>
 			<fatalities>4</fatalities>
 			<injuries>11</injuries>
 			<populationIll>0</populationIll>
@@ -1297,7 +1297,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>Haiti</country>
-			<dateAndTime>2010-01-12</dateAndTime>
+			<dateAndTime>2010-01-12T00:00:00</dateAndTime>
 			<fatalities>316000</fatalities>
 			<injuries>300000</injuries>
 			<populationIll>0</populationIll>
@@ -1458,7 +1458,7 @@
 			<stateOrProvince></stateOrProvince>
 			<postalCode></postalCode>
 			<country>Iceland</country>
-			<dateAndTime>2010-03-20</dateAndTime>
+			<dateAndTime>2010-03-20T00:00:00</dateAndTime>
 			<fatalities>0</fatalities>
 			<injuries>0</injuries>
 			<populationIll>0</populationIll>
