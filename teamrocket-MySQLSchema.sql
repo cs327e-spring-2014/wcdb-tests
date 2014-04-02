@@ -110,7 +110,7 @@ CREATE TABLE IF NOT EXISTS `CrisisKinds` (
 -- Table Structure for PersonKinds
 
 DROP TABLE IF EXISTS `PersonKinds`;
-CREATE TABLE IF NOT EXISTS `PerosnKinds` (
+CREATE TABLE IF NOT EXISTS `PersonKinds` (
   `crisisId` bigint(20) unsigned NOT NULL,
   `kind` enum('Celebrity','Actor / Actress','Musician','Politician','President','CEO','Humanitarian','Perpetrator') COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY(`crisisId`)
