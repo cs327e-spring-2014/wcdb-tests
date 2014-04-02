@@ -83,7 +83,6 @@ e is an element (designed for reference in the direct children of root)
         setSQLorgs(c, ele)
     elif st == "people" :
         setSQLpeople(c, ele)
-    """
     elif st == "crisisKinds" :
         setSQLcrisisKinds(c, ele)
     elif st == "orgKinds" :
@@ -124,7 +123,7 @@ e is an element (designed for reference in the direct children of root)
         setSQLcrisisPeople(c, ele)
     elif st == "orgPeople" :
         setSQLorgPeople(c, ele)
-    """
+    
     # Rest of them, add these as you go along!
     
 # --------
@@ -297,22 +296,65 @@ def setSQLpersonCitations (c, ele) :
         s+= getElement(i,'citationId') + ");"
 
         query(c, s)
-"""
+
 def setSQLurls (c, ele) :
+    for i in ele :
+        s = "Insert into Urls values("
+        s+= "'" + getElement(i,'urlId')[5:] + ","
+        s+= getElement(i,'type') + ","
+        s+= getElement(i,'urlAddress') + ");"
+
+        query(c, s)
 
 def setSQLcrisisUrls (c, ele) :
+    for i in ele :
+        s = "Insert into CrisisUrls values("
+        s+= "'" + getElement(i,'crisisId')[5:] + ","
+        s+= getElement(i,'urlId') + ");"
+
+        query(c, s)
 
 def setSQLorgUrls (c, ele) :
+    for i in ele :
+        s = "Insert into OrgUrls values("
+        s+= "'" + getElement(i,'orgId')[5:] + ","
+        s+= getElement(i,'urlId') + ");"
+
+        query(c, s)
 
 def setSQLpersonUrls (c, ele) :
+    for i in ele :
+        s = "Insert into PersonUrls values("
+        s+= "'" + getElement(i,'personId')[5:] + ","
+        s+= getElement(i,'urlId') + ");"
+
+        query(c, s)
 
 def setSQLcrisisOrgs (c, ele) :
+    for i in ele :
+        s = "Insert into CrisisOrgs values("
+        s+= "'" + getElement(i,'crisisId')[5:] + ","
+        s+= getElement(i,'orgId') + ");"
+
+        query(c, s)
 
 def setSQLcrisisPeople (c, ele) :
+    for i in ele :
+        s = "Insert into CrisisPeoplr values("
+        s+= "'" + getElement(i,'crisisId')[5:] + ","
+        s+= getElement(i,'personId') + ");"
+
+        query(c, s)
 
 def setSQLorgPeople (c, ele) :
+    for i in ele :
+        s = "Insert into OrgPeople values("
+        s+= "'" + getElement(i,'orgId')[5:] + ","
+        s+= getElement(i,'personId') + ");"
 
-"""
+        query(c, s)
+
+
 
 # -------
 # End Block
