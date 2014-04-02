@@ -83,6 +83,46 @@ e is an element (designed for reference in the direct children of root)
         setSQLorgs(c, ele)
     elif st == "people" :
         setSQLpeople(c, ele)
+    elif st == "crisisKinds" :
+        setSQLcrisisKinds(c, ele)
+    elif st == "orgKinds" :
+        setSQLorgKinds(c, ele)
+    elif st == "personKinds" :
+        setSQLpersonKinds(c, ele)
+    elif st == "resources" :
+        setSQLresources(c, ele)
+    elif st == "crisisResources" :
+        setSQLcrisisResources(c, ele)
+    elif st == "waysToHelp" :
+        setSQLwaysToHelp(c, ele)
+    elif st == "crisisWaysToHelp" :
+        setSQLwaysToHelp(c, ele)
+    elif st == "contactInfos" :
+        setSQLcontactInfos(c, ele)
+    elif st == "orgContactInfos" :
+        setSQLorgContactInfos(c, ele)
+    elif st == "citations" :
+        setSQLcitations(c, ele)
+    elif st == "crisisCitations" :
+        setSQLcrisisCitations(c, ele)
+    elif st == "orgCitations" :
+        setSQLorgCitations(c, ele)
+    elif st == "personCitations" :
+        setSQLpersonCitations(c, ele)
+    elif st == "urls" :
+        setSQLurls(c, ele)
+    elif st == "crisisUrls" :
+        setSQLcrisisUrls(c, ele)
+    elif st == "orgUrls" :
+        setSQLorgUrls(c, ele)
+    elif st == "personUrls" :
+        setSQLpersonUrls(c, ele)
+    elif st == "crisisOrgs" :
+        setSQLcrisisOrgs(c, ele)
+    elif st == "crisisPeople" :
+        setSQLcrisisPeople(c, ele)
+    elif st == "orgPeople" :
+        setSQLorgPeople(c, ele)
     # Rest of them, add these as you go along!
     
 # --------
