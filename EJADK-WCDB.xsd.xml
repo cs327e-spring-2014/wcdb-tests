@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
+
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     <!-- Database definition -->
     <xs:element name="root">
@@ -9,21 +9,21 @@
                 <xs:element name="crises" type="CrisesType" />
                 <xs:element name="orgs" type="OrgsType"/>
                 <xs:element name="people" type="PeopleType"/>
- 
+
                 <xs:element name="resources" type="ResourcesType" />
                 <xs:element name="crisisResources" type="CrisisResourcesType" />
- 
+
                 <xs:element name="waysToHelp" type="WaysToHelpType" />
                 <xs:element name="crisisWaysToHelp" type="CrisisWaysToHelpType" />
- 
+
                 <xs:element name="contactInfos" type="ContactInfoType"/>
                 <xs:element name="orgContactInfos" type="OrgContactInfoType"/>
- 
+
                 <xs:element name="citations" type="CitationType" />
                 <xs:element name="crisisCitations" type="CrisisCitationsType" />
                 <xs:element name="orgCitations" type="OrgCitationsType"/>
                 <xs:element name="personCitations" type="PersonCitationsType"/>
- 
+
                 <xs:element name="urls" type="UrlsType" />
                 <xs:element name="crisisUrls" type="CrisisUrlsType" />
                 <xs:element name="orgUrls" type="OrgUrlsType"/>
@@ -48,7 +48,7 @@
             <xs:selector xpath="people/person/personId" />
             <xs:field xpath="."/>
         </xs:key>
- 
+
         <xs:key name="resourceIdKey">
             <xs:selector xpath="resources/resourcePair/resourceId" />
             <xs:field xpath="."/>
@@ -69,7 +69,7 @@
             <xs:selector xpath="urls/url/urlId" />
             <xs:field xpath="." />
         </xs:key>
- 
+
         <!-- Key References -->
         <!--references to crisisIdKey-->
         <xs:keyref name="crisisResourceCrisisIdRef" refer="crisisIdKey">
@@ -145,7 +145,7 @@
             <xs:selector xpath="personCitations/personCitationPair/citationId" />
             <xs:field xpath="." />
         </xs:keyref>
- 
+
         <!--references to urlIdKey-->
         <xs:keyref name="crisisUrlsUrlIdRef" refer="urlIdKey">
             <xs:selector xpath="crisisUrls/crisisUrlPair/urlId" />
@@ -160,7 +160,7 @@
             <xs:field xpath="."/>
         </xs:keyref>          
     </xs:element>
- 
+
     <!-- Type definitions -->
     <xs:simpleType name="IdType">
         <xs:restriction base="xs:string">
@@ -175,7 +175,7 @@
                                 URL: Urls-->
         </xs:restriction>
     </xs:simpleType>
- 
+
     <xs:complexType name="CrisesType">
         <xs:sequence>
             <xs:element name="crisis" minOccurs="0" maxOccurs="unbounded">
@@ -216,7 +216,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="OrgsType">
         <xs:sequence>
             <xs:element name="org" maxOccurs="unbounded" minOccurs="0">
@@ -249,7 +249,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="PeopleType">
         <xs:sequence>
             <xs:element name="person" maxOccurs="unbounded" minOccurs="0">
@@ -267,6 +267,7 @@
                                     <xs:enumeration value="President"/>
                                     <xs:enumeration value="CEO"/>
                                     <xs:enumeration value="Humanitarian"/>
+                                    <xs:enumeration value="Perpetrator"/>
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:element>
@@ -280,7 +281,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="ResourcesType">
         <xs:sequence>
             <xs:element name="resourcePair" minOccurs="0" maxOccurs="unbounded">
@@ -305,7 +306,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="WaysToHelpType">
         <xs:sequence>
             <xs:element name="wayToHelpPair" minOccurs="0" maxOccurs="unbounded">
@@ -379,7 +380,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
    <xs:complexType name="UrlsType">
         <xs:sequence>
             <xs:element name="url" minOccurs="0" maxOccurs="unbounded">
@@ -469,7 +470,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="CrisisOrgsType">
         <xs:sequence>
             <xs:element name="crisisOrgPair" minOccurs="0" maxOccurs="unbounded">
