@@ -245,19 +245,59 @@ def setSQLcrisisWaysToHelp (ele):
         s+= getElement(i,'helpId') + ");"
 
         query(c, s)
-"""
+
 def setSQLcontactInfos (c, ele) :
+    for i in ele :
+        s = "Insert into ContactInfos values("
+        s+= "'" + getElement(i,'contactInfoId')[5:] + ","
+        s+= getElement(i,'phoneNumber') + ","
+        s+= getElement(i,'emailAddress') + ","
+        s+= getElement(i,'facebookUrlId') + ","
+        s+= getElement(i,'twitterUrlId') + ","
+        s+= getElement(i,'websiteUrlId') + ");"
+
+        query(c, s)
 
 def setSQLorgContactInfos (c, ele) :
+    for i in ele :
+        s = "Insert into OrgContactInfos values("
+        s+= "'" + getElement(i,'orgId')[5:] + ","
+        s+= getElement(i,'contactInfoId') + ");"
+
+        query(c, s)
 
 def setSQLcitations (c, ele) :
+    for i in ele :
+        s = "Insert into Citations values("
+        s+= "'" + getElement(i,'citationId')[5:] + ","
+        s+= getElement(i,'citation') + ");"
+
+        query(c, s)
 
 def setSQLcrisisCitations (c, ele) :
+    for i in ele :
+        s = "Insert into CrisisCitations values("
+        s+= "'" + getElement(i,'citationId')[5:] + ","
+        s+= getElement(i,'crisisId') + ");"
+
+        query(c, s)
 
 def setSQLorgCitations (c, ele) :
+    for i in ele :
+        s = "Insert into OrgCitations values("
+        s+= "'" + getElement(i,'orgId')[5:] + ","
+        s+= getElement(i,'citationId') + ");"
+
+        query(c, s)
 
 def setSQLpersonCitations (c, ele) :
+    for i in ele :
+        s = "Insert into PersonCitations values("
+        s+= "'" + getElement(i,'personId')[5:] + ","
+        s+= getElement(i,'citationId') + ");"
 
+        query(c, s)
+"""
 def setSQLurls (c, ele) :
 
 def setSQLcrisisUrls (c, ele) :
