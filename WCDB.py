@@ -83,6 +83,7 @@ e is an element (designed for reference in the direct children of root)
         setSQLorgs(c, ele)
     elif st == "people" :
         setSQLpeople(c, ele)
+    """
     elif st == "crisisKinds" :
         setSQLcrisisKinds(c, ele)
     elif st == "orgKinds" :
@@ -123,6 +124,7 @@ e is an element (designed for reference in the direct children of root)
         setSQLcrisisPeople(c, ele)
     elif st == "orgPeople" :
         setSQLorgPeople(c, ele)
+    """
     # Rest of them, add these as you go along!
     
 # --------
@@ -187,21 +189,63 @@ def setSQLpeople (c, ele) :
         s+= getElement(i,'country') + ");"
 
         query(c, s)
-"""
+
 def setSQLcrisisKinds (c, ele) :
+    for i in ele :
+        s = "Insert into CrisisKinds values("
+        s+= "'" + getElement(i,'crisisId')[5:] + ","
+        s+= getElement(i,'kind') + ");"
+
+        query(c, s)
 
 def setSQLorgKinds (c, ele) :
+    for i in ele :
+        s = "Insert into OrgKinds values("
+        s+= "'" + getElement(i,'orgId')[5:] + ","
+        s+= getElement(i,'kind') + ");"
+
+        query(c, s)
 
 def setSQLpersonKinds (c, ele) :
+    for i in ele :
+        s = "Insert into PersonKinds values("
+        s+= "'" + getElement(i,'personId')[5:] + ","
+        s+= getElement(i,'kind') + ");"
+
+        query(c, s)
 
 def setSQLresources (c, ele) :
+    for i in ele :
+        s = "Insert into Resources values("
+        s+= "'" + getElement(i,'resourceId')[5:] + ","
+        s+= getElement(i,'resource') + ");"
+
+        query(c, s)
 
 def setSQLcrisisResources (c, ele) :
+    for i in ele :
+        s = "Insert into CrisisResources values("
+        s+= "'" + getElement(i,'crisisId')[5:] + ","
+        s+= getElement(i,'resourceId') + ");"
+
+        query(c, s)
 
 def setSQLwaysToHelp (ele):
+    for i in ele :
+        s = "Insert into WaysToHelp values("
+        s+= "'" + getElement(i,'helpId')[5:] + ","
+        s+= getElement(i,'wayToHelp') + ");"
+
+        query(c, s)
 
 def setSQLcrisisWaysToHelp (ele):
+    for i in ele :
+        s = "Insert into CrisisWaysToHelp values("
+        s+= "'" + getElement(i,'crisisId')[5:] + ","
+        s+= getElement(i,'helpId') + ");"
 
+        query(c, s)
+"""
 def setSQLcontactInfos (c, ele) :
 
 def setSQLorgContactInfos (c, ele) :
