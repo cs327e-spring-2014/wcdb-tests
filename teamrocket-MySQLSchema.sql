@@ -100,9 +100,9 @@ CREATE TABLE IF NOT EXISTS `CrisisKinds` (
 
 DROP TABLE IF EXISTS `OrgKinds`;
 CREATE TABLE IF NOT EXISTS `CrisisKinds` (
-  `crisisId` bigint(20) unsigned NOT NULL,
+  `orgId` bigint(20) unsigned NOT NULL,
   `kind` enum('Government Agency','Military Force','Intergovernmental Agency','Intergovernmental Public Health Agency','Nonprofit / Humanitarian Organization') COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY(`crisisId`)
+  PRIMARY KEY(`orgId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
 
 -- --------------------------------------------------------
@@ -111,9 +111,9 @@ CREATE TABLE IF NOT EXISTS `CrisisKinds` (
 
 DROP TABLE IF EXISTS `PersonKinds`;
 CREATE TABLE IF NOT EXISTS `PersonKinds` (
-  `crisisId` bigint(20) unsigned NOT NULL,
+  `personId` bigint(20) unsigned NOT NULL,
   `kind` enum('Celebrity','Actor / Actress','Musician','Politician','President','CEO','Humanitarian','Perpetrator') COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY(`crisisId`)
+  PRIMARY KEY(`personId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
 
 
