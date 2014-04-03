@@ -17,10 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
  
 --
--- Database: `cs327e-wcdb`
+-- Database: `cs327e_ksombra`
 --
-CREATE DATABASE IF NOT EXISTS `cs327e_wcdb` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-USE `cs327e_wcdb`;
+CREATE DATABASE IF NOT EXISTS `cs327e_ksombra` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `cs327e_ksombra`;
  
 -- --------------------------------------------------------
  
