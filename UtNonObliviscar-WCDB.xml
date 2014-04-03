@@ -11,55 +11,107 @@
             <dateAndTime>2011-01-25T05:40:00</dateAndTime>
             <fatalities>846</fatalities>
             <injuries>6467</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>50000</populationDisplaced>
             <environmentalImpact>Buildings destroyed</environmentalImpact>
+            <politicalChanges>Changing leader</politicalChanges>
+            <culturalChanges>Changing leadership</culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>98756235</damageInUSD>
+            <reparationCost>4563215</reparationCost>
             <regulatoryChanges>overthrow of Mubarak government</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_001</crisisId>
             <name>Hurricane Sandy</name>
-            <kind>Natural</kind>
+            <kind>Natural Disaster</kind>
+            <streetAddress>Null</streetAddress>
+            <city>Null</city>
+            <stateOrProvince>Null</stateOrProvince>
             <country>North America</country>
             <dateAndTime>2012-10-25T05:40:00</dateAndTime>
             <fatalities>148</fatalities>
             <injuries>138</injuries>
+            <populationIll>620</populationIll>
+            <populationDisplaced>3000</populationDisplaced>
             <environmentalImpact>Buildings destroyed</environmentalImpact>
+            <politicalChanges>Storm Watch Alert</politicalChanges>
+            <culturalChanges>protecting people</culturalChanges>
+            <jobsLost>-6254</jobsLost>
+            <damageInUSD>5000000000</damageInUSD>
+            <reparationCost>40000000</reparationCost>
             <regulatoryChanges>economic repair</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_002</crisisId>
             <name>Nixon Shock</name>
             <kind>Human Error Disaster</kind>
+            <streetAddress>Entire nation</streetAddress>
+            <city>Washington DC</city>
+            <stateOrProvince>DC</stateOrProvince>
             <country>United States</country>
             <dateAndTime>1971-09-13T02:10:00</dateAndTime>
             <fatalities>0</fatalities>
             <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>100</populationDisplaced>
+            <environmentalImpact>no environmental impact</environmentalImpact>
+            <politicalChanges>impeach president</politicalChanges>
+            <culturalChanges>change of president image</culturalChanges>
+            <jobsLost>-200</jobsLost>
+            <damageInUSD>10000000</damageInUSD>
+            <reparationCost>500000</reparationCost>
             <regulatoryChanges>Nixon resignation</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_003</crisisId>
             <name>Iran Hostage Crisis</name>
             <kind>Act of Terrorism</kind>
+            <streetAddress>Secret location</streetAddress>
+            <city>consealed information</city>
+            <stateOrProvince>United States</stateOrProvince>
             <country>Iran</country>
             <dateAndTime>1979-09-13T02:10:00</dateAndTime>
             <fatalities>10</fatalities>
-            <injuries>0</injuries>
+            <injuries>15</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>5000</populationDisplaced>
+            <environmentalImpact>resources drained from Iran</environmentalImpact>
+            <politicalChanges>Protest against US</politicalChanges>
+            <culturalChanges>US gains negative image</culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>100000</damageInUSD>
+            <reparationCost>500000</reparationCost>
             <regulatoryChanges>Prisoners exchange</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_004</crisisId>
             <name>Oklahoma City Bombing</name>
             <kind>Act of Terrorism</kind>
+            <streetAddress>San Jacinto</streetAddress>
+            <city>OKC</city>
+            <stateOrProvince>OK</stateOrProvince>
             <country>North America</country>
-            <dateAndTime>1995-4-19T05:40:00</dateAndTime>
+            <dateAndTime>1995-04-19T05:40:00</dateAndTime>
             <fatalities>168</fatalities>
             <injuries>680</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>600</populationDisplaced>
             <environmentalImpact>Buildings destroyed</environmentalImpact>
+            <politicalChanges>Increase terrorism awareness</politicalChanges>
+            <culturalChanges>understanding terrorism</culturalChanges>
+            <jobsLost>1000</jobsLost>
+            <damageInUSD>456300</damageInUSD>
+            <reparationCost>623000</reparationCost>
             <regulatoryChanges>Buildings repair</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_005</crisisId>
             <name>2010 Haitian Earthquake</name>
             <kind>Natural Disaster</kind>
+            <streetAddress></streetAddress>
+            <city></city>
+            <stateOrProvince></stateOrProvince>
             <country>Haiti</country>
             <dateAndTime>2010-01-12T16:53:00</dateAndTime>
             <fatalities>159000</fatalities>
@@ -68,44 +120,49 @@
             <populationDisplaced>3000000</populationDisplaced>
             <environmentalImpact>Pollution/litter</environmentalImpact>
             <politicalChanges>Weakened political system and anarchy</politicalChanges>
+            <culturalChanges></culturalChanges>
             <jobsLost>1500000</jobsLost>
-            <damageInUSD>10000000000</damageInUSD>
-            <reparationCost>6000000000</reparationCost>
+            <damageInUSD>1000000000</damageInUSD>
+            <reparationCost>600000000</reparationCost>
             <regulatoryChanges>Change in foreign aid structure with Haiti</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_006</crisisId>
             <name>Hurricane Ike</name>
             <kind>Natural Disaster</kind>
-            <country>United States</country>
-            <stateOrProvince>Texas</stateOrProvince>
-            <stateOrProvince>Louisiana</stateOrProvince>
-            <stateOrProvince>Mississippi</stateOrProvince>
-            <stateOrProvince>Alabama</stateOrProvince>
-            <stateOrProvince>Florida</stateOrProvince>
-            <stateOrProvince>Georgia</stateOrProvince>
-            <country>Cuba</country>
-            <country>Haiti</country>
-            <country>Bahamas</country>
-            <country>Turks and Caicos</country>
+            <streetAddress></streetAddress>
+            <city></city>
+            <stateOrProvince>Texas, Louisiana, Mississippi, Alabama, Florida, Georgia</stateOrProvince>
+            <country>United States, Cuba, Haiti, Bahamas, Turks and Caisocs</country>
             <dateAndTime>2008-09-13T02:10:00</dateAndTime>
             <fatalities>195</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
             <populationDisplaced>1600000</populationDisplaced>
+            <environmentalImpact>Pollution/litter</environmentalImpact>
+            <politicalChanges></politicalChanges>
+            <culturalChanges></culturalChanges>
             <jobsLost>10000</jobsLost>
-            <damageInUSD>37500000000</damageInUSD>
-            <reparationCost>22000000000</reparationCost>
+            <damageInUSD>375000000</damageInUSD>
+            <reparationCost>220000000</reparationCost>
             <regulatoryChanges>Stricter evacuation standards; better FEMA response</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_007</crisisId>
             <name>2012 Benghazi Attack</name>
             <kind>Act of Terrorism</kind>
+            <streetAddress></streetAddress>
             <city>Benghazi</city>
+            <stateOrProvince></stateOrProvince>
             <country>Libya</country>
             <dateAndTime>2012-09-11T22:00:00</dateAndTime>
             <fatalities>4</fatalities>
             <injuries>11</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact></environmentalImpact>
             <politicalChanges>Weakened ties between US and Libya</politicalChanges>
+            <culturalChanges></culturalChanges>
             <jobsLost>0</jobsLost>
             <damageInUSD>0</damageInUSD>
             <reparationCost>0</reparationCost>
@@ -115,11 +172,18 @@
             <crisisId>CRI_008</crisisId>
             <name>2010 Icelandic Volcano Eruption</name>
             <kind>Natural Disaster</kind>
+            <streetAddress></streetAddress>
+            <city></city>
+            <stateOrProvince></stateOrProvince>
             <country>Iceland</country>
             <dateAndTime>2010-03-20T07:00:00</dateAndTime>
             <fatalities>0</fatalities>
+            <injuries>11</injuries>
+            <populationIll>0</populationIll>
             <populationDisplaced>1300</populationDisplaced>
             <environmentalImpact>Reduction of CO2 in the atmosphere</environmentalImpact>
+            <politicalChanges></politicalChanges>
+            <culturalChanges></culturalChanges>
             <jobsLost>0</jobsLost>
             <damageInUSD>1700000000</damageInUSD>
             <reparationCost>0</reparationCost>
@@ -129,11 +193,17 @@
             <crisisId>CRI_009</crisisId>
             <name>Hindenburg Crash</name>
             <kind>Human Error Disaster</kind>
+            <streetAddress></streetAddress>
             <city>Lakehurst Borough</city>
             <stateOrProvince>New Jersey</stateOrProvince>
             <country>United States</country>
             <dateAndTime>1937-05-06T19:25:00</dateAndTime>
             <fatalities>36</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact></environmentalImpact>
+            <politicalChanges></politicalChanges>
             <culturalChanges>Created a more negative perception of air travel</culturalChanges>
             <jobsLost>61</jobsLost>
             <damageInUSD>0</damageInUSD>
@@ -141,24 +211,24 @@
             <regulatoryChanges>Safety in hydrogen zeppelins examined</regulatoryChanges>
         </crisis>
     </crises>
-    <organizations>
-        <organization>
+    <orgs>
+        <org>
             <orgId>ORG_000</orgId>
             <name>Egyptian Red Crescent</name>
-            <kind>Humanitarian organization</kind>
+            <kind>Nonprofit / Humanitarian Organization</kind>
             <streetAddress>Abd El Razik El Sanhouri St</streetAddress>
             <city>Nasr City</city>
             <stateOrProvince>Cairo</stateOrProvince>
             <postalCode>NULL</postalCode>
             <country>Egypt</country>
             <foundingMission>Provide emergency assistance</foundingMission>
-            <dateFounded>1911</dateFounded>
+            <dateFounded>1911-01-01</dateFounded>
             <majorEvents>Development project of Al Nahda city</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_001</orgId>
             <name>US Air Force</name>
-            <kind>Aerial warfare service</kind>
+            <kind>Military Force</kind>
             <streetAddress>NULL</streetAddress>
             <city>Trenton</city>
             <stateOrProvince>New Jersey</stateOrProvince>
@@ -167,11 +237,11 @@
             <foundingMission>Man balloons and dirigibles</foundingMission>
             <dateFounded>1907-08-01</dateFounded>
             <majorEvents>Fire response</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_002</orgId>
             <name>Dow Jones and Company</name>
-            <kind>News and publishing company</kind>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress>1211 Avenue of the Americas</streetAddress>
             <city>New York</city>
             <stateOrProvince>New York</stateOrProvince>
@@ -180,8 +250,8 @@
             <foundingMission>Publication</foundingMission>
             <dateFounded>2002-12-10</dateFounded>
             <majorEvents>Publish the Wall Street Journal</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_003</orgId>
             <name>US Army</name>
             <kind>Military Force</kind>
@@ -193,11 +263,11 @@
             <foundingMission>Fight Great Britain</foundingMission>
             <dateFounded>1775-06-14</dateFounded>
             <majorEvents>American Revolutionary War</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_004</orgId>
             <name>FBI</name>
-            <kind>Governmental agency</kind>
+            <kind>Government Agency</kind>
             <streetAddress>935 Pennsylvania Ave NW</streetAddress>
             <city>Washington, DC</city>
             <stateOrProvince>Washington, DC</stateOrProvince>
@@ -206,73 +276,73 @@
             <foundingMission>Identify known criminals</foundingMission>
             <dateFounded>1908-07-26</dateFounded>
             <majorEvents>Counterterrorism Watch</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_005</orgId>
             <name>Haitian Government</name>
-            <kind>Government</kind>
+            <kind>Government Agency</kind>
             <streetAddress>Avenue de la Republique</streetAddress>
             <city>Port-au-Prince</city>
             <stateOrProvince>NULL</stateOrProvince>
             <postalCode>NULL</postalCode>
             <country>Haiti</country>
             <foundingMission>Form a semi-presidential republic for Haiti</foundingMission>
-            <dateFounded>1987</dateFounded>
+            <dateFounded>1987-01-01</dateFounded>
             <majorEvents>Writing of constitution</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_006</orgId>
             <name>US Coast Guard</name>
-            <kind>Uniformed Services</kind>
+            <kind>Military Force</kind>
             <streetAddress>2100 Second Street SW</streetAddress>
             <city>Washington, D.C.</city>
             <stateOrProvince>Washington, D.C.</stateOrProvince>
             <postalCode>20593</postalCode>
             <country>USA</country>
             <foundingMission>Founded as Revenue Marine</foundingMission>
-            <dateFounded>8-4-1790</dateFounded>
+            <dateFounded>1790-08-04</dateFounded>
             <majorEvents>Maritime law enforcement</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_007</orgId>
             <name>United Nations</name>
-            <kind>Intergovernmental organization</kind>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress>1760 United Nations Plaza</streetAddress>
             <city>New York</city>
             <stateOrProvince>New York</stateOrProvince>
             <postalCode>10017</postalCode>
             <country>USA</country>
             <foundingMission>Promote international co-operation</foundingMission>
-            <dateFounded>10-24-1945</dateFounded>
+            <dateFounded>1945-10-24</dateFounded>
             <majorEvents>Cold War</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_008</orgId>
             <name>London Volcanic Ash Advisory Center</name>
-            <kind>Group of experts</kind>
+            <kind>Nonprofit / Humanitarian Organization</kind>
             <streetAddress>Fitzroy Rd</streetAddress>
             <city>Exeter</city>
             <stateOrProvince>Devon</stateOrProvince>
             <postalCode>NULL</postalCode>
             <country>England</country>
             <foundingMission>Coordinating and disseminating information on atmospheric volcanic ash</foundingMission>
-            <dateFounded>1854</dateFounded>
+            <dateFounded>1854-01-01</dateFounded>
             <majorEvents>Forecasts location of ash clouds from volcanic eruptions</majorEvents>
-        </organization>
-        <organization>
+        </org>
+        <org>
             <orgId>ORG_009</orgId>
             <name>Luftschiffbau Zeppelin</name>
-            <kind>German Company</kind>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
             <postalCode>NULL</postalCode>
             <country>Germany</country>
             <foundingMission>Build Zeppelin type airships</foundingMission>
-            <dateFounded>1990</dateFounded>
+            <dateFounded>1990-01-01</dateFounded>
             <majorEvents>Zeppelin manufacture</majorEvents>
-        </organization>
-    </organizations>
+        </org>
+    </orgs>
     <people>
         <person>
             <personId>PER_000</personId>
@@ -324,181 +394,57 @@
             <postalCode>81226</postalCode>
             <country>USA</country>
         </person>
-<person>
-<personId>PER_005</personId>
-<name>Jean-Max Bellerive</name>
-<kind>Politician</kind>
-<streetAddress></streetAddress>
-<city>Port-au-Prince</city>
-<stateOrProvince></stateOrProvince>
-<postalCode></postalCode>
-<country>Haiti</country>
-</person>
-<person>
-<personId>PER_006</personId>
-<name>Hillary Clinton</name>
-<kind>Politician</kind>
-<streetAddress>1900 M Street, NW</streetAddress>
-<city>Washington, DC</city>
-<stateOrProvince></stateOrProvince>
-<postalCode>20036</postalCode>
-<country>USA</country>
-</person>
-<person>
-<personId>PER_007</personId>
-<name>Barack Obama</name>
-<kind>Politician</kind>
-<streetAddress>1600 Pennsylvania Avenue NW</streetAddress>
-<city>Washington, DC</city>
-<stateOrProvince></stateOrProvince>
-<postalCode>20500</postalCode>
-<country>USA</country>
-</person>
-<person>
-<personId>PER_008</personId>
-<name>Olafur Grimsson</name>
-<kind>Politician</kind>
-<streetAddress>SÃƒÆ’Ã‚Â³leyjargata 1</streetAddress>
-<city>ReykjavÃƒÆ’Ã‚Â­k</city>
-<stateOrProvince></stateOrProvince>
-<postalCode>IS-150</postalCode>
-<country>Iceland</country>
-</person>
-<person>
-<personId>PER_009</personId>
-<name>Ernst August Lehmann</name>
-<kind>Celebrity</kind>
-<streetAddress></streetAddress>
-<city>Ludwigshafen</city>
-<stateOrProvince>Rhineland-Palatinate</stateOrProvince>
-<postalCode></postalCode>
-<country>Germany</country>
-</person>
+        <person>
+            <personId>PER_005</personId>
+            <name>Jean-Max Bellerive</name>
+            <kind>Politician</kind>
+            <streetAddress></streetAddress>
+            <city>Port-au-Prince</city>
+            <stateOrProvince></stateOrProvince>
+            <postalCode></postalCode>
+            <country>Haiti</country>
+        </person>
+        <person>
+            <personId>PER_006</personId>
+            <name>Hillary Clinton</name>
+            <kind>Politician</kind>
+            <streetAddress>1900 M Street, NW</streetAddress>
+            <city>Washington, DC</city>
+            <stateOrProvince></stateOrProvince>
+            <postalCode>20036</postalCode>
+            <country>USA</country>
+        </person>
+        <person>
+            <personId>PER_007</personId>
+            <name>Barack Obama</name>
+            <kind>Politician</kind>
+            <streetAddress>1600 Pennsylvania Avenue NW</streetAddress>
+            <city>Washington, DC</city>
+            <stateOrProvince></stateOrProvince>
+            <postalCode>20500</postalCode>
+            <country>USA</country>
+        </person>
+        <person>
+            <personId>PER_008</personId>
+            <name>Olafur Grimsson</name>
+            <kind>Politician</kind>
+            <streetAddress>SÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³leyjargata 1</streetAddress>
+            <city>ReykjavÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­k</city>
+            <stateOrProvince></stateOrProvince>
+            <postalCode>IS-150</postalCode>
+            <country>Iceland</country>
+        </person>
+        <person>
+        <personId>PER_009</personId>
+            <name>Ernst August Lehmann</name>
+            <kind>Celebrity</kind>
+            <streetAddress></streetAddress>
+            <city>Ludwigshafen</city>
+            <stateOrProvince>Rhineland-Palatinate</stateOrProvince>
+            <postalCode></postalCode>
+            <country>Germany</country>
+        </person>
     </people>
-    <contactInfos>
-        <contactInfo>
-            <contactInfoId>CON_000</contactInfoId>
-            <phoneNumber>202-267-0-3967</phoneNumber>
-            <emailAddress>erc@egyptianrc.org</emailAddress>
-            <facebookUrlId>URL_141</facebookUrlId>
-            <twitterUrlId>NULL</twitterUrlId>
-            <websiteUrlId>URL_151</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_001</contactInfoId>
-            <phoneNumber>NULL</phoneNumber>
-            <emailAddress>NULL</emailAddress>
-            <facebookUrlId>URL_241</facebookUrlId>
-            <twitterUrlId>URL_242</twitterUrlId>
-            <websiteUrlId>URL_251</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_002</contactInfoId>
-            <phoneNumber>1-212-438-2046</phoneNumber>
-            <emailAddress>index_services@spdji.com</emailAddress>
-            <facebookUrlId>URL_341</facebookUrlId>
-            <twitterUrlId>URL_342</twitterUrlId>
-            <websiteUrlId>URL_351</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_003</contactInfoId>
-            <phoneNumber>1-866-335-2769</phoneNumber>
-            <emailAddress>help@us.army.mil</emailAddress>
-            <facebookUrlId>URL_441</facebookUrlId>
-            <twitterUrlId>URL_442</twitterUrlId>
-            <websiteUrlId>URL_451</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_004</contactInfoId>
-            <phoneNumber>1-202-324-3000</phoneNumber>
-            <emailAddress>disaster@leo.gov</emailAddress>
-            <facebookUrlId>URL_541</facebookUrlId>
-            <twitterUrlId>URL_542</twitterUrlId>
-            <websiteUrlId>URL_551</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_005</contactInfoId>
-            <phoneNumber>NULL</phoneNumber>
-            <emailAddress>NULL</emailAddress>
-            <facebookUrlId>URL_641</facebookUrlId>
-            <twitterUrlId>URL_642</twitterUrlId>
-            <websiteUrlId>URL_651</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_006</contactInfoId>
-            <phoneNumber>NULL</phoneNumber>
-            <emailAddress>NULL</emailAddress>
-            <facebookUrlId>URL_741</facebookUrlId>
-            <twitterUrlId>URL_742</twitterUrlId>
-            <websiteUrlId>URL_751</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_007</contactInfoId>
-            <phoneNumber>212-697-3315</phoneNumber>
-            <emailAddress>inquiries@un.org</emailAddress>
-            <facebookUrlId>URL_841</facebookUrlId>
-            <twitterUrlId>URL_842</twitterUrlId>
-            <websiteUrlId>URL_851</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_008</contactInfoId>
-            <phoneNumber>44 870 900 0100 </phoneNumber>
-            <emailAddress>enquiries@metoffice.gov.uk</emailAddress>
-            <facebookUrlId>URL_941</facebookUrlId>
-            <twitterUrlId>URL_942</twitterUrlId>
-            <websiteUrlId>URL_951</websiteUrlId>
-        </contactInfo>
-        <contactInfo>
-            <contactInfoId>CON_009</contactInfoId>
-            <phoneNumber>NULL</phoneNumber>
-            <emailAddress>NULL</emailAddress>
-            <facebookUrlId>NULL</facebookUrlId>
-            <twitterUrlId>NULL</twitterUrlId>
-            <websiteUrlId>URL_051</websiteUrlId>
-        </contactInfo>
-    </contactInfos>
-    <organizationContactInfos>
-        <organizationContactInfoPair>
-            <orgId>ORG_000</orgId>
-            <contactInfoId>CON_000</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_001</orgId>
-            <contactInfoId>CON_001</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_002</orgId>
-            <contactInfoId>CON_002</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-             <orgId>ORG_003</orgId>
-            <contactInfoId>CON_003</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_004</orgId>
-            <contactInfoId>CON_004</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_005</orgId>
-            <contactInfoId>CON_005</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_006</orgId>
-            <contactInfoId>CON_006</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_007</orgId>
-            <contactInfoId>CON_007</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_008</orgId>
-            <contactInfoId>CON_008</contactInfoId>
-        </organizationContactInfoPair>
-        <organizationContactInfoPair>
-            <orgId>ORG_009</orgId>
-            <contactInfoId>CON_009</contactInfoId>
-        </organizationContactInfoPair>
-    </organizationContactInfos>
     <resources>
         <resourcePair>
             <resourceId>RES_000</resourceId>
@@ -507,7 +453,7 @@
         <resourcePair>
             <resourceId>RES_001</resourceId>
             <resource>LaborUnion</resource>
-        </resourcePair>0
+        </resourcePair>
         <resourcePair>
             <resourceId>RES_002</resourceId>
             <resource>Police</resource>
@@ -549,6 +495,7 @@
         <crisisResourcePair>
             <crisisId>CRI_000</crisisId>
             <resourceId>RES_001</resourceId>
+        </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_000</crisisId>
             <resourceId>RES_002</resourceId>
@@ -561,7 +508,6 @@
             <crisisId>CRI_002</crisisId>
             <resourceId>RES_005</resourceId>
         </crisisResourcePair>
-        </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_003</crisisId>
             <resourceId>RES_006</resourceId>
@@ -570,7 +516,7 @@
             <crisisId>CRI_004</crisisId>
             <resourceId>RES_001</resourceId>
         </crisisResourcePair>
-     <crisisResourcePair>
+        <crisisResourcePair>
             <crisisId>CRI_005</crisisId>
             <resourceId>RES_000</resourceId>
         </crisisResourcePair>
@@ -671,6 +617,130 @@
             <helpId>HEL_001</helpId>
         </crisisWayToHelpPair>
     </crisisWaysToHelp>
+    <contactInfos>
+        <contactInfo>
+            <contactInfoId>CON_000</contactInfoId>
+            <phoneNumber>202-267-0-3967</phoneNumber>
+            <emailAddress>erc@egyptianrc.org</emailAddress>
+            <facebookUrlId>URL_141</facebookUrlId>
+            <twitterUrlId>URL_999</twitterUrlId>
+            <websiteUrlId>URL_151</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_001</contactInfoId>
+            <phoneNumber>NULL</phoneNumber>
+            <emailAddress>NULL</emailAddress>
+            <facebookUrlId>URL_241</facebookUrlId>
+            <twitterUrlId>URL_242</twitterUrlId>
+            <websiteUrlId>URL_251</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_002</contactInfoId>
+            <phoneNumber>1-212-438-2046</phoneNumber>
+            <emailAddress>index_services@spdji.com</emailAddress>
+            <facebookUrlId>URL_341</facebookUrlId>
+            <twitterUrlId>URL_342</twitterUrlId>
+            <websiteUrlId>URL_351</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_003</contactInfoId>
+            <phoneNumber>1-866-335-2769</phoneNumber>
+            <emailAddress>help@us.army.mil</emailAddress>
+            <facebookUrlId>URL_441</facebookUrlId>
+            <twitterUrlId>URL_442</twitterUrlId>
+            <websiteUrlId>URL_451</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_004</contactInfoId>
+            <phoneNumber>1-202-324-3000</phoneNumber>
+            <emailAddress>disaster@leo.gov</emailAddress>
+            <facebookUrlId>URL_541</facebookUrlId>
+            <twitterUrlId>URL_542</twitterUrlId>
+            <websiteUrlId>URL_551</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_005</contactInfoId>
+            <phoneNumber>NULL</phoneNumber>
+            <emailAddress>NULL</emailAddress>
+            <facebookUrlId>URL_641</facebookUrlId>
+            <twitterUrlId>URL_642</twitterUrlId>
+            <websiteUrlId>URL_651</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_006</contactInfoId>
+            <phoneNumber>NULL</phoneNumber>
+            <emailAddress>NULL</emailAddress>
+            <facebookUrlId>URL_741</facebookUrlId>
+            <twitterUrlId>URL_742</twitterUrlId>
+            <websiteUrlId>URL_743</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_007</contactInfoId>
+            <phoneNumber>212-697-3315</phoneNumber>
+            <emailAddress>inquiries@un.org</emailAddress>
+            <facebookUrlId>URL_841</facebookUrlId>
+            <twitterUrlId>URL_842</twitterUrlId>
+            <websiteUrlId>URL_851</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_008</contactInfoId>
+            <phoneNumber>44 870 900 0100 </phoneNumber>
+            <emailAddress>enquiries@metoffice.gov.uk</emailAddress>
+            <facebookUrlId>URL_941</facebookUrlId>
+            <twitterUrlId>URL_942</twitterUrlId>
+            <websiteUrlId>URL_951</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_009</contactInfoId>
+            <phoneNumber></phoneNumber>
+            <emailAddress></emailAddress>
+            <facebookUrlId>URL_999</facebookUrlId>
+            <twitterUrlId>URL_999</twitterUrlId>
+            <websiteUrlId>URL_051</websiteUrlId>
+        </contactInfo>
+    </contactInfos>
+    <orgContactInfos>
+        <orgContactInfoPair>
+            <orgId>ORG_000</orgId>
+            <contactInfoId>CON_000</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_001</orgId>
+            <contactInfoId>CON_001</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_002</orgId>
+            <contactInfoId>CON_002</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+             <orgId>ORG_003</orgId>
+            <contactInfoId>CON_003</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_004</orgId>
+            <contactInfoId>CON_004</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_005</orgId>
+            <contactInfoId>CON_005</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_006</orgId>
+            <contactInfoId>CON_006</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_007</orgId>
+            <contactInfoId>CON_007</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_008</orgId>
+            <contactInfoId>CON_008</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_009</orgId>
+            <contactInfoId>CON_009</contactInfoId>
+        </orgContactInfoPair>
+    </orgContactInfos>
     <citations>
         <citationPair>
             <citationId>CIT_100</citationId>
@@ -746,7 +816,7 @@
         </citationPair>
         <citationPair>
             <citationId>CIT_204</citationId>
-            <citation>FBI Ã‚Â¡Ã‚Âª Indian Country Crime". Fbi.gov. 2010-04-16. Retrieved 2012-03-03.</citation>
+            <citation>FBI ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âª Indian Country Crime". Fbi.gov. 2010-04-16. Retrieved 2012-03-03.</citation>
         </citationPair>
          <citationPair>
             <citationId>CIT_205</citationId>
@@ -795,18 +865,18 @@
         <citationPair>
             <citationId>CIT_306</citationId>
             <citation>Hillary Clinton." Wikipedia. Wikimedia Foundation, 15 Mar. 2014. Web. 18 Mar. 2014.</citation>
-     </citationPair>
+        </citationPair>
         <citationPair>
-     <citationId>CIT_307</citationId>
-     <citation>Barack Obama." Wikipedia. Wikimedia Foundation, 15 Mar. 2014. Web. 18 Mar. 2014.</citation>
-     </citationPair>
-     <citationPair>
-     <citationId>CIT_308</citationId>
-     <citation>Olafur Grimsson." Wikipedia. Wikimedia Foundation, 16 Mar. 2014. Web. 18 Mar. 2014.</citation>
-     </citationPair>
-     <citationPair>
-     <citationId>CIT_309</citationId>
-     <citation>Ernst August Lehmann." Wikipedia. Wikimedia Foundation, 16 Mar. 2014. Web. 18 Mar. 2014.</citation>
+             <citationId>CIT_307</citationId>
+             <citation>Barack Obama." Wikipedia. Wikimedia Foundation, 15 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        </citationPair>
+        <citationPair>
+             <citationId>CIT_308</citationId>
+             <citation>Olafur Grimsson." Wikipedia. Wikimedia Foundation, 16 Mar. 2014. Web. 18 Mar. 2014.</citation>
+        </citationPair>
+        <citationPair>
+             <citationId>CIT_309</citationId>
+             <citation>Ernst August Lehmann." Wikipedia. Wikimedia Foundation, 16 Mar. 2014. Web. 18 Mar. 2014.</citation>
         </citationPair>
     </citations>
     <crisisCitations>
@@ -867,611 +937,121 @@
             <crisisId>CRI_009</crisisId>
         </crisisCitationPair>
     </crisisCitations>
-    <organizationCitations>
-        <organizationCitationPair>
-            <citationId>CIT_200</citationId>
+    <orgCitations>
+        <orgCitationPair>
             <orgId>ORG_000</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_201</citationId>
+            <citationId>CIT_200</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_001</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_202</citationId>
+            <citationId>CIT_201</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_002</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_203</citationId>
+            <citationId>CIT_202</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_003</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_204</citationId>
+            <citationId>CIT_203</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_004</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_205</citationId>
+            <citationId>CIT_204</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_005</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_306</citationId>
+            <citationId>CIT_205</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_006</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_207</citationId>
+            <citationId>CIT_306</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_007</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_208</citationId>
+            <citationId>CIT_207</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_008</orgId>
-        </organizationCitationPair>
-        <organizationCitationPair>
-            <citationId>CIT_209</citationId>
+            <citationId>CIT_208</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
             <orgId>ORG_009</orgId>
-        </organizationCitationPair>
-    </organizationCitations>
+            <citationId>CIT_209</citationId>
+        </orgCitationPair>
+    </orgCitations>
     <personCitations>
-      <personCitationPair>
-          <personId>CIT_300</personId>
-          <citationId>PER_000</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_301</personId>
-          <citationId>PER_001</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_302</personId>
-          <citationId>PER_002</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_303</personId>
-          <citationId>PER_003</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_304</personId>
-          <citationId>PER_004</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_305</personId>
-          <citationId>PER_005</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_306</personId>
-          <citationId>PER_006</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_307</personId>
-          <citationId>PER_007</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_308</personId>
-          <citationId>PER_008</citationId>
-      </personCitationPair>
-      <personCitationPair>
-          <personId>CIT_309</personId>
-          <citationId>PER_009</citationId>
-      </personCitationPair>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_300</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_001</personId>
+            <citationId>CIT_301</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_002</personId>
+            <citationId>CIT_302</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_003</personId>
+            <citationId>CIT_303</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_004</personId>
+            <citationId>CIT_304</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_005</personId>
+            <citationId>CIT_305</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_006</personId>
+            <citationId>CIT_306</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_007</personId>
+            <citationId>CIT_307</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_008</personId>
+            <citationId>CIT_308</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_009</personId>
+            <citationId>CIT_309</citationId>
+        </personCitationPair>
     </personCitations>
-    <urls>
+    <urls>   
         <url>
-            <urlId>URL_000</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/e/ef/Tahrir_Square_during_8_February_2011.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_001</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/7/7d/Sandy_Oct_25_2012_0400Z.JPG</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_002</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/7/71/Nixon_30-0316a.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_003</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/en/e/ea/Iran-hostages-b.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_004</urlId>
-            <type>Image</type>
-            <urlAddress>http://newsok.com/gallery/articleid/3939701/1/pictures/2364674</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_010</urlId>
+            <urlId>URL_999</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/Egy_Jan25/status/445201168763854848</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_011</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/HurricaneSandyOfficialPage</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_012</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>Not applicable</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_013</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>Not applicable</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_014</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/koconews?original_referer=http%3A%2F%2Fwww.breakingnews.com%2Fitem%2F2014%2F03%2F12%2Fpolice-investigating-shooting-in-sw-oklahoma-city&tw_i=443807432708341760&tw_p=tweetembed</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_020</urlId>
-            <type>Video</type>
-            <urlAddress>http://youtu.be/Vi5YZax8oW8</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_021</urlId>
-            <type>Video</type>
-            <urlAddress>http://youtu.be/YeutC1WN6dc</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_022</urlId>
-            <type>Video</type>
-            <urlAddress>http://youtu.be/rcnhF09QN78</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_023</urlId>
-            <type>Video</type>
-            <urlAddress>http://youtu.be/7v4L1YtFbWo</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_024</urlId>
-            <type>Video</type>
-            <urlAddress>http://newsok.com/gallery/articleid/3939701/1/pictures/2364674</urlAddress>
+            <urlAddress></urlAddress>
         </url>
         <url>
             <urlId>URL_030</urlId>
             <type>Map</type>
             <urlAddress>http://www.bbc.co.uk/news/world-middle-east-12327995</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_031</urlId>
-            <type>Map</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/9/92/Sandy_2012_track.png</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_032</urlId>
-            <type>Map</type>
-            <urlAddress>http://www.mapsofworld.com/usa/usa-state-and-capital-map.html</urlAddress>
-        </url>
+        </url>        
         <url>
             <urlId>URL_033</urlId>
             <type>Map</type>
             <urlAddress>http://www.mapsofworld.com/usa/usa-state-and-capital-map.html</urlAddress>
-        </url>
+        </url>  
         <url>
-            <urlId>URL_034</urlId>
-            <type>Map</type>
-            <urlAddress>http://www.city-data.com/picfilesv/picv29832.php</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_401</urlId>
-            <type>Video</type>
-            <urlAddress>http://vimeo.com/11008464</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_402</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.britishpathe.com/video/actual-zeppelin-crash-aka-hindenburg-airship-disas</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_403</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.youtube.com/watch?v=F54rqDh2mWA</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_404</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.stormchaser.ca/Hurricanes/Ike/Ike.html?</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_611</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.ncolonie.com/ESL/haiti%20flag.gif</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_621</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.youtube.com/watch?v=nIFeLtzBEeQ</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_631</urlId>
-            <type>Map</type>
-            <urlAddress>https://plus.google.com/112856771596015785460/about?gl=us&hl=en</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_641</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/martelly2010</urlAddress>
-        </url>
-        <url>
-                <urlId>URL_642</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/intent/user?screen_name=presidentmicky&lang=fr</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_651</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.presidence.ht/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_711</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/600px-US-CoastGuard-Seal.svg.png</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_721</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.youtube.com/user/USCGImagery</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_731</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/#q=2100+Second+Street%2C+SW%2C+in+Washington%2C+D.C</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_741</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/UScoastguard</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_742</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/uscg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_751</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.uscg.mil/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_811</urlId>
-            <type>Image</type>
-            <urlAddress>http://static.spplus.com/pictures/United-Nations-logo.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_821</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.youtube.com/user/unitednations</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_831</urlId>
-            <type>Map</type>
-            <urlAddress>https://maps.google.com/maps?q=760+United+Nations+Plaza,+New+York,+New+York+10017,+United+States&ie=UTF-8&hq=&hnear=0x89c2591c96babdd3:0x886fe2fecdeef6e4,760+United+Nations+Plaza,+New+York,+NY+10017&gl=us&ei=94opU6f3KqmO2gXOtICQCw&ved=0CCkQ8gEwAA</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_841</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/unitednationsfoundation</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_842</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/unfoundation</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_851</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.unfoundation.org/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_911</urlId>
-            <type>Image</type>
-            <urlAddress>http://a1.mzstatic.com/us/r30/Purple4/v4/8a/56/69/8a5669af-7529-6044-28c4-877f9d421ad9/mzl.wvtswibh.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_921</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.youtube.com/user/TheMetOffice</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_931</urlId>
-            <type>Map</type>
-            <urlAddress>https://maps.google.com/maps?q=met+office&ie=UTF-8&ei=KY4pU9CTB7L02wWy94HAAg&ved=0CA0Q_AUoAA</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_941</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/metoffice</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_942</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/metoffice</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_951</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.metoffice.gov.uk/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_011</urlId>
+            <urlId>URL_101</urlId>
             <type>Image</type>
             <urlAddress>http://www.zeppelin.de/Images/Company/History/header_history_start.jpg</urlAddress>
         </url>
         <url>
-            <urlId>URL_021</urlId>
+            <urlId>URL_102</urlId>
             <type>Video</type>
             <urlAddress>https://www.youtube.com/watch?v=2hoCruH_DOg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_031</urlId>
-            <type>Map</type>
-            <urlAddress>https://maps.google.com/maps?q=germany&ie=UTF-8&ei=xbEpU7KTGYK52wWp34CgDQ&ved=0CAgQ_AUoAg</urlAddress>
         </url>
         <url>
             <urlId>URL_041</urlId>
             <type>Website</type>
             <urlAddress>http://www.zeppelin-lz.com/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_111</urlId>
-            <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=egypt+red+crescent&espv=210&es_sm=122&source=lnms&tbm=isch&sa=X&ei=_wcmU9jkG-GkyQH8koGACg&ved=0CAgQ_AUoAg&biw=1366&bih=643</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_121</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=egypt+red+crescent&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=AQgmU9myB8K6yAHNtoHIDw&ved=0CAwQ_AUoBA&biw=1366&bih=643&dpr=1</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_131</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Egyptian+Red+Crescent+-+ERC/@27.2578957,33.8116067,17z/data=!3m1!4b1!4m2!3m1!1s0x145287e44ad37ea9:0x53ac49ed9e49ef34</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_141</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/EgyptianRedCrescent/posts/504435356318960?stream_ref=10</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_151</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.egyptianrc.org/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_211</urlId>
-            <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=US+Air+Force&espv=210&es_sm=122&source=lnms&tbm=isch&sa=X&ei=iSEmU-yULI2E2wXQsIHgAw&ved=0CAkQ_AUoAQ&biw=694&bih=544</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_221</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=US+Air+Force&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=jCEmU4GIDoXn2QWTxYFQ&ved=0CAsQ_AUoAw&biw=1366&bih=643&dpr=1</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_231</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/preview?q=US+Air+Force&ie=UTF-8&ei=vCEmU8_XIOTj2wWpxYD4Cg&ved=0CAwQ_AUoBA</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_241</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/USairforce</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_242</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/usairforce</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_251</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.af.mil/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_311</urlId>
-            <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=Dow+Jones+%26+Company&espv=210&es_sm=122&tbm=isch&source=lnms&sa=X&ei=2yImU4DfE8Wh2QXX1YGACA&ved=0CAkQ_AUoAw&biw=1366&bih=643&dpr=1</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_321</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=US+Air+Force&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=jCEmU4GIDoXn2QWTxYFQ&ved=0CAsQ_AUoAw&biw=1366&bih=643&dpr=1#q=Dow+Jones+%26+Company&tbm=vid</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_331</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/preview?q=Dow+Jones+%26+Company&ie=UTF-8&ei=EiMmU9O4Foy02wWC7oG4Cg&ved=0CAoQ_AUoAg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_341</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/dowjones?v=wall&rf=110723982281133</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_342</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/DowJones</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_351</urlId>
-            <type>Website</type>
-            <urlAddress>http://new.dowjones.com/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_411</urlId>
-            <type>Image</type>
-            <urlAddress>https://www.google.com/search?espv=210&es_sm=122&tbm=isch&sa=1&q=United+States+Army&oq=United+States+Army&gs_l=img.3..0l10.17075394.17075394.0.17076351.1.1.0.0.0.0.133.133.0j1.1.0....0...1c.1.37.img..0.1.133.dSIgdkU2ADc&biw=1366&bih=643&dpr=1&cad=cbv&sei=hxQpU8vJIqHv2QXcuICgAQ</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_421</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=United+States+Army&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=iBQpU5OOGOWA2wXPtoDwCQ&ved=0CAwQ_AUoBA&biw=1366&bih=643&dpr=1</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_431</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/search/United+States+Army/@30.297548,-97.7370279,14z/data=!3m1!4b1</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_441</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/USarmy</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_442</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/USArmy</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_451</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.army.mil/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_511</urlId>
-            <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=us+fbi&espv=210&es_sm=122&source=lnms&tbm=isch&sa=X&ei=exkpU8CGGKGU2gXfqIGQAw&sqi=2&ved=0CAgQ_AUoAg&biw=1366&bih=643</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_521</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=us+fbi&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=iRkpU8yZLNH2qgGB74H4Cg&ved=0CAwQ_AUoBA&biw=1366&bih=643&dpr=1</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_531</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Federal+Bureau+of+Investigation/@38.8944931,-77.0250884,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x9597136898411ea</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_541</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.twitter.com/USNavy</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_542</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/FBI</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_003</urlId>
-            <type>Website</type>
-            <urlAddress>https://twitter.com/FBI</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_570</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Hosni_Mubarak_ritratto.jpg/220px-Hosni_Mubarak_ritratto.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_571</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.youtube.com/watch?v=9DtOr6BBOHg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_572</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Abdeen+Palace/@30.0426165,31.2474427,18z/data=!3m1!4b1!4m2!3m1!1s0x145840baf551f617:0xbafb145a268367fd</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_573</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>NULL</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_574</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.cnn.com/2011/WORLD/africa/02/11/egypt.protests/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_575</urlId>
-            <type>Image</type>
-            <urlAddress>http://themescompany.com/wp-content/uploads/2012/02/Chris_Christie_61.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_576</urlId>
-            <type>Video</type>
-            <urlAddress>http://abcnews.go.com/Video/playerIndex?id=18167870</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_577</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Governor's+Office/@40.2209415,-74.7697604,17z/data=!4m2!3m1!1s0x89c159d1c586c895:0x86d3a04f8b013c56</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_578</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/ChrisChristie</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_579</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.nj.com/politics/index.ssf/2014/02/chris_christie_promotes_sandy_relief_program_for_struggling_families.html</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_580</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Richard_Nixon.jpg/220px-Richard_Nixon.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_581</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.youtube.com/watch?v=rcnhF09QN78</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_582</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/The+White+House/@38.896278,-77.0306687,16z/data=!3m1!4b1!4m2!3m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_583</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>NULL</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_584</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://online.wsj.com/news/articles/SB10001424053111904007304576494073418802358</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_585</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/JimmyCarterPortrait2.jpg/220px-JimmyCarterPortrait2.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_586</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.youtube.com/watch?v=j5Sre4tk5l0</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_587</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/The+White+House/@38.896278,-77.0306687,16z/data=!3m1!4b1!4m2!3m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_588</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>NULL</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_589</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.jimmycarterlibrary.gov/documents/hostages.phtml</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_590</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.apfn.org/apfn/MCVEIGH.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_591</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.cbsnews.com/videos/2000-timothy-mcveigh/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_592</urlId>
-            <type>Map</type>
-            <urlAddress>https://maps.google.com/maps/ms?ie=UTF8&t=h&source=embed&oe=UTF8&msa=0&msid=108247063056102090946.00045c38f205bbca0233d&dg=feature</urlAddress>
-        </url>
+        </url>             
         <url>
             <urlId>URL_598</urlId>
             <type>SocialNetwork</type>
@@ -1481,157 +1061,7 @@
             <urlId>URL_599</urlId>
             <type>ExternalLink</type>
             <urlAddress>http://www.fbi.gov/about-us/history/famous-cases/oklahoma-city-bombing</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_751</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.radiotelevisioncaraibes.com/nouvelles/haiti/jean_max_bellerive_denonce_un_lynchage_mediatique.html</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_752</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Port-au-Prince/@19.0874068,-72.2100984,7z/data=!4m2!3m1!1s0x8eb9dd57503eaa91:0x3cd5815df929aa08</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_753</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.huffingtonpost.com/jeanmax-bellerive/vowing-to-build-a-prosper_b_444353.html</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_754</urlId>
-            <type>Image</type>
-            <urlAddress>http://en.wikipedia.org/wiki/File:Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_755</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/HillaryClinton</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_756</urlId>
-            <type>Website</type>
-            <urlAddress>http://hillaryclintonoffice.com/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_757</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.nndb.com/org/531/000167030/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_758</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.freakingnews.com/Hillary-Clinton-with-a-Beer-Pictures-86668.asp</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_759</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.cbsnews.com/videos/hurricane-ikes-aftermath/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_760</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.youtube.com/watch?v=x5EV57ggWD0</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_761</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.barackobama.com/?source=site_20140304_splash#get-the-facts</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_762</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.breitbart.com/Big-Government/2013/11/30/Obama-May-Stay-in-Wahington-After-Presidency</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_763</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.politicalanalysis.info/biography-of-barack-obama.html</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_764</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/The+White+House/@38.896278,-77.0306687,16z/data=!4m2!3m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_765</urlId>
-            <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/BarackObama</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_766</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.washingtontimes.com/news/2014/feb/17/vallely-obamas-benghazi-cover-up/?page=all</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_767</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://www.dailymail.co.uk/news/article-2539034/Top-secret-Benghazi-documents-prove-Obama-administration-knew-terrorist-attack-minutes.html</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_768</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.rafnsson.is/content/files/public/news/ORG andlitsmynd.litil.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_769</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Bessasta%C3%B0ir/@65.2614667,-18.6114956,6z/data=!4m2!3m1!1s0x48d60b78ab4927cb:0x18525c1d8b289f1e</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_770</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>https://www.facebook.com/IcelandPresident</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_771</urlId>
-            <type>Website</type>
-            <urlAddress>http://english.forseti.is/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_772</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/8/8b/Eyjafjallaj%C3%B6kull-glacier.ogg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_773</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://english.forseti.is/media/PDF/10_04_26_bali.pdf</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_774</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.youtube.com/watch?v=ToDjdeFpRAw</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_775</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://english.forseti.is/media/PDF/10_09_16_Eyjafjallajokull.pdf</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_776</urlId>
-            <type>Image</type>
-            <urlAddress>http://upload.wikimedia.org/wikipedia/commons/e/ee/Ernst_August_Lehmann_.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_777</urlId>
-            <type>Map</type>
-            <urlAddress>https://www.google.com/maps/place/Ludwigshafen/@50.4970331,8.23205,6z/data=!4m2!3m1!1s0x4797cc6973da8163:0x398edc7a57771cc2</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_778</urlId>
-            <type>ExternalLink</type>
-            <urlAddress>http://en.wikipedia.org/wiki/Ernst_A._Lehmann</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_779</urlId>
-            <type>Video</type>
-            <urlAddress>http://www.disclose.tv/action/viewvideo/38168/Haiti_Earthquake_Aftermath___Orphan__Organ_Traffic/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_780</urlId>
-            <type>Video</type>
-            <urlAddress>http://video.foxnews.com/v/3146683702001/obama-benghazi-was-not-some-systematic-attack/#sp=show-clips</urlAddress>
-        </url>
+        </url>      
         <url>
             <urlId>URL_000</urlId>
             <type>Image</type>
@@ -1680,7 +1110,7 @@
         <url>
             <urlId>URL_014</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>https://twitter.com/koconews?original_referer=http%3A%2F%2Fwww.breakingnews.com%2Fitem%2F2014%2F03%2F12%2Fpolice-investigating-shooting-in-sw-oklahoma-city&tw_i=443807432708341760&tw_p=tweetembed</urlAddress>
+            <urlAddress>https://twitter.com/koconews?original_referer=http%3A%2F%2Fwww.breakingnews.com%2Fitem%2F2014%2F03%2F12%2Fpolice-investigating-shooting-in-sw-oklahoma-city&amp;amp;tw_i=443807432708341760&amp;amp;tw_p=tweetembed</urlAddress>
         </url>
         <url>
             <urlId>URL_020</urlId>
@@ -1706,12 +1136,7 @@
             <urlId>URL_024</urlId>
             <type>Video</type>
             <urlAddress>http://newsok.com/gallery/articleid/3939701/1/pictures/2364674</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_030</urlId>
-            <type>Map</type>
-            <urlAddress>http://www.bbc.co.uk/news/world-middle-east-12327995</urlAddress>
-        </url>
+        </url>        
         <url>
             <urlId>URL_031</urlId>
             <type>Map</type>
@@ -1721,12 +1146,7 @@
             <urlId>URL_032</urlId>
             <type>Map</type>
             <urlAddress>http://www.mapsofworld.com/usa/usa-state-and-capital-map.html</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_033</urlId>
-            <type>Map</type>
-            <urlAddress>http://www.mapsofworld.com/usa/usa-state-and-capital-map.html</urlAddress>
-        </url>
+        </url>        
         <url>
             <urlId>URL_034</urlId>
             <type>Map</type>
@@ -1752,9 +1172,6 @@
             <type>Website</type>
             <urlAddress>http://www.stormchaser.ca/Hurricanes/Ike/Ike.html?</urlAddress>
         </url>
-
-
-
         <url>
             <urlId>URL_611</urlId>
             <type>Image</type>
@@ -1768,18 +1185,18 @@
         <url>
             <urlId>URL_631</urlId>
             <type>Map</type>
-            <urlAddress>https://plus.google.com/112856771596015785460/about?gl=us&hl=en</urlAddress>
+            <urlAddress>https://plus.google.com/112856771596015785460/about?gl=us&amp;hl=en</urlAddress>
         </url>
         <url>
             <urlId>URL_641</urlId>
             <type>SocialNetwork</type>
             <urlAddress>https://www.facebook.com/martelly2010</urlAddress>
         </url>
-<url>
+        <url>
             <urlId>URL_642</urlId>
-<type>SocialNetwork</type>
-<urlAddress>https://twitter.com/intent/user?screen_name=presidentmicky&lang=fr</urlAddress>
-</url>
+            <type>SocialNetwork</type>
+            <urlAddress>https://twitter.com/intent/user?screen_name=presidentmicky&amp;lang=fr</urlAddress>
+        </url>
         <url>
             <urlId>URL_651</urlId>
             <type>Website</type>
@@ -1811,7 +1228,7 @@
             <urlAddress>https://twitter.com/uscg</urlAddress>
         </url>
         <url>
-            <urlId>URL_751</urlId>
+            <urlId>URL_743</urlId>
             <type>Website</type>
             <urlAddress>http://www.uscg.mil/</urlAddress>
         </url>
@@ -1828,7 +1245,7 @@
         <url>
             <urlId>URL_831</urlId>
             <type>Map</type>
-            <urlAddress>https://maps.google.com/maps?q=760+United+Nations+Plaza,+New+York,+New+York+10017,+United+States&ie=UTF-8&hq=&hnear=0x89c2591c96babdd3:0x886fe2fecdeef6e4,760+United+Nations+Plaza,+New+York,+NY+10017&gl=us&ei=94opU6f3KqmO2gXOtICQCw&ved=0CCkQ8gEwAA</urlAddress>
+            <urlAddress>https://maps.google.com/maps?q=760+United+Nations+Plaza,+New+York,+New+York+10017,+United+States&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89c2591c96babdd3:0x886fe2fecdeef6e4,760+United+Nations+Plaza,+New+York,+NY+10017&amp;gl=us&amp;ei=94opU6f3KqmO2gXOtICQCw&amp;ved=0CCkQ8gEwAA</urlAddress>
         </url>
         <url>
             <urlId>URL_841</urlId>
@@ -1858,7 +1275,7 @@
         <url>
             <urlId>URL_931</urlId>
             <type>Map</type>
-            <urlAddress>https://maps.google.com/maps?q=met+office&ie=UTF-8&ei=KY4pU9CTB7L02wWy94HAAg&ved=0CA0Q_AUoAA</urlAddress>
+            <urlAddress>https://maps.google.com/maps?q=met+office&amp;ie=UTF-8&amp;ei=KY4pU9CTB7L02wWy94HAAg&amp;ved=0CA0Q_AUoAA</urlAddress>
         </url>
         <url>
             <urlId>URL_941</urlId>
@@ -1874,36 +1291,16 @@
             <urlId>URL_951</urlId>
             <type>Website</type>
             <urlAddress>http://www.metoffice.gov.uk/</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_011</urlId>
-            <type>Image</type>
-            <urlAddress>http://www.zeppelin.de/Images/Company/History/header_history_start.jpg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_021</urlId>
-            <type>Video</type>
-            <urlAddress>https://www.youtube.com/watch?v=2hoCruH_DOg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_031</urlId>
-            <type>Map</type>
-            <urlAddress>https://maps.google.com/maps?q=germany&ie=UTF-8&ei=xbEpU7KTGYK52wWp34CgDQ&ved=0CAgQ_AUoAg</urlAddress>
-        </url>
-        <url>
-            <urlId>URL_041</urlId>
-            <type>Website</type>
-            <urlAddress>http://www.zeppelin-lz.com/</urlAddress>
-        </url>
+        </url>      
         <url>
             <urlId>URL_111</urlId>
             <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=egypt+red+crescent&espv=210&es_sm=122&source=lnms&tbm=isch&sa=X&ei=_wcmU9jkG-GkyQH8koGACg&ved=0CAgQ_AUoAg&biw=1366&bih=643</urlAddress>
+            <urlAddress>https://www.google.com/search?q=egypt+red+crescent&amp;espv=210&amp;es_sm=122&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=_wcmU9jkG-GkyQH8koGACg&amp;ved=0CAgQ_AUoAg&amp;biw=1366&amp;bih=643</urlAddress>
         </url>
         <url>
             <urlId>URL_121</urlId>
             <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=egypt+red+crescent&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=AQgmU9myB8K6yAHNtoHIDw&ved=0CAwQ_AUoBA&biw=1366&bih=643&dpr=1</urlAddress>
+            <urlAddress>https://www.google.com/search?q=egypt+red+crescent&amp;espv=210&amp;es_sm=122&amp;tbm=vid&amp;source=lnms&amp;sa=X&amp;ei=AQgmU9myB8K6yAHNtoHIDw&amp;ved=0CAwQ_AUoBA&amp;biw=1366&amp;bih=643&amp;dpr=1</urlAddress>
         </url>
         <url>
             <urlId>URL_131</urlId>
@@ -1923,17 +1320,17 @@
         <url>
             <urlId>URL_211</urlId>
             <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=US+Air+Force&espv=210&es_sm=122&source=lnms&tbm=isch&sa=X&ei=iSEmU-yULI2E2wXQsIHgAw&ved=0CAkQ_AUoAQ&biw=694&bih=544</urlAddress>
+            <urlAddress>https://www.google.com/search?q=US+Air+Force&amp;espv=210&amp;es_sm=122&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=iSEmU-yULI2E2wXQsIHgAw&amp;ved=0CAkQ_AUoAQ&amp;biw=694&amp;bih=544</urlAddress>
         </url>
         <url>
             <urlId>URL_221</urlId>
             <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=US+Air+Force&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=jCEmU4GIDoXn2QWTxYFQ&ved=0CAsQ_AUoAw&biw=1366&bih=643&dpr=1</urlAddress>
+            <urlAddress>https://www.google.com/search?q=US+Air+Force&amp;espv=210&amp;es_sm=122&amp;tbm=vid&amp;source=lnms&amp;sa=X&amp;ei=jCEmU4GIDoXn2QWTxYFQ&amp;ved=0CAsQ_AUoAw&amp;biw=1366&amp;bih=643&amp;dpr=1</urlAddress>
         </url>
         <url>
             <urlId>URL_231</urlId>
             <type>Map</type>
-            <urlAddress>https://www.google.com/maps/preview?q=US+Air+Force&ie=UTF-8&ei=vCEmU8_XIOTj2wWpxYD4Cg&ved=0CAwQ_AUoBA</urlAddress>
+            <urlAddress>https://www.google.com/maps/preview?q=US+Air+Force&amp;ie=UTF-8&amp;ei=vCEmU8_XIOTj2wWpxYD4Cg&amp;ved=0CAwQ_AUoBA</urlAddress>
         </url>
         <url>
             <urlId>URL_241</urlId>
@@ -1953,22 +1350,22 @@
         <url>
             <urlId>URL_311</urlId>
             <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=Dow+Jones+%26+Company&espv=210&es_sm=122&tbm=isch&source=lnms&sa=X&ei=2yImU4DfE8Wh2QXX1YGACA&ved=0CAkQ_AUoAw&biw=1366&bih=643&dpr=1</urlAddress>
+            <urlAddress>https://www.google.com/search?q=Dow+Jones+%26+Company&amp;espv=210&amp;es_sm=122&amp;tbm=isch&amp;source=lnms&amp;sa=X&amp;ei=2yImU4DfE8Wh2QXX1YGACA&amp;ved=0CAkQ_AUoAw&amp;biw=1366&amp;bih=643&amp;dpr=1</urlAddress>
         </url>
         <url>
             <urlId>URL_321</urlId>
             <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=US+Air+Force&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=jCEmU4GIDoXn2QWTxYFQ&ved=0CAsQ_AUoAw&biw=1366&bih=643&dpr=1#q=Dow+Jones+%26+Company&tbm=vid</urlAddress>
+            <urlAddress>https://www.google.com/search?q=US+Air+Force&amp;espv=210&amp;es_sm=122&amp;tbm=vid&amp;source=lnms&amp;sa=X&amp;ei=jCEmU4GIDoXn2QWTxYFQ&amp;ved=0CAsQ_AUoAw&amp;biw=1366&amp;bih=643&amp;dpr=1#q=Dow+Jones+%26+Company&amp;tbm=vid</urlAddress>
         </url>
         <url>
             <urlId>URL_331</urlId>
             <type>Map</type>
-            <urlAddress>https://www.google.com/maps/preview?q=Dow+Jones+%26+Company&ie=UTF-8&ei=EiMmU9O4Foy02wWC7oG4Cg&ved=0CAoQ_AUoAg</urlAddress>
+            <urlAddress>https://www.google.com/maps/preview?q=Dow+Jones+%26+Company&amp;ie=UTF-8&amp;ei=EiMmU9O4Foy02wWC7oG4Cg&amp;ved=0CAoQ_AUoAg</urlAddress>
         </url>
         <url>
             <urlId>URL_341</urlId>
             <type>SocialNetwork</type>
-            <urlAddress>https://www.facebook.com/dowjones?v=wall&rf=110723982281133</urlAddress>
+            <urlAddress>https://www.facebook.com/dowjones?v=wall&amp;rf=110723982281133</urlAddress>
         </url>
         <url>
             <urlId>URL_342</urlId>
@@ -1983,12 +1380,12 @@
         <url>
             <urlId>URL_411</urlId>
             <type>Image</type>
-            <urlAddress>https://www.google.com/search?espv=210&es_sm=122&tbm=isch&sa=1&q=United+States+Army&oq=United+States+Army&gs_l=img.3..0l10.17075394.17075394.0.17076351.1.1.0.0.0.0.133.133.0j1.1.0....0...1c.1.37.img..0.1.133.dSIgdkU2ADc&biw=1366&bih=643&dpr=1&cad=cbv&sei=hxQpU8vJIqHv2QXcuICgAQ</urlAddress>
+            <urlAddress>https://www.google.com/search?espv=210&amp;es_sm=122&amp;tbm=isch&amp;sa=1&amp;q=United+States+Army&amp;oq=United+States+Army&amp;gs_l=img.3..0l10.17075394.17075394.0.17076351.1.1.0.0.0.0.133.133.0j1.1.0....0...1c.1.37.img..0.1.133.dSIgdkU2ADc&amp;biw=1366&amp;bih=643&amp;dpr=1&amp;cad=cbv&amp;sei=hxQpU8vJIqHv2QXcuICgAQ</urlAddress>
         </url>
         <url>
             <urlId>URL_421</urlId>
             <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=United+States+Army&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=iBQpU5OOGOWA2wXPtoDwCQ&ved=0CAwQ_AUoBA&biw=1366&bih=643&dpr=1</urlAddress>
+            <urlAddress>https://www.google.com/search?q=United+States+Army&amp;espv=210&amp;es_sm=122&amp;tbm=vid&amp;source=lnms&amp;sa=X&amp;ei=iBQpU5OOGOWA2wXPtoDwCQ&amp;ved=0CAwQ_AUoBA&amp;biw=1366&amp;bih=643&amp;dpr=1</urlAddress>
         </url>
         <url>
             <urlId>URL_431</urlId>
@@ -2013,12 +1410,12 @@
         <url>
             <urlId>URL_511</urlId>
             <type>Image</type>
-            <urlAddress>https://www.google.com/search?q=us+fbi&espv=210&es_sm=122&source=lnms&tbm=isch&sa=X&ei=exkpU8CGGKGU2gXfqIGQAw&sqi=2&ved=0CAgQ_AUoAg&biw=1366&bih=643</urlAddress>
+            <urlAddress>https://www.google.com/search?q=us+fbi&amp;espv=210&amp;es_sm=122&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=exkpU8CGGKGU2gXfqIGQAw&amp;sqi=2&amp;ved=0CAgQ_AUoAg&amp;biw=1366&amp;bih=643</urlAddress>
         </url>
         <url>
             <urlId>URL_521</urlId>
             <type>Video</type>
-            <urlAddress>https://www.google.com/search?q=us+fbi&espv=210&es_sm=122&tbm=vid&source=lnms&sa=X&ei=iRkpU8yZLNH2qgGB74H4Cg&ved=0CAwQ_AUoBA&biw=1366&bih=643&dpr=1</urlAddress>
+            <urlAddress>https://www.google.com/search?q=us+fbi&amp;espv=210&amp;es_sm=122&amp;tbm=vid&amp;source=lnms&amp;sa=X&amp;ei=iRkpU8yZLNH2qgGB74H4Cg&amp;ved=0CAwQ_AUoBA&amp;biw=1366&amp;bih=643&amp;dpr=1</urlAddress>
         </url>
         <url>
             <urlId>URL_531</urlId>
@@ -2036,7 +1433,7 @@
             <urlAddress>https://www.facebook.com/FBI</urlAddress>
         </url>
         <url>
-            <urlId>URL_003</urlId>
+            <urlId>URL_503</urlId>
             <type>Website</type>
             <urlAddress>https://twitter.com/FBI</urlAddress>
         </url>
@@ -2153,7 +1550,7 @@
         <url>
             <urlId>URL_592</urlId>
             <type>Map</type>
-            <urlAddress>https://maps.google.com/maps/ms?ie=UTF8&t=h&source=embed&oe=UTF8&msa=0&msid=108247063056102090946.00045c38f205bbca0233d&dg=feature</urlAddress>
+            <urlAddress>https://maps.google.com/maps/ms?ie=UTF8&amp;t=h&amp;source=embed&amp;oe=UTF8&amp;msa=0&amp;msid=108247063056102090946.00045c38f205bbca0233d&amp;dg=feature</urlAddress>
         </url>
         <url>
             <urlId>URL_593</urlId>
@@ -2397,7 +1794,6 @@
             <crisisId>CRI_004</crisisId>
             <urlId>URL_034</urlId>
         </crisisUrlPair>
-
         <crisisUrlPair>
             <crisisId>CRI_007</crisisId>
             <urlId>URL_401</urlId>
@@ -2415,236 +1811,228 @@
             <urlId>URL_404</urlId>
         </crisisUrlPair>
     </crisisUrls>
-    <organizationUrls>
-        <organizationUrlPair>
+    <orgUrls>
+        <orgUrlPair>
             <orgId>ORG_000</orgId>
             <urlId>URL_111</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_000</orgId>
             <urlId>URL_121</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_000</orgId>
             <urlId>URL_131</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_000</orgId>
             <urlId>URL_141</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_000</orgId>
             <urlId>URL_151</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_001</orgId>
             <urlId>URL_211</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_001</orgId>
             <urlId>URL_221</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_001</orgId>
             <urlId>URL_231</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_001</orgId>
             <urlId>URL_241</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_001</orgId>
             <urlId>URL_242</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_001</orgId>
             <urlId>URL_251</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>        
+        <orgUrlPair>
             <orgId>ORG_002</orgId>
             <urlId>URL_311</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_002</orgId>
             <urlId>URL_321</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_002</orgId>
             <urlId>URL_331</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_002</orgId>
             <urlId>URL_341</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_002</orgId>
             <urlId>URL_342</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_002</orgId>
             <urlId>URL_351</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_003</orgId>
             <urlId>URL_411</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_003</orgId>
             <urlId>URL_421</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_003</orgId>
             <urlId>URL_431</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_003</orgId>
             <urlId>URL_441</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_003</orgId>
             <urlId>URL_442</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_003</orgId>
             <urlId>URL_451</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_004</orgId>
             <urlId>URL_511</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_004</orgId>
             <urlId>URL_521</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_004</orgId>
             <urlId>URL_531</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_004</orgId>
             <urlId>URL_541</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_004</orgId>
             <urlId>URL_542</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
-            <orgId>ORG_004</orgId>
-            <urlId>URL_551</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_004</orgId>
             <urlId>URL_611</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_004</orgId>
             <urlId>URL_621</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_005</orgId>
             <urlId>URL_631</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_005</orgId>
             <urlId>URL_641</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_005</orgId>
             <urlId>URL_642</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_005</orgId>
             <urlId>URL_651</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_006</orgId>
             <urlId>URL_711</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_006</orgId>
             <urlId>URL_721</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_006</orgId>
             <urlId>URL_731</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_006</orgId>
             <urlId>URL_741</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_006</orgId>
             <urlId>URL_742</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_006</orgId>
-            <urlId>URL_751</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+            <urlId>URL_743</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_007</orgId>
             <urlId>URL_811</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_007</orgId>
             <urlId>URL_821</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_007</orgId>
             <urlId>URL_831</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_007</orgId>
             <urlId>URL_841</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_007</orgId>
             <urlId>URL_842</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_007</orgId>
             <urlId>URL_851</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_008</orgId>
             <urlId>URL_911</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_008</orgId>
             <urlId>URL_921</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_008</orgId>
             <urlId>URL_931</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_008</orgId>
             <urlId>URL_941</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_008</orgId>
             <urlId>URL_942</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_008</orgId>
             <urlId>URL_951</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_009</orgId>
-            <urlId>URL_011</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+            <urlId>URL_101</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
             <orgId>ORG_009</orgId>
-            <urlId>URL_021</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
-            <orgId>ORG_009</orgId>
-            <urlId>URL_031</urlId>
-        </organizationUrlPair>
-        <organizationUrlPair>
+            <urlId>URL_102</urlId>
+        </orgUrlPair>        
+        <orgUrlPair>
             <orgId>ORG_009</orgId>
             <urlId>URL_041</urlId>
-        </organizationUrlPair>
-    </organizationUrls>
+        </orgUrlPair>
+    </orgUrls>
     <personUrls>
         <personUrlPair>
             <personId>PER_000</personId>
