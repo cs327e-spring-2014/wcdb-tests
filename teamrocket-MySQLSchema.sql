@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `cs327e-wcdb`
 --
-CREATE DATABASE IF NOT EXISTS `cs327e-wcdb` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-USE `cs327e-wcdb`;
+CREATE DATABASE IF NOT EXISTS `cs327e_wcdb` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `cs327e_wcdb`;
  
 -- --------------------------------------------------------
  
