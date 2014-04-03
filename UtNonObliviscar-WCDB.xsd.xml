@@ -31,7 +31,7 @@
            
                 <xs:element name="crisisOrgs" type="CrisisOrgsType" />
                 <xs:element name="crisisPeople" type="CrisisPeopleType" />
-                <xs:element name="orgPeople" type="OrgPeopleType"/>
+                <xs:element name="orgPeople" type="OrgPeopleType"/>                
             </xs:sequence>
         </xs:complexType>
  
@@ -136,7 +136,7 @@
         <xs:keyref name="crisisCitationsCitationIdRef" refer="citationIdKey">
             <xs:selector xpath="crisisCitations/crisisCitationPair/citationId" />
             <xs:field xpath="." />
-        </xs:keyref>
+        </xs:keyref>        
         <xs:keyref name="orgCitationsCitationIdRef" refer="citationIdKey">
             <xs:selector xpath="orgCitations/orgCitationPair/citationId" />
             <xs:field xpath="." />
@@ -158,7 +158,7 @@
         <xs:keyref name="personUrlsUrlIdRef" refer="urlIdKey">
             <xs:selector xpath="personUrls/personUrlPair/urlId"/>
             <xs:field xpath="."/>
-        </xs:keyref>
+        </xs:keyref>          
     </xs:element>
 
     <!-- Type definitions -->
@@ -166,13 +166,13 @@
         <xs:restriction base="xs:string">
             <xs:pattern value="(CRI|ORG|PER|RES|HEL|CON|CIT|URL)_[0-9]+"/>
                             <!--CRI: Crisis
-ORG: Organziation
-PER: Person
-RES: Resources
-HEL: Ways to Help
-CON: ContactInfo
-CIT: Citations
-URL: Urls-->
+                                ORG: Organziation
+                                PER: Person
+                                RES: Resources
+                                HEL: Ways to Help
+                                CON: ContactInfo
+                                CIT: Citations
+                                URL: Urls-->
         </xs:restriction>
     </xs:simpleType>
 
