@@ -380,7 +380,7 @@ return a string
     assert(type(a) is Element)
 
     #WCDB2 Begin
-    c = login();
+    c = login()
     for el in a:
         # Writes the Element Tree to the Tables
         setSQLClassification(c, el)
@@ -399,6 +399,6 @@ return string
     while True:
         output = WCDB_run(r)
         if output in ["", "\n", None]:
-            break;
+            break
         else:
             w.write(output + "\n")
