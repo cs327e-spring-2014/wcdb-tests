@@ -108,13 +108,14 @@
               <facebookUrlId>URL_204</facebookUrlId>
               <twitterUrlId>URL_205</twitterUrlId>
               <websiteUrlId>URL_206</websiteUrlId>
-          </contactInfo>  
+          </contactInfo>
           <orgContactInfoPair>
               <orgId>ORG_001</orgId>
               <contactInfoId>CON_001</contactInfoId>
           </orgContactInfoPair>
           </contacts>
 </root>
+
 <root>
       <crisis>
             <crisisId>CRI_002</crisisId>
@@ -236,6 +237,7 @@
         </orgContactInfoPair>
         </contacts>
 </root>
+
 <root>
       <crisis>
             <crisisId>CRI_003</crisisId>
@@ -266,7 +268,7 @@
             <stateOrProvince>Texas</stateOrProvince>
             <postalCode>78712</postalCode>
             <country>USA</country>
-            <foundingMission>&#8220;bring together two different however, very much alike cultures&#8221; and &#8220;aid not only on the adjustments of new incoming students but also make the University of Texas at Austin a home away from home.&#8221;</foundingMission>
+            <foundingMission>“bring together two different however, very much alike cultures” and “aid not only on the adjustments of new incoming students but also make the University of Texas at Austin a home away from home.”</foundingMission>
             <dateFounded>2013-09-26</dateFounded>
             <dateAbolished />
             <majorEvents />
@@ -333,6 +335,7 @@
         </orgContactInfoPair>
         </contacts>
 </root>
+
 <root>
         <crisis>
             <crisisId>CRI_004</crisisId>
@@ -414,7 +417,7 @@
                 <crisisId>CRI_004</crisisId>
                 <resourceId>RES_006</resourceId>
             </crisisResourcePair>
-          	<crisisWayToHelpPair>
+           <crisisWayToHelpPair>
                 <crisisId>CRI_004</crisisId>
                 <helpId>HEL_001</helpId>
             </crisisWayToHelpPair>
@@ -454,6 +457,7 @@
             </orgContactInfoPair>
         </contacts>
 </root>
+
 <root>
         <crisis>
             <crisisId>CRI_005</crisisId>
@@ -539,7 +543,7 @@
                   <crisisId>CRI_005</crisisId>
                   <resourceId>RES_006</resourceId>
                 </crisisResourcePair>
-              	<crisisWayToHelpPair>
+               <crisisWayToHelpPair>
                     <crisisId>CRI_005</crisisId>
                     <helpId>HEL_001</helpId>
                 </crisisWayToHelpPair>
@@ -575,6 +579,7 @@
             </orgContactInfoPair>
         </contacts>
 </root>
+
 <root>
         <crisis>
             <crisisId>CRI_006</crisisId>
@@ -696,6 +701,7 @@
               </orgContactInfoPair>
         </contacts>
 </root>
+
 <root>
          <crisis>
             <crisisId>CRI_007</crisisId>
@@ -790,6 +796,252 @@
               <orgContactInfoPair>
                   <orgId>ORG_007</orgId>
                   <contactInfoId>CON_007</contactInfoId>
+              </orgContactInfoPair>
+        </contacts>
+</root>
+
+<root>
+        <crisis>
+            <crisisId>CRI_008</crisisId>
+            <name>2012 Benghazi attack </name>
+            <streetAddress />
+            <city>Benghazi</city>
+            <stateOrProvince />
+            <postalCode />
+            <country>Libya</country>
+            <dateAndTime>2012-09-11T00:00:00</dateAndTime>
+            <fatalities>4</fatalities>
+            <injuries />
+            <populationIll />
+            <populationDisplaced />
+            <environmentalImpact />
+            <politicalChanges />
+            <culturalChanges />
+            <jobsLost />
+            <damageInUSD />
+            <reparationCost />
+            <regulatoryChanges />
+        </crisis>
+        <org>
+            <orgId>ORG_008</orgId>
+            <name>U.S. Coast Guard</name>
+            <streetAddress>2100 2nd Street</streetAddress>
+            <city>Washington D.C.</city>
+            <stateOrProvince>None</stateOrProvince>
+            <postalCode>20593-7238</postalCode>
+            <country>United States</country>
+            <foundingMission>Founded by Congress. Ready today. Prepared for tomorrow.</foundingMission>
+            <dateFounded>1915-01-28</dateFounded>
+            <dateAbolished />
+            <majorEvents>None</majorEvents>
+        </org>
+        <person>
+            <personId>PER_008</personId>
+            <name>Ben Bernanke</name>
+            <streetAddress />
+            <city>Washington, D.C.</city>
+            <stateOrProvince />
+            <postalCode />
+            <country>USA</country>
+        </person>
+        <pairs>
+              <crisisKindPair>
+                <crisisId>CRI_008</crisisId>
+                <kind>War / Conflict</kind>
+              </crisisKindPair>
+              <orgKindPair>
+                <orgId>ORG_008</orgId>
+                <kind>Military Force</kind>
+              </orgKindPair>
+              <personKindPair>
+                <personId>PER_008</personId>
+                <kind>Other Politician</kind>
+              </personKindPair>
+              <resourcePair>
+                <resourceId>RES_008</resourceId>
+                <resource>Nuclear Safety</resource>
+              </resourcePair>
+              <crisisResourcePair>
+                  <crisisId>CRI_008</crisisId>
+                  <resourceId>RES_002</resourceId>
+              </crisisResourcePair>
+        </pairs>
+        <contacts>
+               <contactInfo>
+                  <contactInfoId>CON_008</contactInfoId>
+                  <phoneNumber>1-202-372-2100</phoneNumber>
+                  <emailAddress />
+                  <facebookUrlId>URL_254</facebookUrlId>
+                  <twitterUrlId>URL_255</twitterUrlId>
+                  <websiteUrlId>URL_257</websiteUrlId>
+               </contactInfo>
+               <orgContactInfoPair>
+                  <orgId>ORG_008</orgId>
+                  <contactInfoId>CON_008</contactInfoId>
+               </orgContactInfoPair>
+        </contacts>
+</root>
+        
+<root>
+        <crisis>
+            <crisisId>CRI_009</crisisId>
+            <name>2010 eruptions of Eyjafjallaj&#65533;kull (Iceland Volcano)</name>
+            <streetAddress />
+            <city />
+            <stateOrProvince />
+            <postalCode />
+            <country>Iceland</country>
+            <dateAndTime>2010-03-10T00:00:00</dateAndTime>
+            <fatalities>0</fatalities>
+            <injuries />
+            <populationIll />
+            <populationDisplaced />
+            <environmentalImpact />
+            <politicalChanges />
+            <culturalChanges />
+            <jobsLost />
+            <damageInUSD>7300000000</damageInUSD>
+            <reparationCost />
+            <regulatoryChanges />
+        </crisis>
+        <org>
+            <orgId>ORG_009</orgId>
+            <name>U.S. Marine Corps</name>
+            <streetAddress>2008 Elliot Road</streetAddress>
+            <city>Quantico</city>
+            <stateOrProvince>Virginia</stateOrProvince>
+            <postalCode>22134-5030</postalCode>
+            <country>United States</country>
+            <foundingMission>Provide power projection from the sea.</foundingMission>
+            <dateFounded>1775-11-10</dateFounded>
+            <dateAbolished />
+            <majorEvents>None</majorEvents>
+        </org>
+        <person>
+            <personId>PER_009</personId>
+            <name>Olafur Ragnar Grimsson</name>
+            <streetAddress />
+            <city>Bessastaoir</city>
+            <stateOrProvince>Garoabaer</stateOrProvince>
+            <postalCode>20472</postalCode>
+            <country>Iceland</country>
+        </person>
+        <pairs>
+            <crisisKindPair>
+                <crisisId>CRI_009</crisisId>
+                <kind>Natural Disaster</kind>
+            </crisisKindPair>
+            <orgKindPair>
+                <orgId>ORG_009</orgId>
+                <kind>Military Force</kind>
+            </orgKindPair>
+            <personKindPair>
+                <personId>PER_009</personId>
+                <kind>President</kind>
+            </personKindPair>
+            <resourcePair>
+                <resourceId>RES_009</resourceId>
+                <resource>Sanitation</resource>
+            </resourcePair>
+            <crisisResourcePair>
+                <crisisId>CRI_009</crisisId>
+                <resourceId>RES_010</resourceId>
+            </crisisResourcePair>
+            <crisisWayToHelpPair>
+                <crisisId>CRI_009</crisisId>
+                <helpId>HEL_003</helpId>
+            </crisisWayToHelpPair>
+        </pairs>
+        <contacts>
+             <contactInfo>
+                <contactInfoId>CON_009</contactInfoId>
+                <phoneNumber>1-800-268-3710</phoneNumber>
+                <emailAddress />
+                <facebookUrlId>URL_261</facebookUrlId>
+                <twitterUrlId>URL_262</twitterUrlId>
+                <websiteUrlId>URL_264</websiteUrlId>
+            </contactInfo>
+            <orgContactInfoPair>
+                <orgId>ORG_009</orgId>
+                <contactInfoId>CON_009</contactInfoId>
+            </orgContactInfoPair>
+        </contacts>
+</root>
+
+<root>
+        <crisis>
+            <crisisId>CRI_010</crisisId>
+            <name>Cold War</name>
+            <streetAddress />
+            <city />
+            <stateOrProvince />
+            <postalCode />
+            <country>Earth</country>
+            <dateAndTime>1947-01-01T00:00:00</dateAndTime>
+            <fatalities />
+            <injuries />
+            <populationIll />
+            <populationDisplaced />
+            <environmentalImpact />
+            <politicalChanges />
+            <culturalChanges />
+            <jobsLost />
+            <damageInUSD />
+            <reparationCost />
+            <regulatoryChanges />
+        </crisis>
+        <org>
+            <orgId>ORG_010</orgId>
+            <name>World Health Organization (WHO)</name>
+            <streetAddress>Avenue Appia 20</streetAddress>
+            <city>Geneva</city>
+            <stateOrProvince>Romandy</stateOrProvince>
+            <postalCode>None</postalCode>
+            <country>Switzerland</country>
+            <foundingMission>Established by U.N.</foundingMission>
+            <dateFounded>1948-04-07</dateFounded>
+            <dateAbolished />
+            <majorEvents>None</majorEvents>
+        </org>
+        <person>
+            <personId>PER_010</personId>
+            <name>Colin Powell</name>
+            <streetAddress />
+            <city>Washington, D.C.</city>
+            <stateOrProvince />
+            <postalCode />
+            <country>USA</country>
+        </person>
+        <pairs>
+              <crisisKindPair>
+                  <crisisId>CRI_010</crisisId>
+                  <kind>War / Conflict</kind>
+              </crisisKindPair>
+              <orgKindPair>
+                  <orgId>ORG_010</orgId>
+                  <kind>Intergovernmental Agency</kind>
+              </orgKindPair>
+              <personKindPair>
+                  <personId>PER_010</personId>
+                  <kind>Other Politician</kind>
+              </personKindPair>
+              <resourcePair>
+                  <resourceId>RES_010</resourceId>
+                  <resource>Money</resource>
+              </resourcePair>
+        </pairs>
+        <contacts>
+              <contactInfo>
+                  <contactInfoId>CON_010</contactInfoId>
+                  <phoneNumber>41 22 791 21 11</phoneNumber>
+                  <emailAddress />
+                  <facebookUrlId>URL_270</facebookUrlId>
+                  <twitterUrlId>URL_271</twitterUrlId>
+                  <websiteUrlId>URL_272</websiteUrlId>
+              </contactInfo>
+              <orgContactInfoPair>
+                  <orgId>ORG_010</orgId>
+                  <contactInfoId>CON_010</contactInfoId>
               </orgContactInfoPair>
         </contacts>
 </root>
