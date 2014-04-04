@@ -66,7 +66,8 @@ class TestXML (unittest.TestCase) :
     def test_getElement (self):
         t = "<red><blue><green> yellow </green></blue></red>"
         x = fromstring(t)
-        getElement(row, elementName)
+        
+        getElement(x, 'name')
         print(t)
         
 
