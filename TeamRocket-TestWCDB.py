@@ -63,6 +63,29 @@ class TestXML (unittest.TestCase) :
         WCDB_solve(r, w)
         self.assertTrue(w.getvalue() == '<parent><child><grandchild>baby</grandchild></child></parent>\n')
 
+
+    def test_getElement (self):
+        t = "<red><blue> yellow </blue></red>"
+        x = fromstring(t)
+        y = getElement(x, 'blue')
+        z = "\' yellow \'"
+        self.assertTrue(y == z)
+
+    def test_getElement_2 (self):
+        t = "<baby><dicks> breakfast </dicks></baby>"
+        x = fromstring(t)
+        y = getElement(x, 'dicks')
+        z = "\' breakfast \'"
+        self.assertTrue(y == z)
+
+    def test_getElement_3 (self):
+        t = "<smoke><weed> dogg </weed></smoke>"
+        x = fromstring(t)
+        y = getElement(x, 'weed')
+        z = "\' dogg \'"
+        self.assertTrue(y == z)
+
+
 print("Testing TestWCDB.py")
 unittest.main()
 print("Done")
