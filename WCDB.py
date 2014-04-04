@@ -96,7 +96,7 @@ e is an element (designed for reference in the direct children of root)
     elif st == "waysToHelp" :
         setSQLwaysToHelp(c, ele)
     elif st == "crisisWaysToHelp" :
-        setSQLwaysToHelp(c, ele)
+        setSQLcrisisWaysToHelp(c, ele)
     elif st == "contactInfos" :
         setSQLcontactInfos(c, ele)
     elif st == "orgContactInfos" :
