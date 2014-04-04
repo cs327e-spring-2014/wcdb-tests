@@ -584,10 +584,6 @@
 	</resourcePair>
         <resourcePair>
             <resourceId>RES_006</resourceId>
-            <resource>Money</resource>
-	</resourcePair>
-        <resourcePair>
-            <resourceId>RES_006</resourceId>
             <resource>Sea Wall</resource>
         </resourcePair>
         <resourcePair>
