@@ -227,7 +227,7 @@ def setSQLcrisisResources (c, ele) :
     for i in ele :
         s = "Insert into CrisisResources values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
-        s+= getElement(i,'resourceId') + ");"
+        s+= getElement(i,'resourceId')[5:] + ");"
 
         query(c, s)
 
@@ -243,7 +243,7 @@ def setSQLcrisisWaysToHelp (ele):
     for i in ele :
         s = "Insert into CrisisWaysToHelp values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
-        s+= getElement(i,'helpId') + ");"
+        s+= "'" + getElement(i,'helpId')[5:] + ");"
 
         query(c, s)
 
@@ -253,9 +253,9 @@ def setSQLcontactInfos (c, ele) :
         s+= "'" + getElement(i,'contactInfoId')[5:] + ","
         s+= getElement(i,'phoneNumber') + ","
         s+= getElement(i,'emailAddress') + ","
-        s+= getElement(i,'facebookUrlId') + ","
-        s+= getElement(i,'twitterUrlId') + ","
-        s+= getElement(i,'websiteUrlId') + ");"
+        s+= "'" + getElement(i,'facebookUrlId')[5:] + ","
+        s+= "'" + getElement(i,'twitterUrlId')[5:] + ","
+        s+= "'" + getElement(i,'websiteUrlId')[5:] + ");"
 
         query(c, s)
 
@@ -263,7 +263,7 @@ def setSQLorgContactInfos (c, ele) :
     for i in ele :
         s = "Insert into OrgContactInfos values("
         s+= "'" + getElement(i,'orgId')[5:] + ","
-        s+= getElement(i,'contactInfoId') + ");"
+        s+= "'" + getElement(i,'contactInfoId')[5:] + ");"
 
         query(c, s)
 
@@ -279,7 +279,7 @@ def setSQLcrisisCitations (c, ele) :
     for i in ele :
         s = "Insert into CrisisCitations values("
         s+= "'" + getElement(i,'citationId')[5:] + ","
-        s+= getElement(i,'crisisId') + ");"
+        s+= "'" + getElement(i,'crisisId')[5:] + ");"
 
         query(c, s)
 
@@ -287,7 +287,7 @@ def setSQLorgCitations (c, ele) :
     for i in ele :
         s = "Insert into OrgCitations values("
         s+= "'" + getElement(i,'orgId')[5:] + ","
-        s+= getElement(i,'citationId') + ");"
+        s+= "'" + getElement(i,'citationId')[5:] + ");"
 
         query(c, s)
 
@@ -295,7 +295,7 @@ def setSQLpersonCitations (c, ele) :
     for i in ele :
         s = "Insert into PersonCitations values("
         s+= "'" + getElement(i,'personId')[5:] + ","
-        s+= getElement(i,'citationId') + ");"
+        s+= "'" + getElement(i,'citationId')[5:] + ");"
 
         query(c, s)
 
@@ -312,7 +312,7 @@ def setSQLcrisisUrls (c, ele) :
     for i in ele :
         s = "Insert into CrisisUrls values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
-        s+= getElement(i,'urlId') + ");"
+        s+= "'" + getElement(i,'urlId')[5:] + ");"
 
         query(c, s)
 
@@ -320,7 +320,7 @@ def setSQLorgUrls (c, ele) :
     for i in ele :
         s = "Insert into OrgUrls values("
         s+= "'" + getElement(i,'orgId')[5:] + ","
-        s+= getElement(i,'urlId') + ");"
+        s+= "'" + getElement(i,'urlId')[5:] + ");"
 
         query(c, s)
 
@@ -328,7 +328,7 @@ def setSQLpersonUrls (c, ele) :
     for i in ele :
         s = "Insert into PersonUrls values("
         s+= "'" + getElement(i,'personId')[5:] + ","
-        s+= getElement(i,'urlId') + ");"
+        s+= "'" + getElement(i,'urlId')[5:] + ");"
 
         query(c, s)
 
@@ -336,7 +336,7 @@ def setSQLcrisisOrgs (c, ele) :
     for i in ele :
         s = "Insert into CrisisOrgs values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
-        s+= getElement(i,'orgId') + ");"
+        s+= "'" + getElement(i,'orgId')[5:] + ");"
 
         query(c, s)
 
@@ -344,7 +344,7 @@ def setSQLcrisisPeople (c, ele) :
     for i in ele :
         s = "Insert into CrisisPeoplr values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
-        s+= getElement(i,'personId') + ");"
+        s+= "'" + getElement(i,'personId')[5:] + ");"
 
         query(c, s)
 
@@ -352,7 +352,7 @@ def setSQLorgPeople (c, ele) :
     for i in ele :
         s = "Insert into OrgPeople values("
         s+= "'" + getElement(i,'orgId')[5:] + ","
-        s+= getElement(i,'personId') + ");"
+        s+= "'" + getElement(i,'personId')[5:] + ");"
 
         query(c, s)
 
