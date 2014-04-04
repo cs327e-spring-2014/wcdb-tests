@@ -246,7 +246,7 @@
             <stateOrProvince>Texas</stateOrProvince>
             <postalCode>78712</postalCode>
             <country>USA</country>
-            <foundingMission>“bring together two different however, very much alike cultures” and “aid not only on the adjustments of new incoming students but also make the University of Texas at Austin a home away from home.”</foundingMission>
+            <foundingMission>"bring together two different however, very much alike cultures" and "aid not only on the adjustments of new incoming students but also make the University of Texas at Austin a home away from home."</foundingMission>
             <dateFounded>2013-09-26</dateFounded>
             <dateAbolished />
             <majorEvents />
@@ -3026,10 +3026,6 @@
         <crisisPersonPair>
             <crisisId>CRI_001</crisisId>
             <personId>PER_002</personId>
-        </crisisPersonPair>
-        <crisisPersonPair>
-            <crisisId>CRI_001</crisisId>
-            <personId>PER_003</personId>
         </crisisPersonPair>
         <crisisPersonPair>
             <crisisId>CRI_001</crisisId>

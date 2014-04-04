@@ -342,7 +342,7 @@ def setSQLcrisisOrgs (c, ele) :
 
 def setSQLcrisisPeople (c, ele) :
     for i in ele :
-        s = "Insert into CrisisPeoplr values("
+        s = "Insert into CrisisPeople values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
         s+= "'" + getElement(i,'personId')[5:] + ");"
 
