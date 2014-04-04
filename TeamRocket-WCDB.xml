@@ -211,7 +211,6 @@
             <regulatoryChanges />
         </crisis>
     </crises>
-
 <orgs>
         <org>
             <orgId>ORG_001</orgId>
@@ -344,7 +343,6 @@
             <majorEvents>None</majorEvents>
         </org>
     </orgs>
-
     <people>
         <person>
             <personId>PER_001</personId>
@@ -459,7 +457,6 @@
             <crisisId>CRI_005</crisisId>
             <kind>Dictatorshipr</kind>
         </crisisKindPair>
-
         <crisisKindPair>
             <crisisId>CRI_006</crisisId>
             <kind>Natural Disaster</kind>
