@@ -477,7 +477,6 @@
             <kind>War / Conflict</kind>
         </crisisKindPair>
     </crisisKinds>
-
     <orgKinds>
         <orgKindPair>
             <orgId>ORG_001</orgId>
@@ -520,7 +519,6 @@
             <kind>Intergovernmental Agency</kind>
         </orgKindPair>
     </orgKinds>
-
     <personKinds>
         <personKindPair>
             <personId>PER_001</personId>
@@ -1150,7 +1148,6 @@
             <citation>http://www.brainyquote.com/quotes/authors/c/colin_powell.html</citation>
         </citationPair>
     </citations>
-
     <crisisCitations>
         <crisisCitationPair>
             <citationId>CIT_101</citationId>
@@ -3123,7 +3120,6 @@
             <personId>PER_007</personId>
         </crisisPersonPair>
     </crisisPeople>
-
     <orgPeople>
         <orgPersonPair>
             <orgId>ORG_005</orgId>
