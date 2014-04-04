@@ -1,7 +1,7 @@
 import StringIO
 import unittest
 
-from WCDB import *
+from WCDB import getElement, setSQLClassification, toElementTree, toXML, _mysql
 from xml.etree.ElementTree import Element, fromstring, tostring
 
 class TestXML (unittest.TestCase) :
@@ -62,6 +62,13 @@ class TestXML (unittest.TestCase) :
         w = StringIO.StringIO()
         WCDB_solve(r, w)
         self.assertTrue(w.getvalue() == '<parent><child><grandchild>baby</grandchild></child></parent>\n')
+
+    def test_getElement (self):
+        t = "<red><blue><green> yellow </green></blue></red>"
+        x = fromstring(t)
+        getElement(row, elementName)
+        print(t)
+        
 
 print("Testing TestWCDB.py")
 unittest.main()
