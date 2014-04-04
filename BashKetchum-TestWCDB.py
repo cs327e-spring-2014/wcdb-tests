@@ -89,6 +89,38 @@ class XMLUnitTests(unittest.TestCase):
         testElement = getElement(row, 'stateOrProvince')
         self.assert_(testElement == "NULL")
 
+    def test_getElement4(self):
+        row = fromstring("<person>\
+                          <personId>PER_001</personId>\
+                          <name>George Clooney</name>\
+                          <kind>Actor / Actress </kind>\
+                          <streetAddress>8817 Lookout Mountain Ave</streetAddress>\
+                          <city>Los Angeles</city>\
+                          <stateOrProvince>California</stateOrProvince>\
+                          <postalCode>90046-1819</postalCode>\
+                          <country>USA</country>\
+                          </person>")
+        testElement = getElement(row, 'stateOrProvince')
+        self.assert_(testElement == "California")
+
+    def test_getElement5(self):
+        row = fromstring("<citationPair>\
+                          <citationId>CIT_101</citationId>\
+                          <citation>http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf</citation>\
+                          </citationPair>")
+        testElement = getElement(row, 'citation')
+        self.assert_(testElement == "http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf")
+
+    def test_getElement6(self):
+        row = fromstring("<url>\
+                          <urlId>URL_101</urlId>\
+                          <type>Image</type>\
+                          <urlAddress>http://web.mit.edu/12.000/www/m2010/images/katrina-08-28-2005.jpg</urlAddress>\
+                          </url>")
+        testElement = getElement(row, 'stateOrProvince')
+        self.assert_(testElement == "NULL")
+
+
     # Testing of importXML
     def test_importXML1(self):
         db = _mysql.connect(host="z", user="wigu", passwd="U865dZpL0E", db="cs327e_wigu")
@@ -204,6 +236,49 @@ class XMLUnitTests(unittest.TestCase):
                                  "stateOrProvince" : "California",
                                  "postalCode" : "90046-1819",
                                  "country" : "USA"})
+
+    def test_importXML4(self):
+        db = _mysql.connect(host="z", user="wigu", passwd="U865dZpL0E", db="cs327e_wigu")
+        truncateAllTables(db)
+
+        inputString = StringIO("""<root>
+                                      <urls>
+                                          <url>
+                                              <urlId>URL_101</urlId>
+                                              <type>Image</type>
+                                              <urlAddress>http://web.mit.edu/12.000/www/m2010/images/katrina-08-28-2005.jpg</urlAddress>
+                                          </url>
+                                      </urls>
+                                  </root>""")
+        importXML(inputString)
+
+        db.query("SELECT * FROM Urls")
+        result = db.store_result()
+        rows = result.fetch_row(maxrows=0, how=1)
+        self.assert_(rows[0] == {"urlId" : "101",
+                                 "type" : "Image",
+                                 "urlAddress" : "http://web.mit.edu/12.000/www/m2010/images/katrina-08-28-2005.jpg"})
+
+    def test_importXML5(self):
+        db = _mysql.connect(host="z", user="wigu", passwd="U865dZpL0E", db="cs327e_wigu")
+        truncateAllTables(db)
+
+        inputString = StringIO("""<root>
+                                      <citations>
+                                          <citationPair>
+                                              <citationId>CIT_101</citationId>
+                                              <citation>http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf</citation>
+                                          </citationPair>
+                                      </citations>
+                                  </root>""")
+        importXML(inputString)
+
+        db.query("SELECT * FROM Citations")
+        result = db.store_result()
+        rows = result.fetch_row(maxrows=0, how=1)
+        self.assert_(rows[0] == {"citationId" : "101",
+                                 "citation" : "http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf"})
+
 
     # Testing of exportXML
     def test_exportXML1(self):
@@ -338,6 +413,45 @@ class XMLUnitTests(unittest.TestCase):
                                           u"    <contactInfos/>\n"\
                                           u"    <orgContactInfos/>\n"\
                                           u"    <citations/>\n"\
+                                          u"    <crisisCitations/>\n"\
+                                          u"    <orgCitations/>\n"\
+                                          u"    <personCitations/>\n"\
+                                          u"    <urls/>\n"\
+                                          u"    <crisisUrls/>\n"\
+                                          u"    <orgUrls/>\n"\
+                                          u"    <personUrls/>\n"\
+                                          u"    <crisisOrgs/>\n"\
+                                          u"    <crisisPeople/>\n"\
+                                          u"    <orgPeople/>\n"\
+                                          u"</root>\n")
+
+    def test_exportXML4(self):
+        db = _mysql.connect(host="z", user="wigu", passwd="U865dZpL0E", db="cs327e_wigu")
+        truncateAllTables(db)
+
+        db.query("INSERT INTO Citations (citationId, citation) "\
+                 "VALUES ('101', 'http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf')")
+
+        writer = StringIO()
+        exportXML(writer)
+
+        self.assert_(writer.getvalue() == u"<?xml version=\"1.0\" ?>\n"\
+                                          u"<root>\n"\
+                                          u"    <crises/>\n"\
+                                          u"    <orgs/>\n"\
+                                          u"    <people/>\n"\
+                                          u"    <resources/>\n"\
+                                          u"    <crisisResources/>\n"\
+                                          u"    <waysToHelp/>\n"\
+                                          u"    <crisisWaysToHelp/>\n"\
+                                          u"    <contactInfos/>\n"\
+                                          u"    <orgContactInfos/>\n"\
+                                          u"    <citations>\n"\
+                                          u"        <citationPair>\n"\
+                                          u"            <citationId>CIT_101</citationId>\n"\
+                                          u"            <citation>http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf</citation>\n"\
+                                          u"        </citationPair>\n"\
+                                          u"    </citations>\n"\
                                           u"    <crisisCitations/>\n"\
                                           u"    <orgCitations/>\n"\
                                           u"    <personCitations/>\n"\
