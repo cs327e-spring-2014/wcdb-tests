@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `CrisisKinds` (
 -- Table Structure for OrgKinds
 
 DROP TABLE IF EXISTS `OrgKinds`;
-CREATE TABLE IF NOT EXISTS `CrisisKinds` (
+CREATE TABLE IF NOT EXISTS `OrgKinds` (
   `orgId` bigint(20) unsigned NOT NULL,
   `kind` enum('Government Agency','Military Force','Intergovernmental Agency','Intergovernmental Public Health Agency','Nonprofit / Humanitarian Organization') COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY(`orgId`)
