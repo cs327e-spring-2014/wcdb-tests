@@ -227,7 +227,7 @@ def setSQLcrisisResources (c, ele) :
     for i in ele :
         s = "Insert into CrisisResources values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
-        s+= getElement(i,'resourceId')[5:] + ");"
+        s+= "'" + getElement(i,'resourceId')[5:] + ");"
 
         query(c, s)
 
