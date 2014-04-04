@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <root>
     <crises>
         <crisis>
-            <crisisId>CRI_000</crisisId>
+            <crisisId>CRI_0</crisisId>
             <name>Great Depression in US</name>
+	    <kind>Human Error Disaster</kind>
             <streetAddress></streetAddress>
             <city></city>
             <stateOrProvince></stateOrProvince>
@@ -19,13 +20,14 @@
             <politicalChanges>New Deal, Increased Size of Government, creation of the Securities and Exchange Commission (SEC) and the Federal Deposit Insurance Corporation (FDIC)</politicalChanges>
             <culturalChanges>Generaton that lived through the Great Depression stayed frugal, wary of banks, and suspicious of the stock market</culturalChanges>
             <jobsLost>11000000</jobsLost>
-            <damageInUSD></damageInUSD>
-            <reparationCost>16000000000</reparationCost>
+            <damageInUSD>0</damageInUSD>
+            <reparationCost>160000000</reparationCost>
             <regulatoryChanges>Strict trading and banking regulations</regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_101</crisisId>
             <name>Banqiao Dam Collapsed in China</name>
+	    <kind>Natural Disaster</kind>
             <streetAddress></streetAddress>
             <city>Zhumadian City</city>
             <stateOrProvince>Henan</stateOrProvince>
@@ -47,6 +49,7 @@
         <crisis>
             <crisisId>CRI_202</crisisId>
             <name>Texas Drought</name>
+	    <kind>Natural Disaster</kind>
             <streetAddress></streetAddress>
             <city></city>
             <stateOrProvince>Texas</stateOrProvince>
@@ -68,6 +71,7 @@
         <crisis>
             <crisisId>CRI_303</crisisId>
             <name>Mexico City Earthquake</name>
+	    <kind>Natural Disaster</kind>
             <streetAddress></streetAddress>
             <city>Mexico City</city>
             <stateOrProvince>Mexico DF</stateOrProvince>
@@ -89,6 +93,7 @@
         <crisis>
             <crisisId>CRI_404</crisisId>
             <name>Libyan Civil War</name>
+	    <kind>War / Conflict</kind>
             <streetAddress></streetAddress>
             <city>Benghazi</city>
             <stateOrProvince>Cyrenaica</stateOrProvince>
@@ -97,19 +102,20 @@
             <dateAndTime>2011-02-15T00:00:00</dateAndTime>
             <fatalities>30000</fatalities>
             <injuries>50000</injuries>
-            <populationIll></populationIll>
+            <populationIll>0</populationIll>
             <populationDisplaced>64677</populationDisplaced>
             <environmentalImpact>Fluctuations in Oil Prices</environmentalImpact>
             <politicalChanges>Overthrow of Gaddafi Government. Installation of National Transitional Council.</politicalChanges>
             <culturalChanges>Post Civil War Violence</culturalChanges>
-            <jobsLost></jobsLost>
-            <damageInUSD>43500000000</damageInUSD>
-            <reparationCost></reparationCost>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>435000000</damageInUSD>
+            <reparationCost>0</reparationCost>
             <regulatoryChanges></regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_505</crisisId>
             <name>Hurricane Ike</name>
+	    <kind>Natural Disaster</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -117,20 +123,21 @@
             <country>United States</country>
             <dateAndTime>2008-09-01T00:00:00</dateAndTime>
             <fatalities>195</fatalities>
-            <injuries />
-            <populationIll />
-            <populationDisplaced />
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
             <environmentalImpact />
             <politicalChanges />
             <culturalChanges />
-            <jobsLost />
-            <damageInUSD>22000000000</damageInUSD>
-            <reparationCost />
+            <jobsLost>0</jobsLost>
+            <damageInUSD>220000000</damageInUSD>
+            <reparationCost>0</reparationCost>
             <regulatoryChanges />
         </crisis>
         <crisis>
             <crisisId>CRI_606</crisisId>
             <name>UT Tower Shooter</name>
+	    <kind>Assassination / Shooting</kind>
             <streetAddress></streetAddress>
             <city>Austin</city>
             <stateOrProvince>Texas</stateOrProvince>
@@ -152,6 +159,7 @@
         <crisis>
             <crisisId>CRI_707</crisisId>
             <name>2010 Haitian Earthquake</name>
+	    <kind>Natural Disaster</kind>
             <streetAddress></streetAddress>
             <city></city>
             <stateOrProvince></stateOrProvince>
@@ -166,13 +174,14 @@
             <politicalChanges></politicalChanges>
             <culturalChanges></culturalChanges>
             <jobsLost>0</jobsLost>
-            <damageInUSD>14000000000</damageInUSD>
+            <damageInUSD>140000000</damageInUSD>
             <reparationCost>0</reparationCost>
             <regulatoryChanges></regulatoryChanges>
         </crisis>
         <crisis>
             <crisisId>CRI_808</crisisId>
             <name>2012 Benghazi attack </name>
+	    <kind>War / Conflict</kind>
             <streetAddress />
             <city>Benghazi</city>
             <stateOrProvince />
@@ -180,20 +189,21 @@
             <country>Libya</country>
             <dateAndTime>2012-09-11T00:00:00</dateAndTime>
             <fatalities>4</fatalities>
-            <injuries />
-            <populationIll />
-            <populationDisplaced />
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
             <environmentalImpact />
             <politicalChanges />
             <culturalChanges />
-            <jobsLost />
-            <damageInUSD />
-            <reparationCost />
+            <jobsLost>0</jobsLost>
+            <damageInUSD>0</damageInUSD>
+            <reparationCost>0</reparationCost>
             <regulatoryChanges />
         </crisis>
         <crisis>
             <crisisId>CRI_909</crisisId>
             <name>Hindenburg Disaster</name>
+	    <kind>Human Error Disaster</kind>
             <streetAddress>Hwy 547, Bldg 481</streetAddress>
             <city>Lakehurst</city>
             <stateOrProvince>New Jersey</stateOrProvince>
@@ -215,8 +225,9 @@
     </crises>
     <orgs>
         <org>
-            <orgId>ORG_000</orgId>
+            <orgId>ORG_0</orgId>
             <name>Works Progress Administration</name>
+	    <kind>Government Agency</kind>
             <streetAddress></streetAddress>
             <city>Oklahoma City</city>
             <stateOrProvince>OK</stateOrProvince>
@@ -224,12 +235,13 @@
             <country>USA</country>
             <foundingMission>Increase the purchasing power of persons on relief by employing them on useful projects.</foundingMission>
             <dateFounded>1935-04-08</dateFounded>
-            <dateAbolished>1043-10-30</dateAbolished>
+            <dateAbolished>1943-10-30</dateAbolished>
             <majorEvents>Construction of 116,000 buildings, 78,000 bridges, 651,000 miles of road and improvement of 800 airports, in addition to the Federal Art Project, the Federal Writers' Project, and the Federal Theatre Project.</majorEvents>
         </org>
         <org>
             <orgId>ORG_101</orgId>
             <name>People's Liberation Army</name>
+	    <kind>Military Force</kind>
             <streetAddress></streetAddress>
             <city>Beijing</city>
             <stateOrProvince>Beijing</stateOrProvince>
@@ -237,13 +249,13 @@
             <country>China</country>
             <foundingMission>Consolidate the ruling status of the Communist Party</foundingMission>
             <dateFounded>1937-08-01</dateFounded>
-            <dateAbolished></dateAbolished>
             <majorEvents>Chinese Civil War Against Kuomintang as Chinese Red Army
                 Vietnam War Control of Hong Kong and Macau's Military Defense</majorEvents>
             </org>
-            <org>
+ 	<org>
                 <orgId>ORG_202</orgId>
                 <name>Central Texas Water Coalition</name>
+		<kind>Nonprofit / Humanitarian Organization</kind>
                 <streetAddress>PO Box 328</streetAddress>
                 <city>Spicewood</city>
                 <stateOrProvince>Texas</stateOrProvince>
@@ -251,12 +263,12 @@
                 <country>United States</country>
                 <foundingMission>To conserve fresh water sources in central Texas</foundingMission>
                 <dateFounded>2011-05-01</dateFounded>
-                <dateAbolished></dateAbolished>
                 <majorEvents></majorEvents>
-            </org>
+ 	</org>
             <org>
                 <orgId>ORG_303</orgId>
                 <name>Brigada de Topos de Tlatelolco</name>
+		<kind>Nonprofit / Humanitarian Organization</kind>
                 <streetAddress></streetAddress>
                 <city>Mexico City</city>
                 <stateOrProvince>Mexico DF</stateOrProvince>
@@ -264,12 +276,12 @@
                 <country>Mexico</country>
                 <foundingMission>Help the victims of the Mexico City Earthquake</foundingMission>
                 <dateFounded>1985-09-19</dateFounded>
-                <dateAbolished></dateAbolished>
                 <majorEvents>Mexico City Earthquake</majorEvents>  
             </org>
             <org>
                 <orgId>ORG_404</orgId>
                 <name>NATO</name>
+		<kind>Intergovernmental Agency</kind>
                 <streetAddress>Boulevard Leopold III</streetAddress>
                 <city>Brussels</city>
                 <stateOrProvince>Brussels-Capital Region</stateOrProvince>
@@ -277,12 +289,12 @@
                 <country>Belgium</country>
                 <foundingMission>Collective Defence of Member States</foundingMission>
                 <dateFounded>1949-04-04</dateFounded>
-                <dateAbolished></dateAbolished>
                 <majorEvents>Bosnia and Herzegovina intervention, Kosovo intervention, Afghanistan War, Iraq training mission, gulf of Aden anti-piracy, Libya intervention</majorEvents>
             </org>
             <org>
                 <orgId>ORG_505</orgId>
                 <name>U.S. Marine Corps</name>
+		<kind>Military Force</kind>
                 <streetAddress>2008 Elliot Road</streetAddress>
                 <city>Quantico</city>
                 <stateOrProvince>Virginia</stateOrProvince>
@@ -290,12 +302,12 @@
                 <country>United States</country>
                 <foundingMission>Provide power projection from the sea.</foundingMission>
                 <dateFounded>1775-11-10</dateFounded>
-                <dateAbolished />
                 <majorEvents>None</majorEvents>
             </org>
             <org>
                 <orgId>ORG_606</orgId>
                 <name>UNICEF</name>
+		<kind>Nonprofit / Humanitarian Organization</kind>
                 <streetAddress>125 Maiden Lane, 11th Floor</streetAddress>
                 <city>New York City</city>
                 <stateOrProvince>New York</stateOrProvince>
@@ -303,12 +315,12 @@
                 <country>USA</country>
                 <foundingMission>To provide emergency food and healthcare to children in countries that had been devastated by World War II</foundingMission>
                 <dateFounded>1946-12-11</dateFounded>
-                <dateAbolished />
                 <majorEvents>Trick-or-Treat Box, Cartoons for Children's Rights, Girl Stars</majorEvents>
             </org>
             <org>
                 <orgId>ORG_707</orgId>
                 <name>Haitian Government</name>
+		<kind>Government Agency</kind>
                 <streetAddress></streetAddress>
                 <city></city>
                 <stateOrProvince></stateOrProvince>
@@ -316,13 +328,13 @@
                 <country>Haiti</country>
                 <foundingMission>Unity is Strength</foundingMission>
                 <dateFounded>1987-01-01</dateFounded>
-                <dateAbolished></dateAbolished>
                 <majorEvents>Haitian Earthquake</majorEvents>
             </org>
 
             <org>
                 <orgId>ORG_808</orgId>
                 <name>United Nations (UN)</name>
+		<kind>Intergovernmental Agency</kind>
                 <streetAddress>760 United Nations Plaza</streetAddress>
                 <city>New York</city>
                 <stateOrProvince>New York</stateOrProvince>
@@ -330,13 +342,13 @@
                 <country>United States</country>
                 <foundingMission>Created following WWII</foundingMission>
                 <dateFounded>1945-10-24</dateFounded>
-                <dateAbolished />
                 <majorEvents>None</majorEvents> 
             </org>
 
             <org>
                 <orgId>ORG_909</orgId>
                 <name>Luftschiffbau Zeppelin</name>
+		<kind>Nonprofit / Humanitarian Organization</kind>
                 <streetAddress></streetAddress>
                 <city></city>
                 <stateOrProvince></stateOrProvince>
@@ -350,8 +362,9 @@
         </orgs>
         <people>
             <person>
-                <personId>PER_000</personId>
+                <personId>PER_0</personId>
                 <name>Franklin Delano Roosevelt</name>
+		<kind>President</kind>
                 <streetAddress>1600 Pennsylvania Avenue</streetAddress>
                 <city>Washington DC</city>
                 <stateOrProvince></stateOrProvince>
@@ -361,6 +374,7 @@
             <person>
                 <personId>PER_101</personId>
                 <name>Chen Xing</name>
+		<kind>Humanitarian</kind>
                 <streetAddress></streetAddress>
                 <city>Nianjing</city>
                 <stateOrProvince>Jiangsu</stateOrProvince>
@@ -370,6 +384,7 @@
             <person>
                 <personId>PER_202</personId>
                 <name>Jo Karr Tedder</name>
+		<kind>Humanitarian</kind>
                 <streetAddress></streetAddress>
                 <city>Austin</city>
                 <stateOrProvince>Texas</stateOrProvince>
@@ -379,6 +394,7 @@
             <person>
                 <personId>PER_303</personId>
                 <name>Miguel de la Madrid</name>
+		<kind>President</kind>
                 <streetAddress></streetAddress>
                 <city>Mexico City</city>
                 <stateOrProvince>Mexico DF</stateOrProvince>
@@ -388,6 +404,7 @@
             <person>
                 <personId>PER_404</personId>
                 <name>Muammar Muhammad Abu Minyar al-Gaddafi</name>
+		<kind>Politician</kind>
                 <streetAddress>Bab Al-Azizia</streetAddress>
                 <city>Tripoli</city>
                 <stateOrProvince>Tripolitania</stateOrProvince>
@@ -397,6 +414,7 @@
             <person>
                 <personId>PER_505</personId>
                 <name>Hillary Clinton</name>
+		<kind>Politician</kind>
                 <streetAddress>3067 Whitehaven St NW</streetAddress>
                 <city>Washington, D.C.</city>
                 <stateOrProvince />
@@ -406,6 +424,7 @@
             <person>
                 <personId>PER_606</personId>
                 <name>Charles Whitman</name>
+		<kind>Perpetrator</kind>
                 <streetAddress></streetAddress>
                 <city>Austin</city>
                 <stateOrProvince>Texas</stateOrProvince>
@@ -417,6 +436,7 @@
             <person>
                 <personId>PER_707</personId>
                 <name>Jean-Max Bellerive</name>
+		<kind>Politician</kind>
                 <streetAddress></streetAddress>
                 <city></city>
                 <stateOrProvince></stateOrProvince>
@@ -427,6 +447,7 @@
             <person>
                 <personId>PER_808</personId>
                 <name>Barack Obama</name>
+		<kind>President</kind>
                 <streetAddress>1600 Pennsylvania Ave NW</streetAddress>
                 <city>Washington, D.C.</city>
                 <stateOrProvince />
@@ -436,6 +457,7 @@
             <person>
                 <personId>PER_909</personId>
                 <name>Ernst August Lehmann</name>
+		<kind>Humanitarian</kind>
                 <streetAddress></streetAddress>
                 <city>Ludwigshafen am Rhein</city>
                 <stateOrProvince>Rhineland-Palatinate</stateOrProvince>
@@ -444,143 +466,13 @@
             </person>
         </people>
 
-        <crisisKinds>
-            <crisisKindPair>
-                <crisisId>CRI_000</crisisId>
-                <kind>Financial Crisis</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_101</crisisId>
-                <kind>Natural Disaster</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_202</crisisId>
-                <kind>Natural Disaster</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_303</crisisId>
-                <kind>Natural Disaster</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_404</crisisId>
-                <kind>War / Conflict</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_505</crisisId>
-                <kind>Natural Disaster</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_606</crisisId>
-                <kind>Assassination / Shooting</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_707</crisisId>
-                <kind>Natural Disaster</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_808</crisisId>
-                <kind>Act of Terrorism</kind>
-            </crisisKindPair>
-            <crisisKindPair>
-                <crisisId>CRI_909</crisisId>
-                <kind>Human Error Disaster</kind>
-            </crisisKindPair>
-
-        </crisisKinds>
-
-        <orgKinds>
-            <orgKindPair>
-                <orgId>ORG_000</orgId>
-                <kind>Government Agency</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_101</orgId>
-                <kind>Military Force</kind>
-            </orgKindPair>            
-            <orgKindPair>
-                <orgId>ORG_202</orgId>
-                <kind>Nonprofit / Humanitarian Organization</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_303</orgId>
-                <kind>Nonprofit / Humanitarian Organization</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_404</orgId>
-                <kind>Intergovernmental Agency</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_505</orgId>
-                <kind>Military Force</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_606</orgId>
-                <kind>Nonprofit / Humanitarian Organization</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_707</orgId>
-                <kind>Government Agency</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_808</orgId>
-                <kind>Intergovernmental Agency</kind>
-            </orgKindPair>
-            <orgKindPair>
-                <orgId>ORG_909</orgId>
-                <kind>Nonprofit / Humanitarian Organization</kind>
-            </orgKindPair>
-        </orgKinds>
-        <personKinds>
-            <personKindPair>
-                <personId>PER_000</personId>
-                <kind>President</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_101</personId>
-                <kind>Humanitarian</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_202</personId>
-                <kind>Humanitarian</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_303</personId>
-                <kind>President</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_404</personId>
-                <kind>Other Politician</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_505</personId>
-                <kind>Other Politician</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_606</personId>
-                <kind>Perpetrator</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_707</personId>
-                <kind>Other Politician</kind>
-            </personKindPair>
-
-            <personKindPair>
-                <personId>PER_808</personId>
-                <kind>President</kind>
-            </personKindPair>
-            <personKindPair>
-                <personId>PER_909</personId>
-                <kind>Humanitarian</kind>
-            </personKindPair>
-        </personKinds>
-
         <resources>
             <resourcePair>
-                <resourceId>RES_000</resourceId>
+                <resourceId>RES_0</resourceId>
                 <resource>Food</resource>
             </resourcePair>
             <resourcePair>
-                <resourceId>RES_010</resourceId>
+                <resourceId>RES_10</resourceId>
                 <resource>Shelter</resource>
             </resourcePair>
             <resourcePair>
@@ -647,12 +539,12 @@
         </resources>
         <crisisResources>
             <crisisResourcePair>
-                <crisisId>CRI_000</crisisId>
-                <resourceId>RES_000</resourceId>
+                <crisisId>CRI_0</crisisId>
+                <resourceId>RES_0</resourceId>
             </crisisResourcePair>
             <crisisResourcePair>
-                <crisisId>CRI_000</crisisId>
-                <resourceId>RES_010</resourceId>
+                <crisisId>CRI_0</crisisId>
+                <resourceId>RES_10</resourceId>
             </crisisResourcePair>
             <crisisResourcePair>
                 <crisisId>CRI_101</crisisId>
@@ -718,15 +610,15 @@
 
         <waysToHelp>
             <wayToHelpPair>
-                <helpId>HEL_000</helpId>
+                <helpId>HEL_0</helpId>
                 <wayToHelp>Provide Food</wayToHelp>
             </wayToHelpPair>
             <wayToHelpPair>
-                <helpId>HEL_010</helpId>
+                <helpId>HEL_10</helpId>
                 <wayToHelp>Provide Jobs</wayToHelp>
             </wayToHelpPair>
             <wayToHelpPair>
-                <helpId>HEL_011</helpId>
+                <helpId>HEL_11</helpId>
                 <wayToHelp>Lend Money</wayToHelp>
             </wayToHelpPair>
             <wayToHelpPair>
@@ -749,16 +641,16 @@
 
         <crisisWaysToHelp>
             <crisisWayToHelpPair>
-                <crisisId>CRI_000</crisisId>
-                <helpId>HEL_000</helpId>
+                <crisisId>CRI_0</crisisId>
+                <helpId>HEL_0</helpId>
             </crisisWayToHelpPair>
             <crisisWayToHelpPair>
-                <crisisId>CRI_000</crisisId>
-                <helpId>HEL_010</helpId>
+                <crisisId>CRI_0</crisisId>
+                <helpId>HEL_10</helpId>
             </crisisWayToHelpPair>
             <crisisWayToHelpPair>
-                <crisisId>CRI_000</crisisId>
-                <helpId>HEL_011</helpId>
+                <crisisId>CRI_0</crisisId>
+                <helpId>HEL_11</helpId>
             </crisisWayToHelpPair>
             <crisisWayToHelpPair>
                 <crisisId>CRI_101</crisisId>
@@ -770,7 +662,7 @@
             </crisisWayToHelpPair>
             <crisisWayToHelpPair>
                 <crisisId>CRI_303</crisisId>
-                <helpId>HEL_000</helpId>
+                <helpId>HEL_0</helpId>
             </crisisWayToHelpPair>
             <crisisWayToHelpPair>
                 <crisisId>CRI_404</crisisId>
@@ -782,7 +674,7 @@
             </crisisWayToHelpPair>
             <crisisWayToHelpPair>
                 <crisisId>CRI_505</crisisId>
-                <helpId>HEL_000</helpId>
+                <helpId>HEL_0</helpId>
             </crisisWayToHelpPair>
             <crisisWayToHelpPair>
                 <crisisId>CRI_505</crisisId>
@@ -894,23 +786,23 @@
 
         <citations>
             <citationPair>
-                <citationId>CIT_000</citationId>
-                <citation>Meyer, Robinson. "Suicide and the Economy." Atlantic. 26 09 2013: n. page. Web. 20 Mar. 2014. &lt; http://www.theatlantic.com/health/archive/2013/09/suicide-and-the-economy/279961/&gt;.</citation>
+                <citationId>CIT_0</citationId>
+                <citation>Meyer, Robinson. "Suicide and the Economy." Atlantic. 26 09 2013: n. page. Web. 20 Mar. 2014. http://www.theatlantic.com/health/archive/2013/09/suicide-and-the-economy/279961/</citation>
             </citationPair>
             <citationPair>
-                <citationId>CIT_010</citationId>
+                <citationId>CIT_10</citationId>
                 <citation>"Great Depression Facts." Great Depression. Croft Communications, n.d. Web. 20 Mar 2014.</citation>
             </citationPair>
             <citationPair>
-                <citationId>CIT_011</citationId>
+                <citationId>CIT_11</citationId>
                 <citation>"Work Projects Administration." The Columbia Electronic Encyclopedia. 2012.</citation>
             </citationPair>
             <citationPair>
-                <citationId>CIT_012</citationId>
+                <citationId>CIT_12</citationId>
                 <citation>Long, Tony. "April 8, 1935: WPA Puts Millions Back to Work." Wired. 08 04 200: n. page. Web. 20 Mar. 2014.</citation>
             </citationPair>
             <citationPair>
-                <citationId>CIT_013</citationId>
+                <citationId>CIT_13</citationId>
                 <citation>"Franklin D. Roosevelt." 2014. The Biography Channel website. Mar 20 2014, 07:24 http://www.biography.com/people/franklin-d-roosevelt-9463381.</citation>
             </citationPair>
             <citationPair>
@@ -1048,12 +940,12 @@
 
         <crisisCitations>
             <crisisCitationPair>
-                <citationId>CIT_000</citationId>
-                <crisisId>CRI_000</crisisId>
+                <citationId>CIT_0</citationId>
+                <crisisId>CRI_0</crisisId>
             </crisisCitationPair>
             <crisisCitationPair>
-                <citationId>CIT_010</citationId>
-                <crisisId>CRI_000</crisisId>
+                <citationId>CIT_10</citationId>
+                <crisisId>CRI_0</crisisId>
             </crisisCitationPair>
             <crisisCitationPair>
                 <citationId>CIT_101</citationId>
@@ -1112,8 +1004,8 @@
 
         <orgCitations>
             <orgCitationPair>
-                <orgId>ORG_000</orgId>
-                <citationId>CIT_011</citationId>
+                <orgId>ORG_0</orgId>
+                <citationId>CIT_11</citationId>
             </orgCitationPair>
             <orgCitationPair>
                 <orgId>ORG_101</orgId>
@@ -1160,8 +1052,8 @@
 
         <personCitations>
             <personCitationPair>
-                <personId>PER_000</personId>
-                <citationId>CIT_013</citationId>
+                <personId>PER_0</personId>
+                <citationId>CIT_13</citationId>
             </personCitationPair>
             <personCitationPair>
                 <personId>PER_101</personId>
@@ -1208,128 +1100,128 @@
 
         <urls>
             <url>
-                <urlId>URL_000</urlId>
+                <urlId>URL_0</urlId>
                 <type>Image</type>
                 <urlAddress>http://media.npr.org/assets/news/2009/10/19/depression01_462-4ff151d7e084e3e1d41d08412c1c584a6988ca94-s6-c30.jpg</urlAddress>
             </url>
             <url>
-                <urlId>URL_010</urlId>
+                <urlId>URL_10</urlId>
                 <type>Image</type>
                 <urlAddress>ttp://www.mhslibrary.org/Teacher%20Projects/Teacher%20Projects/Social%20Studies/Taylor/Great%20Depression/motherandchildren.jpg</urlAddress>
             </url>
             <url>
-                <urlId>URL_011</urlId>
+                <urlId>URL_11</urlId>
                 <type>Image</type>
                 <urlAddress>http://blsciblogs.baruch.cuny.edu/his1005spring2011/files/2011/03/2_great_depression.jpg</urlAddress>
             </url>
             <url>
-                <urlId>URL_012</urlId>
+                <urlId>URL_12</urlId>
                 <type>Video</type>
                 <urlAddress>https://www.youtube.com/watch?v=q-FnZbK81z4</urlAddress>
             </url>
             <url>
-                <urlId>URL_013</urlId>
+                <urlId>URL_13</urlId>
                 <type>Map</type>
                 <urlAddress>http://goo.gl/maps/JoiMT</urlAddress>
             </url>
             <url>
-                <urlId>URL_014</urlId>
+                <urlId>URL_14</urlId>
                 <type>SocialNetwork</type>
                 <urlAddress>https://www.twitter.com/archivesnews/status/183210265934954497?p=v
                 </urlAddress>
             </url>
             <url>
-                <urlId>URL_015</urlId>
+                <urlId>URL_15</urlId>
                 <type>SocialNetwork</type>
                 <urlAddress>https://www.twitter.com/WrldHstryPics/status/435415573220966401?p=v
                 </urlAddress>
             </url>
             <url>
-                <urlId>URL_016</urlId>
+                <urlId>URL_16</urlId>
                 <type>Website</type>
                 <urlAddress>http://www.econlib.org/library/Enc/GreatDepression.html</urlAddress>
             </url>
             <url>
-                <urlId>URL_017</urlId>
+                <urlId>URL_17</urlId>
                 <type>Website</type>
                 <urlAddress>http://www.pbs.org/wgbh/americanexperience/features/timeline/rails-timeline/</urlAddress>
             </url>
             <url>
-                <urlId>URL_018</urlId>
+                <urlId>URL_18</urlId>
                 <type>Image</type>
                 <urlAddress>http://foundsf.org/images/0/0d/Wpa-workers-excavating-bayview-hill.jpg </urlAddress>
             </url>
             <url>
-                <urlId>URL_019</urlId>
+                <urlId>URL_19</urlId>
                 <type>Image</type>
                 <urlAddress>http://www.authentichistory.com/1930-1939/2-fdr/1-newdeal/WPA_Posters.jpg </urlAddress>
             </url>
             <url>
-                <urlId>URL_020</urlId>
+                <urlId>URL_20</urlId>
                 <type>Image</type>
                 <urlAddress>http://eleventhstack.files.wordpress.com/2012/11/wpa1.jpg </urlAddress>
             </url>
             <url>
-                <urlId>URL_021</urlId>
+                <urlId>URL_21</urlId>
                 <type>Video</type>
                 <urlAddress>https://www.youtube.com/watch?v=Aq5UiGdje8U</urlAddress>
             </url>
             <url>
-                <urlId>URL_022</urlId>
+                <urlId>URL_22</urlId>
                 <type>Map</type>
                 <urlAddress>http://goo.gl/maps/oKhR5</urlAddress>
             </url>
             <url>
-                <urlId>URL_023</urlId>
+                <urlId>URL_23</urlId>
                 <type>SocialNetwork</type>
                 <urlAddress>https://twitter.com/Goannatree/status/445936029418409985
                 </urlAddress>
             </url>
             <url>
-                <urlId>URL_024</urlId>
+                <urlId>URL_24</urlId>
                 <type>SocialNetwork</type>
                 <urlAddress>https://twitter.com/treebiology/status/445664709375963136
                 </urlAddress>
             </url>
             <url>
-                <urlId>URL_025</urlId>
+                <urlId>URL_25</urlId>
                 <type>Website</type>
                 <urlAddress>http://www.indiana.edu/~liblilly/wpa/wpa_info.html</urlAddress>
             </url>
             <url>
-                <urlId>URL_026</urlId>
+                <urlId>URL_26</urlId>
                 <type>Website</type>
                 <urlAddress>http://history.howstuffworks.com/american-history/works-progress-administration.htm</urlAddress>
             </url>
             <url>
-                <urlId>URL_027</urlId>
+                <urlId>URL_27</urlId>
                 <type>Image</type>
                 <urlAddress>https://en.wikipedia.org/wiki/File:FDR_in_1933.jpg </urlAddress>
             </url>
             <url>
-                <urlId>URL_028</urlId>
+                <urlId>URL_28</urlId>
                 <type>Video</type>
                 <urlAddress>https://www.youtube.com/watch?v=qK42SUseTwM</urlAddress>
             </url>
             <url>
-                <urlId>URL_029</urlId>
+                <urlId>URL_29</urlId>
                 <type>Map</type>
                 <urlAddress>http://goo.gl/maps/lEYLB</urlAddress>
             </url>
             <url>
-                <urlId>URL_030</urlId>
+                <urlId>URL_30</urlId>
                 <type>SocialNetwork</type>
                 <urlAddress>https://twitter.com/harveyjkaye/status/446802888258379776
                 </urlAddress>
             </url>
             <url>
-                <urlId>URL_031</urlId>
+                <urlId>URL_31</urlId>
                 <type>Website</type>
                 <urlAddress>http://www.whitehouse.gov/about/presidents/franklindroosevelt
                 </urlAddress>
             </url>
             <url>
-                <urlId>URL_032</urlId>
+                <urlId>URL_32</urlId>
                 <type>Website</type>
                 <urlAddress>http://www.american-presidents-history.com/franklin-roosevelt-biography.html</urlAddress>
             </url>
@@ -2037,40 +1929,40 @@
 
         <crisisUrls>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_000</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_0</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_010</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_10</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_011</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_11</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_012</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_12</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_013</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_13</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_014</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_14</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_015</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_15</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_016</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_16</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
-                <crisisId>CRI_000</crisisId>
-                <urlId>URL_017</urlId>
+                <crisisId>CRI_0</crisisId>
+                <urlId>URL_17</urlId>
             </crisisUrlPair>
             <crisisUrlPair>
                 <crisisId>CRI_101</crisisId>
@@ -2276,36 +2168,36 @@
         </crisisUrls>
         <orgUrls>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_018</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_18</urlId>
             </orgUrlPair>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_019</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_19</urlId>
             </orgUrlPair>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_020</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_20</urlId>
             </orgUrlPair>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_021</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_21</urlId>
             </orgUrlPair>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_022</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_22</urlId>
             </orgUrlPair>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_023</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_23</urlId>
             </orgUrlPair>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_024</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_24</urlId>
             </orgUrlPair>
             <orgUrlPair>
-                <orgId>ORG_000</orgId>
-                <urlId>URL_026</urlId>
+                <orgId>ORG_0</orgId>
+                <urlId>URL_26</urlId>
             </orgUrlPair>
             <orgUrlPair>
                 <orgId>ORG_101</orgId>
@@ -2491,28 +2383,28 @@
 
         <personUrls>
             <personUrlPair>
-                <personId>PER_000</personId>
-                <urlId>URL_027</urlId>
+                <personId>PER_0</personId>
+                <urlId>URL_27</urlId>
             </personUrlPair>
             <personUrlPair>
-                <personId>PER_000</personId>
-                <urlId>URL_028</urlId>
+                <personId>PER_0</personId>
+                <urlId>URL_28</urlId>
             </personUrlPair>
             <personUrlPair>
-                <personId>PER_000</personId>
-                <urlId>URL_029</urlId>
+                <personId>PER_0</personId>
+                <urlId>URL_29</urlId>
             </personUrlPair>
             <personUrlPair>
-                <personId>PER_000</personId>
-                <urlId>URL_030</urlId>
+                <personId>PER_0</personId>
+                <urlId>URL_30</urlId>
             </personUrlPair>
             <personUrlPair>
-                <personId>PER_000</personId>
-                <urlId>URL_031</urlId>
+                <personId>PER_0</personId>
+                <urlId>URL_31</urlId>
             </personUrlPair>
             <personUrlPair>
-                <personId>PER_000</personId>
-                <urlId>URL_032</urlId>
+                <personId>PER_0</personId>
+                <urlId>URL_32</urlId>
             </personUrlPair>
             <personUrlPair>
                 <personId>PER_101</personId>
@@ -2695,8 +2587,8 @@
 
         <crisisOrgs>
             <crisisOrgPair>
-                <crisisId>CRI_000</crisisId>
-                <orgId>ORG_000</orgId>
+                <crisisId>CRI_0</crisisId>
+                <orgId>ORG_0</orgId>
             </crisisOrgPair>
             <crisisOrgPair>
                 <crisisId>CRI_101</crisisId>
@@ -2737,8 +2629,8 @@
         </crisisOrgs> 
         <crisisPeople>
             <crisisPersonPair>
-                <crisisId>CRI_000</crisisId>
-                <personId>PER_000</personId>
+                <crisisId>CRI_0</crisisId>
+                <personId>PER_0</personId>
             </crisisPersonPair>
             <crisisPersonPair>
                 <crisisId>CRI_101</crisisId>
@@ -2779,8 +2671,8 @@
         </crisisPeople>
         <orgPeople>
             <orgPersonPair>
-                <orgId>ORG_000</orgId>
-                <personId>PER_000</personId>
+                <orgId>ORG_0</orgId>
+                <personId>PER_0</personId>
             </orgPersonPair>
             <orgPersonPair>
                 <orgId>ORG_101</orgId>
