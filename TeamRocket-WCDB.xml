@@ -170,7 +170,7 @@
         </crisis>
         <crisis>
             <crisisId>CRI_009</crisisId>
-            <name>2010 eruptions of Eyjafjallaj&#65533;kull (Iceland Volcano)</name>
+            <name>2010 eruptions of Eyjafjallaj&amp;#65533;kull (Iceland Volcano)</name>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -211,7 +211,6 @@
             <regulatoryChanges />
         </crisis>
     </crises>
-
 <orgs>
         <org>
             <orgId>ORG_001</orgId>
@@ -344,7 +343,6 @@
             <majorEvents>None</majorEvents>
         </org>
     </orgs>
-
     <people>
         <person>
             <personId>PER_001</personId>
@@ -437,7 +435,6 @@
             <country>USA</country>
         </person>
     </people>
-
 <crisisKinds>
         <crisisKindPair>
             <crisisId>CRI_001</crisisId>
@@ -459,7 +456,6 @@
             <crisisId>CRI_005</crisisId>
             <kind>Dictatorshipr</kind>
         </crisisKindPair>
-
         <crisisKindPair>
             <crisisId>CRI_006</crisisId>
             <kind>Natural Disaster</kind>
@@ -481,7 +477,6 @@
             <kind>War / Conflict</kind>
         </crisisKindPair>
     </crisisKinds>
-
 
     <orgKinds>
         <orgKindPair>
@@ -526,7 +521,6 @@
         </orgKindPair>
     </orgKinds>
 
-
     <personKinds>
         <personKindPair>
             <personId>PER_001</personId>
@@ -569,7 +563,6 @@
             <kind>Other Politician</kind>
         </personKindPair>
     </personKinds>
-
     <resources>
         <resourcePair>
             <resourceId>RES_001</resourceId>
@@ -616,7 +609,6 @@
             <resource>Money</resource>
         </resourcePair>
     </resources>
-
     <crisisResources>
         <crisisResourcePair>
             <crisisId>CRI_001</crisisId>
@@ -710,7 +702,6 @@
             <crisisId>CRI_005</crisisId>
             <resourceId>RES_006</resourceId>
         </crisisResourcePair>
-
         <crisisResourcePair>
             <crisisId>CRI_006</crisisId>
             <resourceId>RES_002</resourceId>
@@ -768,7 +759,6 @@
             <resourceId>RES_010</resourceId>
         </crisisResourcePair>
     </crisisResources>
-
     <waysToHelp>
         <wayToHelpPair>
             <helpId>HEL_001</helpId>
@@ -791,7 +781,6 @@
             <wayToHelp>Media Coverage</wayToHelp>
         </wayToHelpPair>
     </waysToHelp>
-
     <crisisWaysToHelp>
         <crisisWayToHelpPair>
             <crisisId>CRI_001</crisisId>
@@ -914,7 +903,6 @@
             <helpId>HEL_003</helpId>
         </crisisWayToHelpPair>
     </crisisWaysToHelp>
-
 <contactInfos>
         <contactInfo>
             <contactInfoId>CON_001</contactInfoId>
@@ -997,7 +985,6 @@
             <websiteUrlId>URL_272</websiteUrlId>
         </contactInfo>
     </contactInfos>
-
     <orgContactInfos>
         <orgContactInfoPair>
             <orgId>ORG_001</orgId>
@@ -1040,7 +1027,6 @@
             <contactInfoId>CON_010</contactInfoId>
         </orgContactInfoPair>
     </orgContactInfos>
-
    <citations>
         <citationPair>
             <citationId>CIT_101</citationId>
@@ -1083,7 +1069,6 @@
             <citationId>CIT_110</citationId>
             <citation>"U.N. Panel Faults China on North Korean Refugees" NYT. 18, Feb 2014</citation>
         </citationPair>
-
         <citationPair>
             <citationId>CIT_201</citationId>
             <citation>http://www.cnn.com/</citation>
@@ -1166,7 +1151,6 @@
         </citationPair>
     </citations>
 
-
     <crisisCitations>
         <crisisCitationPair>
             <citationId>CIT_101</citationId>
@@ -1209,7 +1193,6 @@
             <crisisId>CRI_005</crisisId>
         </crisisCitationPair>
     </crisisCitations>
-
     <orgCitations>
         <orgCitationPair>
             <orgId>ORG_001</orgId>
@@ -1252,7 +1235,6 @@
             <citationId>CIT_210</citationId>
         </orgCitationPair>
     </orgCitations>
-
     <personCitations>
         <personCitationPair>
             <personId>PER_001</personId>
@@ -1295,7 +1277,6 @@
             <citationId>CIT_310</citationId>
         </personCitationPair>
     </personCitations>
-
     <urls>
 <url>
             <urlId>URL_101</urlId>
@@ -1550,7 +1531,7 @@
         <url>
             <urlId>URL_201</urlId>
             <type>Image</type>
-            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=MmVIMUV0cBdONM%3A&imgrefurl=http%3A%2F%2Fwww.media-alliance.org%2Farticle.php%3Fid%3D2176&docid=x4EPpD8BPYbLoM&imgurl=http%3A%2F%2Fwww.media-alliance.org%2Fimg%2Foriginal%2Fcnn.jpg&w=1012&h=520&ei=wfEpU_PTEuqC2wW20IG4CQ&zoom=1&ved=0CGwQhBwwAQ&iact=rc&dur=2920&page=1&start=0&ndsp=16</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&amp;espv=210&amp;es_sm=91&amp;biw=1440&amp;bih=805&amp;tbm=isch&amp;tbnid=MmVIMUV0cBdONM%3A&amp;imgrefurl=http%3A%2F%2Fwww.media-alliance.org%2Farticle.php%3Fid%3D2176&amp;docid=x4EPpD8BPYbLoM&amp;imgurl=http%3A%2F%2Fwww.media-alliance.org%2Fimg%2Foriginal%2Fcnn.jpg&amp;w=1012&amp;h=520&amp;ei=wfEpU_PTEuqC2wW20IG4CQ&amp;zoom=1&amp;ved=0CGwQhBwwAQ&amp;iact=rc&amp;dur=2920&amp;page=1&amp;start=0&amp;ndsp=16</urlAddress>
         </url>
         <url>
             <urlId>URL_202</urlId>
@@ -1585,12 +1566,12 @@
         <url>
             <urlId>URL_208</urlId>
             <type>Image</type>
-            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=kqOdwAEoL_ggsM%3A&imgrefurl=https%3A%2F%2Ftwitter.com%2FCNN&docid=-JqKDaECW0aJ0M&imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F378800000049679889%2F9097753c470683f49aa12a6c15eba5c7.jpeg&w=240&h=240&ei=wfEpU_PTEuqC2wW20IG4CQ&zoom=1&ved=0CHsQhBwwBg&iact=rc&dur=861&page=1&start=0&ndsp=16</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&amp;espv=210&amp;es_sm=91&amp;biw=1440&amp;bih=805&amp;tbm=isch&amp;tbnid=kqOdwAEoL_ggsM%3A&amp;imgrefurl=https%3A%2F%2Ftwitter.com%2FCNN&amp;docid=-JqKDaECW0aJ0M&amp;imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F378800000049679889%2F9097753c470683f49aa12a6c15eba5c7.jpeg&amp;w=240&amp;h=240&amp;ei=wfEpU_PTEuqC2wW20IG4CQ&amp;zoom=1&amp;ved=0CHsQhBwwBg&amp;iact=rc&amp;dur=861&amp;page=1&amp;start=0&amp;ndsp=16</urlAddress>
         </url>
         <url>
             <urlId>URL_209</urlId>
             <type>Image</type>
-            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=-wGmGiQuF8pv_M%3A&imgrefurl=http%3A%2F%2Fwww.thesaleslion.com%2Fyork-times-praises-marcus-sheridans-content-marketing-approach%2F&docid=FBFTZWpddJNYuM&imgurl=http%3A%2F%2Fwww.thesaleslion.com%2Fwp-content%2Fuploads%2F2013%2F03%2Fthe-new-york-times.jpg&w=1320&h=1056&ei=W_MpU4CgLMns2AWTj4HACA&zoom=1&ved=0CGwQhBwwAQ&iact=rc&dur=5824&page=1&start=0&ndsp=19</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&amp;espv=210&amp;es_sm=91&amp;biw=1440&amp;bih=805&amp;tbm=isch&amp;tbnid=-wGmGiQuF8pv_M%3A&amp;imgrefurl=http%3A%2F%2Fwww.thesaleslion.com%2Fyork-times-praises-marcus-sheridans-content-marketing-approach%2F&amp;docid=FBFTZWpddJNYuM&amp;imgurl=http%3A%2F%2Fwww.thesaleslion.com%2Fwp-content%2Fuploads%2F2013%2F03%2Fthe-new-york-times.jpg&amp;w=1320&amp;h=1056&amp;ei=W_MpU4CgLMns2AWTj4HACA&amp;zoom=1&amp;ved=0CGwQhBwwAQ&amp;iact=rc&amp;dur=5824&amp;page=1&amp;start=0&amp;ndsp=19</urlAddress>
         </url>
         <url>
             <urlId>URL_210</urlId>
@@ -1635,7 +1616,7 @@
         <url>
             <urlId>URL_218</urlId>
             <type>Map</type>
-            <urlAddress>https://www.google.com/maps/preview?ie=UTF-8&q=ut+austin&fb=1&gl=us&hq=ut+austin&cid=9309483928212087262&ei=cZQrU9X9HejcyQHv0IDIBg&sqi=2&ved=0CLYBEPwS</urlAddress>
+            <urlAddress>https://www.google.com/maps/preview?ie=UTF-8&amp;q=ut+austin&amp;fb=1&amp;gl=us&amp;hq=ut+austin&amp;cid=9309483928212087262&amp;ei=cZQrU9X9HejcyQHv0IDIBg&amp;sqi=2&amp;ved=0CLYBEPwS</urlAddress>
         </url>
         <url>
             <urlId>URL_219</urlId>
@@ -1665,12 +1646,12 @@
         <url>
             <urlId>URL_224</urlId>
             <type>Image</type>
-            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=SMb_ede-h4DmgM%3A&imgrefurl=http%3A%2F%2Fwww.mrc.org%2Farticles%2Fals-jazeera-gore-sells-current-network-aligned-views&docid=QB-YGpHM65ajXM&imgurl=http%3A%2F%2F2.bp.blogspot.com%2F_6izHM7-NzcQ%2FTOVQ7PylymI%2FAAAAAAAABKQ%2FqBzMQIFsjiQ%2Fs1600%2Faljazeera-logo.jpg&w=500&h=375&ei=VfUpU4jOFKjq2AX18ID4Dw&zoom=1&ved=0CGwQhBwwAg&iact=rc&dur=559&page=1&start=0&ndsp=18</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&amp;espv=210&amp;es_sm=91&amp;biw=1440&amp;bih=805&amp;tbm=isch&amp;tbnid=SMb_ede-h4DmgM%3A&amp;imgrefurl=http%3A%2F%2Fwww.mrc.org%2Farticles%2Fals-jazeera-gore-sells-current-network-aligned-views&amp;docid=QB-YGpHM65ajXM&amp;imgurl=http%3A%2F%2F2.bp.blogspot.com%2F_6izHM7-NzcQ%2FTOVQ7PylymI%2FAAAAAAAABKQ%2FqBzMQIFsjiQ%2Fs1600%2Faljazeera-logo.jpg&amp;w=500&amp;h=375&amp;ei=VfUpU4jOFKjq2AX18ID4Dw&amp;zoom=1&amp;ved=0CGwQhBwwAg&amp;iact=rc&amp;dur=559&amp;page=1&amp;start=0&amp;ndsp=18</urlAddress>
         </url>
         <url>
             <urlId>URL_225</urlId>
             <type>Video</type>
-            <urlAddress>https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=2&cad=rja&uact=8&sqi=2&ved=0CDYQtwIwAQ&url=http%3A%2F%2Fwww.aljazeera.com%2Fnews%2Fmiddleeast%2F2014%2F03%2Fun-syria-war-crimes-proof-enough-indict-2014318113449296850.html&ei=zPUpU-_ANui02gXPkoHoDw&usg=AFQjCNGYqWCorK3Ud2idcB6XQLqgGVQjrQ&bvm=bv.62922401,d.b2I</urlAddress>
+            <urlAddress>https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=video&amp;cd=2&amp;cad=rja&amp;uact=8&amp;sqi=2&amp;ved=0CDYQtwIwAQ&amp;url=http%3A%2F%2Fwww.aljazeera.com%2Fnews%2Fmiddleeast%2F2014%2F03%2Fun-syria-war-crimes-proof-enough-indict-2014318113449296850.html&amp;ei=zPUpU-_ANui02gXPkoHoDw&amp;usg=AFQjCNGYqWCorK3Ud2idcB6XQLqgGVQjrQ&amp;bvm=bv.62922401,d.b2I</urlAddress>
         </url>
         <url>
             <urlId>URL_226</urlId>
@@ -1700,17 +1681,17 @@
         <url>
             <urlId>URL_231</urlId>
             <type>Image</type>
-            <urlAddress>http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1440&bih=805&tbm=isch&tbnid=WNg9Np2CwWU4CM%3A&imgrefurl=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPussy_Riot&docid=By4PlIBVZHLtnM&imgurl=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fa1%2FPussy_Riot_by_Igor_Mukhin.jpg&w=1200&h=810&ei=QvYpU-mZB8X02QWT4oHwBA&zoom=1&ved=0CGMQhBwwAA&iact=rc&dur=398&page=1&start=0&ndsp=15</urlAddress>
+            <urlAddress>http://www.google.com/imgres?sa=X&amp;espv=210&amp;es_sm=91&amp;biw=1440&amp;bih=805&amp;tbm=isch&amp;tbnid=WNg9Np2CwWU4CM%3A&amp;imgrefurl=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPussy_Riot&amp;docid=By4PlIBVZHLtnM&amp;imgurl=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fa1%2FPussy_Riot_by_Igor_Mukhin.jpg&amp;w=1200&amp;h=810&amp;ei=QvYpU-mZB8X02QWT4oHwBA&amp;zoom=1&amp;ved=0CGMQhBwwAA&amp;iact=rc&amp;dur=398&amp;page=1&amp;start=0&amp;ndsp=15</urlAddress>
         </url>
         <url>
             <urlId>URL_232</urlId>
             <type>Video</type>
-            <urlAddress>https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0CDUQtwIwAA&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgjI0KYl9gWs&ei=avYpU5avE6Tu2wWv8oG4Aw&usg=AFQjCNELU9lSxqVNOLDyPpd1cEzzWb3QBg&bvm=bv.62922401,d.b2I</urlAddress>
+            <urlAddress>https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=video&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CDUQtwIwAA&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgjI0KYl9gWs&amp;ei=avYpU5avE6Tu2wWv8oG4Aw&amp;usg=AFQjCNELU9lSxqVNOLDyPpd1cEzzWb3QBg&amp;bvm=bv.62922401,d.b2I</urlAddress>
         </url>
         <url>
             <urlId>URL_233</urlId>
             <type>Map</type>
-            <urlAddress>https://www.google.com/maps/preview?q=moscow+russia&ie=UTF-8&hq=&hnear=0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c,Moscow,+Russia&gl=us&ei=SJUrU5KxFpCFyQGUpIGgCQ&sqi=2&ved=0CLUBELYD</urlAddress>
+            <urlAddress>https://www.google.com/maps/preview?q=moscow+russia&amp;ie=UTF-8&amp;hq=&amp;hnear=0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c,Moscow,+Russia&amp;gl=us&amp;ei=SJUrU5KxFpCFyQGUpIGgCQ&amp;sqi=2&amp;ved=0CLUBELYD</urlAddress>
         </url>
         <url>
             <urlId>URL_234</urlId>
@@ -1817,7 +1798,6 @@
             <type>SocialNetwork</type>
             <urlAddress>http://www.facebook.com/UScoastguard</urlAddress>
         </url>
-
         <url>
             <urlId>URL_255</urlId>
             <type>SocialNetwork</type>
@@ -1908,7 +1888,6 @@
             <type>ExternalLink</type>
             <urlAddress>http://www.who.int/en/</urlAddress>
         </url>
-
         <url>
             <urlId>URL_301</urlId>
             <type>Image</type>
@@ -1947,7 +1926,7 @@
         <url>
             <urlId>URL_308</urlId>
             <type>Map</type>
-            <urlAddress>https://www.google.com/maps?t=m&ll=3.9080988,-45.4394517&z=4&q=Venezuela&output=classic</urlAddress>
+            <urlAddress>https://www.google.com/maps?t=m&amp;ll=3.9080988,-45.4394517&amp;z=4&amp;q=Venezuela&amp;output=classic</urlAddress>
         </url>
         <url>
             <urlId>URL_309</urlId>
@@ -1967,7 +1946,7 @@
         <url>
             <urlId>URL_312</urlId>
             <type>Image</type>
-            <urlAddress>http://a57.foxnews.com/global.fncstatic.com/static/managed/img/FNL/Politics/660/371/leo%20close.jpg?ve=1&tl=1</urlAddress>
+            <urlAddress>http://a57.foxnews.com/global.fncstatic.com/static/managed/img/FNL/Politics/660/371/leo%20close.jpg?ve=1&amp;tl=1</urlAddress>
         </url>
         <url>
             <urlId>URL_313</urlId>
@@ -1977,7 +1956,7 @@
         <url>
             <urlId>URL_314</urlId>
             <type>Map</type>
-            <urlAddress>https://www.google.com/maps?t=m&ll=3.9080988,-45.4394517&z=4&q=Venezuela&output=classic</urlAddress>
+            <urlAddress>https://www.google.com/maps?t=m&amp;ll=3.9080988,-45.4394517&amp;z=4&amp;q=Venezuela&amp;output=classic</urlAddress>
         </url>
         <url>
             <urlId>URL_315</urlId>
@@ -2007,7 +1986,7 @@
         <url>
             <urlId>URL_320</urlId>
             <type>Map</type>
-            <urlAddress>https://www.google.com/maps/preview?q=sochi+russia&ie=UTF-8&ei=zUQlU9ntCujg2QWh94DoCA&ved=0CAkQ_AUoAQ</urlAddress>
+            <urlAddress>https://www.google.com/maps/preview?q=sochi+russia&amp;ie=UTF-8&amp;ei=zUQlU9ntCujg2QWh94DoCA&amp;ved=0CAkQ_AUoAQ</urlAddress>
         </url>
         <url>
             <urlId>URL_321</urlId>
@@ -2037,7 +2016,7 @@
         <url>
             <urlId>URL_326</urlId>
             <type>Video</type>
-            <urlAddress>http://www.youtube.com/watch?v=t9ZZLYiYVZ0&list=PL2AQA3HZ1COBq2ORuPS1hkSRP7GtaDEcm</urlAddress>
+            <urlAddress>http://www.youtube.com/watch?v=t9ZZLYiYVZ0&amp;list=PL2AQA3HZ1COBq2ORuPS1hkSRP7GtaDEcm</urlAddress>
         </url>
         <url>
             <urlId>URL_327</urlId>
@@ -2310,7 +2289,6 @@
             <urlAddress>https://www.facebook.com/IcelandPresident</urlAddress>
         </url>
     </urls>
-
     <crisisUrls>
        <crisisUrlPair>
             <crisisId>CRI_001</crisisId>
@@ -2457,7 +2435,6 @@
             <urlId>URL_150</urlId>
         </crisisUrlPair>
     </crisisUrls>
-
     <orgUrls>
         <orgUrlPair>
             <orgId>ORG_001</orgId>
@@ -2748,7 +2725,6 @@
             <urlId>URL_272</urlId>
         </orgUrlPair>
     </orgUrls>
-
     <personUrls>
         <personUrlPair>
             <personId>PER_001</personId>
@@ -2967,7 +2943,6 @@
             <urlId>URL_389</urlId>
         </personUrlPair>
     </personUrls>
-
     <crisisOrgs>
         <crisisOrgPair>
             <crisisId>CRI_001</crisisId>
@@ -3046,7 +3021,6 @@
             <orgId>ORG_10</orgId>
         </crisisOrgPair>
     </crisisOrgs>
-
     <crisisPeople>
         <crisisPersonPair>
             <crisisId>CRI_004</crisisId>
@@ -3150,7 +3124,6 @@
         </crisisPersonPair>
     </crisisPeople>
 
-
     <orgPeople>
         <orgPersonPair>
             <orgId>ORG_005</orgId>
@@ -3165,5 +3138,4 @@
             <personId>PER_008</personId>
         </orgPersonPair>
     </orgPeople>
-
 </root>
