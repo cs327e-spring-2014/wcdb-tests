@@ -231,7 +231,7 @@ def setSQLcrisisResources (c, ele) :
 
         query(c, s)
 
-def setSQLwaysToHelp (ele):
+def setSQLwaysToHelp (c, ele):
     for i in ele :
         s = "Insert into WaysToHelp values("
         s+= "'" + getElement(i,'helpId')[5:] + ","
@@ -239,7 +239,7 @@ def setSQLwaysToHelp (ele):
 
         query(c, s)
 
-def setSQLcrisisWaysToHelp (ele):
+def setSQLcrisisWaysToHelp (c, ele):
     for i in ele :
         s = "Insert into CrisisWaysToHelp values("
         s+= "'" + getElement(i,'crisisId')[5:] + ","
