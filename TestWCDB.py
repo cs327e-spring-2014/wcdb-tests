@@ -1,7 +1,7 @@
 import StringIO
 import unittest
 
-from WCDB import getElement, setSQLClassification, toElementTree, toXML, _mysql
+from WCDB import WCDB_solve, WCDB_run, getElement, setSQLClassification, toElementTree, toXML
 from xml.etree.ElementTree import Element, fromstring, tostring
 
 class TestXML (unittest.TestCase) :
