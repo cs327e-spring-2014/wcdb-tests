@@ -335,7 +335,7 @@ DROP TABLE IF EXISTS `Urls`;
 CREATE TABLE IF NOT EXISTS `Urls` (
   `urlId` int(11) NOT NULL,
   `type` enum('Image','Video','Map','SocialNetwork','Website','ExternalLink') COLLATE utf8_unicode_ci NOT NULL,
-  `urlAddress` varchar(200) COLLATE utf8_unicode_ci NOT NULL
+  `urlAddress` varchar(200) COLLATE utf8_unicode_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
  
 -- --------------------------------------------------------
@@ -347,7 +347,7 @@ CREATE TABLE IF NOT EXISTS `Urls` (
 DROP TABLE IF EXISTS `WaysToHelp`;
 CREATE TABLE IF NOT EXISTS `WaysToHelp` (
   `helpId` bigint(20) unsigned NOT NULL,
-  `wayToHelp` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `wayToHelp` varchar(100) COLLATE utf8_unicode_ci ,
   PRIMARY KEY (`helpId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
  
