@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- Database definition -->
+    <xs:element name="root">
+        <!-- Main table list -->
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="crises" type="CrisesType" />
+                <xs:element name="orgs" type="OrgsType"/>
+                <xs:element name="people" type="PeopleType"/>
+ 
+                <xs:element name="crisisKinds" type="CrisisKindsType" />
+                <xs:element name="orgKinds" type="OrgKindsType" />
+                <xs:element name="personKinds" type="PersonKindsType" />
+ 
+                <xs:element name="resources" type="ResourcesType" />
+                <xs:element name="crisisResources" type="CrisisResourcesType" />
+ 
+                <xs:element name="waysToHelp" type="WaysToHelpType" />
+                <xs:element name="crisisWaysToHelp" type="CrisisWaysToHelpType" />
+ 
+                <xs:element name="contactInfos" type="ContactInfoType"/>
+                <xs:element name="orgContactInfos" type="OrgContactInfoType"/>
+ 
+                <xs:element name="citations" type="CitationType" />
+                <xs:element name="crisisCitations" type="CrisisCitationsType" />
+                <xs:element name="orgCitations" type="OrgCitationsType"/>
+                <xs:element name="personCitations" type="PersonCitationsType"/>
+ 
+                <xs:element name="urls" type="UrlsType" />
+                <xs:element name="crisisUrls" type="CrisisUrlsType" />
+                <xs:element name="orgUrls" type="OrgUrlsType"/>
+                <xs:element name="personUrls" type="PersonUrlsType"/>
+ 
+                <xs:element name="crisisOrgs" type="CrisisOrgsType" />
+                <xs:element name="crisisPeople" type="CrisisPeopleType" />
+                <xs:element name="orgPeople" type="OrgPeopleType"/>                
+            </xs:sequence>
+        </xs:complexType>
+ 
+        <!-- Keys-->
+        <xs:key name="crisisIdKey">
+            <xs:selector xpath="crises/crisis/crisisId" />
+            <xs:field xpath="." />
+        </xs:key>
+        <xs:key name="orgIdKey">
+            <xs:selector xpath="orgs/org/orgId" />
+            <xs:field xpath="."/>
+        </xs:key>
+        <xs:key name="personIdKey">
+            <xs:selector xpath="people/person/personId" />
+            <xs:field xpath="."/>
+        </xs:key>
+ 
+        <xs:key name="resourceIdKey">
+            <xs:selector xpath="resources/resourcePair/resourceId" />
+            <xs:field xpath="."/>
+        </xs:key>
+        <xs:key name="helpIdKey">
+            <xs:selector xpath="waysToHelp/wayToHelpPair/helpId" />
+            <xs:field xpath="."/>
+        </xs:key>
+        <xs:key name="contactInfoIdKey">
+            <xs:selector xpath="contactInfos/contactInfo/contactInfoId" />
+            <xs:field xpath="."/>
+        </xs:key>
+        <xs:key name="citationIdKey">
+            <xs:selector xpath="citations/citationPair/citationId" />
+            <xs:field xpath="."/>
+        </xs:key>
+        <xs:key name="urlIdKey">
+            <xs:selector xpath="urls/url/urlId" />
+            <xs:field xpath="." />
+        </xs:key>
+ 
+        <!-- Key References -->
+        <!--references to crisisIdKey-->
+        <xs:keyref name="crisisKindsCrisisIdRef" refer="crisisIdKey">
+            <xs:selector xpath="crisisKinds/crisisKindPair/crisisId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="crisisResourceCrisisIdRef" refer="crisisIdKey">
+            <xs:selector xpath="crisisResources/crisisResourcePair/crisisId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="crisisWaysToHelpCrisisIdRef" refer="crisisIdKey">
+            <xs:selector xpath="crisisWaysToHelp/crisisWayToHelpPair/crisisId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="crisisCitationsCrisisIdRef" refer="crisisIdKey">
+            <xs:selector xpath="crisisCitations/crisisCitationPair/crisisId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="crisisUrlsCrisisIdRef" refer="crisisIdKey">
+            <xs:selector xpath="crisisUrls/crisisUrlPair/crisisId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="crisisOrgsCrisisIdRef" refer="crisisIdKey">
+            <xs:selector xpath="crisisOrgs/crisisOrgPair/crisisId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="crisisPeopleCrisisIdRef" refer="crisisIdKey">
+            <xs:selector xpath="crisisPeople/crisisPersonPair/crisisId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <!--references to orgIdKey-->
+        <xs:keyref name="orgKindsCrisisIdRef" refer="orgIdKey">
+            <xs:selector xpath="orgKinds/orgKindPair/orgId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="orgContactInfosOrgIdRef" refer="orgIdKey">
+            <xs:selector xpath="orgContactInfos/orgContactInfoPair/orgId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="orgCitationsOrgIdRef" refer="orgIdKey">
+            <xs:selector xpath="orgCitations/orgCitationPair/orgId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="orgUrlsOrgIdRef" refer="orgIdKey">
+            <xs:selector xpath="orgUrls/orgUrlPair/orgId"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+        <!--references to personIdKey-->
+        <xs:keyref name="personKindsCrisisIdRef" refer="personIdKey">
+            <xs:selector xpath="personKinds/personKindPair/personId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="personCitationsPersonIdRef" refer="personIdKey">
+            <xs:selector xpath="personCitations/personCitationPair/personId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="personUrlsPersonIdRef" refer="personIdKey">
+            <xs:selector xpath="personUrls/personUrlPair/personId"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+        <xs:keyref name="orgPeoplePersonIdRef" refer="personIdKey">
+            <xs:selector xpath="orgPeople/orgPersonPair/personId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+ 
+        <!--references to waysToHelpIdKey-->
+        <xs:keyref name="crisisWaysToHelpWayToHelpIdRef" refer="helpIdKey">
+            <xs:selector xpath="crisisWaysToHelp/crisisWayToHelpPair/helpId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <!--references to contactInfoIdKey-->
+         <xs:keyref name="orgContactInfosContactInfoIdRef" refer="contactInfoIdKey">
+            <xs:selector xpath="orgContactInfos/orgContactInfoPair/contactInfoId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <!--references to citationIdKey-->
+        <xs:keyref name="crisisCitationsCitationIdRef" refer="citationIdKey">
+            <xs:selector xpath="crisisCitations/crisisCitationPair/citationId" />
+            <xs:field xpath="." />
+        </xs:keyref>        
+        <xs:keyref name="orgCitationsCitationIdRef" refer="citationIdKey">
+            <xs:selector xpath="orgCitations/orgCitationPair/citationId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="personCitationsCitationIdRef" refer="citationIdKey">
+            <xs:selector xpath="personCitations/personCitationPair/citationId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+ 
+        <!--references to urlIdKey-->
+        <xs:keyref name="crisisUrlsUrlIdRef" refer="urlIdKey">
+            <xs:selector xpath="crisisUrls/crisisUrlPair/urlId" />
+            <xs:field xpath="." />
+        </xs:keyref>
+        <xs:keyref name="orgUrlsUrlIdRef" refer="urlIdKey">
+            <xs:selector xpath="orgUrls/orgUrlPair/urlId"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+        <xs:keyref name="personUrlsUrlIdRef" refer="urlIdKey">
+            <xs:selector xpath="personUrls/personUrlPair/urlId"/>
+            <xs:field xpath="."/>
+        </xs:keyref>          
+    </xs:element>
+ 
+    <!-- Type definitions -->
+    <xs:simpleType name="IdType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(CRI|ORG|PER|RES|HEL|CON|CIT|URL)_[0-9]+"/>
+                            <!--CRI: Crisis
+                                ORG: Organziation
+                                PER: Person
+                                RES: Resources
+                                HEL: Ways to Help
+                                CON: ContactInfo
+                                CIT: Citations
+                                URL: Urls-->
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="Empty">
+        <xs:restriction base="xs:string">
+            <xs:length value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+ 
+    <xs:simpleType name="OptionalInt">
+        <xs:union>
+            <xs:simpleType>
+                <xs:restriction base='xs:string'>
+                    <xs:length value="0"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+                <xs:restriction base='xs:integer' />
+            </xs:simpleType>
+        </xs:union>
+  </xs:simpleType>
+ 
+    <xs:simpleType name="OptionalDate">
+        <xs:union>
+            <xs:simpleType>
+                <xs:restriction base='xs:string'>
+                    <xs:length value="0"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+                <xs:restriction base='xs:date' />
+            </xs:simpleType>
+        </xs:union>
+    </xs:simpleType>
+ 
+    <xs:complexType name="CrisesType">
+        <xs:sequence>
+            <xs:element name="crisis" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="crisisId" type="IdType"/>
+                        <xs:element name="name" type="xs:string" />
+                        <!--address-->
+                        <xs:element name="streetAddress" type="xs:string" />
+                        <xs:element name="city" type="xs:string"/>
+                        <xs:element name="stateOrProvince" type="xs:string"/>
+                        <xs:element name="postalCode" type="xs:string" />
+                        <xs:element name="country" type="xs:string"/>
+                        <!--date and time-->
+                        <xs:element name="dateAndTime" type="xs:dateTime"/>
+                        <!--human impact-->
+                        <xs:element name="fatalities" type="OptionalInt"/>
+                        <xs:element name="injuries" type="OptionalInt"/>
+                        <xs:element name="populationIll" type="OptionalInt"/>
+                        <xs:element name="populationDisplaced" type="xs:string"/>
+                        <xs:element name="environmentalImpact" type="xs:string"/>
+                        <xs:element name="politicalChanges" type="xs:string"/>
+                        <xs:element name="culturalChanges" type="xs:string"/>
+                        <!--economic impact-->
+                        <xs:element name="jobsLost" type="OptionalInt"  />
+                        <xs:element name="damageInUSD" type="OptionalInt"  />
+                        <xs:element name="reparationCost" type="OptionalInt"  />
+                        <xs:element name="regulatoryChanges" type="xs:string"  />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+    <xs:complexType name="OrgsType">
+        <xs:sequence>
+            <xs:element name="org" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="orgId" type="IdType" />
+                        <xs:element name="name" type="xs:string" />
+                        <xs:element name="streetAddress" type="xs:string"/>
+                        <xs:element name="city" type="xs:string"/>
+                        <xs:element name="stateOrProvince" type="xs:string"/>
+                        <xs:element name="postalCode" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="country" type="xs:string"/>
+                        <xs:element name="foundingMission" type="xs:string" />
+                        <xs:element name="dateFounded" type="xs:date" />
+                        <xs:element name="dateAbolished" type="OptionalDate"/>
+                        <xs:element name="majorEvents" type="xs:string" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+    <xs:complexType name="PeopleType">
+        <xs:sequence>
+            <xs:element name="person" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="personId" type="IdType" />
+                        <xs:element name="name" type="xs:string" />
+ 
+                        <xs:element name="streetAddress" type="xs:string"/>
+                        <xs:element name="city" type="xs:string"/>
+                        <xs:element name="stateOrProvince" type="xs:string"/>
+                        <xs:element name="postalCode" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="country" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+    <xs:complexType name="CrisisKindsType">
+        <xs:sequence>
+            <xs:element name="crisisKindPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="crisisId" type="IdType" />
+                        <xs:element name="kind" >
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Natural Disaster"/>
+                                    <xs:enumeration value="War / Conflict"/>
+                                    <xs:enumeration value="Act of Terrorism"/>
+                                    <xs:enumeration value="Human Error Disaster"/>
+                                    <xs:enumeration value="Assassination / Shooting"/>
+                                    <xs:enumeration value="Financial Crisis"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OrgKindsType">
+        <xs:sequence>
+            <xs:element name="orgKindPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="orgId" type="IdType" />
+                        <xs:element name="kind" >
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Government Agency"/>
+                                    <xs:enumeration value="Military Force"/>
+                                    <xs:enumeration value="Intergovernmental Agency"/>
+                                    <xs:enumeration value="Intergovernmental Public Health Agency"/>
+                                    <xs:enumeration value="Nonprofit / Humanitarian Organization"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PersonKindsType">
+        <xs:sequence>
+            <xs:element name="personKindPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="personId" type="IdType" />
+                        <xs:element name="kind" >
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Actor / Actress"/>
+                                    <xs:enumeration value="Musician"/>
+                                    <xs:enumeration value="Other Celebrity"/>
+                                    <xs:enumeration value="President"/>
+                                    <xs:enumeration value="Other Politician"/>
+                                    <xs:enumeration value="CEO"/>
+                                    <xs:enumeration value="Philanthropist"/>
+                                    <xs:enumeration value="Humanitarian"/>
+                                    <xs:enumeration value="Perpetrator"/>                                    
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+    <xs:complexType name="ResourcesType">
+        <xs:sequence>
+            <xs:element name="resourcePair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="resourceId" type="IdType" />
+                        <xs:element name="resource" type="xs:string"  />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="CrisisResourcesType">
+        <xs:sequence>
+            <xs:element name="crisisResourcePair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="crisisId" type="IdType" />
+                        <xs:element name="resourceId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+    <xs:complexType name="WaysToHelpType">
+        <xs:sequence>
+            <xs:element name="wayToHelpPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="helpId" type="IdType" />
+                        <xs:element name="wayToHelp" type="xs:string"  />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="CrisisWaysToHelpType">
+        <xs:sequence>
+            <xs:element name="crisisWayToHelpPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="crisisId" type="IdType" />
+                        <xs:element name="helpId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+     <xs:complexType name="CitationType">
+        <xs:sequence>
+            <xs:element name="citationPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="citationId" type="IdType" />
+                        <xs:element name="citation" type="xs:string"  />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="CrisisCitationsType">
+        <xs:sequence>
+            <xs:element name="crisisCitationPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="citationId" type="IdType" />
+                        <xs:element name="crisisId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OrgCitationsType">
+        <xs:sequence>
+            <xs:element name="orgCitationPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="orgId" type="IdType" />
+                        <xs:element name="citationId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PersonCitationsType">
+        <xs:sequence>
+            <xs:element name="personCitationPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="personId" type="IdType" />
+                        <xs:element name="citationId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+   <xs:complexType name="UrlsType">
+        <xs:sequence>
+            <xs:element name="url" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="urlId" type="IdType" />
+                        <xs:element name="type"  >
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Image"/>
+                                    <xs:enumeration value="Video"/>
+                                    <xs:enumeration value="Map"/>
+                                    <xs:enumeration value="SocialNetwork"/>
+                                    <xs:enumeration value="Website"/>
+                                    <xs:enumeration value="ExternalLink"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="urlAddress" type="xs:string"  />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="CrisisUrlsType">
+        <xs:sequence>
+            <xs:element name="crisisUrlPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="crisisId" type="IdType" />
+                        <xs:element name="urlId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OrgUrlsType">
+        <xs:sequence>
+            <xs:element name="orgUrlPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="orgId" type="IdType" />
+                        <xs:element name="urlId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PersonUrlsType">
+        <xs:sequence>
+            <xs:element name="personUrlPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="personId" type="IdType" />
+                        <xs:element name="urlId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ContactInfoType">
+        <xs:sequence>
+            <xs:element name="contactInfo" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="contactInfoId" type="IdType"  />
+                        <xs:element name="phoneNumber" type="xs:string"  />
+                        <xs:element name="emailAddress" type="xs:string"  />
+                        <xs:element name="facebookUrlId" type="IdType" /> <!--ideally would restrict to just facebook urls-->
+                        <xs:element name="twitterUrlId" type="IdType" />
+                        <xs:element name="websiteUrlId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OrgContactInfoType">
+        <xs:sequence>
+            <xs:element name="orgContactInfoPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="orgId" type="IdType" />
+                        <xs:element name="contactInfoId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+    <xs:complexType name="CrisisOrgsType">
+        <xs:sequence>
+            <xs:element name="crisisOrgPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="crisisId" type="IdType" />
+                        <xs:element name="orgId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="CrisisPeopleType">
+        <xs:sequence>
+            <xs:element name="crisisPersonPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="crisisId" type="IdType" />
+                        <xs:element name="personId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OrgPeopleType">
+        <xs:sequence>
+            <xs:element name="orgPersonPair" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="orgId" type="IdType" />
+                        <xs:element name="personId" type="IdType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+ 
+</xs:schema>
