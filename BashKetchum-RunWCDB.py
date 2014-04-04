@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-from WCDB import importXML, exportXML
+from WCDB import runWCDB 
 import sys
 
-
-element = importXML(sys.stdin)
-exportXML(element, sys.stdout)
+runWCDB(sys.stdin, sys.stdout)
