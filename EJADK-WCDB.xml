@@ -9,7 +9,6 @@
             <streetAddress>NULL</streetAddress>
             <city>Kuala Lumpur</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>Malaysia</country>
             <dateAndTime>2014-03-08T12:41:00</dateAndTime>
             <fatalities>246</fatalities>
@@ -31,7 +30,6 @@
             <streetAddress>14300 E Alameda Avenue</streetAddress>
             <city>Aurora</city>
             <stateOrProvince>Colorado</stateOrProvince>
-            <postalCode></postalCode>
             <country>USA</country>
             <dateAndTime>2012-07-20T12:38:00</dateAndTime>
             <fatalities>12</fatalities>
@@ -60,7 +58,7 @@
             <injuries>0</injuries>
             <populationIll>0</populationIll>
             <populationDisplaced>0</populationDisplaced>
-            <environmentalImpact>None</environmentalImpact>
+            <environmentalImpact>NULL</environmentalImpact>
             <politicalChanges>Uncertainty for Mexico's Communications Sector</politicalChanges>
             <culturalChanges>Increased paranoia about the US government</culturalChanges>
             <jobsLost>1</jobsLost>
@@ -81,7 +79,7 @@
             <fatalities>74</fatalities>
             <injuries>7700</injuries>
             <populationIll>31500</populationIll>
-            <populationDisplaced></populationDisplaced>
+            <populationDisplaced>0</populationDisplaced>
             <environmentalImpact>Heavy flooding</environmentalImpact>
             <politicalChanges>Crippled oil business</politicalChanges>
             <culturalChanges>Lost cultural landmarks</culturalChanges>
@@ -97,14 +95,13 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>South Sudan</country>
             <dateAndTime>2012-12-13T05:40:00</dateAndTime>
             <fatalities>4241</fatalities>
             <injuries>0</injuries>
             <populationIll>0</populationIll>
             <populationDisplaced>0</populationDisplaced>
-            <environmentalImpact>None</environmentalImpact>
+            <environmentalImpact>NULL</environmentalImpact>
             <politicalChanges>Regime changes and new country</politicalChanges>
             <culturalChanges>New country</culturalChanges>
             <jobsLost>0</jobsLost>
@@ -141,7 +138,6 @@
             <streetAddress>Lakehurst Naval Air Station</streetAddress>
             <city>Lakehurst</city>
             <stateOrProvince>New Jersey</stateOrProvince>
-            <postalCode></postalCode>
             <country>USA</country>
             <dateAndTime>2012-12-13T05:40:00</dateAndTime>
             <fatalities>36</fatalities>
@@ -163,7 +159,6 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode>NULL</postalCode>
             <country>USA</country>
             <dateAndTime>2013-05-20T00:00:00</dateAndTime>
             <fatalities>0</fatalities>
@@ -180,11 +175,11 @@
         </crisis>
         <crisis>
             <crisisId>CRI_008</crisisId>
-            <name>2010 eruptions of Eyjafjallajökull</name>
+            <name>2010 eruptions of Eyjafjallajokull</name>
             <kind>Natural Disaster</kind>
             <streetAddress>Tjarnargata 11</streetAddress>
             <city>Reykjavik</city>
-            <stateOrProvince>Suðurland</stateOrProvince>
+            <stateOrProvince>Suourland</stateOrProvince>
             <postalCode>101</postalCode>
             <country>Iceland</country>
             <dateAndTime>2008-12-13T02:10:00</dateAndTime>
@@ -207,7 +202,6 @@
             <streetAddress>NULL</streetAddress>
             <city>Leogane</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode>NULL</postalCode>
             <country>Haiti</country>
             <dateAndTime>2010-12-01T16:53:00</dateAndTime>
             <fatalities>220000</fatalities>
@@ -231,7 +225,6 @@
             <streetAddress>1234 Malaysia Avenue</streetAddress>
             <city>Kuala Lumpur</city>
             <stateOrProvince>Malaysia</stateOrProvince>
-            <postalCode></postalCode>
             <country>Malaysia</country>
             <foundingMission>Flights worldwide</foundingMission>
             <dateFounded>1937-10-12</dateFounded>
@@ -244,7 +237,6 @@
             <streetAddress>15001 E Alameda Pkwy</streetAddress>
             <city>Aurora</city>
             <stateOrProvince>Colorado</stateOrProvince>
-            <postalCode></postalCode>
             <country>USA</country>
             <foundingMission>Protect city of Aurora</foundingMission>
             <dateFounded>1907-03-04</dateFounded>
@@ -257,7 +249,6 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>NULL</country>
             <foundingMission>Bring important news and information to the public</foundingMission>
             <dateFounded>2006-10-04</dateFounded>
@@ -283,7 +274,6 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>South Sudan</country>
             <foundingMission>Defending cattle from neighbouring groups and fighting in civil war</foundingMission>
             <dateFounded>2012-12-24</dateFounded>
@@ -309,7 +299,6 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>Germany</country>
             <foundingMission>Manufacture and design of rigid airships.</foundingMission>
             <dateFounded>1908-01-01</dateFounded>
@@ -322,7 +311,6 @@
             <streetAddress>NULL</streetAddress>
             <city>Fort Meade</city>
             <stateOrProvince>Maryland</stateOrProvince>
-            <postalCode></postalCode>
             <country>USA</country>
             <foundingMission>global monitoring for national security purposes</foundingMission>
             <dateFounded>1917-04-28</dateFounded>
@@ -332,10 +320,9 @@
             <orgId>ORG_008</orgId>
             <name>International Federation of Red Cross and Red Crescent Societies</name>
             <kind>Nonprofit / Humanitarian Organization</kind>
-            <streetAddress>17 Chemin des Crêts</streetAddress>
+            <streetAddress>17 Chemin des Crets</streetAddress>
             <city>Geneva</city>
             <stateOrProvince>Null</stateOrProvince>
-            <postalCode>Null</postalCode>
             <country>Switzerland</country>
             <foundingMission>Monitor and engage in relevant EU humanitarian aid and civil protection issues</foundingMission>
             <dateFounded>1919-06-15</dateFounded>
@@ -343,7 +330,7 @@
         </org>
         <org>
             <orgId>ORG_009</orgId>
-            <name>Hatian Government</name>
+            <name>Haitian Government</name>
             <kind>Government Agency</kind>
             <streetAddress>5102 A </streetAddress>
             <city>Port-au-Prince</city>
@@ -363,7 +350,6 @@
             <streetAddress>NULL</streetAddress>
             <city>Kuala Lumpur</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>Malaysia</country>
         </person>
         <person>
@@ -373,7 +359,6 @@
             <streetAddress>527 Aurora Pkwy</streetAddress>
             <city>Aurora</city>
             <stateOrProvince>Colorado</stateOrProvince>
-            <postalCode></postalCode>
             <country>USA</country>
         </person>
         <person>
@@ -403,7 +388,6 @@
             <streetAddress>NULL</streetAddress>
             <city>Juba</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>South Sudan</country>
         </person>
         <person>
@@ -423,7 +407,6 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>Germany</country>
         </person>
         <person>
@@ -433,16 +416,15 @@
             <streetAddress>NULL</streetAddress>
             <city>Moscow</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
             <country>Russia</country>
         </person>
         <person>
             <personId>PER_008</personId>
-            <name>Ólafur Ragnar Grímsson</name>
+            <name>Olafur Ragnar Grimsson</name>
             <kind>President</kind>
-            <streetAddress>Sóleyjargötu 1</streetAddress>
-            <city>Reykjavík</city>
-            <stateOrProvince>Suðurland</stateOrProvince>
+            <streetAddress>Soleyjargotu 1</streetAddress>
+            <city>Reykjavik</city>
+            <stateOrProvince>Suourland</stateOrProvince>
             <postalCode>101</postalCode>
             <country>Iceland</country>
         </person>
