@@ -1,0 +1,1524 @@
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Rwandan Genocide</name>
+            <kind>Civil / Social Crisis</kind>
+            <country>Rwanda</country>
+            <dateAndTime>1994-04-07 T00:00:00</dateAndTime>
+            <fatalities>800000</fatalities>
+            <injuries>250000</injuries>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_001</orgId>
+            <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
+            <streetAddress>First Avenue at 46th St</streetAddress>
+            <city>New York City</city>
+            <stateOrProvince>NY</stateOrProvince>
+            <postalCode>10017</postalCode>
+            <country>USA</country>
+            <dateFounded>1945-10-24</dateFounded>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_001</personId>
+            <name>Romeo Dallaire</name>
+            <kind>Military</kind>
+            <country>Canada</country>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>CIT_022</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
+
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Rwandan Genocide</name>
+            <kind>Civil / Social Crisis</kind>
+            <country>Rwanda</country>
+            <dateAndTime>1991-10-04T00:00:00</dateAndTime>
+            <fatalities>13</fatalities>
+            <injuries>13</injuries>
+            <populationIll>13</populationIll>
+            <populationDisplaced>13</populationDisplaced>
+            <environmentalImpact>13</environmentalImpact>
+            <politicalChanges>13</politicalChanges>
+            <culturalChanges>13</culturalChanges>
+            <jobsLost>13</jobsLost>
+            <damageInUSD>13</damageInUSD>
+            <reparationCost>13</reparationCost>
+            <regulatoryChanges>NULL</regulatoryChanges>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_001</orgId>
+            <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
+            <streetAddress>1234 Broadway Ave</streetAddress>
+            <city>New York</city>
+            <stateOrProvince>NY</stateOrProvince>
+            <postalCode>78701</postalCode>
+            <country>USA</country>
+            <foundingMission>NULL</foundingMission>
+            <dateFounded>1965-02-02</dateFounded>
+            <majorEvents>NULL</majorEvents>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_001</personId>
+            <name>Romeo Dallaire</name>
+            <kind>Military</kind>
+            <streetAddress>1234 Sesame Street</streetAddress>
+            <city>Ausitn</city>
+            <stateOrProvince>TX</stateOrProvince>
+            <postalCode>78705</postalCode>
+            <country>USA</country>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>CIT_022</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
+
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Rwandan Genocide</name>
+            <kind>Civil / Social Crisis</kind>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_001</orgId>
+            <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_001</personId>
+            <name>Romeo Dallaire</name>
+            <kind>Military</kind>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>CIT_022</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
+
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Rwandan Genocide</name>
+            <kind>Civil / Social Crisis</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78613</postalCode>
+            <country>Rwanda</country>
+            <dateAndTime>string goes here</dateAndTime>
+            <fatalities>78613</fatalities>
+            <injuries>78613</injuries>
+            <populationIll>78613</populationIll>
+            <populationDisplaced>78613</populationDisplaced>
+            <environmentalImpact>string goes here</environmentalImpact>
+            <politicalChanges>string goes here</politicalChanges>
+            <culturalChanges>string goes here</culturalChanges>
+            <jobsLost>78613</jobsLost>
+            <damageInUSD>78613</damageInUSD>
+            <reparationCost>78613</reparationCost>
+            <regulatoryChanges>string goes here</regulatoryChanges>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_001</orgId>
+            <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>NY</stateOrProvince>
+            <postalCode>78613</postalCode>
+            <country>string goes here</country>
+            <foundingMission>string goes here</foundingMission>
+            <dateFounded>string goes here</dateFounded>
+            <majorEvents>string goes here</majorEvents>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_001</personId>
+            <name>Romeo Dallaire</name>
+            <kind>Military</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78613</postalCode>
+            <country>string goes here</country>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>CIT_022</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
+
+
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Rwandan Genocide</name>
+            <kind>Civil / Social Crisis</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78613555</postalCode>
+            <country>Rwanda</country>
+            <dateAndTime>string goes here</dateAndTime>
+            <fatalities>78613</fatalities>
+            <injuries>78613</injuries>
+            <populationIll>78613</populationIll>
+            <populationDisplaced>78613</populationDisplaced>
+            <environmentalImpact>string goes here</environmentalImpact>
+            <politicalChanges>string goes here</politicalChanges>
+            <culturalChanges>string goes here</culturalChanges>
+            <jobsLost>78613</jobsLost>
+            <damageInUSD>78613</damageInUSD>
+            <reparationCost>78613</reparationCost>
+            <regulatoryChanges>string goes here</regulatoryChanges>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_001</orgId>
+            <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>NY</stateOrProvince>
+            <postalCode>78613555</postalCode>
+            <country>string goes here</country>
+            <foundingMission>string goes here</foundingMission>
+            <dateFounded>string goes here</dateFounded>
+            <majorEvents>string goes here</majorEvents>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_001</personId>
+            <name>Romeo Dallaire</name>
+            <kind>Military</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78613555</postalCode>
+            <country>string goes here</country>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>This is an illegal string right here</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
+
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Rwandan Genocide</name>
+            <kind>Civil / Social Crisis</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78613555</postalCode>
+            <country>Rwanda</country>
+            <dateAndTime>string goes here</dateAndTime>
+            <fatalities>78613</fatalities>
+            <injuries>78613</injuries>
+            <populationIll>78613</populationIll>
+            <populationDisplaced>78613</populationDisplaced>
+            <environmentalImpact>string goes here</environmentalImpact>
+            <politicalChanges>string goes here</politicalChanges>
+            <culturalChanges>string goes here</culturalChanges>
+            <jobsLost>78613</jobsLost>
+            <damageInUSD>78613</damageInUSD>
+            <reparationCost>78613</reparationCost>
+            <regulatoryChanges>string goes here</regulatoryChanges>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_001</orgId>
+            <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>NY</stateOrProvince>
+            <postalCode>78613555</postalCode>
+            <country>string goes here</country>
+            <foundingMission>string goes here</foundingMission>
+            <dateFounded>string goes here</dateFounded>
+            <majorEvents>string goes here</majorEvents>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_001</personId>
+            <name>Romeo Dallaire</name>
+            <kind>Military</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78613555</postalCode>
+            <country>string goes here</country>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>This is an illegal string right here</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
+
+<root>
+<crises>
+        <crisis>
+            <crisisId>CRI_003</crisisId>
+            <name>Target Data Breach</name>
+            <kind>Human Error Disaster</kind>
+            <streetAddress>-1</streetAddress>
+            <city>-1</city>
+            <stateOrProvince>-1</stateOrProvince>
+            <postalCode>-1</postalCode>
+            <country>USA</country>
+            <dateAndTime>2013-11-27T00:00:00</dateAndTime>
+            <fatalities>0</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_004</crisisId>
+            <name>African HIV/AIDS Epidemic</name>
+            <kind>Natural Disaster</kind>
+            <streetAddress>-1</streetAddress>
+            <city>-1</city>
+            <stateOrProvince>-1</stateOrProvince>
+            <postalCode>-1</postalCode>
+            <country>Widespread in Africa</country>
+            <dateAndTime>1970-01-01T00:00:00</dateAndTime>
+            <fatalities>30000000</fatalities>
+            <populationIll>25000000</populationIll>
+            <jobsLost>-1</jobsLost>
+            <damageInUSD>9000000000</damageInUSD>
+
+        </crisis>
+</crises>
+<orgs>
+        <org>
+            <orgId>ORG_004</orgId>
+            <name>Center for Disease</name>
+            <kind>Government Agency</kind>
+            <streetAddress>1600 Clifton Rd</streetAddress>
+            <city>Atlanta</city>
+            <stateOrProvince>GA</stateOrProvince>
+            <postalCode>30333</postalCode>
+            <country>USA</country>
+            <dateFounded>1946-07-01</dateFounded>
+        </org>
+
+	
+</orgs>
+	<people>
+		 	 <person>
+             <personId>PER_002</personId>
+             <name>Barack Obama</name>
+             <kind>Politician</kind>
+             <streetAddress>1600 Pennsylvania Avenue</streetAddress>
+             <city>President's Park</city>
+             <stateOrProvince>Washington D.C.</stateOrProvince>
+             <postalCode>20500</postalCode>
+             <country>USA</country>
+         </person>
+	</people>
+	   <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+        </waysToHelp>
+   <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+        </crisisWaysToHelp>
+          <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+               </citationPair>
+               <crisisCitations>
+        <crisisCitationPair>
+            <citationId>CIT_022</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+        </crisisCitations>
+           <personCitations>
+				<personCitationPair>
+						<personId>PER_001</personId>
+						<citationId>CIT_034</citationId>
+				</personCitationPair>
+	</personCitations>
+</citations>
+	
+<urls>       
+<url>
+            <urlId>URL_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+</urls>
+</root>
+
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_000</crisisId>
+            <name>Crisis</name>
+            <kind>Civil / Social Crisis</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78705</postalCode>
+            <country>USA</country>
+            <dateAndTime>string goes here</dateAndTime>
+            <fatalities>0</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>string goes here</environmentalImpact>
+            <politicalChanges>string goes here</politicalChanges>
+            <culturalChanges>string goes here</culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>0</damageInUSD>
+            <reparationCost>20</reparationCost>
+            <regulatoryChanges>string goes here</regulatoryChanges>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_005</orgId>
+            <name>The Organization</name>
+            <kind>Intergovernmental Agency</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>NY</stateOrProvince>
+            <postalCode>78613555</postalCode>
+            <country>string goes here</country>
+            <foundingMission>string goes here</foundingMission>
+            <dateFounded>string goes here</dateFounded>
+            <majorEvents>string goes here</majorEvents>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_000</personId>
+            <name>A Very Important Person</name>
+            <kind>Military</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>TX</stateOrProvince>
+            <postalCode>78726</postalCode>
+            <country>USA</country>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_001</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>This is an illegal string right here</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>Rwandan Genocide</name>
+            <kind>War / Conflict</kind>
+            <streetAddress>4444 Rwanda Rd</streetAddress>
+            <city>Rwanda City</city>
+            <stateOrProvince>Rwanda State</stateOrProvince>
+            <postalCode>888888</postalCode>
+            <country>Rwanda</country>
+            <dateAndTime>1992-07-01T07:00:00</dateAndTime>
+        </crisis>
+    </crises>
+    <orgs>
+        <org>
+            <orgId>ORG_001</orgId>
+            <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>NY</stateOrProvince>
+            <postalCode></postalCode>
+            <country>string goes here</country>
+            <foundingMission>string goes here</foundingMission>
+            <dateFounded>string goes here</dateFounded>
+            <majorEvents>string goes here</majorEvents>
+        </org>
+    </orgs>
+    <people>
+        <person>
+            <personId>PER_001</personId>
+            <name>Romeo Dallaire</name>
+            <kind>Military</kind>
+            <streetAddress>string goes here</streetAddress>
+            <city>string goes here</city>
+            <stateOrProvince>string goes here</stateOrProvince>
+            <postalCode>78613</postalCode>
+            <country>string goes here</country>
+       </person>
+    </people>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_001</resourceId>
+            <resource>Monetary aid to people</resource>
+        </resourcePair>
+    </resources>
+    <crisisResources>
+      	<crisisResourcePair>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_001</resourceId>
+      	</crisisResourcePair>
+    </crisisResources> 
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>NULL</helpId>
+            <wayToHelp>Donate money</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_001</crisisId>
+            <helpId>HEL_003</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+    <citations>
+        <citationPair>
+            <citationId>CIT_001</citationId>
+            <citation>"11 Facts About HIV in Africa." Dosomething.org. Do Something, n.d. Web. 10 Mar. 2014.</citation>
+        </citationPair>
+    </citations>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>CIT_022</citationId>
+            <crisisId>CRI_001</crisisId>
+        </crisisCitationPair>
+	</crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_001</orgId>
+            <citationId>CIT_001</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>NULL</personId>
+            <citationId>CIT_000</citationId>
+        </personCitationPair>
+    </personCitations>
+    <urls>
+        <url>
+            <urlId>IMG_001</urlId>
+            <type>Image</type>
+            <urlAddress>http://news.bbcimg.co.uk/media/images/52802000/jpg/_52802128_008081949-1.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>VID_001</urlId>
+            <type>Video</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide/videos/rwanda-remembrance-and-reconciliation?m=528e394da93ae&amp;s=undefined&amp;f=1&amp;free=false</urlAddress>
+        </url>
+        <url>
+            <urlId>MAP_001</urlId>
+            <type>Map</type>
+            <urlAddress>http://geography.about.com/library/cia/blcrwanda.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>SOC_001</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.facebook.com/groups/RwandaGA/</urlAddress>
+        </url>
+        <url>
+            <urlId>INK_001</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.history.com/topics/rwandan-genocide</urlAddress>
+        </url>
+        <url>
+            <urlId>IMG_006</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/27/a3/19/klwmccoy09jpg.jpg</urlAddress>
+        </url>    
+    </urls>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>IMG_001</urlId>
+        </crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>VID_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>MAP_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>SOC_001</urlId>
+	</crisisUrlPair>
+	<crisisUrlPair>
+            <crisisId>CRI_001</crisisId>
+            <urlId>CRL_001</urlId>
+	</crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_000</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_006</personId>
+            <urlId>IMG_006</urlId>
+        </personUrlPair>
+    </personUrls>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_001</crisisId>
+            <orgId>ORG_001</orgId>
+        </crisisOrgPair>
+    </crisisOrgs>
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_001</crisisId>
+            <personId>PER_001</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_003</orgId>
+            <personId>PER_006</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>

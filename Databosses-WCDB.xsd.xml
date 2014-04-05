@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
+
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     <!-- Database definition -->
     <xs:element name="root">
@@ -9,21 +9,21 @@
                 <xs:element name="crises" type="CrisesType" />
                 <xs:element name="orgs" type="OrgsType"/>
                 <xs:element name="people" type="PeopleType"/>
- 
+
                 <xs:element name="resources" type="ResourcesType" />
                 <xs:element name="crisisResources" type="CrisisResourcesType" />
- 
+
                 <xs:element name="waysToHelp" type="WaysToHelpType" />
                 <xs:element name="crisisWaysToHelp" type="CrisisWaysToHelpType" />
- 
+
                 <xs:element name="contactInfos" type="ContactInfoType"/>
                 <xs:element name="orgContactInfos" type="OrgContactInfoType"/>
- 
+
                 <xs:element name="citations" type="CitationType" />
                 <xs:element name="crisisCitations" type="CrisisCitationsType" />
                 <xs:element name="orgCitations" type="OrgCitationsType"/>
                 <xs:element name="personCitations" type="PersonCitationsType"/>
- 
+
                 <xs:element name="urls" type="UrlsType" />
                 <xs:element name="crisisUrls" type="CrisisUrlsType" />
                 <xs:element name="orgUrls" type="OrgUrlsType"/>
@@ -38,7 +38,7 @@
         <!-- Keys-->
         <xs:key name="crisisIdKey">
             <xs:selector xpath="crises/crisis/crisisId" />
-            <xs:field xpath="."/>
+            <xs:field xpath="." />
         </xs:key>
         <xs:key name="orgIdKey">
             <xs:selector xpath="orgs/org/orgId" />
@@ -48,7 +48,7 @@
             <xs:selector xpath="people/person/personId" />
             <xs:field xpath="."/>
         </xs:key>
- 
+
         <xs:key name="resourceIdKey">
             <xs:selector xpath="resources/resourcePair/resourceId" />
             <xs:field xpath="."/>
@@ -69,7 +69,7 @@
             <xs:selector xpath="urls/url/urlId" />
             <xs:field xpath="." />
         </xs:key>
- 
+
         <!-- Key References -->
         <!--references to crisisIdKey-->
         <xs:keyref name="crisisResourceCrisisIdRef" refer="crisisIdKey">
@@ -145,7 +145,7 @@
             <xs:selector xpath="personCitations/personCitationPair/citationId" />
             <xs:field xpath="." />
         </xs:keyref>
- 
+
         <!--references to urlIdKey-->
         <xs:keyref name="crisisUrlsUrlIdRef" refer="urlIdKey">
             <xs:selector xpath="crisisUrls/crisisUrlPair/urlId" />
@@ -160,23 +160,22 @@
             <xs:field xpath="."/>
         </xs:keyref>          
     </xs:element>
- 
+
     <!-- Type definitions -->
     <xs:simpleType name="IdType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="(CRI|ORG|PER|RES|HELP|CON|CIT|URL|CRIMG|CRVID|CRMAP|CRSOC|CRLINK|CRCIT|ORGIMG|ORGVID|ORGMAP|ORGSOC|ORGLINK|ORGCIT|ORGCON|PIMG|PVID|PSOC|PLINK|PMAP|PERCIT|NULL)_?[0-9]*"/>
+            <xs:pattern value="(CRI|ORG|PER|RES|HEL|CON|CIT|URL)_[0-9]+"/>
                             <!--CRI: Crisis
                                 ORG: Organziation
                                 PER: Person
                                 RES: Resources
-                                HELP: Ways to Help
+                                HEL: Ways to Help
                                 CON: ContactInfo
                                 CIT: Citations
-                                URL: Urls
-                                NULL: Null-->
+                                URL: Urls-->
         </xs:restriction>
     </xs:simpleType>
- 
+
     <xs:complexType name="CrisesType">
         <xs:sequence>
             <xs:element name="crisis" minOccurs="0" maxOccurs="unbounded">
@@ -188,9 +187,6 @@
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
                                     <xs:enumeration value="Natural Disaster"/>
-                                    <xs:enumeration value="Civil / Social Crisis"/>
-                                    <xs:enumeration value="Pandemic / Illness"/>
-                                    <xs:enumeration value="Economic Crisis"/>
                                     <xs:enumeration value="War / Conflict"/>
                                     <xs:enumeration value="Act of Terrorism"/>
                                     <xs:enumeration value="Human Error Disaster"/>
@@ -203,24 +199,24 @@
                         <xs:element name="stateOrProvince" type="xs:string"/>
                         <xs:element name="postalCode" type="xs:string" minOccurs="0" maxOccurs="1"/>
                         <xs:element name="country" type="xs:string"/>
-                        <xs:element name="dateAndTime" type="xs:string" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="fatalities" type="xs:string" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="injuries" type="xs:string"/>
-                        <xs:element name="populationIll" type="xs:string"/>
-                        <xs:element name="populationDisplaced" type="xs:string"/>
-                        <xs:element name="environmentalImpact" type="xs:string"/>
-                        <xs:element name="politicalChanges" type="xs:string"/>
-                        <xs:element name="culturalChanges" type="xs:string"/>
-                        <xs:element name="jobsLost" type="xs:string" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="damageInUSD" type="xs:string" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="reparationCost" type="xs:string" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="regulatoryChanges" type="xs:string" minOccurs="1" maxOccurs="1" />
+                        <xs:element name="dateAndTime" type="xs:dateTime" minOccurs="1" maxOccurs="1" />
+                        <xs:element name="fatalities" type="xs:int" minOccurs="0" maxOccurs="1" />
+                        <xs:element name="injuries" type="xs:int" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="populationIll" type="xs:int" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="populationDisplaced" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="environmentalImpact" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="politicalChanges" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="culturalChanges" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="jobsLost" type="xs:int" minOccurs="0" maxOccurs="1" />
+                        <xs:element name="damageInUSD" type="xs:integer" minOccurs="0" maxOccurs="1" />
+                        <xs:element name="reparationCost" type="xs:integer" minOccurs="0" maxOccurs="1" />
+                        <xs:element name="regulatoryChanges" type="xs:string" minOccurs="0" maxOccurs="1" />
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="OrgsType">
         <xs:sequence>
             <xs:element name="org" maxOccurs="unbounded" minOccurs="0">
@@ -232,7 +228,6 @@
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
                                     <xs:enumeration value="Government Agency"/>
-                                    <xs:enumeration value="Corporation"/>
                                     <xs:enumeration value="Military Force"/>
                                     <xs:enumeration value="Intergovernmental Agency"/>
                                     <xs:enumeration value="Intergovernmental Public Health Agency"/>
@@ -245,16 +240,16 @@
                         <xs:element name="stateOrProvince" type="xs:string"/>
                         <xs:element name="postalCode" type="xs:string" minOccurs="0" maxOccurs="1"/>
                         <xs:element name="country" type="xs:string"/>
-                        <xs:element name="foundingMission" type="xs:string" maxOccurs="1" minOccurs="1"/>
-                        <xs:element name="dateFounded" type="xs:string" maxOccurs="1" minOccurs="1"/>
+                        <xs:element name="foundingMission" type="xs:string" maxOccurs="1" minOccurs="0"/>
+                        <xs:element name="dateFounded" type="xs:date" maxOccurs="1" minOccurs="0"/>
                         <xs:element name="dateAbolished" type="xs:date" maxOccurs="1" minOccurs="0"/>
-                        <xs:element name="majorEvents" type="xs:string" maxOccurs="1" minOccurs="1"/>
+                        <xs:element name="majorEvents" type="xs:string" maxOccurs="1" minOccurs="0"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="PeopleType">
         <xs:sequence>
             <xs:element name="person" maxOccurs="unbounded" minOccurs="0">
@@ -272,6 +267,7 @@
                                     <xs:enumeration value="President"/>
                                     <xs:enumeration value="CEO"/>
                                     <xs:enumeration value="Humanitarian"/>
+                                    <xs:enumeration value="Perpetrator"/>
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:element>
@@ -285,7 +281,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="ResourcesType">
         <xs:sequence>
             <xs:element name="resourcePair" minOccurs="0" maxOccurs="unbounded">
@@ -310,7 +306,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="WaysToHelpType">
         <xs:sequence>
             <xs:element name="wayToHelpPair" minOccurs="0" maxOccurs="unbounded">
@@ -384,7 +380,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
    <xs:complexType name="UrlsType">
         <xs:sequence>
             <xs:element name="url" minOccurs="0" maxOccurs="unbounded">
@@ -452,11 +448,11 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="contactInfoId" type="IdType" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="phoneNumber" type="xs:string" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="emailAddress" type="xs:string" minOccurs="1" maxOccurs="1" />
-                        <xs:element name="facebookUrlId" type="IdType" minOccurs="1" maxOccurs="1"/> <!--ideally would restrict to just facebook urls-->
-                        <xs:element name="twitterUrlId" type="IdType" minOccurs="1" maxOccurs="1"/>
-                        <xs:element name="websiteUrlId" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                        <xs:element name="phoneNumber" type="xs:string" minOccurs="0" maxOccurs="1" />
+                        <xs:element name="emailAddress" type="xs:string" minOccurs="0" maxOccurs="1" />
+                        <xs:element name="facebookUrlId" type="IdType" minOccurs="0" maxOccurs="1"/> <!--ideally would restrict to just facebook urls-->
+                        <xs:element name="twitterUrlId" type="IdType" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="websiteUrlId" type="IdType" minOccurs="0" maxOccurs="1"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -474,7 +470,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
- 
+
     <xs:complexType name="CrisisOrgsType">
         <xs:sequence>
             <xs:element name="crisisOrgPair" minOccurs="0" maxOccurs="unbounded">
