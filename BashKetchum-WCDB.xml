@@ -1,7 +1,7 @@
 <root>
     <crises>      
         <crisis>
-            <crisisId>CRI_005</crisisId>
+            <crisisId>CRI_010</crisisId>
             <name>Katrina</name>
             <kind>Natural Disaster</kind>
             <city>New Orleans</city>
@@ -1641,7 +1641,7 @@
         <url>
             <urlId>URL_304</urlId>
             <type>SocialNetwork</type>
-            <urlAddress />
+            <urlAddress>https://www.facebook.com/pages/George-Clooney/106055702758671</urlAddress>
         </url>
         <url>
             <urlId>URL_305</urlId>
@@ -2785,7 +2785,7 @@
         </crisisOrgPair>
         <crisisOrgPair>
             <crisisId>CRI_001</crisisId>
-            <orgId>ORG_07</orgId>
+            <orgId>ORG_002</orgId>
         </crisisOrgPair>
         <crisisOrgPair>
             <crisisId>CRI_005</crisisId>
@@ -2813,7 +2813,7 @@
         </crisisOrgPair>
         <crisisOrgPair>
             <crisisId>CRI_001</crisisId>
-            <orgId>ORG_10</orgId>
+            <orgId>ORG_005</orgId>
         </crisisOrgPair>
     </crisisOrgs>
 
