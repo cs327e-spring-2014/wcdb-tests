@@ -1,0 +1,905 @@
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_000</crisisId>
+            <name>Great Depression in US</name>
+            <streetAddress></streetAddress>
+            <city></city>
+            <stateOrProvince></stateOrProvince>
+            <postalCode></postalCode>
+            <country>USA</country>
+            <dateAndTime>1929-10-29T00:00:00</dateAndTime>
+            <fatalities>40000</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>200000</populationDisplaced>
+            <environmentalImpact></environmentalImpact>
+            <politicalChanges>New Deal, Increased Size of Government, creation of the Securities and Exchange Commission (SEC) and the Federal Deposit Insurance Corporation (FDIC)</politicalChanges>
+            <culturalChanges>Generaton that lived through the Great Depression stayed frugal, wary of banks, and suspicious of the stock market</culturalChanges>
+            <jobsLost>11000000</jobsLost>
+            <damageInUSD></damageInUSD>
+            <reparationCost>16000000000</reparationCost>
+            <regulatoryChanges>Strict trading and banking regulations</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_101</crisisId>
+            <name>Banqiao Dam Collapsed in China</name>
+            <streetAddress></streetAddress>
+            <city>Zhumadian City</city>
+            <stateOrProvince>Henan</stateOrProvince>
+            <postalCode></postalCode>
+            <country>China</country>
+            <dateAndTime>1975-08-07T00:00:00</dateAndTime>
+            <fatalities>171000</fatalities>
+            <injuries>0</injuries>
+            <populationIll>145000</populationIll>
+            <populationDisplaced>11000000</populationDisplaced>
+            <environmentalImpact>Flood</environmentalImpact>
+            <politicalChanges>Chinese government focused on surveillance and repair of reservoir dams</politicalChanges>
+            <culturalChanges></culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>513000000</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges>Repair and maintenance of old dams</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_202</crisisId>
+            <name>Texas Drought</name>
+            <streetAddress></streetAddress>
+            <city></city>
+            <stateOrProvince>Texas</stateOrProvince>
+            <postalCode></postalCode>
+            <country>United States</country>
+            <dateAndTime>2011-01-01T00:00:00</dateAndTime>
+            <fatalities>6</fatalities>
+            <injuries>62</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>7700</populationDisplaced>
+            <environmentalImpact>Agricultural failure, Extremely depleted fresh water reservoirs, wildfires</environmentalImpact>
+            <politicalChanges></politicalChanges>
+            <culturalChanges></culturalChanges>
+            <jobsLost>115000</jobsLost>
+            <damageInUSD>1100000000</damageInUSD>
+            <reparationCost>2000000000</reparationCost>
+            <regulatoryChanges>Water Conservation laws established</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_303</crisisId>
+            <name>Mexico City Earthquake</name>
+            <streetAddress></streetAddress>
+            <city>Mexico City</city>
+            <stateOrProvince>Mexico DF</stateOrProvince>
+            <postalCode></postalCode>
+            <country>Mexico</country>
+            <dateAndTime>1985-09-19T00:00:00</dateAndTime>
+            <fatalities>10000</fatalities>
+            <injuries>40000</injuries>
+            <populationIll>40000</populationIll>
+            <populationDisplaced>250000</populationDisplaced>
+            <environmentalImpact></environmentalImpact>
+            <politicalChanges>Political Crisis</politicalChanges>
+            <culturalChanges></culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>2000000000</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges></regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_404</crisisId>
+            <name>Libyan Civil War</name>
+            <streetAddress></streetAddress>
+            <city>Benghazi</city>
+            <stateOrProvince>Cyrenaica</stateOrProvince>
+            <postalCode>nil=true</postalCode>
+            <country>Libya</country>
+            <dateAndTime>2011-02-15T00:00:00</dateAndTime>
+            <fatalities>30000</fatalities>
+            <injuries>50000</injuries>
+            <populationIll></populationIll>
+            <populationDisplaced>64677</populationDisplaced>
+            <environmentalImpact>Fluctuations in Oil Prices</environmentalImpact>
+            <politicalChanges>Overthrow of Gaddafi Government. Installation of National Transitional Council.</politicalChanges>
+            <culturalChanges>Post Civil War Violence</culturalChanges>
+            <jobsLost></jobsLost>
+            <damageInUSD>43500000000</damageInUSD>
+            <reparationCost></reparationCost>
+            <regulatoryChanges></regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_909</crisisId>
+            <name>Hindenburg Disaster</name>
+            <streetAddress>Hwy 547, Bldg 481</streetAddress>
+            <city>Lakehurst</city>
+            <stateOrProvince>New Jersey</stateOrProvince>
+            <postalCode>08733</postalCode>
+            <country>United States</country>
+            <dateAndTime>1937-05-06T19:00:00</dateAndTime>
+            <fatalities>36</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>No more hydrogen used as fuel</environmentalImpact>
+            <politicalChanges>Marked the end of the airship era; End of passenger Zeppelin Transportation</politicalChanges>
+            <culturalChanges>End of Passenger Zeppelin Transportation</culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>0</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges>Change of hydrogen fuel type for air transportation</regulatoryChanges>
+        </crisis>
+    </crises>
+</root>
+
+<root>
+    <orgs>
+        <org>
+            <orgId>ORG_000</orgId>
+            <name>Works Progress Administration</name>
+            <streetAddress></streetAddress>
+            <city>Oklahoma City</city>
+            <stateOrProvince>OK</stateOrProvince>
+            <postalCode></postalCode>
+            <country>USA</country>
+            <foundingMission>Increase the purchasing power of persons on relief by employing them on useful projects.</foundingMission>
+            <dateFounded>1935-04-08</dateFounded>
+            <dateAbolished>1043-10-30</dateAbolished>
+            <majorEvents>Construction of 116,000 buildings, 78,000 bridges, 651,000 miles of road and improvement of 800 airports, in addition to the Federal Art Project, the Federal Writers' Project, and the Federal Theatre Project.</majorEvents>
+        </org>
+        <org>
+            <orgId>ORG_101</orgId>
+            <name>People's Liberation Army</name>
+            <streetAddress></streetAddress>
+            <city>Beijing</city>
+            <stateOrProvince>Beijing</stateOrProvince>
+            <postalCode></postalCode>
+            <country>China</country>
+            <foundingMission>Consolidate the ruling status of the Communist Party</foundingMission>
+            <dateFounded>1937-08-01</dateFounded>
+            <majorEvents>Chinese Civil War Against Kuomintang as Chinese Red Army
+                Vietnam War Control of Hong Kong and Macau's Military Defense</majorEvents>
+            </org>
+            <org>
+                <orgId>ORG_202</orgId>
+                <name>Central Texas Water Coalition</name>
+                <streetAddress>PO Box 328</streetAddress>
+                <city>Spicewood</city>
+                <stateOrProvince>Texas</stateOrProvince>
+                <postalCode>78669</postalCode>
+                <country>United States</country>
+                <foundingMission>To conserve fresh water sources in central Texas</foundingMission>
+                <dateFounded>2011-05-01</dateFounded>
+                <dateAbolished></dateAbolished>
+                <majorEvents></majorEvents>
+            </org>
+            <org>
+                <orgId>ORG_303</orgId>
+                <name>Brigada de Topos de Tlatelolco</name>
+                <streetAddress></streetAddress>
+                <city>Mexico City</city>
+                <stateOrProvince>Mexico DF</stateOrProvince>
+                <postalCode></postalCode>
+                <country>Mexico</country>
+                <foundingMission>Help the victims of the Mexico City Earthquake</foundingMission>
+                <dateFounded>1985-09-19</dateFounded>
+                <dateAbolished></dateAbolished>
+                <majorEvents>Mexico City Earthquake</majorEvents>  
+            </org>
+       <org>
+            <orgId>ORG_404</orgId>
+            <name>NATO</name>
+            <streetAddress>Boulevard Leopold III</streetAddress>
+            <city>Brussels</city>
+            <stateOrProvince>Brussels-Capital Region</stateOrProvince>
+            <postalCode>1110</postalCode>
+            <country>Belgium</country>
+            <foundingMission>Collective Defence of Member States</foundingMission>
+            <dateFounded>1949-04-04</dateFounded>
+            <dateAbolished></dateAbolished>
+            <majorEvents>Bosnia and Herzegovina intervention, Kosovo intervention, Afghanistan War, Iraq training mission, gulf of Aden anti-piracy, Libya intervention</majorEvents>
+        </org>
+       <org>
+            <orgId>ORG_909</orgId>
+            <name>Luftschiffbau Zeppelin</name>
+            <streetAddress></streetAddress>
+            <city></city>
+            <stateOrProvince></stateOrProvince>
+            <postalCode></postalCode>
+            <country>Germany</country>
+            <foundingMission>To create rigid airships</foundingMission>
+            <dateFounded>1917</dateFounded>
+        <dateAbolished>1945</dateAbolished>
+            <majorEvents>Reestablished 1993</majorEvents>
+        </org>
+        </orgs>
+        <people>
+            <person>
+                <personId>PER_200</personId>
+                <name>Franklin Delano Roosevelt</name>
+                <streetAddress>1600 Pennsylvania Avenue</streetAddress>
+                <city>Washington DC</city>
+                <stateOrProvince></stateOrProvince>
+                <postalCode>20500</postalCode>
+                <country>USA</country>
+            </person>
+            <person>
+                <personId>PER_101</personId>
+                <name>Chen Xing</name>
+                <streetAddress></streetAddress>
+                <city>Nianjing</city>
+                <stateOrProvince>Jiangsu</stateOrProvince>
+                <postalCode></postalCode>
+                <country>China</country>
+            </person>
+            <person>
+                <personId>PER_202</personId>
+                <name>Jo Karr Tedder</name>
+                <streetAddress></streetAddress>
+                <city>Austin</city>
+                <stateOrProvince>Texas</stateOrProvince>
+                <postalCode></postalCode>
+                <country>United States</country>
+            </person>
+            <person>
+                <personId>PER_303</personId>
+                <name>Miguel de la Madrid</name>
+                <streetAddress></streetAddress>
+                <city>Mexico City</city>
+                <stateOrProvince>Mexico DF</stateOrProvince>
+                <postalCode></postalCode>
+                <country>Mexico</country>
+            </person>
+        <person>
+            <personId>PER_404</personId>
+            <name>Muammar Muhammad Abu Minyar al-Gaddafi</name>
+            <streetAddress>Bab Al-Azizia</streetAddress>
+            <city>Tripoli</city>
+            <stateOrProvince>Tripolitania</stateOrProvince>
+            <postalCode></postalCode>
+            <country>Libya</country>
+        </person>
+        <person>
+            <personId>PER_909</personId>
+            <name>Ernst August Lehmann</name>
+            <streetAddress></streetAddress>
+            <city>Ludwigshafen am Rhein</city>
+            <stateOrProvince>Rhineland-Palatinate</stateOrProvince>
+            <postalCode>67059-67071</postalCode>
+            <country>Germany</country>
+        </person>
+    </people>
+</root>
+
+<root>
+    <crisisKinds>
+        <crisisKindPair>
+            <crisisId>CRI_000</crisisId>
+            <kind>Financial Crisis</kind>
+        </crisisKindPair>
+    <crisisKindPair>
+        <crisisId>CRI_101</crisisId>
+        <kind>Natural Disaster</kind>
+    </crisisKindPair>
+    <crisisKindPair>
+        <crisisId>CRI_202</crisisId>
+        <kind>Natural Disaster</kind>
+    </crisisKindPair>
+    <crisisKindPair>
+        <crisisId>CRI_303</crisisId>
+        <kind>Natural Disaster</kind>
+    </crisisKindPair>
+    <crisisKindPair>
+        <crisisId>CRI_404</crisisId>
+        <kind>War / Conflict</kind>
+    </crisisKindPair>
+    <crisisKindPair>
+        <crisisId>CRI_404</crisisId>
+        <kind>War / Conflict</kind>
+    </crisisKindPair>
+    <crisisKindPair>
+        <crisisId>CRI_909</crisisId>
+        <kind>Human Error Disaster</kind>
+    </crisisKindPair>
+    </crisisKinds>
+    <orgKinds>
+        <orgKindPair>
+            <orgId>ORG_000</orgId>
+            <kind>Government Agency</kind>
+        </orgKindPair>
+        <orgKindPair>
+            <orgId>ORG_000</orgId>
+            <kind>Military Force</kind>
+        </orgKindPair>            
+        <orgKindPair>
+            <orgId>ORG_202</orgId>
+            <kind>Nonprofit / Humanitarian Organization</kind>
+        </orgKindPair>
+        <orgKindPair>
+            <orgId>ORG_303</orgId>
+            <kind>Nonprofit / Humanitarian Organization</kind>
+        </orgKindPair>
+        <orgKindPair>
+            <orgId>ORG_404</orgId>
+            <kind>Intergovernmental Agency</kind>
+        </orgKindPair>
+        <orgKindPair>
+            <orgId>ORG_909</orgId>
+            <kind>Nonprofit / Humanitarian Organization</kind>
+        </orgKindPair>
+    </orgKinds>
+    <personKinds>
+        <personKindPair>
+            <personId>PER_000</personId>
+            <kind>President</kind>
+        </personKindPair>
+        <personKindPair>
+            <personId>PER_101</personId>
+            <kind>Humanitarian</kind>
+        </personKindPair>
+        <personKindPair>
+            <personId>PER_202</personId>
+            <kind>Humanitarian</kind>
+        </personKindPair>
+        <personKindPair>
+            <personId>PER_303</personId>
+            <kind>President</kind>
+        </personKindPair>
+        <personKindPair>
+            <personId>PER_404</personId>
+            <kind>Other Politician</kind>
+        </personKindPair>
+        <personKindPair>
+            <personId>PER_909</personId>
+            <kind>Humanitarian</kind>
+        </personKindPair>
+    </personKinds>
+</root>
+
+<root>
+    <resources>
+        <resourcePair>
+            <resourceId>RES_000</resourceId>
+            <resource>Food</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_010</resourceId>
+            <resource>Shelter</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_101</resourceId>
+            <resource>Clay</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_202</resourceId>
+            <resource>Water</resource>
+            <resourcePair>
+                <resourceId>RES_313</resourceId>
+                <resource>Human Lives</resource>
+            </resourcePair>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_404</resourceId>
+            <resource>Money</resource>
+        </resourcePair>
+        <resourcePair>
+            <resourceId>RES_909</resourceId>
+            <resource>Hydrogen</resource>
+        </resourcePair>
+    </resources>
+</root>
+
+<root>
+    <crisisResources>
+        <crisisResourcePair>
+            <crisisId>CRI_000</crisisId>
+            <resourceId>RES_000</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_000</crisisId>
+            <resourceId>RES_010</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_101</crisisId>
+            <resourceId>RES_101</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_202</crisisId>
+            <resourceId>RES_202</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_303</crisisId>
+            <resourceId>RES_313</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_404</crisisId>
+            <resourceId>RES_404</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_909</crisisId>
+            <resourceId>RES_909</resourceId>
+        </crisisResourcePair>
+    </crisisResources> 
+</root>
+
+<root>
+    <waysToHelp>
+        <wayToHelpPair>
+            <helpId>HEL_000</helpId>
+            <wayToHelp>Provide Food</wayToHelp>
+        </wayToHelpPair>
+        <wayToHelpPair>
+            <helpId>HEL_010</helpId>
+            <wayToHelp>Provide Jobs</wayToHelp>
+        </wayToHelpPair>
+        <wayToHelpPair>
+            <helpId>HEL_011</helpId>
+            <wayToHelp>Lend Money</wayToHelp>
+        </wayToHelpPair>
+        <wayToHelpPair>
+            <helpId>HEL_101</helpId>
+            <wayToHelp>Donate</wayToHelp>
+        </wayToHelpPair>
+        <wayToHelpPair>
+            <helpId>HEL_202</helpId>
+            <wayToHelp>Raise Awareness</wayToHelp>
+        </wayToHelpPair>
+    </waysToHelp>
+    <crisisWaysToHelp>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_000</crisisId>
+            <helpId>HEL_000</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_000</crisisId>
+            <helpId>HEL_010</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_000</crisisId>
+            <helpId>HEL_011</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_101</crisisId>
+            <helpId>HEL_101</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_202</crisisId>
+            <helpId>HEL_202</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_000</crisisId>
+            <helpId>HEL_303</helpId>
+        </crisisWayToHelpPair>
+        <crisisWayToHelpPair>
+            <crisisId>CRI_404</crisisId>
+            <helpId>HEL_101</helpId>
+        </crisisWayToHelpPair>
+    </crisisWaysToHelp>
+</root>
+
+<root>
+    <contactInfos>    
+        <contactInfo>
+            <contactInfoId>CON_101</contactInfoId>
+            <phoneNumber></phoneNumber>
+            <emailAddress></emailAddress>
+            <facebookUrlId>URL_102</facebookUrlId>
+            <twitterUrlId>URL_103</twitterUrlId>
+            <websiteUrlId>URL_104</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_202</contactInfoId>
+            <phoneNumber></phoneNumber>
+            <emailAddress></emailAddress>
+            <facebookUrlId>URL_207</facebookUrlId>
+            <twitterUrlId>URL_208</twitterUrlId>
+            <websiteUrlId>URL_209</websiteUrlId>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_303</contactInfoId>
+            <phoneNumber>04455 5416-0417</phoneNumber>
+            <emailAddress>aspirantes@topos.mx</emailAddress>
+        </contactInfo>
+        <contactInfo>
+            <contactInfoId>CON_404</contactInfoId>
+            <phoneNumber>+32 (0)2 707 41 11</phoneNumber>
+            <emailAddress>pao@fchd.nato.int</emailAddress>
+            <facebookUrlId>URL_404</facebookUrlId>
+            <twitterUrlId>URL_405</twitterUrlId>
+            <websiteUrlId>URL_406</websiteUrlId>
+        </contactInfo>
+    </contactInfos>    
+    <orgContactInfos> 
+        <orgContactInfoPair>
+            <orgId>ORG_303</orgId>
+            <contactInfoId>CON_303</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_101</orgId>
+            <contactInfoId>CON_101</contactInfoId>
+        </orgContactInfoPair>
+        <orgContactInfoPair>
+            <orgId>ORG_202</orgId>
+            <contactInfoId>CON_202</contactInfoId>
+        </orgContactInfoPair>   
+        <orgContactInfoPair>
+            <orgId>ORG_404</orgId>
+            <contactInfoId>CON_404</contactInfoId>
+        </orgContactInfoPair>
+    </orgContactInfos> 
+</root>
+
+<root>
+    <citations>
+        <citationPair>
+            <citationId>CIT_000</citationId>
+            <citation>Meyer, Robinson. "Suicide and the Economy." Atlantic. 26 09 2013: n. page. Web. 20 Mar. 2014. &lt; http://www.theatlantic.com/health/archive/2013/09/suicide-and-the-economy/279961/&gt;.</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_010</citationId>
+            <citation>"Great Depression Facts." Great Depression. Croft Communications, n.d. Web. 20 Mar 2014.</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_011</citationId>
+            <citation>"Work Projects Administration." The Columbia Electronic Encyclopedia. 2012.</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_012</citationId>
+            <citation>Long, Tony. "April 8, 1935: WPA Puts Millions Back to Work." Wired. 08 04 200: n. page. Web. 20 Mar. 2014.</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_013</citationId>
+            <citation>"Franklin D. Roosevelt." 2014. The Biography Channel website. Mar 20 2014, 07:24 http://www.biography.com/people/franklin-d-roosevelt-9463381.</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_101</citationId>
+            <citation>Banqiao Dam Wikipedia Entry</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_102</citationId>
+            <citation>People's Liberation Army Wikipedia Entry</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_103</citationId>
+            <citation>Chen Xing Wikipedia Entry</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_206</citationId>
+            <citation>Texas Drought impact statement</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_207</citationId>
+            <citation>Central Texas Water Coalition website</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_208</citationId>
+            <citation>Jo Karr Tedder LinkedIn</citation>
+        </citationPair>
+
+        <citationPair>
+            <citationId>CIT_309</citationId>
+            <citation>http://www.topos.mx/</citation>
+        </citationPair>
+        <citationPair>
+            <citationId>CIT_308</citationId>
+            <citation>http://en.wikipedia.org/wiki/Miguel_de_la_Madrid</citation>
+        </citationPair>
+    </citations> 
+</root>
+
+<root>
+    <crisisCitations>
+        <crisisCitationPair>
+            <citationId>CIT_000</citationId>
+            <crisisId>CRI_000</crisisId>
+        </crisisCitationPair>
+        <crisisCitationPair>
+            <citationId>CIT_010</citationId>
+            <crisisId>CRI_000</crisisId>
+        </crisisCitationPair>
+        <crisisCitationPair>
+            <citationId>CIT_101</citationId>
+            <crisisId>CRI_101</crisisId>
+        </crisisCitationPair>
+        <crisisCitationPair>
+            <citationId>CIT_206</citationId>
+            <crisisId>CRI_202</crisisId>
+        </crisisCitationPair>
+    </crisisCitations>
+    <orgCitations>
+        <orgCitationPair>
+            <orgId>ORG_000</orgId>
+            <citationId>CIT_011</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
+            <orgId>ORG_101</orgId>
+            <citationId>CIT_102</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
+            <orgId>ORG_202</orgId>
+            <citationId>CIT_207</citationId>
+        </orgCitationPair>
+        <orgCitationPair>
+            <orgId>ORG_303</orgId>
+            <citationId>CIT_309</citationId>
+        </orgCitationPair>
+    </orgCitations>
+    <personCitations>
+        <personCitationPair>
+            <personId>PER_000</personId>
+            <citationId>CIT_013</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_101</personId>
+            <citationId>CIT_103</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_202</personId>
+            <citationId>CIT_208</citationId>
+        </personCitationPair>
+        <personCitationPair>
+            <personId>PER_303</personId>
+            <citationId>CIT_308</citationId>
+        </personCitationPair>
+    </personCitations>
+</root>
+
+<root>
+    <urls>
+        <url>
+            <urlId>URL_000</urlId>
+            <type>Image</type>
+            <urlAddress>http://media.npr.org/assets/news/2009/10/19/depression01_462-4ff151d7e084e3e1d41d08412c1c584a6988ca94-s6-c30.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_010</urlId>
+            <type>Image</type>
+            <urlAddress>ttp://www.mhslibrary.org/Teacher%20Projects/Teacher%20Projects/Social%20Studies/Taylor/Great%20Depression/motherandchildren.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_011</urlId>
+            <type>Image</type>
+            <urlAddress>http://blsciblogs.baruch.cuny.edu/his1005spring2011/files/2011/03/2_great_depression.jpg</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_012</urlId>
+            <type>Video</type>
+            <urlAddress>https://www.youtube.com/watch?v=q-FnZbK81z4</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_013</urlId>
+            <type>Map</type>
+            <urlAddress>http://goo.gl/maps/JoiMT</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_014</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.twitter.com/archivesnews/status/183210265934954497?p=v
+            </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_015</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://www.twitter.com/WrldHstryPics/status/435415573220966401?p=v
+            </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_016</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.econlib.org/library/Enc/GreatDepression.html</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_017</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.pbs.org/wgbh/americanexperience/features/timeline/rails-timeline/</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_018</urlId>
+            <type>Image</type>
+            <urlAddress>http://foundsf.org/images/0/0d/Wpa-workers-excavating-bayview-hill.jpg </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_019</urlId>
+            <type>Image</type>
+            <urlAddress>http://www.authentichistory.com/1930-1939/2-fdr/1-newdeal/WPA_Posters.jpg </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_020</urlId>
+            <type>Image</type>
+            <urlAddress>http://eleventhstack.files.wordpress.com/2012/11/wpa1.jpg </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_021</urlId>
+            <type>Video</type>
+            <urlAddress>https://www.youtube.com/watch?v=Aq5UiGdje8U</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_022</urlId>
+            <type>Map</type>
+            <urlAddress>http://goo.gl/maps/oKhR5</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_023</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://twitter.com/Goannatree/status/445936029418409985
+            </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_024</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://twitter.com/treebiology/status/445664709375963136
+            </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_025</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.indiana.edu/~liblilly/wpa/wpa_info.html</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_026</urlId>
+            <type>Website</type>
+            <urlAddress>http://history.howstuffworks.com/american-history/works-progress-administration.htm</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_027</urlId>
+            <type>Image</type>
+            <urlAddress>https://en.wikipedia.org/wiki/File:FDR_in_1933.jpg </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_028</urlId>
+            <type>Video</type>
+            <urlAddress>https://www.youtube.com/watch?v=qK42SUseTwM</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_029</urlId>
+            <type>Map</type>
+            <urlAddress>http://goo.gl/maps/lEYLB</urlAddress>
+        </url>
+        <url>
+            <urlId>URL_030</urlId>
+            <type>SocialNetwork</type>
+            <urlAddress>https://twitter.com/harveyjkaye/status/446802888258379776
+            </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_031</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.whitehouse.gov/about/presidents/franklindroosevelt
+            </urlAddress>
+        </url>
+        <url>
+            <urlId>URL_032</urlId>
+            <type>Website</type>
+            <urlAddress>http://www.american-presidents-history.com/franklin-roosevelt-biography.html</urlAddress>
+        </url>
+    </urls>
+</root>
+
+<root>
+    <crisisUrls>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_000</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_010</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_011</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_012</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_013</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_014</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_015</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_016</urlId>
+        </crisisUrlPair>
+        <crisisUrlPair>
+            <crisisId>CRI_000</crisisId>
+            <urlId>URL_017</urlId>
+        </crisisUrlPair>
+    </crisisUrls>
+    <orgUrls>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_018</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_019</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_020</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_021</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_022</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_023</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_024</urlId>
+        </orgUrlPair>
+        <orgUrlPair>
+            <orgId>ORG_000</orgId>
+            <urlId>URL_026</urlId>
+        </orgUrlPair>
+    </orgUrls>
+    <personUrls>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_027</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_028</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_029</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_030</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_031</urlId>
+        </personUrlPair>
+        <personUrlPair>
+            <personId>PER_000</personId>
+            <urlId>URL_032</urlId>
+        </personUrlPair>
+    </personUrls>
+</root>
+
+<root>
+    <crisisOrgs>
+        <crisisOrgPair>
+            <crisisId>CRI_000</crisisId>
+            <orgId>ORG_000</orgId>
+        </crisisOrgPair>
+        <crisisOrgPair>
+            <crisisId>CRI_202</crisisId>
+            <orgId>ORG_202</orgId>
+        </crisisOrgPair>
+    </crisisOrgs> 
+    <crisisPeople>
+        <crisisPersonPair>
+            <crisisId>CRI_000</crisisId>
+            <personId>PER_000</personId>
+        </crisisPersonPair>
+        <crisisPersonPair>
+            <crisisId>CRI_202</crisisId>
+            <personId>PER_202</personId>
+        </crisisPersonPair>
+    </crisisPeople>
+    <orgPeople>
+        <orgPersonPair>
+            <orgId>ORG_000</orgId>
+            <personId>PER_000</personId>
+            <orgId>ORG_202</orgId>
+            <personId>PER_202</personId>
+        </orgPersonPair>
+    </orgPeople>
+</root>
