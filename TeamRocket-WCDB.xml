@@ -3,6 +3,7 @@
         <crisis>
             <crisisId>CRI_040</crisisId>
             <name>Venezuela Protest</name>
+            <kind>War / Conflict</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -24,6 +25,7 @@
         <crisis>
             <crisisId>CRI_041</crisisId>
             <name>Ukraine Crisis</name>
+            <kind>War / Conflict</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -45,6 +47,7 @@
         <crisis>
             <crisisId>CRI_042</crisisId>
             <name>Pussy Riot</name>
+            <kind>War / Conflict</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -66,6 +69,7 @@
         <crisis>
             <crisisId>CRI_043</crisisId>
             <name>Syrian Protests</name>
+            <kind>War / Conflict</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -87,6 +91,7 @@
         <crisis>
             <crisisId>CRI_044</crisisId>
             <name>Crimes in NK</name>
+            <kind>War / Conflict</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -108,6 +113,7 @@
         <crisis>
             <crisisId>CRI_001</crisisId>
             <name>Haiti Earthquake</name>
+            <kind>Natural Disaster</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -129,6 +135,7 @@
         <crisis>
             <crisisId>CRI_002</crisisId>
             <name>Hurricane Ike</name>
+            <kind>Natural Disaster</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -150,6 +157,7 @@
         <crisis>
             <crisisId>CRI_003</crisisId>
             <name>Benghazi Attack</name>
+            <kind>Act of Terrorism</kind>
             <streetAddress />
             <city>Benghazi</city>
             <stateOrProvince />
@@ -171,6 +179,7 @@
         <crisis>
             <crisisId>CRI_004</crisisId>
             <name>Eruption of Eyjafjallajokull</name>
+            <kind>Natural Disaster</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -192,6 +201,7 @@
         <crisis>
             <crisisId>CRI_005</crisisId>
             <name>Cold War</name>
+            <kind>War / Conflict</kind>
             <streetAddress />
             <city />
             <stateOrProvince />
@@ -215,6 +225,7 @@
         <org>
             <orgId>ORG_044</orgId>
             <name>CNN</name>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress>384 Northyards Blvd NW</streetAddress>
             <city>Atlanta</city>
             <stateOrProvince>Georgia</stateOrProvince>
@@ -228,6 +239,7 @@
         <org>
             <orgId>ORG_045</orgId>
             <name>The New York Times</name>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress>620 Eighth Avenue</streetAddress>
             <city>New York City</city>
             <stateOrProvince>New York</stateOrProvince>
@@ -241,6 +253,7 @@
         <org>
             <orgId>ORG_046</orgId>
             <name>BRAVEN (Brazilian and Venezuelan Student Association)</name>
+            <kind>Nonprofit / Humanitarian Organization</kind>
             <streetAddress />
             <city>Austin</city>
             <stateOrProvince>Texas</stateOrProvince>
@@ -254,6 +267,7 @@
         <org>
             <orgId>ORG_047</orgId>
             <name>Al Jazeera</name>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress />
             <city>Doha</city>
             <stateOrProvince />
@@ -267,6 +281,7 @@
         <org>
             <orgId>ORG_048</orgId>
             <name>Pussy Riot</name>
+            <kind>Nonprofit / Humanitarian Organization</kind>
             <streetAddress />
             <city>Moscow</city>
             <stateOrProvince />
@@ -280,6 +295,7 @@
         <org>
             <orgId>ORG_001</orgId>
             <name>UNICEF</name>
+            <kind>Nonprofit / Humanitarian Organization</kind>
             <streetAddress>3 United Nations Plaza</streetAddress>
             <city>New York</city>
             <stateOrProvince>New York</stateOrProvince>
@@ -293,6 +309,7 @@
         <org>
             <orgId>ORG_002</orgId>
             <name>United Nations</name>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress>760 United Nations Plaza</streetAddress>
             <city>New York</city>
             <stateOrProvince>New York</stateOrProvince>
@@ -306,6 +323,7 @@
         <org>
             <orgId>ORG_003</orgId>
             <name>U.S. Coast Guard</name>
+            <kind>Military Force</kind>
             <streetAddress>2100 2nd Street</streetAddress>
             <city>Washington D.C.</city>
             <stateOrProvince>None</stateOrProvince>
@@ -319,6 +337,7 @@
         <org>
             <orgId>ORG_004</orgId>
             <name>U.S. Marine Corps</name>
+            <kind>Military Force</kind>
             <streetAddress>2008 Elliot Road</streetAddress>
             <city>Quantico</city>
             <stateOrProvince>Virginia</stateOrProvince>
@@ -332,6 +351,7 @@
         <org>
             <orgId>ORG_005</orgId>
             <name>World Health Organization</name>
+            <kind>Intergovernmental Agency</kind>
             <streetAddress>Avenue Appia 20</streetAddress>
             <city>Geneva</city>
             <stateOrProvince>Romandy</stateOrProvince>
@@ -347,6 +367,7 @@
         <person>
             <personId>PER_044</personId>
             <name>Kim Jong Un</name>
+            <kind>President</kind>
             <streetAddress>434 Gangnam Style Avenue</streetAddress>
             <city>Some town</city>
             <stateOrProvince>Provencal</stateOrProvince>
@@ -356,6 +377,7 @@
         <person>
             <personId>PER_045</personId>
             <name>Nicolas Maduro</name>
+            <kind>President</kind>
             <streetAddress>1234 Riivolution Way</streetAddress>
             <city>Podunk</city>
             <stateOrProvince>Poslam</stateOrProvince>
@@ -365,6 +387,7 @@
         <person>
             <personId>PER_046</personId>
             <name>Leopoldo Lopez</name>
+            <kind>Politician</kind>
             <streetAddress>1234 Banaste Calle</streetAddress>
             <city>Some city</city>
             <stateOrProvince>Some prov</stateOrProvince>
@@ -374,6 +397,7 @@
         <person>
             <personId>PER_047</personId>
             <name>Vladimir Putin</name>
+            <kind>President</kind>
             <streetAddress>1337 Waifu Lane</streetAddress>
             <city>Flash Sentry</city>
             <stateOrProvince>Groznyjgrad</stateOrProvince>
@@ -383,6 +407,7 @@
         <person>
             <personId>PER_048</personId>
             <name>Oleksandr Valentynovych Turchynov</name>
+            <kind>President</kind>
             <streetAddress />
             <city />
             <stateOrProvince>Crimea River</stateOrProvince>
@@ -392,6 +417,7 @@
         <person>
             <personId>PER_001</personId>
             <name>Barack Obama</name>
+            <kind>President</kind>
             <streetAddress>1600 Pennsylvania Ave NW</streetAddress>
             <city>Washington, D.C.</city>
             <stateOrProvince />
@@ -401,6 +427,7 @@
         <person>
             <personId>PER_002</personId>
             <name>Hillary Clinton</name>
+            <kind>Politician</kind>
             <streetAddress>3067 Whitehaven St NW</streetAddress>
             <city>Washington, D.C.</city>
             <stateOrProvince />
@@ -410,6 +437,7 @@
         <person>
             <personId>PER_003</personId>
             <name>Ben S. Bernanke</name>
+            <kind>Politician</kind>
             <streetAddress />
             <city>Washington, D.C.</city>
             <stateOrProvince />
@@ -419,6 +447,7 @@
         <person>
             <personId>PER_006</personId>
             <name>Olafur Ragnar Grimsson</name>
+            <kind>President</kind>
             <streetAddress />
             <city>Bessastaoir</city>
             <stateOrProvince>Garoabaer</stateOrProvince>
@@ -428,6 +457,7 @@
         <person>
             <personId>PER_004</personId>
             <name>Colin L. Powell</name>
+            <kind>Politician</kind>
             <streetAddress />
             <city>Washington, D.C.</city>
             <stateOrProvince />
@@ -435,132 +465,7 @@
             <country>United States</country>
         </person>
     </people>
-<crisisKinds>
-        <crisisKindPair>
-            <crisisId>CRI_040</crisisId>
-            <kind>War / Conflict</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_041</crisisId>
-            <kind>War / Conflict</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_042</crisisId>
-            <kind>War / Conflict</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_043</crisisId>
-            <kind>War / Conflict</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_044</crisisId>
-            <kind>War / Conflict</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_001</crisisId>
-            <kind>Natural Disaster</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_002</crisisId>
-            <kind>Natural Disaster</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_003</crisisId>
-            <kind>War / Conflict</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_004</crisisId>
-            <kind>Natural Disaster</kind>
-        </crisisKindPair>
-        <crisisKindPair>
-            <crisisId>CRI_005</crisisId>
-            <kind>War / Conflict</kind>
-        </crisisKindPair>
-    </crisisKinds>
-    <orgKinds>
-        <orgKindPair>
-            <orgId>ORG_044</orgId>
-            <kind>Intergovernmental Agency</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_045</orgId>
-            <kind>Intergovernmental Agency</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_046</orgId>
-            <kind>Nonprofit / Humanitarian Organization</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_047</orgId>
-            <kind>Intergovernmental Agency</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_048</orgId>
-            <kind>Nonprofit / Humanitarian Organization</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_001</orgId>
-            <kind>Nonprofit / Humanitarian Organization</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_002</orgId>
-            <kind>Intergovernmental Agency</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_003</orgId>
-            <kind>Military Force</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_004</orgId>
-            <kind>Military Force</kind>
-        </orgKindPair>
-        <orgKindPair>
-            <orgId>ORG_005</orgId>
-            <kind>Intergovernmental Agency</kind>
-        </orgKindPair>
-    </orgKinds>
-    <personKinds>
-        <personKindPair>
-            <personId>PER_044</personId>
-            <kind>President</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_045</personId>
-            <kind>President</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_046</personId>
-            <kind>Politician</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_047</personId>
-            <kind>President</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_048</personId>
-            <kind>President</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_001</personId>
-            <kind>President</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_002</personId>
-            <kind>Politician</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_003</personId>
-            <kind>Politician</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_006</personId>
-            <kind>President</kind>
-        </personKindPair>
-        <personKindPair>
-            <personId>PER_004</personId>
-            <kind>Politician</kind>
-        </personKindPair>
-    </personKinds>
+
     <resources>
         <resourcePair>
             <resourceId>RES_001</resourceId>
@@ -755,16 +660,16 @@
     </crisisResources>
     <waysToHelp>
         <wayToHelpPair>
-            <helpId>HEL_001</helpId>
+            <helpId>HEL_007</helpId>
             <wayToHelp>Donate food</wayToHelp>
         </wayToHelpPair>
         <wayToHelpPair>
-            <helpId>HEL_002</helpId>
-            <wayToHelp>Donate Clothes</wayToHelp>
+            <helpId>HEL_008</helpId>
+            <wayToHelp>Donate clothes</wayToHelp>
         </wayToHelpPair>
         <wayToHelpPair>
-            <helpId>HEL_003</helpId>
-            <wayToHelp>Donate Money</wayToHelp>
+            <helpId>HEL_009</helpId>
+            <wayToHelp>Donate money</wayToHelp>
         </wayToHelpPair>
         <wayToHelpPair>
             <helpId>HEL_004</helpId>
@@ -778,15 +683,15 @@
     <crisisWaysToHelp>
         <crisisWayToHelpPair>
             <crisisId>CRI_040</crisisId>
-            <helpId>HEL_001</helpId>
+            <helpId>HEL_007</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_040</crisisId>
-            <helpId>HEL_002</helpId>
+            <helpId>HEL_008</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_040</crisisId>
-            <helpId>HEL_003</helpId>
+            <helpId>HEL_009</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_040</crisisId>
@@ -798,15 +703,15 @@
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_041</crisisId>
-            <helpId>HEL_001</helpId>
+            <helpId>HEL_007</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_041</crisisId>
-            <helpId>HEL_002</helpId>
+            <helpId>HEL_008</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_041</crisisId>
-            <helpId>HEL_003</helpId>
+            <helpId>HEL_009</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_041</crisisId>
@@ -822,11 +727,11 @@
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_042</crisisId>
-            <helpId>HEL_001</helpId>
+            <helpId>HEL_007</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_042</crisisId>
-            <helpId>HEL_002</helpId>
+            <helpId>HEL_008</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_042</crisisId>
@@ -834,15 +739,15 @@
         </crisisWayToHelpPair>
 	<crisisWayToHelpPair>
             <crisisId>CRI_043</crisisId>
-            <helpId>HEL_001</helpId>
+            <helpId>HEL_007</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_043</crisisId>
-            <helpId>HEL_002</helpId>
+            <helpId>HEL_008</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_043</crisisId>
-            <helpId>HEL_003</helpId>
+            <helpId>HEL_009</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_043</crisisId>
@@ -858,15 +763,15 @@
         </crisisWayToHelpPair>
 	<crisisWayToHelpPair>
             <crisisId>CRI_044</crisisId>
-            <helpId>HEL_001</helpId>
+            <helpId>HEL_007</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_044</crisisId>
-            <helpId>HEL_002</helpId>
+            <helpId>HEL_008</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_044</crisisId>
-            <helpId>HEL_003</helpId>
+            <helpId>HEL_009</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_044</crisisId>
@@ -878,15 +783,15 @@
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_001</crisisId>
-            <helpId>HEL_001</helpId>
+            <helpId>HEL_007</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_001</crisisId>
-            <helpId>HEL_002</helpId>
+            <helpId>HEL_008</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_001</crisisId>
-            <helpId>HEL_003</helpId>
+            <helpId>HEL_009</helpId>
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_001</crisisId>
@@ -894,7 +799,7 @@
         </crisisWayToHelpPair>
         <crisisWayToHelpPair>
             <crisisId>CRI_004</crisisId>
-            <helpId>HEL_003</helpId>
+            <helpId>HEL_009</helpId>
         </crisisWayToHelpPair>
     </crisisWaysToHelp>
 <contactInfos>
