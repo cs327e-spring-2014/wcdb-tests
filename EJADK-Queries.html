@@ -1,0 +1,43 @@
+--------------
+--
+Select name, dateAndTime
+	From crises
+	Where dateAndTime <= all
+    	(Select dateAndTime
+            From crises)
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>dateAndTime</TH></TR><TR><TD>Cold War</TD><TD>1947-01-01 00:00:00</TD></TR></TABLE>--------------
+--
+Select sum(fatalities)
+	From crises
+	Where kind = 'Natural Disaster'
+--------------
+
+<TABLE BORDER=1><TR><TH>sum(fatalities)</TH></TR><TR><TD>30688643</TD></TR></TABLE>--------------
+--
+Select country, count(*)
+	From people 
+	Where kind = 'politician' 
+	Group by country
+--------------
+
+<TABLE BORDER=1><TR><TH>country</TH><TH>count(*)</TH></TR><TR><TD>Canada</TD><TD>1</TD></TR><TR><TD>Malaysia</TD><TD>1</TD></TR><TR><TD>South Sudan</TD><TD>1</TD></TR><TR><TD>USA</TD><TD>7</TD></TR></TABLE>--------------
+--
+Select name, count(distinct crisisId)
+	From crisisOrgs
+	inner join orgs using (orgId)
+	Group by name
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>count(distinct crisisId)</TH></TR><TR><TD>Aurora Police Department</TD><TD>1</TD></TR><TR><TD>Austin Police Department</TD><TD>1</TD></TR><TR><TD>Center for Disease</TD><TD>1</TD></TR><TR><TD>Doctors without Borders</TD><TD>2</TD></TR><TR><TD>FEMA</TD><TD>1</TD></TR><TR><TD>Greenpeace</TD><TD>1</TD></TR><TR><TD>Habitat for Humanity</TD><TD>2</TD></TR><TR><TD>Haitian Government</TD><TD>1</TD></TR><TR><TD>International Federation of Red Cross and Red Cres</TD><TD>2</TD></TR><TR><TD>International Medical Corps</TD><TD>2</TD></TR><TR><TD>Japan Society</TD><TD>1</TD></TR><TR><TD>Malaysia Airlines</TD><TD>1</TD></TR><TR><TD>Mercy Corps</TD><TD>1</TD></TR><TR><TD>National Security Agency</TD><TD>1</TD></TR><TR><TD>Nuer White Army</TD><TD>1</TD></TR><TR><TD>Portlight Strategies, Inc.</TD><TD>1</TD></TR><TR><TD>Salvation Army</TD><TD>3</TD></TR><TR><TD>Target</TD><TD>1</TD></TR><TR><TD>U.S. Coast Guard</TD><TD>1</TD></TR><TR><TD>U.S. Marine Corps</TD><TD>1</TD></TR><TR><TD>UNICEF</TD><TD>3</TD></TR><TR><TD>United Nations</TD><TD>7</TD></TR><TR><TD>United Nations Children's Fund</TD><TD>3</TD></TR><TR><TD>United States Department of State</TD><TD>2</TD></TR><TR><TD>WikiLeaks</TD><TD>1</TD></TR><TR><TD>World Health Organization</TD><TD>5</TD></TR></TABLE>--------------
+--
+Select resource, count(resourceId)
+	From resources 
+	inner join crisisResources using (resourceId)
+	group by resourceId
+	order by count(resourceId) desc
+	limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>resource</TH><TH>count(resourceId)</TH></TR><TR><TD>Hospitalization</TD><TD>8</TD></TR></TABLE>
