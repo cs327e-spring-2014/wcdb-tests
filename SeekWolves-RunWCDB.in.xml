@@ -20483,55 +20483,9 @@
 </root>
 
 <root>
-    <crises>
-        <crisis>
-            <crisisId>CRI_025</crisisId>
-            <name>Malaysia Airplane MH370</name>
-            <kind>Human Error Disaster</kind>
-            <streetAddress>NULL</streetAddress>
-            <city>Kuala Lumpur</city>
-            <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
-            <country>Malaysia</country>
-            <dateAndTime>2014-03-08T12:41:00</dateAndTime>
-            <fatalities>246</fatalities>
-            <injuries>2</injuries>
-            <populationIll>246</populationIll>
-            <populationDisplaced>Unknown</populationDisplaced>
-            <environmentalImpact>Unknown</environmentalImpact>
-            <politicalChanges>Unknown</politicalChanges>
-            <culturalChanges>Unknown</culturalChanges>
-            <jobsLost>2</jobsLost>
-            <damageInUSD>1000000</damageInUSD>
-            <reparationCost>2000000</reparationCost>
-            <regulatoryChanges>Stricter Airplane Security</regulatoryChanges>
-        </crisis>
-    </crises>
+    <crises></crises>
 </root>
 
 <root>
-    <crises>
-        <crisis>
-            <crisisId>CRI_025</crisisId>
-            <name>Malaysia Airplane MH370</name>
-            <kind>Human Error Disaster</kind>
-            <streetAddress>NULL</streetAddress>
-            <city>Kuala Lumpur</city>
-            <stateOrProvince>NULL</stateOrProvince>
-            <postalCode></postalCode>
-            <country>Malaysia</country>
-            <dateAndTime>2014-03-08T12:41:00</dateAndTime>
-            <fatalities>246</fatalities>
-            <injuries>2</injuries>
-            <populationIll>246</populationIll>
-            <populationDisplaced>Unknown</populationDisplaced>
-            <environmentalImpact>Unknown</environmentalImpact>
-            <politicalChanges>Unknown</politicalChanges>
-            <culturalChanges>Unknown</culturalChanges>
-            <jobsLost>2</jobsLost>
-            <damageInUSD>1000000</damageInUSD>
-            <reparationCost>2000000</reparationCost>
-            <regulatoryChanges>Stricter Airplane Security</regulatoryChanges>
-        </crisis>
-    </crises>
+	<crises></crises>
 </root>
