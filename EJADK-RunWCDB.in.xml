@@ -1,6 +1,7 @@
+<root>
 <crises>
     <crisis>
-        <crisisId>CRI_020</crisisId>
+        <crisisId>CRI_060</crisisId>
         <name>Malaysia Airplane MH370</name>
         <kind>Human Error Disaster</kind>
         <streetAddress>NULL</streetAddress>
@@ -21,7 +22,7 @@
         <regulatoryChanges>Stricter Airplane Security</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_021</crisisId>
+        <crisisId>CRI_061</crisisId>
         <name>Aurora Shooting</name>
         <kind>Assassination / Shooting</kind>
         <streetAddress>14300 E Alameda Avenue</streetAddress>
@@ -42,7 +43,7 @@
         <regulatoryChanges>Stricter Movie Regulations</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_022</crisisId>
+        <crisisId>CRI_062</crisisId>
         <name>Cablegate</name>
         <kind>Human Error Disaster</kind>
         <streetAddress>BOX 4080 University of Melbourne</streetAddress>
@@ -64,7 +65,7 @@
         <regulatoryChanges>Stricter access to cables</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_023</crisisId>
+        <crisisId>CRI_063</crisisId>
         <name>Hurricane Ike</name>
         <kind>Natural Disaster</kind>
         <streetAddress>823 Rosenberg, Suite 203</streetAddress>
@@ -86,7 +87,7 @@
         <regulatoryChanges>Stricter levy building codes</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_024</crisisId>
+        <crisisId>CRI_064</crisisId>
         <name>South Sudan Civil War</name>
         <kind>War / Conflict</kind>
         <streetAddress>NULL</streetAddress>
@@ -107,7 +108,7 @@
         <regulatoryChanges>New country</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_025</crisisId>
+        <crisisId>CRI_065</crisisId>
         <name>UT Tower Shooting</name>
         <kind>Assassination / Shooting</kind>
         <streetAddress>University Avenue</streetAddress>
@@ -129,7 +130,7 @@
         <regulatoryChanges>Stricter Security on Campus</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_026</crisisId>
+        <crisisId>CRI_066</crisisId>
         <name>Hindenberg</name>
         <kind>Human Error Disaster</kind>
         <streetAddress>Lakehurst Naval Air Station</streetAddress>
@@ -150,7 +151,7 @@
         <regulatoryChanges>NULL</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_027</crisisId>
+        <crisisId>CRI_067</crisisId>
         <name>NSA Leaks</name>
         <kind>War / Conflict</kind>
         <streetAddress>NULL</streetAddress>
@@ -171,7 +172,7 @@
         <regulatoryChanges>NULL</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_028</crisisId>
+        <crisisId>CRI_068</crisisId>
         <name>2010 eruptions of Eyjafjallajokull</name>
         <kind>Natural Disaster</kind>
         <streetAddress>Tjarnargata 11</streetAddress>
@@ -193,7 +194,7 @@
         <regulatoryChanges>Null</regulatoryChanges>
     </crisis>
     <crisis>
-        <crisisId>CRI_029</crisisId>
+        <crisisId>CRI_069</crisisId>
         <name>2010 Haiti Earthquake</name>
         <kind>Natural Disaster</kind>
         <streetAddress>NULL</streetAddress>
@@ -214,10 +215,12 @@
         <regulatoryChanges>NULL</regulatoryChanges>
     </crisis>
 </crises>
+</root>
 
+<root>
 <orgs>
     <org>
-        <orgId>ORG_020</orgId>
+        <orgId>ORG_060</orgId>
         <name>1</name>
         <kind>Government Agency</kind>
         <streetAddress>1234 Malaysia Avenue</streetAddress>
@@ -229,7 +232,7 @@
         <majorEvents>Malaysia Airlines Flight 370</majorEvents>
     </org>
     <org>
-        <orgId>ORG_021</orgId>
+        <orgId>ORG_061</orgId>
         <name>2</name>
         <kind>Military Force</kind>
         <streetAddress>15001 E Alameda Pkwy</streetAddress>
@@ -241,7 +244,7 @@
         <majorEvents>This event</majorEvents>
     </org>
     <org>
-        <orgId>ORG_022</orgId>
+        <orgId>ORG_062</orgId>
         <name>3</name>
         <kind>Intergovernmental Agency</kind>
         <streetAddress>NULL</streetAddress>
@@ -253,7 +256,7 @@
         <majorEvents>Leaked Iraq War docs, Afghan War docs, Guantanamo Bay files, Global Intelligence Files, Syria Files, etc.</majorEvents>
     </org>
     <org>
-        <orgId>ORG_023</orgId>
+        <orgId>ORG_063</orgId>
         <name>4</name>
         <kind>Intergovernmental Agency</kind>
         <streetAddress>60 Fenwick Hall Alle, #721</streetAddress>
@@ -266,7 +269,7 @@
         <majorEvents>Hurricane relief in Texas</majorEvents>
     </org>
     <org>
-        <orgId>ORG_024</orgId>
+        <orgId>ORG_064</orgId>
         <name>5</name>
         <kind>Intergovernmental Public Health Agency</kind>
         <streetAddress>NULL</streetAddress>
@@ -278,7 +281,7 @@
         <majorEvents>South Sudan Civil War</majorEvents>
     </org>
     <org>
-        <orgId>ORG_025</orgId>
+        <orgId>ORG_065</orgId>
         <name>6</name>
         <kind>Government Agency</kind>
         <streetAddress>715 E 8th St</streetAddress>
@@ -291,7 +294,7 @@
         <majorEvents>UT Tower Shooting</majorEvents>
     </org>
     <org>
-        <orgId>ORG_026</orgId>
+        <orgId>ORG_066</orgId>
         <name>7</name>
         <kind>Government Agency</kind>
         <streetAddress>NULL</streetAddress>
@@ -303,7 +306,7 @@
         <majorEvents>Hindenburg disaster.</majorEvents>
     </org>
     <org>
-        <orgId>ORG_027</orgId>
+        <orgId>ORG_067</orgId>
         <name>8</name>
         <kind>Government Agency</kind>
         <streetAddress>NULL</streetAddress>
@@ -315,7 +318,7 @@
         <majorEvents>Snowden shares info in Hong Kong, US revokes passport, charged with espionage</majorEvents>
     </org>
     <org>
-        <orgId>ORG_028</orgId>
+        <orgId>ORG_068</orgId>
         <name>9</name>
         <kind>Nonprofit / Humanitarian Organization</kind>
         <streetAddress>17 Chemin des Crets</streetAddress>
@@ -327,7 +330,7 @@
         <majorEvents>World War I, World War II, Afghanistan</majorEvents>
     </org>
     <org>
-        <orgId>ORG_029</orgId>
+        <orgId>ORG_069</orgId>
         <name>10</name>
         <kind>Government Agency</kind>
         <streetAddress>5102 A </streetAddress>
@@ -340,10 +343,12 @@
         <majorEvents>2010 Earthquake</majorEvents>
     </org>
 </orgs>
+</root>
 
+<root>
 <people>
     <person>
-        <personId>PER_020</personId>
+        <personId>PER_060</personId>
         <name>Najib Razak</name>
         <kind>Politician</kind>
         <streetAddress>NULL</streetAddress>
@@ -352,7 +357,7 @@
         <country>Malaysia</country>
     </person>
     <person>
-        <personId>PER_021</personId>
+        <personId>PER_061</personId>
         <name>James Eagan Holmes</name>
         <kind>Perpetrator</kind>
         <streetAddress>527 Aurora Pkwy</streetAddress>
@@ -361,7 +366,7 @@
         <country>USA</country>
     </person>
     <person>
-        <personId>PER_022</personId>
+        <personId>PER_062</personId>
         <name>Chelsea Manning</name>
         <kind>Perpetrator</kind>
         <streetAddress>1300 North Warehouse Road</streetAddress>
@@ -371,7 +376,7 @@
         <country>USA</country>
     </person>
     <person>
-        <personId>PER_023</personId>
+        <personId>PER_063</personId>
         <name>George W. Bush</name>
         <kind>President</kind>
         <streetAddress>1600 Pennsylvania Ave NW</streetAddress>
@@ -381,7 +386,7 @@
         <country>USA</country>
     </person>
     <person>
-        <personId>PER_024</personId>
+        <personId>PER_064</personId>
         <name>Salva Kiir</name>
         <kind>Politician</kind>
         <streetAddress>NULL</streetAddress>
@@ -390,7 +395,7 @@
         <country>South Sudan</country>
     </person>
     <person>
-        <personId>PER_025</personId>
+        <personId>PER_065</personId>
         <name>Charles Whitman</name>
         <kind>Perpetrator</kind>
         <streetAddress>University Avenue</streetAddress>
@@ -400,7 +405,7 @@
         <country>USA</country>
     </person>
     <person>
-        <personId>PER_026</personId>
+        <personId>PER_066</personId>
         <name>Ernst A. Lehmann</name>
         <kind>Celebrity</kind>
         <streetAddress>NULL</streetAddress>
@@ -409,7 +414,7 @@
         <country>Germany</country>
     </person>
     <person>
-        <personId>PER_027</personId>
+        <personId>PER_067</personId>
         <name>Edward Snowden</name>
         <kind>Perpetrator</kind>
         <streetAddress>NULL</streetAddress>
@@ -418,7 +423,7 @@
         <country>Russia</country>
     </person>
     <person>
-        <personId>PER_028</personId>
+        <personId>PER_068</personId>
         <name>Olafur Ragnar Grimsson</name>
         <kind>President</kind>
         <streetAddress>Soleyjargotu 1</streetAddress>
@@ -428,7 +433,7 @@
         <country>Iceland</country>
     </person>
     <person>
-        <personId>PER_029</personId>
+        <personId>PER_069</personId>
         <name>Jean-Max Bellerive</name>
         <kind>President</kind>
         <streetAddress>5102 A</streetAddress>
@@ -438,7 +443,9 @@
         <country>Haiti</country>
     </person>
 </people>
+</root>
 
+<root>
 <resources>
     <resourcePair>
         <resourceId>RES_020</resourceId>
@@ -449,14 +456,9 @@
         <resource>Water</resource>
     </resourcePair>
 </resources>
+</root>
 
-<crisisResources>
-    <crisisResourcePair>
-        <crisisId>CRI_024</crisisId>
-        <resourceId>RES_021</resourceId>
-    </crisisResourcePair>
-</crisisResources>
-
+<root>
 <waysToHelp>
     <wayToHelpPair>
         <helpId>HEL_020</helpId>
@@ -487,7 +489,9 @@
         <wayToHelp>Treatment for residents with respiratory problems</wayToHelp>
     </wayToHelpPair>
 </waysToHelp>
+</root>
 
+<root>
 <crisisWaysToHelp>
     <crisisWayToHelpPair>
         <crisisId>CRI_020</crisisId>
@@ -514,7 +518,9 @@
         <helpId>HEL_026</helpId>
     </crisisWayToHelpPair>
 </crisisWaysToHelp>
+</root>
 
+<root>
 <contactInfos>
     <contactInfo>
         <contactInfoId>CON_022</contactInfoId>
@@ -549,18 +555,9 @@
         <websiteUrlId>URL_021</websiteUrlId>
     </contactInfo>
 </contactInfos>
+</root>
 
-<orgContactInfos>
-    <orgContactInfoPair>
-        <orgId>ORG_022</orgId>
-        <contactInfoId>CON_022</contactInfoId>
-    </orgContactInfoPair>
-    <orgContactInfoPair>
-        <orgId>ORG_023</orgId>
-        <contactInfoId>CON_023</contactInfoId>
-    </orgContactInfoPair>
-</orgContactInfos>
-
+<root>
 <citations>
     <citationPair>
         <citationId>CIT_020</citationId>
@@ -587,36 +584,9 @@
         <citation>https://www.ifrc.org/</citation>
     </citationPair>
 </citations>
+</root>
 
-<crisisCitations>
-    <crisisCitationPair>
-        <citationId>CIT_320</citationId>
-        <crisisId>CRI_023</crisisId>
-    </crisisCitationPair>
-    <crisisCitationPair>
-        <citationId>CIT_321</citationId>
-        <crisisId>CRI_022</crisisId>
-    </crisisCitationPair>
-    <crisisCitationPair>
-        <citationId>CIT_220</citationId>
-        <crisisId>CRI_022</crisisId>
-    </crisisCitationPair>
-</crisisCitations>
-
- <orgCitations>
-    <orgCitationPair>
-        <orgId>ORG_020</orgId>
-        <citationId>CIT_020</citationId>
-    </orgCitationPair>
-</orgCitations>
-
- <personCitations>
-    <personCitationPair>
-        <personId>PER_020</personId>
-        <citationId>CIT_020</citationId>
-    </personCitationPair>
-</personCitations>
-
+<root>
 <urls>
     <url>
         <urlId>URL_020</urlId>
@@ -804,281 +774,223 @@
         <urlAddress>http://en.wikipedia.org/wiki/2010_Haiti_earthquake#Casualties</urlAddress>
     </url>
 </urls>
+</root>
 
-<crisisUrls>
-    <crisisUrlPair>
-        <crisisId>CRI_020</crisisId>
-        <urlId>URL_020</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_021</crisisId>
-        <urlId>URL_121</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_023</crisisId>
-        <urlId>URL_320</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_024</crisisId>
-        <urlId>URL_422</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_026</crisisId>
-        <urlId>URL_620</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_027</crisisId>
-        <urlId>URL_720</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_028</crisisId>
-        <urlId>URL_820</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_028</crisisId>
-        <urlId>URL_825</urlId>
-    </crisisUrlPair>
-    <crisisUrlPair>
-        <crisisId>CRI_029</crisisId>
-        <urlId>URL_921</urlId>
-    </crisisUrlPair>
-</crisisUrls>
-
-<orgUrls>
-    <orgUrlPair>
-        <orgId>ORG_020</orgId>
-        <urlId>URL_021</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_021</orgId>
-        <urlId>URL_120</urlId>
-    </orgUrlPair>
-   <orgUrlPair>
-        <orgId>ORG_022</orgId>
-        <urlId>URL_221</urlId>
-    </orgUrlPair>
-   <orgUrlPair>
-        <orgId>ORG_022</orgId>
-        <urlId>URL_222</urlId>
-    </orgUrlPair>
-   <orgUrlPair>
-        <orgId>ORG_022</orgId>
-        <urlId>URL_223</urlId>
-    </orgUrlPair>
-   <orgUrlPair>
-        <orgId>ORG_023</orgId>
-        <urlId>URL_321</urlId>
-    </orgUrlPair>
-   <orgUrlPair>
-        <orgId>ORG_023</orgId>
-        <urlId>URL_322</urlId>
-    </orgUrlPair>
-   <orgUrlPair>
-        <orgId>ORG_023</orgId>
-        <urlId>URL_323</urlId>
-    </orgUrlPair>
-   <orgUrlPair>
-        <orgId>ORG_024</orgId>
-        <urlId>URL_420</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_025</orgId>
-        <urlId>URL_521</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_025</orgId>
-        <urlId>URL_522</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_026</orgId>
-        <urlId>URL_622</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_027</orgId>
-        <urlId>URL_721</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_027</orgId>
-        <urlId>URL_722</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_027</orgId>
-        <urlId>URL_723</urlId>
-    </orgUrlPair>
-    <orgUrlPair>
-        <orgId>ORG_028</orgId>
-        <urlId>URL_822</urlId>
-    </orgUrlPair>
-</orgUrls>
-
-<personUrls>
-    <personUrlPair>
-        <personId>PER_020</personId>
-        <urlId>URL_020</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_020</personId>
-        <urlId>URL_022</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_020</personId>
-        <urlId>URL_023</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_021</personId>
-        <urlId>URL_122</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_024</personId>
-        <urlId>URL_421</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_025</personId>
-        <urlId>URL_520</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_025</personId>
-        <urlId>URL_523</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_026</personId>
-        <urlId>URL_621</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_028</personId>
-        <urlId>URL_824</urlId>
-    </personUrlPair>
-    <personUrlPair>
-        <personId>PER_029</personId>
-        <urlId>URL_920</urlId>
-    </personUrlPair>
-</personUrls>
-
-<crisisOrgs>
-    <crisisOrgPair>
-        <crisisId>CRI_020</crisisId>
-        <orgId>ORG_020</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_021</crisisId>
-        <orgId>ORG_021</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_022</crisisId>
-        <orgId>ORG_022</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_023</crisisId>
-        <orgId>ORG_023</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_024</crisisId>
-        <orgId>ORG_024</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_025</crisisId>
-        <orgId>ORG_025</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_026</crisisId>
-        <orgId>ORG_026</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_027</crisisId>
-        <orgId>ORG_027</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_028</crisisId>
-        <orgId>ORG_028</orgId>
-    </crisisOrgPair>
-    <crisisOrgPair>
-        <crisisId>CRI_029</crisisId>
-        <orgId>ORG_029</orgId>
-    </crisisOrgPair>
-</crisisOrgs>
-
-<crisisPeople>
-    <crisisPersonPair>
-        <crisisId>CRI_020</crisisId>
-        <personId>PER_020</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_021</crisisId>
-        <personId>PER_021</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_022</crisisId>
-        <personId>PER_022</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_023</crisisId>
-        <personId>PER_023</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_024</crisisId>
-        <personId>PER_024</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_025</crisisId>
-        <personId>PER_025</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_026</crisisId>
-        <personId>PER_026</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_027</crisisId>
-        <personId>PER_027</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_028</crisisId>
-        <personId>PER_028</personId>
-    </crisisPersonPair>
-    <crisisPersonPair>
-        <crisisId>CRI_029</crisisId>
-        <personId>PER_029</personId>
-    </crisisPersonPair>
-</crisisPeople>
-
-<orgPeople>
-    <orgPersonPair>
-        <orgId>ORG_020</orgId>
-        <personId>PER_020</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_021</orgId>
-        <personId>PER_021</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_022</orgId>
-        <personId>PER_022</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_023</orgId>
-        <personId>PER_023</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_024</orgId>
-        <personId>PER_024</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_025</orgId>
-        <personId>PER_025</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_026</orgId>
-        <personId>PER_026</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_027</orgId>
-        <personId>PER_027</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_028</orgId>
-        <personId>PER_028</personId>
-    </orgPersonPair>
-    <orgPersonPair>
-        <orgId>ORG_029</orgId>
-        <personId>PER_029</personId>
-    </orgPersonPair>
-</orgPeople>
+<root>
+    <crises>
+        <crisis>
+            <crisisId>CRI_025</crisisId>
+            <name>Malaysia Airplane MH370</name>
+            <kind>Human Error Disaster</kind>
+            <streetAddress>NULL</streetAddress>
+            <city>Kuala Lumpur</city>
+            <stateOrProvince>NULL</stateOrProvince>
+            <country>Malaysia</country>
+            <dateAndTime>2014-03-08T12:41:00</dateAndTime>
+            <fatalities>246</fatalities>
+            <injuries>2</injuries>
+            <populationIll>246</populationIll>
+            <populationDisplaced>Unknown</populationDisplaced>
+            <environmentalImpact>Unknown</environmentalImpact>
+            <politicalChanges>Unknown</politicalChanges>
+            <culturalChanges>Unknown</culturalChanges>
+            <jobsLost>2</jobsLost>
+            <damageInUSD>1000000</damageInUSD>
+            <reparationCost>2000000</reparationCost>
+            <regulatoryChanges>Stricter Airplane Security</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_029</crisisId>
+            <name>Aurora Shooting</name>
+            <kind>Assassination / Shooting</kind>
+            <streetAddress>14300 E Alameda Avenue</streetAddress>
+            <city>Aurora</city>
+            <stateOrProvince>Colorado</stateOrProvince>
+            <country>USA</country>
+            <dateAndTime>2012-07-20T12:38:00</dateAndTime>
+            <fatalities>12</fatalities>
+            <injuries>70</injuries>
+            <populationIll>70</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>0</environmentalImpact>
+            <politicalChanges>0</politicalChanges>
+            <culturalChanges>0</culturalChanges>
+            <jobsLost>12</jobsLost>
+            <damageInUSD>9000</damageInUSD>
+            <reparationCost>15000</reparationCost>
+            <regulatoryChanges>Stricter Movie Regulations</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_026</crisisId>
+            <name>Cablegate</name>
+            <kind>Human Error Disaster</kind>
+            <streetAddress>BOX 4080 University of Melbourne</streetAddress>
+            <city>Melbourne</city>
+            <stateOrProvince>Victoria</stateOrProvince>
+            <postalCode>3052</postalCode>
+            <country>Australia</country>
+            <dateAndTime>2010-11-12T05:40:00</dateAndTime>
+            <fatalities>0</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>NULL</environmentalImpact>
+            <politicalChanges>Uncertainty for Mexico's Communications Sector</politicalChanges>
+            <culturalChanges>Increased paranoia about the US government</culturalChanges>
+            <jobsLost>1</jobsLost>
+            <damageInUSD>0</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges>Stricter access to cables</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_002</crisisId>
+            <name>Hurricane Ike</name>
+            <kind>Natural Disaster</kind>
+            <streetAddress>823 Rosenberg, Suite 203</streetAddress>
+            <city>Galveston</city>
+            <stateOrProvince>TX</stateOrProvince>
+            <postalCode>77550</postalCode>
+            <country>USA</country>
+            <dateAndTime>2012-09-13T05:40:00</dateAndTime>
+            <fatalities>74</fatalities>
+            <injuries>7700</injuries>
+            <populationIll>31500</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>Heavy flooding</environmentalImpact>
+            <politicalChanges>Crippled oil business</politicalChanges>
+            <culturalChanges>Lost cultural landmarks</culturalChanges>
+            <jobsLost>2400</jobsLost>
+            <damageInUSD>295000000</damageInUSD>
+            <reparationCost>1000000</reparationCost>
+            <regulatoryChanges>Stricter levy building codes</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_027</crisisId>
+            <name>South Sudan Civil War</name>
+            <kind>War / Conflict</kind>
+            <streetAddress>NULL</streetAddress>
+            <city>NULL</city>
+            <stateOrProvince>NULL</stateOrProvince>
+            <country>South Sudan</country>
+            <dateAndTime>2012-12-13T05:40:00</dateAndTime>
+            <fatalities>4241</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>NULL</environmentalImpact>
+            <politicalChanges>Regime changes and new country</politicalChanges>
+            <culturalChanges>New country</culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>0</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges>New country</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_006</crisisId>
+            <name>UT Tower Shooting</name>
+            <kind>Assassination / Shooting</kind>
+            <streetAddress>University Avenue</streetAddress>
+            <city>Austin</city>
+            <stateOrProvince>TX</stateOrProvince>
+            <postalCode>78705</postalCode>
+            <country>USA</country>
+            <dateAndTime>1966-08-01T03:00:00</dateAndTime>
+            <fatalities>16</fatalities>
+            <injuries>32</injuries>
+            <populationIll>32</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>Unknown</environmentalImpact>
+            <politicalChanges>Unknown</politicalChanges>
+            <culturalChanges>Unkown</culturalChanges>
+            <jobsLost>1</jobsLost>
+            <damageInUSD>1000</damageInUSD>
+            <reparationCost>2000</reparationCost>
+            <regulatoryChanges>Stricter Security on Campus</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_007</crisisId>
+            <name>Hindenberg</name>
+            <kind>Human Error Disaster</kind>
+            <streetAddress>Lakehurst Naval Air Station</streetAddress>
+            <city>Lakehurst</city>
+            <stateOrProvince>New Jersey</stateOrProvince>
+            <country>USA</country>
+            <dateAndTime>2012-12-13T05:40:00</dateAndTime>
+            <fatalities>36</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>NULL</populationDisplaced>
+            <environmentalImpact>NULL</environmentalImpact>
+            <politicalChanges>NULL</politicalChanges>
+            <culturalChanges>Marked end of airship era. No airship has been used to transport passengers or cargo since.</culturalChanges>
+            <jobsLost>61</jobsLost>
+            <damageInUSD>42000000</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges>NULL</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_028</crisisId>
+            <name>NSA Leaks</name>
+            <kind>War / Conflict</kind>
+            <streetAddress>NULL</streetAddress>
+            <city>NULL</city>
+            <stateOrProvince>NULL</stateOrProvince>
+            <country>USA</country>
+            <dateAndTime>2013-05-20T00:00:00</dateAndTime>
+            <fatalities>0</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>NULL</environmentalImpact>
+            <politicalChanges>Resolution 68/167</politicalChanges>
+            <culturalChanges>Snowden Effect</culturalChanges>
+            <jobsLost>1</jobsLost>
+            <damageInUSD>0</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges>NULL</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_004</crisisId>
+            <name>2010 eruptions of Eyjafjallajokull</name>
+            <kind>Natural Disaster</kind>
+            <streetAddress>Tjarnargata 11</streetAddress>
+            <city>Reykjavik</city>
+            <stateOrProvince>Suourland</stateOrProvince>
+            <postalCode>101</postalCode>
+            <country>Iceland</country>
+            <dateAndTime>2008-12-13T02:10:00</dateAndTime>
+            <fatalities>0</fatalities>
+            <injuries>0</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>0</populationDisplaced>
+            <environmentalImpact>Disrupted air travel</environmentalImpact>
+            <politicalChanges>Null</politicalChanges>
+            <culturalChanges>Ash made farming and ranching difficult</culturalChanges>
+            <jobsLost>0</jobsLost>
+            <damageInUSD>1000000000</damageInUSD>
+            <reparationCost>0</reparationCost>
+            <regulatoryChanges>Null</regulatoryChanges>
+        </crisis>
+        <crisis>
+            <crisisId>CRI_001</crisisId>
+            <name>2010 Haiti Earthquake</name>
+            <kind>Natural Disaster</kind>
+            <streetAddress>NULL</streetAddress>
+            <city>Leogane</city>
+            <stateOrProvince>NULL</stateOrProvince>
+            <country>Haiti</country>
+            <dateAndTime>2010-12-01T16:53:00</dateAndTime>
+            <fatalities>220000</fatalities>
+            <injuries>300000</injuries>
+            <populationIll>0</populationIll>
+            <populationDisplaced>1500000</populationDisplaced>
+            <environmentalImpact>Drastic decrease in sanitation.</environmentalImpact>
+            <politicalChanges>Government infrastructure suffered, Police forces became even more scarce</politicalChanges>
+            <culturalChanges>NULL</culturalChanges>
+            <jobsLost>90000</jobsLost>
+            <damageInUSD>1300000000</damageInUSD>
+            <reparationCost>459000000</reparationCost>
+            <regulatoryChanges>NULL</regulatoryChanges>
+        </crisis>
+    </crises>
+</root>
