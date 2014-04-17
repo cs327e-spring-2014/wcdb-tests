@@ -3,7 +3,9 @@ Select name, dateAndTime
 	From crises
 	Where dateAndTime <= all
     	(Select dateAndTime
-            From crises);
+            From crises where year(dateandtime) <> 0000)
+    and
+    	year(dateandtime) <> 0000;
 	
 --# What is the total number of deaths caused by natural disasters?--
 Select sum(fatalities)

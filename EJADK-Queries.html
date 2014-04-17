@@ -4,17 +4,19 @@ Select name, dateAndTime
 	From crises
 	Where dateAndTime <= all
     	(Select dateAndTime
-            From crises)
+            From crises where year(dateandtime) <> 0000)
+    and
+    	year(dateandtime) <> 0000
 --------------
 
-<TABLE BORDER=1><TR><TH>name</TH><TH>dateAndTime</TH></TR><TR><TD>Cold War</TD><TD>1947-01-01 00:00:00</TD></TR></TABLE>--------------
+<TABLE BORDER=1><TR><TH>name</TH><TH>dateAndTime</TH></TR><TR><TD>1900 Galveston Hurricane</TD><TD>1900-09-08 08:45:00</TD></TR></TABLE>--------------
 --
 Select sum(fatalities)
 	From crises
 	Where kind = 'Natural Disaster'
 --------------
 
-<TABLE BORDER=1><TR><TH>sum(fatalities)</TH></TR><TR><TD>30688643</TD></TR></TABLE>--------------
+<TABLE BORDER=1><TR><TH>sum(fatalities)</TH></TR><TR><TD>30816967</TD></TR></TABLE>--------------
 --
 Select country, count(*)
 	From people 
@@ -22,7 +24,7 @@ Select country, count(*)
 	Group by country
 --------------
 
-<TABLE BORDER=1><TR><TH>country</TH><TH>count(*)</TH></TR><TR><TD>Canada</TD><TD>1</TD></TR><TR><TD>Malaysia</TD><TD>1</TD></TR><TR><TD>South Sudan</TD><TD>1</TD></TR><TR><TD>USA</TD><TD>7</TD></TR></TABLE>--------------
+<TABLE BORDER=1><TR><TH>country</TH><TH>count(*)</TH></TR><TR><TD>Canada</TD><TD>1</TD></TR><TR><TD>Haiti</TD><TD>1</TD></TR><TR><TD>Libya</TD><TD>1</TD></TR><TR><TD>Malaysia</TD><TD>1</TD></TR><TR><TD>South Sudan</TD><TD>1</TD></TR><TR><TD>Sudan</TD><TD>1</TD></TR><TR><TD>United States</TD><TD>3</TD></TR><TR><TD>USA</TD><TD>4</TD></TR><TR><TD>Venezuela</TD><TD>1</TD></TR></TABLE>--------------
 --
 Select name, count(distinct crisisId)
 	From crisisOrgs
@@ -30,7 +32,7 @@ Select name, count(distinct crisisId)
 	Group by name
 --------------
 
-<TABLE BORDER=1><TR><TH>name</TH><TH>count(distinct crisisId)</TH></TR><TR><TD>Aurora Police Department</TD><TD>1</TD></TR><TR><TD>Austin Police Department</TD><TD>1</TD></TR><TR><TD>Center for Disease</TD><TD>1</TD></TR><TR><TD>Doctors without Borders</TD><TD>2</TD></TR><TR><TD>FEMA</TD><TD>1</TD></TR><TR><TD>Greenpeace</TD><TD>1</TD></TR><TR><TD>Habitat for Humanity</TD><TD>2</TD></TR><TR><TD>Haitian Government</TD><TD>1</TD></TR><TR><TD>International Federation of Red Cross and Red Cres</TD><TD>2</TD></TR><TR><TD>International Medical Corps</TD><TD>2</TD></TR><TR><TD>Japan Society</TD><TD>1</TD></TR><TR><TD>Malaysia Airlines</TD><TD>1</TD></TR><TR><TD>Mercy Corps</TD><TD>1</TD></TR><TR><TD>National Security Agency</TD><TD>1</TD></TR><TR><TD>Nuer White Army</TD><TD>1</TD></TR><TR><TD>Portlight Strategies, Inc.</TD><TD>1</TD></TR><TR><TD>Salvation Army</TD><TD>3</TD></TR><TR><TD>Target</TD><TD>1</TD></TR><TR><TD>U.S. Coast Guard</TD><TD>1</TD></TR><TR><TD>U.S. Marine Corps</TD><TD>1</TD></TR><TR><TD>UNICEF</TD><TD>3</TD></TR><TR><TD>United Nations</TD><TD>7</TD></TR><TR><TD>United Nations Children's Fund</TD><TD>3</TD></TR><TR><TD>United States Department of State</TD><TD>2</TD></TR><TR><TD>WikiLeaks</TD><TD>1</TD></TR><TR><TD>World Health Organization</TD><TD>5</TD></TR></TABLE>--------------
+<TABLE BORDER=1><TR><TH>name</TH><TH>count(distinct crisisId)</TH></TR><TR><TD>Al Jazeera</TD><TD>3</TD></TR><TR><TD>Al-Qaeda</TD><TD>1</TD></TR><TR><TD>American Red Cross</TD><TD>2</TD></TR><TR><TD>Aurora Police Department</TD><TD>1</TD></TR><TR><TD>Austin Police Department</TD><TD>1</TD></TR><TR><TD>BP</TD><TD>1</TD></TR><TR><TD>BRAVEN (Brazilian and Venezuelan Student Associati</TD><TD>1</TD></TR><TR><TD>Brigada de Topos de Tlatelolco</TD><TD>1</TD></TR><TR><TD>Center for Disease</TD><TD>1</TD></TR><TR><TD>Central Texas Water Coalition</TD><TD>1</TD></TR><TR><TD>CNN</TD><TD>1</TD></TR><TR><TD>Defense Intellegence Agency</TD><TD>1</TD></TR><TR><TD>Doctors without Borders</TD><TD>2</TD></TR><TR><TD>Dow Jones and Company</TD><TD>1</TD></TR><TR><TD>Egyptian Red Crescent</TD><TD>1</TD></TR><TR><TD>FBI</TD><TD>1</TD></TR><TR><TD>Federal Reserve</TD><TD>1</TD></TR><TR><TD>FEMA</TD><TD>1</TD></TR><TR><TD>Goldman Sachs</TD><TD>1</TD></TR><TR><TD>Greenpeace</TD><TD>1</TD></TR><TR><TD>Habitat for Humanity</TD><TD>2</TD></TR><TR><TD>Haitian Government</TD><TD>2</TD></TR><TR><TD>Homeland Security</TD><TD>3</TD></TR><TR><TD>International Federation of Red Cross and Red Cres</TD><TD>2</TD></TR><TR><TD>International Medical Corps</TD><TD>2</TD></TR><TR><TD>International Nuclear Safety Group (INSAG)</TD><TD>1</TD></TR><TR><TD>Japan Society</TD><TD>1</TD></TR><TR><TD>Johnson and Johnson</TD><TD>1</TD></TR><TR><TD>Lehman Brothers</TD><TD>1</TD></TR><TR><TD>Liberation and Justice Movement</TD><TD>1</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD><TD>1</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD><TD>1</TD></TR><TR><TD>Malaysia Airlines</TD><TD>1</TD></TR><TR><TD>Mercy Corps</TD><TD>1</TD></TR><TR><TD>National Security Agency</TD><TD>1</TD></TR><TR><TD>NATO</TD><TD>1</TD></TR><TR><TD>Nuer White Army</TD><TD>1</TD></TR><TR><TD>People's Liberation Army</TD><TD>1</TD></TR><TR><TD>Portlight Strategies, Inc.</TD><TD>1</TD></TR><TR><TD>Pussy Riot</TD><TD>1</TD></TR><TR><TD>Salvation Army</TD><TD>3</TD></TR><TR><TD>Target</TD><TD>1</TD></TR><TR><TD>The New York Times</TD><TD>2</TD></TR><TR><TD>U.S. Coast Guard</TD><TD>4</TD></TR><TR><TD>U.S. Marine Corps</TD><TD>3</TD></TR><TR><TD>UNICEF</TD><TD>6</TD></TR><TR><TD>United Nations</TD><TD>13</TD></TR><TR><TD>United Nations Children's Fund</TD><TD>3</TD></TR><TR><TD>United States Department of State</TD><TD>2</TD></TR><TR><TD>US Air Force</TD><TD>1</TD></TR><TR><TD>US Army</TD><TD>1</TD></TR><TR><TD>WikiLeaks</TD><TD>1</TD></TR><TR><TD>Works Progress Administration</TD><TD>1</TD></TR><TR><TD>World Health Organization</TD><TD>9</TD></TR></TABLE>--------------
 --
 Select resource, count(resourceId)
 	From resources 
