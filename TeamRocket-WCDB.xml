@@ -1,4 +1,4 @@
-<root>
+<xml>
     <crises>
         <crisis>
             <crisisId>CRI_001</crisisId>
@@ -8,7 +8,7 @@
             <stateOrProvince />
             <postalCode />
             <country>Venezuela</country>
-            <dateAndTime>January 2014</dateAndTime>
+            <dateAndTime>2014</dateAndTime>
             <fatalities />
             <injuries />
             <populationIll />
@@ -29,7 +29,7 @@
             <stateOrProvince />
             <postalCode />
             <country>Crimea</country>
-            <dateAndTime>February 23, 2014</dateAndTime>
+            <dateAndTime>2014</dateAndTime>
             <fatalities />
             <injuries />
             <populationIll />
@@ -50,7 +50,7 @@
             <stateOrProvince />
             <postalCode />
             <country>Russia</country>
-            <dateAndTime>August 14</dateAndTime>
+            <dateAndTime>2014</dateAndTime>
             <fatalities />
             <injuries />
             <populationIll />
@@ -71,7 +71,7 @@
             <stateOrProvince />
             <postalCode />
             <country>Syria</country>
-            <dateAndTime>March 15, 2011 ~</dateAndTime>
+            <dateAndTime>2011</dateAndTime>
             <fatalities />
             <injuries />
             <populationIll />
@@ -92,7 +92,7 @@
             <stateOrProvince />
             <postalCode />
             <country>North Korea</country>
-            <dateAndTime>December 2011~</dateAndTime>
+            <dateAndTime>2011</dateAndTime>
             <fatalities />
             <injuries />
             <populationIll />
@@ -107,13 +107,13 @@
         </crisis>
         <crisis>
             <crisisId>CRI_006</crisisId>
-            <name>Haiti Earthquake (2010)</name>
+            <name>Haiti Earthquake</name>
             <streetAddress />
             <city />
             <stateOrProvince />
             <postalCode />
             <country>Haiti</country>
-            <dateAndTime>2010-01-12T00:00:00</dateAndTime>
+            <dateAndTime>2010</dateAndTime>
             <fatalities>159000</fatalities>
             <injuries />
             <populationIll />
@@ -134,7 +134,7 @@
             <stateOrProvince />
             <postalCode />
             <country>United States</country>
-            <dateAndTime>2008-09-01T00:00:00</dateAndTime>
+            <dateAndTime>2008</dateAndTime>
             <fatalities>195</fatalities>
             <injuries />
             <populationIll />
@@ -149,13 +149,13 @@
         </crisis>
         <crisis>
             <crisisId>CRI_008</crisisId>
-            <name>2012 Benghazi attack </name>
+            <name>Benghazi Attack</name>
             <streetAddress />
             <city>Benghazi</city>
             <stateOrProvince />
             <postalCode />
             <country>Libya</country>
-            <dateAndTime>2012-09-11T00:00:00</dateAndTime>
+            <dateAndTime>2012</dateAndTime>
             <fatalities>4</fatalities>
             <injuries />
             <populationIll />
@@ -170,13 +170,13 @@
         </crisis>
         <crisis>
             <crisisId>CRI_009</crisisId>
-            <name>2010 eruptions of Eyjafjallaj&amp;#65533;kull (Iceland Volcano)</name>
+            <name>Eruption of Eyjafjallajokull</name>
             <streetAddress />
             <city />
             <stateOrProvince />
             <postalCode />
             <country>Iceland</country>
-            <dateAndTime>2010-03-10T00:00:00</dateAndTime>
+            <dateAndTime>2010</dateAndTime>
             <fatalities>0</fatalities>
             <injuries />
             <populationIll />
@@ -197,7 +197,7 @@
             <stateOrProvince />
             <postalCode />
             <country>Earth</country>
-            <dateAndTime>1947-01-01T00:00:00</dateAndTime>
+            <dateAndTime>1947</dateAndTime>
             <fatalities />
             <injuries />
             <populationIll />
@@ -219,7 +219,7 @@
             <city>Atlanta</city>
             <stateOrProvince>Georgia</stateOrProvince>
             <postalCode>30313</postalCode>
-            <country>USA</country>
+            <country>United States</country>
             <foundingMission>the first 24 hour news TV channel</foundingMission>
             <dateFounded>1980-05-01</dateFounded>
             <dateAbolished />
@@ -232,7 +232,7 @@
             <city>New York City</city>
             <stateOrProvince>New York</stateOrProvince>
             <postalCode>10018</postalCode>
-            <country>USA</country>
+            <country>United States</country>
             <foundingMission />
             <dateFounded>1851-09-18</dateFounded>
             <dateAbolished />
@@ -245,7 +245,7 @@
             <city>Austin</city>
             <stateOrProvince>Texas</stateOrProvince>
             <postalCode>78712</postalCode>
-            <country>USA</country>
+            <country>United States</country>
             <foundingMission>"bring together two different however, very much alike cultures" and "aid not only on the adjustments of new incoming students but also make the University of Texas at Austin a home away from home."</foundingMission>
             <dateFounded>2013-09-26</dateFounded>
             <dateAbolished />
@@ -292,7 +292,7 @@
         </org>
         <org>
             <orgId>ORG_007</orgId>
-            <name>United Nations (UN)</name>
+            <name>United Nations</name>
             <streetAddress>760 United Nations Plaza</streetAddress>
             <city>New York</city>
             <stateOrProvince>New York</stateOrProvince>
@@ -331,7 +331,7 @@
         </org>
         <org>
             <orgId>ORG_010</orgId>
-            <name>World Health Organization (WHO)</name>
+            <name>World Health Organization</name>
             <streetAddress>Avenue Appia 20</streetAddress>
             <city>Geneva</city>
             <stateOrProvince>Romandy</stateOrProvince>
@@ -396,7 +396,7 @@
             <city>Washington, D.C.</city>
             <stateOrProvince />
             <postalCode>20500</postalCode>
-            <country>USA</country>
+            <country>United States</country>
         </person>
         <person>
             <personId>PER_007</personId>
@@ -405,16 +405,16 @@
             <city>Washington, D.C.</city>
             <stateOrProvince />
             <postalCode>20008</postalCode>
-            <country>USA</country>
+            <country>United States</country>
         </person>
         <person>
             <personId>PER_008</personId>
-            <name>Ben Bernanke</name>
+            <name>Ben S. Bernanke</name>
             <streetAddress />
             <city>Washington, D.C.</city>
             <stateOrProvince />
             <postalCode />
-            <country>USA</country>
+            <country>United States</country>
         </person>
         <person>
             <personId>PER_009</personId>
@@ -427,12 +427,12 @@
         </person>
         <person>
             <personId>PER_010</personId>
-            <name>Colin Powell</name>
+            <name>Colin L. Powell</name>
             <streetAddress />
             <city>Washington, D.C.</city>
             <stateOrProvince />
             <postalCode />
-            <country>USA</country>
+            <country>United States</country>
         </person>
     </people>
 <crisisKinds>
@@ -480,11 +480,11 @@
     <orgKinds>
         <orgKindPair>
             <orgId>ORG_001</orgId>
-            <kind>Corporation</kind>
+            <kind>Intergovernmental Agency</kind>
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_002</orgId>
-            <kind>Corporation</kind>
+            <kind>Intergovernmental Agency</kind>
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_003</orgId>
@@ -492,7 +492,7 @@
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_004</orgId>
-            <kind>Corporation</kind>
+            <kind>Intergovernmental Agency</kind>
         </orgKindPair>
         <orgKindPair>
             <orgId>ORG_005</orgId>
@@ -3126,4 +3126,4 @@
             <personId>PER_008</personId>
         </orgPersonPair>
     </orgPeople>
-</root>
+</xml>
