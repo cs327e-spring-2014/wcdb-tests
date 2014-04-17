@@ -435,8 +435,7 @@
             <country>Iceland</country>
         </person>
         <person>
-        <personId>
-</personId>
+            <personId>PER_007</personId>
             <name>Ernst August Lehmann</name>
             <kind>Celebrity</kind>
             <streetAddress></streetAddress>
