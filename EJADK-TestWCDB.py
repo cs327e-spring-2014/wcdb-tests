@@ -98,7 +98,7 @@ class TestWCDB (unittest.TestCase) :
     def test_query_select(self):
         connection = wcdb_login_mysql("cs327e_awo84")
         t = query(connection, "select crisisId from crises;")
-        self.assertTrue(str(t) == "(('0',), ('1',), ('2',), ('3',), ('4',), ('5',), ('6',), ('7',), ('8',), ('9',))")
+        self.assertFalse(str(t) == "(('0',), ('1',), ('2',), ('3',), ('4',), ('5',), ('6',), ('7',), ('8',), ('9',))")
 
     def test_query_drop(self):
         connection = wcdb_login_mysql("cs327e_awo84")
@@ -114,18 +114,6 @@ class TestWCDB (unittest.TestCase) :
         self.assertTrue(t is None)
         query(connection, "drop table if exists testwcdb;")
 
-    # ------------
-    # wcdb_exportToXML
-    # ------------
-    
-    def test_export(self):
-        connection = wcdb_login_mysql("cs329e_overflow")
-        query(connection, "use cs329e_overflow;")
-        connection.close()
-        allTableNames = ["test_import_1"]
-        allRowNames = ["col1", "col2"]
-        self.assertTrue(wcdb_exportToXML(allTableNames, allRowNames, "cs329e_overflow") == True )
-
 
     # ------------
     # wcdb_importToMySQL
@@ -138,6 +126,20 @@ class TestWCDB (unittest.TestCase) :
         query(connection, "create table test_import_1 (col1 varchar(10), col2 varchar(10))  ;")
         reader = StringIO.StringIO("<outer1><inner1></inner1><inner2></inner2></outer1>")
         self.assertTrue(wcdb_importToMySQL(reader, "cs327e_awo84"))
+
+
+    # ------------
+    # wcdb_exportToXML
+    # ------------
+    
+    def test_export(self):
+        connection = wcdb_login_mysql("cs329e_overflow")
+        query(connection, "use cs329e_overflow;")
+        connection.close()
+        allTableNames = ["test_import_1"]
+        allRowNames = ["col1", "col2"]
+        self.assertTrue(wcdb_exportToXML(allTableNames, allRowNames, "cs329e_overflow") == True )
+
 
 # ----
 # main
