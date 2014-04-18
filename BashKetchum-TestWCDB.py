@@ -255,7 +255,7 @@ class XMLUnitTests(unittest.TestCase):
         db.query("SELECT * FROM Urls")
         result = db.store_result()
         rows = result.fetch_row(maxrows=0, how=1)
-        self.assert_(rows[0] == {"urlId" : "101",
+        self.assert_(rows[0] == {"urlId" : "1",
                                  "type" : "Image",
                                  "urlAddress" : "http://web.mit.edu/12.000/www/m2010/images/katrina-08-28-2005.jpg"})
 
@@ -276,7 +276,7 @@ class XMLUnitTests(unittest.TestCase):
         db.query("SELECT * FROM Citations")
         result = db.store_result()
         rows = result.fetch_row(maxrows=0, how=1)
-        self.assert_(rows[0] == {"citationId" : "101",
+        self.assert_(rows[0] == {"citationId" : "1",
                                  "citation" : "http://www.ncdc.noaa.gov/extremeevents/specialreports/Hurricane-Katrina.pdf"})
 
 
