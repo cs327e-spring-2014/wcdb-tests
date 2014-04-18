@@ -1,0 +1,53 @@
+--------------
+--
+select *
+from Crises
+where country = "United States"
+--------------
+
+<TABLE BORDER=1><TR><TH>crisisID</TH><TH>name</TH><TH>kind</TH><TH>streetAddress</TH><TH>city</TH><TH>stateOrProvince</TH><TH>postalCode</TH><TH>country</TH><TH>dateAndTime</TH><TH>fatalities</TH><TH>injuries</TH><TH>populationIll</TH><TH>populationdisplaced</TH><TH>environmentalImpact</TH><TH>politicalChanges</TH><TH>culturalChanges</TH><TH>jobsLost</TH><TH>damageInUSD</TH><TH>reparationCost</TH><TH>regulatoryChanges</TH></TR><TR><TD>10</TD><TD>Katrina</TD><TD>Natural Disaster</TD><TD>NULL</TD><TD>New Orleans</TD><TD>Louisiana</TD><TD>NULL</TD><TD>United States</TD><TD>2005</TD><TD>1300</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>10000000000</TD><TD>NULL</TD><TD>NULL</TD></TR><TR><TD>2</TD><TD>Hurricane Ike</TD><TD>Natural Disaster</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>United States</TD><TD>2008</TD><TD>195</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>22000000000</TD><TD>NULL</TD><TD>NULL</TD></TR><TR><TD>17</TD><TD>Texas Drought</TD><TD>Natural Disaster</TD><TD>NULL</TD><TD>NULL</TD><TD>Texas</TD><TD>NULL</TD><TD>United States</TD><TD>2011</TD><TD>6</TD><TD>62</TD><TD>0</TD><TD>7700</TD><TD>Agricultural failure, Extremely depleted fresh water reservoirs, wildfires</TD><TD>NULL</TD><TD>NULL</TD><TD>115000</TD><TD>1100000000</TD><TD>2000000000</TD><TD>Water Conservation laws established</TD></TR><TR><TD>6</TD><TD>UT Tower Shooting</TD><TD>Assassination / Shooting</TD><TD>110 Inner Campus Drive</TD><TD>Austin</TD><TD>Texas</TD><TD>NULL</TD><TD>United States</TD><TD>1966</TD><TD>16</TD><TD>31</TD><TD>31</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>0</TD><TD>0</TD><TD>5000</TD><TD>Tower deck is closed due to safety regulations</TD></TR><TR><TD>46</TD><TD>Hurricane Sandy</TD><TD>Natural Disaster</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>NULL</TD><TD>United States</TD><TD>2012</TD><TD>148</TD><TD>138</TD><TD>620</TD><TD>3000</TD><TD>Buildings destroyed</TD><TD>Storm Watch Alert</TD><TD>protecting people</TD><TD>-6254</TD><TD>5000000000</TD><TD>40000000</TD><TD>economic repair</TD></TR><TR><TD>47</TD><TD>Nixon Shock</TD><TD>Human Error Disaster</TD><TD>Entire nation</TD><TD>Washington DC</TD><TD>DC</TD><TD>NULL</TD><TD>United States</TD><TD>1971</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>100</TD><TD>no environmental impact</TD><TD>impeach president</TD><TD>change of president image</TD><TD>-200</TD><TD>10000000</TD><TD>500000</TD><TD>Nixon resignation</TD></TR><TR><TD>49</TD><TD>Oklahoma City Bombing</TD><TD>Act of Terrorism</TD><TD>San Jacinto</TD><TD>Oklahoma City</TD><TD>Oklahoma</TD><TD>NULL</TD><TD>United States</TD><TD>1995</TD><TD>168</TD><TD>680</TD><TD>0</TD><TD>600</TD><TD>Buildings destroyed</TD><TD>Increase terrorism awareness</TD><TD>understanding terrorism</TD><TD>1000</TD><TD>456300</TD><TD>623000</TD><TD>Buildings repair</TD></TR></TABLE>--------------
+--
+select damageInUSD
+from Crises
+where country = "United States"
+--------------
+
+<TABLE BORDER=1><TR><TH>damageInUSD</TH></TR><TR><TD>10000000000</TD></TR><TR><TD>22000000000</TD></TR><TR><TD>1100000000</TD></TR><TR><TD>0</TD></TR><TR><TD>5000000000</TD></TR><TR><TD>10000000</TD></TR><TR><TD>456300</TD></TR></TABLE>--------------
+--
+select R.col1 - S.col2
+from
+(select count(*) as col1
+from Orgs
+where country != "United States")
+as R,
+(select count(*) as col2
+from Orgs
+where country = "United States")
+as S
+--------------
+
+<TABLE BORDER=1><TR><TH>R.col1 - S.col2</TH></TR><TR><TD>20</TD></TR></TABLE>--------------
+--
+select R, S
+from
+(select kind as R, count(*) as S
+ from People
+ group by kind)
+as S
+order by S asc
+limit 0, 1
+--------------
+
+<TABLE BORDER=1><TR><TH>R</TH><TH>S</TH></TR><TR><TD>Actor / Actress</TD><TD>1</TD></TR></TABLE>--------------
+--
+select R, S
+from
+(select kind as R, count(*) as S
+ from Crises
+ group by kind)
+as S
+order by S asc
+limit 0, 1
+--------------
+
+<TABLE BORDER=1><TR><TH>R</TH><TH>S</TH></TR><TR><TD>Assassination / Shooting</TD><TD>2</TD></TR></TABLE>
