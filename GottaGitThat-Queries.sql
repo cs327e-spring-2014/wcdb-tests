@@ -1,4 +1,6 @@
+/*
 use cs327e_joshen;
+*/
 
 /* -----------------------------------------------------------------------
 How to execute this file: mysql -v -H < Queries.sql > Queries.html
