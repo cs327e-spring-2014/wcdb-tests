@@ -468,154 +468,138 @@
 
     <resources>
         <resourcePair>
-            <resourceId>RES_001</resourceId>
+            <resourceId>RES_008</resourceId>
             <resource>Homeland Security</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_002</resourceId>
+            <resourceId>RES_009</resourceId>
             <resource>Hospitalization</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_003</resourceId>
+            <resourceId>RES_010</resourceId>
             <resource>Food</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_004</resourceId>
+            <resourceId>RES_011</resourceId>
             <resource>Shelter</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_005</resourceId>
+            <resourceId>RES_012</resourceId>
             <resource>Electricity</resource>
 	</resourcePair>
         <resourcePair>
-            <resourceId>RES_006</resourceId>
+            <resourceId>RES_013</resourceId>
             <resource>Sea Wall</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_007</resourceId>
+            <resourceId>RES_014</resourceId>
             <resource>Sea Ports</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_008</resourceId>
+            <resourceId>RES_015</resourceId>
             <resource>Nuclear Safety</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_009</resourceId>
+            <resourceId>RES_016</resourceId>
             <resource>Sanitation</resource>
         </resourcePair>
         <resourcePair>
-            <resourceId>RES_010</resourceId>
+            <resourceId>RES_017</resourceId>
             <resource>Money</resource>
         </resourcePair>
     </resources>
     <crisisResources>
         <crisisResourcePair>
             <crisisId>CRI_040</crisisId>
-            <resourceId>RES_001</resourceId>
+            <resourceId>RES_008</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_040</crisisId>
-            <resourceId>RES_002</resourceId>
+            <resourceId>RES_009</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_040</crisisId>
-            <resourceId>RES_003</resourceId>
+            <resourceId>RES_010</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_040</crisisId>
-            <resourceId>RES_004</resourceId>
+            <resourceId>RES_011</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_040</crisisId>
-            <resourceId>RES_006</resourceId>
+            <resourceId>RES_012</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_041</crisisId>
-            <resourceId>RES_001</resourceId>
+            <resourceId>RES_013</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_041</crisisId>
-            <resourceId>RES_002</resourceId>
+            <resourceId>RES_014</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_041</crisisId>
-            <resourceId>RES_003</resourceId>
+            <resourceId>RES_015</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_041</crisisId>
-            <resourceId>RES_004</resourceId>
+            <resourceId>RES_011</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_041</crisisId>
-            <resourceId>RES_006</resourceId>
+            <resourceId>RES_012</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_042</crisisId>
-            <resourceId>RES_001</resourceId>
+            <resourceId>RES_008</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_042</crisisId>
-            <resourceId>RES_006</resourceId>
+            <resourceId>RES_013</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_043</crisisId>
-            <resourceId>RES_001</resourceId>
+            <resourceId>RES_008</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_043</crisisId>
-            <resourceId>RES_002</resourceId>
+            <resourceId>RES_009</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_043</crisisId>
-            <resourceId>RES_003</resourceId>
+            <resourceId>RES_010</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_043</crisisId>
-            <resourceId>RES_004</resourceId>
+            <resourceId>RES_011</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_043</crisisId>
-            <resourceId>RES_006</resourceId>
+            <resourceId>RES_013</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_044</crisisId>
-            <resourceId>RES_001</resourceId>
+            <resourceId>RES_008</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_044</crisisId>
-            <resourceId>RES_002</resourceId>
+            <resourceId>RES_009</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_044</crisisId>
-            <resourceId>RES_003</resourceId>
+            <resourceId>RES_010</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_044</crisisId>
-            <resourceId>RES_004</resourceId>
+            <resourceId>RES_011</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_044</crisisId>
-            <resourceId>RES_005</resourceId>
+            <resourceId>RES_012</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_044</crisisId>
-            <resourceId>RES_006</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_001</crisisId>
-            <resourceId>RES_002</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_001</crisisId>
-            <resourceId>RES_003</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_001</crisisId>
-            <resourceId>RES_004</resourceId>
-        </crisisResourcePair>
-        <crisisResourcePair>
-            <crisisId>CRI_001</crisisId>
-            <resourceId>RES_005</resourceId>
+            <resourceId>RES_013</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_001</crisisId>
@@ -626,20 +610,20 @@
             <resourceId>RES_010</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_002</crisisId>
-            <resourceId>RES_002</resourceId>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_011</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_002</crisisId>
-            <resourceId>RES_003</resourceId>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_012</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_002</crisisId>
-            <resourceId>RES_004</resourceId>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_016</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
-            <crisisId>CRI_002</crisisId>
-            <resourceId>RES_005</resourceId>
+            <crisisId>CRI_001</crisisId>
+            <resourceId>RES_017</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_002</crisisId>
@@ -648,14 +632,30 @@
         <crisisResourcePair>
             <crisisId>CRI_002</crisisId>
             <resourceId>RES_010</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_002</crisisId>
+            <resourceId>RES_011</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_002</crisisId>
+            <resourceId>RES_012</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_002</crisisId>
+            <resourceId>RES_016</resourceId>
+        </crisisResourcePair>
+        <crisisResourcePair>
+            <crisisId>CRI_002</crisisId>
+            <resourceId>RES_017</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_003</crisisId>
-            <resourceId>RES_002</resourceId>
+            <resourceId>RES_009</resourceId>
         </crisisResourcePair>
         <crisisResourcePair>
             <crisisId>CRI_004</crisisId>
-            <resourceId>RES_010</resourceId>
+            <resourceId>RES_017</resourceId>
         </crisisResourcePair>
     </crisisResources>
     <waysToHelp>

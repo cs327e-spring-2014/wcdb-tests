@@ -4,7 +4,7 @@ import unittest
 from WCDB import *
 from xml.etree.ElementTree import Element, fromstring, tostring
 
-class TestXML (unittest.TestCase) :
+class TestWCDB3 (unittest.TestCase) :
 
     def test_toElementTree_1 (self):
         s = "<apple><orange>a</orange></apple>"
@@ -43,27 +43,7 @@ class TestXML (unittest.TestCase) :
         l = toXML(x)
         self.assertTrue(l != "")
         self.assertTrue(l == "<red><blue><green> yellow </green></blue></red>")
-
-        
-    def test_WCBD_solve_1 (self):
-        r = StringIO.StringIO('<parent><child> mom </child></parent>')
-        w = StringIO.StringIO()
-        WCDB_solve(r, w)
-        self.assertTrue(w.getvalue() == '<parent><child> mom </child></parent>\n')
-
-    def test_WCBD_solve_2 (self):
-        r = StringIO.StringIO('<parent>daddy</parent>')
-        w = StringIO.StringIO()
-        WCDB_solve(r, w)
-        self.assertTrue(w.getvalue() == '<parent>daddy</parent>\n')
-
-    def test_WCBD_solve_3 (self):
-        r = StringIO.StringIO('<parent><child><grandchild>baby</grandchild></child></parent>')
-        w = StringIO.StringIO()
-        WCDB_solve(r, w)
-        self.assertTrue(w.getvalue() == '<parent><child><grandchild>baby</grandchild></child></parent>\n')
-
-
+     
     def test_getElement (self):
         t = "<red><blue> yellow </blue></red>"
         x = fromstring(t)
@@ -84,6 +64,44 @@ class TestXML (unittest.TestCase) :
         y = getElement(x, 'weed')
         z = "\' dogg \'"
         self.assertTrue(y == z)
+
+    def test_getElement_4 (self):
+        t = "<jam><bread> cheese </bread></jam>"
+        x = fromstring(t)
+        y = getElement(x, 'bread')
+        z = "\' cheese \'"
+        self.assertTrue(y == z)
+        
+    def test_getElement_5 (self):
+        t = "<cat><mouse> lick </mouse></cat>"
+        x = fromstring(t)
+        y = getElement(x, 'mouse')
+        z = "\' lick \'"
+        self.assertTrue(y == z)  
+    
+    def test_getSQLsubclass_1 (self):
+        st = "Crises"
+        y = getSQLsubclass(st)
+        self.assertTrue(y == "crisis")
+        
+    def test_getSQLsubclass_2 (self):
+        st = "Citations"
+        y = getSQLsubclass(st)
+        self.assertTrue(y == "citationPair")
+        
+    def test_getSQLsubclass_3 (self):
+        st = "OrgPeople"
+        y = getSQLsubclass(st)
+        self.assertTrue(y == "orgPersonPair")
+
+    def test_getSQLsubclass_4 (self):
+        st = "CrisisOrgs"
+        y = getSQLsubclass(st)
+        self.assertTrue(y == "crisisOrgPair")
+    def test_getSQLsubclass_5 (self):
+        st = "OrgContactInfos"
+        y = getSQLsubclass(st)
+        self.assertTrue(y == "orgContactInfoPair")
 
 
 print("Testing TestWCDB.py")

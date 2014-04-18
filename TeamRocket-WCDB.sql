@@ -1,6 +1,24 @@
 
+use cs327e_ksombra;
+drop table if exists Citations;
+drop table if exists ContactInfos;
 drop table if exists Crises;
+drop table if exists CrisisCitations;
+drop table if exists CrisisOrgs;
+drop table if exists CrisisPeople;
+drop table if exists CrisisResources;
+drop table if exists CrisisWaysToHelp;
+drop table if exists CrisisUrls;
 drop table if exists Orgs;
+drop table if exists OrgCitations;
+drop table if exists OrgContactInfos;
+drop table if exists OrgPeople;
+drop table if exists OrgUrls;
+drop table if exists PersonCitations;
+drop table if exists PersonUrls;
+drop table if exists Resources;
+drop table if exists Urls;
+drop table if exists WaysToHelp;
 drop table if exists People;
 
 /* -------------------------------------------------
@@ -8,7 +26,7 @@ drop table if exists People;
 -----------------------------------------------------*/
 
 create table Crises (
-	crisisID            TEXT      not null,
+	crisisID            INT      not null,
 	name                TEXT      not null,
 	kind		    TEXT      not null,
 	streetAddress       TEXT,
@@ -31,7 +49,7 @@ create table Crises (
 	Primary Key (crisisID) );
 
 create table Orgs (
-	orgID               TEXT     not null,
+	orgID               INT     not null,
         name                TEXT     not null,
 	kind	            TEXT     not null,
         streetAddress       TEXT,
@@ -46,7 +64,7 @@ create table Orgs (
 	Primary Key (orgID)    );
 
 create table People (
-	personID            TEXT     not null,
+	personID            INT     not null,
 	name	            TEXT     not null,
 	kind                TEXT     not null,
 	streetAddress       TEXT,
@@ -54,81 +72,81 @@ create table People (
 	country	            TEXT,
 	Primary Key (personID) );
 
-create table resources (
-	resourceID	    TEXT     not null,
+create table Resources (
+	resourceID	    INT     not null,
 	resource	    TEXT,
 	Primary Key (resourceID) );
 
-create table crisisResources (
-	crisisID	    TEXT,
+create table CrisisResources (
+	crisisID	    INT,
 	resourceID          TEXT );
 
-create table waystoHelp (
-	helpID 	            TEXT,
+create table WaysToHelp (
+	helpID 	            INT,
 	waytohelp	    TEXT,
 	Primary Key (helpID)  );
 
-create table crisisWaysToHelp (
-	crisisID            TEXT,
+create table CrisisWaysToHelp (
+	crisisID            INT,
 	helpID              TEXT );
 
-create table contactInfos (
-	contactInfoID       TEXT,
-	phoneNumber         VARCHAR,
+create table ContactInfos (
+	contactInfoID       INT,
+	phoneNumber         VARCHAR(15),
 	emailAddress        TEXT,
 	facebookURLID       TEXT,
 	twitterURLID        TEXT,
 	websiteURLID        TEXT,
 	Primary Key (contactInfoID) );
 
-create table orgContactInfos (
-	orgID	            TEXT,
+create table OrgContactInfos (
+	orgID	            INT,
 	contactInfoID       TEXT );
 
-create table citations (
-	citationID          TEXT,
+create table Citations (
+	citationID          INT,
 	citation	    TEXT,
 	Primary Key (citationID) );
 
-create table crisisCitations (
-	citationID          TEXT,
-	crisisID	    TEXT );
+create table CrisisCitations (
+	citationID          INT,
+	crisisID	    INT );
 
-create table orgCitations (
-	orgID	            TEXT,
-	citationID          TEXT );
+create table OrgCitations (
+	orgID	            INT,
+	citationID          INT );
 
-create table personCitations (
-	personID	    TEXT,
-	citationID	    TEXT );
+create table PersonCitations (
+	personID	    INT,
+	citationID	    INT );
 
-create table urls (
-	urlID	            TEXT,
+create table Urls (
+	urlID	            INT,
 	type                TEXT,
 	urlAddress          TEXT );
 
-create table crisisUrls (
-	crisisID	    TEXT,
-	urlID	            TEXT );
+create table CrisisUrls (
+	crisisID	    INT,
+	urlID	            INT );
 
-create table orgUrls (
-	orgID	            TEXT,
-	urlID 	            TEXT );
+create table OrgUrls (
+	orgID	            INT,
+	urlID 	            INT );
 
-create table personUrls (
-	personID 	    TEXT,
-	urlID	            TEXT );
+create table PersonUrls (
+	personID 	    INT,
+	urlID	            INT );
 
-create table crisisOrgs (
-	crisisID	    TEXT,
-	orgID               TEXT );
+create table CrisisOrgs (
+	crisisID	    INT,
+	orgID               INT );
 
-create table crisisPeople (
-	crisisID	    TEXT,
-	personID	    TEXT );
+create table CrisisPeople (
+	crisisID	    INT,
+	personID	    INT );
 
-create table orgPeople (
-	orgID	            TEXT,
-	personID	    TEXT );
+create table OrgPeople (
+	orgID	            INT,
+	personID	    INT );
 
 
