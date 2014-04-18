@@ -3,10 +3,9 @@
 Select name, dateAndTime
 	From crises
 	Where dateAndTime <= all
-    	(Select dateAndTime
-            From crises where year(dateandtime) <> 0000)
+    (Select dateAndTime From crises where year(dateandtime) <> 0000)
     and
-    	year(dateandtime) <> 0000
+    year(dateandtime) <> 0000
 --------------
 
 <TABLE BORDER=1><TR><TH>name</TH><TH>dateAndTime</TH></TR><TR><TD>1900 Galveston Hurricane</TD><TD>1900-09-08 08:45:00</TD></TR></TABLE>--------------
@@ -24,7 +23,7 @@ Select country, count(*)
 	Group by country
 --------------
 
-<TABLE BORDER=1><TR><TH>country</TH><TH>count(*)</TH></TR><TR><TD>Canada</TD><TD>1</TD></TR><TR><TD>Haiti</TD><TD>1</TD></TR><TR><TD>Libya</TD><TD>1</TD></TR><TR><TD>Malaysia</TD><TD>1</TD></TR><TR><TD>South Sudan</TD><TD>1</TD></TR><TR><TD>Sudan</TD><TD>1</TD></TR><TR><TD>United States</TD><TD>3</TD></TR><TR><TD>USA</TD><TD>4</TD></TR><TR><TD>Venezuela</TD><TD>1</TD></TR></TABLE>--------------
+<TABLE BORDER=1><TR><TH>country</TH><TH>count(*)</TH></TR><TR><TD>Canada</TD><TD>1</TD></TR><TR><TD>Haiti</TD><TD>1</TD></TR><TR><TD>Libya</TD><TD>1</TD></TR><TR><TD>Malaysia</TD><TD>1</TD></TR><TR><TD>South Sudan</TD><TD>1</TD></TR><TR><TD>Sudan</TD><TD>1</TD></TR><TR><TD>USA</TD><TD>7</TD></TR><TR><TD>Venezuela</TD><TD>1</TD></TR></TABLE>--------------
 --
 Select name, count(distinct crisisId)
 	From crisisOrgs
@@ -42,4 +41,261 @@ Select resource, count(resourceId)
 	limit 1
 --------------
 
-<TABLE BORDER=1><TR><TH>resource</TH><TH>count(resourceId)</TH></TR><TR><TD>Hospitalization</TD><TD>8</TD></TR></TABLE>
+<TABLE BORDER=1><TR><TH>resource</TH><TH>count(resourceId)</TH></TR><TR><TD>Hospitalization</TD><TD>8</TD></TR></TABLE>--------------
+--
+Select name, fatalities + injuries
+	From crises
+	order by (fatalities + injuries) desc
+	limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>fatalities + injuries</TH></TR><TR><TD>Rwandan Genocide</TD><TD>1050000</TD></TR></TABLE>--------------
+--
+Select count(*)
+	From crises
+	where dateandTime >= 2000
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH></TR><TR><TD>44</TD></TR></TABLE>--------------
+--
+Select country, count(*)
+	From crises
+	group by country
+	order by count(*) desc
+	limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>country</TH><TH>count(*)</TH></TR><TR><TD>USA</TD><TD>9</TD></TR></TABLE>--------------
+--
+Select count(distinct O.orgId)
+	From orgs as O
+	inner join crisisOrgs as CO using(orgId)
+	inner join crises as C using (crisisId)
+	Where C.damageInUSD = 0
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct O.orgId)</TH></TR><TR><TD>19</TD></TR></TABLE>--------------
+--
+Select name
+	from people inner join crisisPeople using(personId)
+	group by name
+	having count(*) > 2
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Barack Obama</TD></TR><TR><TD>Ernst August Lehmann</TD></TR><TR><TD>George W. Bush</TD></TR><TR><TD>Hillary Clinton</TD></TR><TR><TD>Jean-Max Bellerive</TD></TR><TR><TD>Olafur Ragnar Grimsson</TD></TR><TR><TD>Romeo Dallaire</TD></TR></TABLE>--------------
+--
+Select name
+	from orgs
+	where year(dateAbolished) <= 2014 and year(dateAbolished) <> 0000
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Works Progress Administration</TD></TR><TR><TD>Lehman Brothers</TD></TR></TABLE>--------------
+--
+Select name
+	from crises
+	order by dateAndTime desc
+	limit 5
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Malaysia Airplane MH370</TD></TR><TR><TD>Arctic Vortex</TD></TR><TR><TD>Target Data Breach</TD></TR><TR><TD>NSA Leaks</TD></TR><TR><TD>West Plant Explosion</TD></TR></TABLE>--------------
+--
+Select crises.name
+	from crisisResources
+	inner join resources on (crisisResources.resourceId = resources.resourceId)
+	inner join crises using (crisisId)
+	group by crisisId
+	order by count(distinct resources.resource) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Haiti Earthquake</TD></TR></TABLE>--------------
+--
+Select name
+	from crises
+	where reparationCost > damageInUSD
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>UT Tower Shooter</TD></TR><TR><TD>Great Depression in US</TD></TR><TR><TD>Texas Drought</TD></TR><TR><TD>Malaysia Airplane MH370</TD></TR><TR><TD>Aurora Shooting</TD></TR><TR><TD>Chernobyl Accident</TD></TR><TR><TD>Iran Hostage Crisis</TD></TR><TR><TD>Oklahoma City Bombing</TD></TR></TABLE>--------------
+--
+Select kind
+	from people
+	group by kind
+	order by count(*) desc
+	limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>kind</TH></TR><TR><TD>President</TD></TR></TABLE>--------------
+--
+Select name
+	from crises
+	where reparationCost >= all
+	(select reparationCost from crises)
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Chernobyl Accident</TD></TR></TABLE>--------------
+--
+Select name
+	from orgs
+	where year(dateFounded) <= 1950
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>UNICEF</TD></TR><TR><TD>United Nations</TD></TR><TR><TD>U.S. Coast Guard</TD></TR><TR><TD>U.S. Marine Corps</TD></TR><TR><TD>World Health Organization</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD></TR><TR><TD>International Federation of Red Cross and Red Cres</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD></TR><TR><TD>Salvation Army</TD></TR><TR><TD>Japan Society</TD></TR><TR><TD>Works Progress Administration</TD></TR><TR><TD>People's Liberation Army</TD></TR><TR><TD>NATO</TD></TR><TR><TD>United Nations Children's Fund</TD></TR><TR><TD>Center for Disease</TD></TR><TR><TD>Habitat for Humanity</TD></TR><TR><TD>Malaysia Airlines</TD></TR><TR><TD>Aurora Police Department</TD></TR><TR><TD>National Security Agency</TD></TR><TR><TD>BP</TD></TR><TR><TD>Johnson and Johnson</TD></TR><TR><TD>American Red Cross</TD></TR><TR><TD>Federal Reserve</TD></TR><TR><TD>Lehman Brothers</TD></TR><TR><TD>Goldman Sachs</TD></TR><TR><TD>The New York Times</TD></TR><TR><TD>Egyptian Red Crescent</TD></TR><TR><TD>US Air Force</TD></TR><TR><TD>US Army</TD></TR><TR><TD>FBI</TD></TR></TABLE>--------------
+--
+Select count(*)
+	from orgs
+	where kind = 'Intergovernmental Agency'
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH></TR><TR><TD>9</TD></TR></TABLE>--------------
+--
+Select count(distinct p.personId)
+	from urls as u
+	inner join personUrls as pU on (u.urlId = pU.urlId)
+	inner join people as p using (personId)
+	where u.type = 'SocialNetwork'
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct p.personId)</TH></TR><TR><TD>33</TD></TR></TABLE>--------------
+--
+Select year(dateAndTime)
+	from crises
+	group by year(dateAndTime)
+	order by count(year(dateAndTime)) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>year(dateAndTime)</TH></TR><TR><TD>0</TD></TR></TABLE>--------------
+--
+Select name
+	from crises
+	where country = 'USA' or country = 'United States' or country = 'United States of America'
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Hurricane Ike</TD></TR><TR><TD>UT Tower Shooter</TD></TR><TR><TD>Hindenburg Disaster</TD></TR><TR><TD>Arctic Vortex</TD></TR><TR><TD>Katrina</TD></TR><TR><TD>Great Depression in US</TD></TR><TR><TD>Texas Drought</TD></TR><TR><TD>Target Data Breach</TD></TR><TR><TD>NSA Leaks</TD></TR><TR><TD>Aurora Shooting</TD></TR><TR><TD>9-11</TD></TR><TR><TD>1900 Galveston Hurricane</TD></TR><TR><TD>Boston Marathon Bombing</TD></TR><TR><TD>2008 Financial Crises</TD></TR><TR><TD>Tropical Storm Allison</TD></TR><TR><TD>Hurricane Sandy</TD></TR><TR><TD>Nixon Shock</TD></TR><TR><TD>Oklahoma City Bombing</TD></TR></TABLE>--------------
+--
+Select sum(damageInUSD)
+	from crises
+	where country = 'USA' or country = 'United States' or country = 'United States of America'
+--------------
+
+<TABLE BORDER=1><TR><TH>sum(damageInUSD)</TH></TR><TR><TD>18320993313</TD></TR></TABLE>--------------
+--
+Select x.num - y.num
+	from
+	(select count(*) as num
+	from orgs
+	where country <> 'USA' and country <> 'United States' and country <> 'United States of America') as x,
+	(select count(*) as num
+	from orgs
+	where country = 'USA' or country = 'United States' or country = 'United States of America') as y
+--------------
+
+<TABLE BORDER=1><TR><TH>x.num - y.num</TH></TR><TR><TD>0</TD></TR></TABLE>--------------
+--
+Select count(*), kind
+	from people
+	group by kind
+	order by count(*) asc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH><TH>kind</TH></TR><TR><TD>1</TD><TD>Actor / Actress</TD></TR></TABLE>--------------
+--
+Select count(distinct crisisId) from
+	(select * from crisisPeople where personId = '1') as T
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct crisisId)</TH></TR><TR><TD>17</TD></TR></TABLE>--------------
+--
+Select wayToHelp
+	from waysToHelp
+	group by wayToHelp
+	order by count(*) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>wayToHelp</TH></TR><TR><TD>Donate Money</TD></TR></TABLE>--------------
+--
+Select country
+	from people
+	group by country
+	order by count(*) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>country</TH></TR><TR><TD>USA</TD></TR></TABLE>--------------
+--
+Select count(*)
+	from crises
+	where damageInUSD > 1000000000
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH></TR><TR><TD>14</TD></TR></TABLE>--------------
+--
+Select name, city, country from crises
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>city</TH><TH>country</TH></TR><TR><TD>Haiti Earthquake</TD><TD>NULL</TD><TD>Haiti</TD></TR><TR><TD>Hurricane Ike</TD><TD>NULL</TD><TD>United States</TD></TR><TR><TD>Benghazi attack </TD><TD>Benghazi</TD><TD>Libya</TD></TR><TR><TD>Eruptions of Eyjafjallajokull</TD><TD>NULL</TD><TD>Iceland</TD></TR><TR><TD>Cold War</TD><TD>NULL</TD><TD>Earth</TD></TR><TR><TD>UT Tower Shooter</TD><TD>Austin</TD><TD>USA</TD></TR><TR><TD>Hindenburg Disaster</TD><TD>Lakehurst</TD><TD>United States</TD></TR><TR><TD>Global Warming</TD><TD>NULL</TD><TD>ALL</TD></TR><TR><TD>Arctic Vortex</TD><TD></TD><TD>USA</TD></TR><TR><TD>Katrina</TD><TD>New Orleans</TD><TD>United States</TD></TR><TR><TD>Fukushima Daiichi nuclear disaster</TD><TD>Okuma</TD><TD>Japan</TD></TR><TR><TD>Tohuku Earthquake and Tsunami</TD><TD>NULL</TD><TD>Japan</TD></TR><TR><TD>Sumatra-Andaman Earthquake</TD><TD>NULL</TD><TD>Indonesia</TD></TR><TR><TD>Sichuan Earthquake</TD><TD>NULL</TD><TD>NULL</TD></TR><TR><TD>Great Depression in US</TD><TD></TD><TD>USA</TD></TR><TR><TD>Banqiao Dam Collapsed in China</TD><TD>Zhumadian City</TD><TD>China</TD></TR><TR><TD>Texas Drought</TD><TD></TD><TD>United States</TD></TR><TR><TD>Mexico City Earthquake</TD><TD>Mexico City</TD><TD>Mexico</TD></TR><TR><TD>Libyan Civil War</TD><TD>Benghazi</TD><TD>Libya</TD></TR><TR><TD>Rwandan Genocide</TD><TD>NULL</TD><TD>Rwanda</TD></TR><TR><TD>H1N1 Pandemic</TD><TD>NULL</TD><TD>Global Impact</TD></TR><TR><TD>Target Data Breach</TD><TD>NULL</TD><TD>USA</TD></TR><TR><TD>African HIV/AIDS Epidemic</TD><TD>NULL</TD><TD>Widespread in Africa</TD></TR><TR><TD>Argentinian Dirty War</TD><TD>NULL</TD><TD>Argentina</TD></TR><TR><TD>Malaysia Airplane MH370</TD><TD>Kuala Lumpur</TD><TD>Malaysia</TD></TR><TR><TD>Cablegate</TD><TD>Melbourne</TD><TD>Australia</TD></TR><TR><TD>South Sudan Civil War</TD><TD>NULL</TD><TD>South Sudan</TD></TR><TR><TD>NSA Leaks</TD><TD>NULL</TD><TD>USA</TD></TR><TR><TD>Aurora Shooting</TD><TD>Aurora</TD><TD>USA</TD></TR><TR><TD>Chernobyl Accident</TD><TD>Chernobyl</TD><TD>Ukraine</TD></TR><TR><TD>BP Oil Spill</TD><TD>NULL</TD><TD>Gulf of Mexico</TD></TR><TR><TD>9-11</TD><TD>New York City</TD><TD>United States</TD></TR><TR><TD>1900 Galveston Hurricane</TD><TD>Galveston</TD><TD>United States</TD></TR><TR><TD>Cuban Missile Crisis</TD><TD>NUll</TD><TD>Cuba</TD></TR><TR><TD>Boston Marathon Bombing</TD><TD>Boston</TD><TD>USA</TD></TR><TR><TD>West Plant Explosion</TD><TD>West</TD><TD></TD></TR><TR><TD>2008 Financial Crises</TD><TD></TD><TD>USA</TD></TR><TR><TD>Darfur Genocides</TD><TD></TD><TD>Darfur</TD></TR><TR><TD>Tropical Storm Allison</TD><TD></TD><TD>USA</TD></TR><TR><TD>Venezuela Protest</TD><TD></TD><TD>Venezuela</TD></TR><TR><TD>Ukraine Crisis</TD><TD></TD><TD>Crimea</TD></TR><TR><TD>Pussy Riot</TD><TD></TD><TD>Russia</TD></TR><TR><TD>Syrian Protests</TD><TD></TD><TD>Syria</TD></TR><TR><TD>Crimes in NK</TD><TD></TD><TD>North Korea</TD></TR><TR><TD>Egypt Revolution of 2011</TD><TD>NULL</TD><TD>Egypt</TD></TR><TR><TD>Hurricane Sandy</TD><TD>Null</TD><TD>United States</TD></TR><TR><TD>Nixon Shock</TD><TD>Washington DC</TD><TD>United States</TD></TR><TR><TD>Iran Hostage Crisis</TD><TD>NULL</TD><TD>Iran</TD></TR><TR><TD>Oklahoma City Bombing</TD><TD>Oklahoma City</TD><TD>United States</TD></TR></TABLE>--------------
+--
+Select name from crises where country <> 'USA' and country <> 'United States'
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Haiti Earthquake</TD></TR><TR><TD>Benghazi attack </TD></TR><TR><TD>Eruptions of Eyjafjallajokull</TD></TR><TR><TD>Cold War</TD></TR><TR><TD>Global Warming</TD></TR><TR><TD>Fukushima Daiichi nuclear disaster</TD></TR><TR><TD>Tohuku Earthquake and Tsunami</TD></TR><TR><TD>Sumatra-Andaman Earthquake</TD></TR><TR><TD>Banqiao Dam Collapsed in China</TD></TR><TR><TD>Mexico City Earthquake</TD></TR><TR><TD>Libyan Civil War</TD></TR><TR><TD>Rwandan Genocide</TD></TR><TR><TD>H1N1 Pandemic</TD></TR><TR><TD>African HIV/AIDS Epidemic</TD></TR><TR><TD>Argentinian Dirty War</TD></TR><TR><TD>Malaysia Airplane MH370</TD></TR><TR><TD>Cablegate</TD></TR><TR><TD>South Sudan Civil War</TD></TR><TR><TD>Chernobyl Accident</TD></TR><TR><TD>BP Oil Spill</TD></TR><TR><TD>Cuban Missile Crisis</TD></TR><TR><TD>West Plant Explosion</TD></TR><TR><TD>Darfur Genocides</TD></TR><TR><TD>Venezuela Protest</TD></TR><TR><TD>Ukraine Crisis</TD></TR><TR><TD>Pussy Riot</TD></TR><TR><TD>Syrian Protests</TD></TR><TR><TD>Crimes in NK</TD></TR><TR><TD>Egypt Revolution of 2011</TD></TR><TR><TD>Iran Hostage Crisis</TD></TR></TABLE>--------------
+--
+Select distinct(c.name)
+	from orgs as o
+	inner join crisisOrgs using (orgId)
+	inner join crises as c using (crisisId)
+	where o.name = "American Red Cross"
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Hurricane Ike</TD></TR><TR><TD>Tropical Storm Allison</TD></TR></TABLE>--------------
+--
+Select distinct(p.personId), p.name, c.name
+	from people as p
+	inner join crisisPeople using (personId)
+	inner join crises as c using (crisisId)
+	where p.kind = 'President'
+--------------
+
+<TABLE BORDER=1><TR><TH>personId</TH><TH>name</TH><TH>name</TH></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Haiti Earthquake</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Hurricane Ike</TD></TR><TR><TD>6</TD><TD>Olafur Ragnar Grimsson</TD><TD>Hurricane Ike</TD></TR><TR><TD>12</TD><TD>Michele Pierre Louis</TD><TD>Hurricane Ike</TD></TR><TR><TD>8</TD><TD>George W. Bush</TD><TD>Hurricane Ike</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Benghazi attack </TD></TR><TR><TD>6</TD><TD>Olafur Ragnar Grimsson</TD><TD>Eruptions of Eyjafjallajokull</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Eruptions of Eyjafjallajokull</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Cold War</TD></TR><TR><TD>44</TD><TD>Kim Jong Un</TD><TD>Cold War</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Global Warming</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Arctic Vortex</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Fukushima Daiichi nuclear disaster</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Tohuku Earthquake and Tsunami</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Sumatra-Andaman Earthquake</TD></TR><TR><TD>19</TD><TD>Franklin Delano Roosevelt</TD><TD>Great Depression in US</TD></TR><TR><TD>22</TD><TD>Miguel de la Madrid</TD><TD>Mexico City Earthquake</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Mexico City Earthquake</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>African HIV/AIDS Epidemic</TD></TR><TR><TD>34</TD><TD>Richard A. Meserve</TD><TD>Chernobyl Accident</TD></TR><TR><TD>36</TD><TD>Osama bin Laden</TD><TD>9-11</TD></TR><TR><TD>38</TD><TD>Fidel Castro</TD><TD>Cuban Missile Crisis</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>West Plant Explosion</TD></TR><TR><TD>8</TD><TD>George W. Bush</TD><TD>2008 Financial Crises</TD></TR><TR><TD>8</TD><TD>George W. Bush</TD><TD>Darfur Genocides</TD></TR><TR><TD>8</TD><TD>George W. Bush</TD><TD>Tropical Storm Allison</TD></TR><TR><TD>45</TD><TD>Nicolas Maduro</TD><TD>Venezuela Protest</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Venezuela Protest</TD></TR><TR><TD>47</TD><TD>Vladimir Putin</TD><TD>Ukraine Crisis</TD></TR><TR><TD>48</TD><TD>Oleksandr Valentynovych Turchynov</TD><TD>Ukraine Crisis</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Ukraine Crisis</TD></TR><TR><TD>47</TD><TD>Vladimir Putin</TD><TD>Pussy Riot</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Pussy Riot</TD></TR><TR><TD>44</TD><TD>Kim Jong Un</TD><TD>Syrian Protests</TD></TR><TR><TD>1</TD><TD>Barack Obama</TD><TD>Syrian Protests</TD></TR><TR><TD>49</TD><TD>Hosni Mubarak</TD><TD>Egypt Revolution of 2011</TD></TR><TR><TD>51</TD><TD>Richard Nixon</TD><TD>Nixon Shock</TD></TR><TR><TD>52</TD><TD>Jimmy Carter</TD><TD>Iran Hostage Crisis</TD></TR></TABLE>--------------
+--
+Select name from crises where fatalities <= 100
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Benghazi attack </TD></TR><TR><TD>UT Tower Shooter</TD></TR><TR><TD>Hindenburg Disaster</TD></TR><TR><TD>Arctic Vortex</TD></TR><TR><TD>Texas Drought</TD></TR><TR><TD>Target Data Breach</TD></TR><TR><TD>Cablegate</TD></TR><TR><TD>NSA Leaks</TD></TR><TR><TD>Aurora Shooting</TD></TR><TR><TD>BP Oil Spill</TD></TR><TR><TD>Cuban Missile Crisis</TD></TR><TR><TD>Boston Marathon Bombing</TD></TR><TR><TD>West Plant Explosion</TD></TR><TR><TD>2008 Financial Crises</TD></TR><TR><TD>Tropical Storm Allison</TD></TR><TR><TD>Venezuela Protest</TD></TR><TR><TD>Ukraine Crisis</TD></TR><TR><TD>Pussy Riot</TD></TR><TR><TD>Syrian Protests</TD></TR><TR><TD>Crimes in NK</TD></TR><TR><TD>Nixon Shock</TD></TR><TR><TD>Iran Hostage Crisis</TD></TR></TABLE>--------------
+--
+--
+Select p.name, count(distinct c.crisisId)
+	from people as p
+	inner join crisisPeople using (personId)
+	inner join crises as c using (crisisId)
+	where p.kind = 'President' and c.kind = 'Natural Disaster'
+	group by p.name
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>count(distinct c.crisisId)</TH></TR><TR><TD>Barack Obama</TD><TD>9</TD></TR><TR><TD>George W. Bush</TD><TD>2</TD></TR><TR><TD>Michele Pierre Louis</TD><TD>1</TD></TR><TR><TD>Miguel de la Madrid</TD><TD>1</TD></TR><TR><TD>Olafur Ragnar Grimsson</TD><TD>2</TD></TR></TABLE>--------------
+--
+--
+Select distinct(o.name)
+	from orgs as o
+	inner join crisisOrgs using (orgId)
+	inner join crises as c using (crisisId)
+	where o.country <> c.country
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>International Medical Corps</TD></TR><TR><TD>Salvation Army</TD></TR><TR><TD>UNICEF</TD></TR><TR><TD>United Nations</TD></TR><TR><TD>World Health Organization</TD></TR><TR><TD>Doctors without Borders</TD></TR><TR><TD>United Nations Children's Fund</TD></TR><TR><TD>Habitat for Humanity</TD></TR><TR><TD>The New York Times</TD></TR><TR><TD>Al Jazeera</TD></TR><TR><TD>Portlight Strategies, Inc.</TD></TR><TR><TD>Haitian Government</TD></TR><TR><TD>American Red Cross</TD></TR><TR><TD>United States Department of State</TD></TR><TR><TD>Homeland Security</TD></TR><TR><TD>International Federation of Red Cross and Red Cres</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD></TR><TR><TD>FEMA</TD></TR><TR><TD>U.S. Coast Guard</TD></TR><TR><TD>U.S. Marine Corps</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD></TR><TR><TD>Greenpeace</TD></TR><TR><TD>Japan Society</TD></TR><TR><TD>Mercy Corps</TD></TR><TR><TD>NATO</TD></TR><TR><TD>Center for Disease</TD></TR><TR><TD>Target</TD></TR><TR><TD>WikiLeaks</TD></TR><TR><TD>International Nuclear Safety Group (INSAG)</TD></TR><TR><TD>BP</TD></TR><TR><TD>Al-Qaeda</TD></TR><TR><TD>Defense Intellegence Agency</TD></TR><TR><TD>Federal Reserve</TD></TR><TR><TD>Lehman Brothers</TD></TR><TR><TD>Goldman Sachs</TD></TR><TR><TD>Liberation and Justice Movement</TD></TR><TR><TD>CNN</TD></TR><TR><TD>BRAVEN (Brazilian and Venezuelan Student Associati</TD></TR><TR><TD>US Air Force</TD></TR><TR><TD>Dow Jones and Company</TD></TR><TR><TD>US Army</TD></TR><TR><TD>FBI</TD></TR></TABLE>--------------
+--
+Select avg(damageInUSD)
+	from crises
+	where fatalities > 1000
+--------------
+
+<TABLE BORDER=1><TR><TH>avg(damageInUSD)</TH></TR><TR><TD>2333608695.0000</TD></TR></TABLE>--------------
+--
+Select count(*) from crises where kind = 'Natural Disaster' and damageInUSD > 10000000000 and fatalities > 500
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH></TR><TR><TD>0</TD></TR></TABLE>--------------
+--
+Select sum(damageInUSD)
+	from crises
+	where damageInUSD is NOT NULL and year(dateAndTime) >= 2000
+--------------
+
+<TABLE BORDER=1><TR><TH>sum(damageInUSD)</TH></TR><TR><TD>48880065259</TD></TR></TABLE>
