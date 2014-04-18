@@ -138,10 +138,10 @@ select "Are there more organizations based outside of the United States (within 
 select x.num - y.num
     from
     (select count(name) as num
-    from orgs
+    from Orgs
     where name !="USA") as x,
     (select count(name) as num
-    from orgs
+    from Orgs
     where name ="USA") as y;
 
 select "";
@@ -245,17 +245,11 @@ select "BashKetchum's Queries";
 select "";
 select "Of the people classified as presidents, how many natural disasters were each of them connected to?";
 
-select p.name, count(distinct(c.crisisId))
-    from People as p inner join CrisisPeople using (personId) inner join Crises as c using (crisisId)
-    where p.kind = "President" and c.kind = "Natural Disaster";
-    group by p.name;
 
 select "";
 select "Which organizations were involved in crises that occurred outside of the country its HQs are based in?";
 
-select distinct (o.name)
-    from Orgs as o inner join CrisisOrgs using (orgId) inner join Crises as c using (crisisId)
-    where o.country != c.country;
+
 
 select "";
 select "What was the average cost damage in USD done by crises that caused over 1000 fatalities?";
@@ -269,7 +263,7 @@ select "How many natural disasters had over 500 fatalities and costed over 10 bi
 
 select count(*)
     from Crises
-    where kind = "Natural Disaster" and and fatalities > 500 and reparationCost > 10000000000;
+    where kind = "Natural Disaster" and fatalities > 500 and reparationCost > 10000000000;
 
 select "";
 select "Ignoring nulls, what is the total damage cost of disasters in our century";
