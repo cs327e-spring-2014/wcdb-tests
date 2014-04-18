@@ -1,0 +1,317 @@
+--------------
+select "Which crisis had the most combined fatalities and injuries?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crisis had the most combined fatalities and injuries?</TH></TR><TR><TD>Which crisis had the most combined fatalities and injuries?</TD></TR></TABLE>--------------
+select name, (fatalities + injuries) as Total from Crises order by Total desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>Total</TH></TR><TR><TD>Hurricane Ike</TD><TD>1000195</TD></TR></TABLE>--------------
+select "How many crises have occurred in the 21st century?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many crises have occurred in the 21st century?</TH></TR><TR><TD>How many crises have occurred in the 21st century?</TD></TR></TABLE>--------------
+select count(Name) AS Crises_Count from Crises where dateAndTime >= '2000-01-01 00:00:00'
+--------------
+
+<TABLE BORDER=1><TR><TH>Crises_Count</TH></TR><TR><TD>19</TD></TR></TABLE>--------------
+select "Which country has the most crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which country has the most crises?</TH></TR><TR><TD>Which country has the most crises?</TD></TR></TABLE>--------------
+select count(country) as Count, country from Crises group by country order by count desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Count</TH><TH>country</TH></TR><TR><TD>9</TD><TD>United States</TD></TR></TABLE>--------------
+select "How many organizations had crises that had 0 damage in USD?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many organizations had crises that had 0 damage in USD?</TH></TR><TR><TD>How many organizations had crises that had 0 damage in USD?</TD></TR></TABLE>--------------
+select count(distinct O.name) as Org_Name from CrisisOrgs as CO inner join Crises as C on CO.crisisId=C.crisisId inner join Orgs as O on CO.orgId=O.orgId where C.damageinUSD = 0
+--------------
+
+<TABLE BORDER=1><TR><TH>Org_Name</TH></TR><TR><TD>11</TD></TR></TABLE>--------------
+select "How many people are involved in 2 or more crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many people are involved in 2 or more crises?</TH></TR><TR><TD>How many people are involved in 2 or more crises?</TD></TR></TABLE>--------------
+select P.name, count(P.name) as Count  from CrisisPeople as CP inner join People as P on CP.personId=P.personId inner join Crises as C on CP.crisisId=C.crisisId group by P.name having Count >= 2
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>Count</TH></TR><TR><TD>Barack Obama</TD><TD>15</TD></TR><TR><TD>Ernst August Lehmann</TD><TD>2</TD></TR><TR><TD>George Clooney</TD><TD>2</TD></TR><TR><TD>George W. Bush</TD><TD>4</TD></TR><TR><TD>Hillary Clinton</TD><TD>10</TD></TR><TR><TD>Lady Gaga</TD><TD>2</TD></TR><TR><TD>Mike Shinoda</TD><TD>2</TD></TR><TR><TD>Olafur Grimsson</TD><TD>2</TD></TR></TABLE>--------------
+select "What organizations do not exist anymore? NOTICE! I COULD NOT ANSWER THIS QUESTION GIVEN OUR SCHEMA"
+--------------
+
+<TABLE BORDER=1><TR><TH>What organizations do not exist anymore? NOTICE! I COULD NOT ANSWER THIS QUESTION GIVEN OUR SCHEMA</TH></TR><TR><TD>What organizations do not exist anymore? NOTICE! I COULD NOT ANSWER THIS QUESTION GIVEN OUR SCHEMA</TD></TR></TABLE>--------------
+select "What are the 5 most recent crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What are the 5 most recent crises?</TH></TR><TR><TD>What are the 5 most recent crises?</TD></TR></TABLE>--------------
+Select name, dateAndTime from Crises order by dateAndTime desc limit 5
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>dateAndTime</TH></TR><TR><TD>Arctic Vortex</TD><TD>2014-01-01 00:00:00</TD></TR><TR><TD>West Plant Explosion</TD><TD>2013-04-17 00:00:00</TD></TR><TR><TD>Boston Marathon Bombing</TD><TD>2013-04-15 00:00:00</TD></TR><TR><TD>Hurricane Sandy</TD><TD>2012-10-25 05:40:00</TD></TR><TR><TD>2012 Benghazi Attack</TD><TD>2012-09-11 22:00:00</TD></TR></TABLE>--------------
+select "What are the crises with the most amount of resources?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What are the crises with the most amount of resources?</TH></TR><TR><TD>What are the crises with the most amount of resources?</TD></TR></TABLE>--------------
+select count(distinct R.resource) as Resource_Count, C.name from CrisisResources as CR inner join Crises as C on CR.crisisId = C.crisisId inner join Resources as R on CR.resourceId=R.resourceId group by C.name order by Resource_Count desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Resource_Count</TH><TH>name</TH></TR><TR><TD>16</TD><TD>Haiti Earthquake</TD></TR></TABLE>--------------
+select "What crises expend more money on reconstruction than in the damage done?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What crises expend more money on reconstruction than in the damage done?</TH></TR><TR><TD>What crises expend more money on reconstruction than in the damage done?</TD></TR></TABLE>--------------
+select name, damageInUSD, reparationCost from Crises where reparationCost > damageInUSD
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>damageInUSD</TH><TH>reparationCost</TH></TR><TR><TD>Haiti Earthquake</TD><TD>0</TD><TD>14000000000</TD></TR><TR><TD>UT Tower Shooting</TD><TD>0</TD><TD>5000</TD></TR><TR><TD>Chernobyl Accident</TD><TD>0</TD><TD>235000000000</TD></TR><TR><TD>Iran Hostage Crisis</TD><TD>100000</TD><TD>500000</TD></TR><TR><TD>Oklahoma City Bombing</TD><TD>456300</TD><TD>623000</TD></TR></TABLE>--------------
+select "What is the most common kind of person?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the most common kind of person?</TH></TR><TR><TD>What is the most common kind of person?</TD></TR></TABLE>--------------
+select count(name) as Count, kind from People group by kind order by Count desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Count</TH><TH>kind</TH></TR><TR><TD>10</TD><TD>President</TD></TR></TABLE>--------------
+select "Which crisis had the highest reparation cost and what was the crisis?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crisis had the highest reparation cost and what was the crisis?</TH></TR><TR><TD>Which crisis had the highest reparation cost and what was the crisis?</TD></TR></TABLE>--------------
+select name, reparationCost from Crises order by reparationCost desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>reparationCost</TH></TR><TR><TD>Chernobyl Accident</TD><TD>235000000000</TD></TR></TABLE>--------------
+select "Which organizations were founded before 1950?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which organizations were founded before 1950?</TH></TR><TR><TD>Which organizations were founded before 1950?</TD></TR></TABLE>--------------
+select name, datefounded from Orgs where datefounded <= '1950-01-01 00:00:00'
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>datefounded</TH></TR><TR><TD>UNICEF</TD><TD>1946-12-11 00:00:00</TD></TR><TR><TD>United Nations</TD><TD>1945-06-26 00:00:00</TD></TR><TR><TD>US Coast Guard</TD><TD>1790-08-04 00:00:00</TD></TR><TR><TD>U.S. Marine Corps</TD><TD>1775-11-10 00:00:00</TD></TR><TR><TD>World Health Organization</TD><TD>1948-04-07 00:00:00</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD><TD>1908-01-01 00:00:00</TD></TR><TR><TD>Austin Police Department</TD><TD>1849-01-01 00:00:00</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD><TD>1854-01-01 00:00:00</TD></TR><TR><TD>Salvation Army</TD><TD>1865-05-19 00:00:00</TD></TR><TR><TD>Japan Society</TD><TD>1907-01-01 00:00:00</TD></TR><TR><TD>BP</TD><TD>1908-05-01 00:00:00</TD></TR><TR><TD>Johnson and Johnson</TD><TD>1886-01-01 00:00:00</TD></TR><TR><TD>American Red Cross</TD><TD>1881-05-21 00:00:00</TD></TR><TR><TD>Federal Reserve</TD><TD>1913-12-23 00:00:00</TD></TR><TR><TD>Lehman Brothers</TD><TD>1850-01-01 00:00:00</TD></TR><TR><TD>Goldman Sachs</TD><TD>1869-01-01 00:00:00</TD></TR><TR><TD>Egyptian Red Crescent</TD><TD>1911-01-01 00:00:00</TD></TR><TR><TD>US Air Force</TD><TD>1907-08-01 00:00:00</TD></TR><TR><TD>US Army</TD><TD>1775-06-14 00:00:00</TD></TR><TR><TD>FBI</TD><TD>1908-07-26 00:00:00</TD></TR></TABLE>--------------
+select "How many organizations are intergovernmental agencies?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many organizations are intergovernmental agencies?</TH></TR><TR><TD>How many organizations are intergovernmental agencies?</TD></TR></TABLE>--------------
+select count(name) as Count, kind from Orgs where kind = 4
+--------------
+
+<TABLE BORDER=1><TR><TH>Count</TH><TH>kind</TH></TR><TR><TD>4</TD><TD>Intergovernmental Agency</TD></TR></TABLE>--------------
+select "How many people have a Social Network URL?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many people have a Social Network URL?</TH></TR><TR><TD>How many people have a Social Network URL?</TD></TR></TABLE>--------------
+select count(distinct P.name) as Count, U.type from PersonUrls as PU inner join People as P on PU.personId = P.personId inner join Urls as U on PU.urlId = U.urlId where type=4
+--------------
+
+<TABLE BORDER=1><TR><TH>Count</TH><TH>type</TH></TR><TR><TD>16</TD><TD>SocialNetwork</TD></TR></TABLE>--------------
+select "In what year did the most crises occur?"
+--------------
+
+<TABLE BORDER=1><TR><TH>In what year did the most crises occur?</TH></TR><TR><TD>In what year did the most crises occur?</TD></TR></TABLE>--------------
+select count(name) as Crisis_Count, Extract(Year from dateAndTime) as Year from Crises group by Year order by Crisis_Count desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Crisis_Count</TH><TH>Year</TH></TR><TR><TD>3</TD><TD>2011</TD></TR></TABLE>--------------
+select "Which crises occur within the United States?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises occur within the United States?</TH></TR><TR><TD>Which crises occur within the United States?</TD></TR></TABLE>--------------
+select name, country from Crises where country = 'United States' or country = 'USA' or country= 'US'
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>country</TH></TR><TR><TD>Haiti Earthquake</TD><TD>United States</TD></TR><TR><TD>Hurricane Ike</TD><TD>United States</TD></TR><TR><TD>Cold War</TD><TD>United States</TD></TR><TR><TD>UT Tower Shooting</TD><TD>United States</TD></TR><TR><TD>Hindenburg Crash</TD><TD>United States</TD></TR><TR><TD>Arctic Vortex</TD><TD>USA</TD></TR><TR><TD>Katrina</TD><TD>United States</TD></TR><TR><TD>9-11</TD><TD>United States</TD></TR><TR><TD>1900 Galveston Hurricane</TD><TD>United States</TD></TR><TR><TD>Boston Marathon Bombing</TD><TD>USA</TD></TR><TR><TD>2008 Financial Crises</TD><TD>USA</TD></TR><TR><TD>Tropical Storm Allison</TD><TD>USA</TD></TR><TR><TD>Nixon Shock</TD><TD>United States</TD></TR></TABLE>--------------
+select "What is the total cost in damages of United States crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the total cost in damages of United States crises?</TH></TR><TR><TD>What is the total cost in damages of United States crises?</TD></TR></TABLE>--------------
+select  country, sum(damageinUSD) as Total_Cost from Crises where country = 'United States' or country = 'USA' or country = 'US'
+--------------
+
+<TABLE BORDER=1><TR><TH>country</TH><TH>Total_Cost</TH></TR><TR><TD>United States</TD><TD>57548658833</TD></TR></TABLE>--------------
+select "Are there more organizations based outside of the United States (within this database) than American organizations?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Are there more organizations based outside of the United States (within this database) than American organizations?</TH></TR><TR><TD>Are there more organizations based outside of the United States (within this database) than American organizations?</TD></TR></TABLE>--------------
+select sum(Count) as OrganizationCount, country as Country from (select count(name) as Count, country from Orgs group by country having country <> 'United States' and country <> 'US' and country <> 'USA' order by substring_index(country,'NULL',1)) as O2 union select sum(Count) as OrganizationCount, country as Country from (select count(name) as Count, country from Orgs group by country having country = 'United States' or country = 'US' or country = 'USA') as O3
+--------------
+
+<TABLE BORDER=1><TR><TH>OrganizationCount</TH><TH>Country</TH></TR><TR><TD>8</TD><TD>NULL</TD></TR><TR><TD>18</TD><TD>United States</TD></TR></TABLE>--------------
+select "What is the least common kind of person?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the least common kind of person?</TH></TR><TR><TD>What is the least common kind of person?</TD></TR></TABLE>--------------
+select count(name) as Count, kind from People group by kind order by Count limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Count</TH><TH>kind</TH></TR><TR><TD>1</TD><TD></TD></TR></TABLE>--------------
+select "What is the least common kind of crisis?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the least common kind of crisis?</TH></TR><TR><TD>What is the least common kind of crisis?</TD></TR></TABLE>--------------
+select count(name) as Count, kind from Crises group by kind order by Count limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Count</TH><TH>kind</TH></TR><TR><TD>1</TD><TD>Assassination / Shooting</TD></TR></TABLE>--------------
+Select "How many crises is President Obama involved in?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many crises is President Obama involved in?</TH></TR><TR><TD>How many crises is President Obama involved in?</TD></TR></TABLE>--------------
+Select count(distinct C.name), P.name from CrisisPeople as CP inner join Crises as C on CP.crisisId=C.crisisId inner join People as P on CP.personId=P.personId where P.name = 'Barack Obama'
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct C.name)</TH><TH>name</TH></TR><TR><TD>10</TD><TD>Barack Obama</TD></TR></TABLE>--------------
+select "Which Way To Help Is most common?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which Way To Help Is most common?</TH></TR><TR><TD>Which Way To Help Is most common?</TD></TR></TABLE>--------------
+Select distinct W.wayToHelp, count(C.name) as Crisis_Count from CrisisWaysToHelp as CW inner join Crises as C on CW.crisisId = C.crisisId inner join WaysToHelp as W on CW.helpId = W.helpId group by W.wayToHelp order by Crisis_Count desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>wayToHelp</TH><TH>Crisis_Count</TH></TR><TR><TD>Donate food</TD><TD>10</TD></TR></TABLE>--------------
+select "What country are most of the People in?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What country are most of the People in?</TH></TR><TR><TD>What country are most of the People in?</TD></TR></TABLE>--------------
+select count(name) as Count, country from People group by country order by Count desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Count</TH><TH>country</TH></TR><TR><TD>14</TD><TD>USA</TD></TR></TABLE>--------------
+select "What organizations are involved with the Haiti Earthquake?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What organizations are involved with the Haiti Earthquake?</TH></TR><TR><TD>What organizations are involved with the Haiti Earthquake?</TD></TR></TABLE>--------------
+Select O.name as Org_Name, C.name as Crisis_Name from CrisisOrgs as CO inner join Crises as C on CO.crisisId = C.crisisId inner join Orgs as O on CO.orgId = O.orgId where C.name = 'Haiti Earthquake'
+--------------
+
+<TABLE BORDER=1><TR><TH>Org_Name</TH><TH>Crisis_Name</TH></TR><TR><TD>UNICEF</TD><TD>Haiti Earthquake</TD></TR><TR><TD>Haitian Government</TD><TD>Haiti Earthquake</TD></TR><TR><TD>United Nations</TD><TD>Haiti Earthquake</TD></TR><TR><TD>Haitian Government</TD><TD>Haiti Earthquake</TD></TR><TR><TD>International Medical Corps</TD><TD>Haiti Earthquake</TD></TR><TR><TD>Salvation Army</TD><TD>Haiti Earthquake</TD></TR><TR><TD>UNICEF</TD><TD>Haiti Earthquake</TD></TR><TR><TD>United Nations</TD><TD>Haiti Earthquake</TD></TR><TR><TD>World Health Organization</TD><TD>Haiti Earthquake</TD></TR></TABLE>--------------
+select "How many crises have caused over 1 billion USD in damages?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many crises have caused over 1 billion USD in damages?</TH></TR><TR><TD>How many crises have caused over 1 billion USD in damages?</TD></TR></TABLE>--------------
+select name, damageInUSD from Crises where damageInUSD > 1000000000
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>damageInUSD</TH></TR><TR><TD>Hurricane Ike</TD><TD>37500000000</TD></TR><TR><TD>2010 Icelandic Volcano Eruption</TD><TD>1700000000</TD></TR><TR><TD>Katrina</TD><TD>10000000000</TD></TR><TR><TD>Fukushima Daiichi nuclear disaster</TD><TD>375000000000</TD></TR><TR><TD>Tohuku Earthquake and Tsunami</TD><TD>122000000000</TD></TR><TR><TD>Sumatra-Andaman Earthquake</TD><TD>10000000000</TD></TR><TR><TD>Sichuan Earthquake</TD><TD>146500000000</TD></TR><TR><TD>BP Oil Spill</TD><TD>42200000000</TD></TR><TR><TD>9-11</TD><TD>10000000000</TD></TR><TR><TD>Hurricane Sandy</TD><TD>5000000000</TD></TR></TABLE>--------------
+select "What is the location of each of the crisis (city and country)"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the location of each of the crisis (city and country)</TH></TR><TR><TD>What is the location of each of the crisis (city and country)</TD></TR></TABLE>--------------
+select name, city, country from Crises
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>city</TH><TH>country</TH></TR><TR><TD>Haiti Earthquake</TD><TD>Leogane</TD><TD>United States</TD></TR><TR><TD>Hurricane Ike</TD><TD>NULL</TD><TD>United States</TD></TR><TR><TD>2012 Benghazi Attack</TD><TD>Benghazi</TD><TD>Libya</TD></TR><TR><TD>2010 Icelandic Volcano Eruption</TD><TD>NULL</TD><TD>Iceland</TD></TR><TR><TD>Cold War</TD><TD>NULL</TD><TD>United States</TD></TR><TR><TD>UT Tower Shooting</TD><TD>Austin</TD><TD>United States</TD></TR><TR><TD>Hindenburg Crash</TD><TD>Lakehurst</TD><TD>United States</TD></TR><TR><TD>Arctic Vortex</TD><TD>NULL</TD><TD>USA</TD></TR><TR><TD>Katrina</TD><TD>New Orleans</TD><TD>United States</TD></TR><TR><TD>Fukushima Daiichi nuclear disaster</TD><TD>Okuma</TD><TD>Japan</TD></TR><TR><TD>Tohuku Earthquake and Tsunami</TD><TD>NULL</TD><TD>Japan</TD></TR><TR><TD>Sumatra-Andaman Earthquake</TD><TD>NULL</TD><TD>Indonesia</TD></TR><TR><TD>Sichuan Earthquake</TD><TD>NULL</TD><TD>NULL</TD></TR><TR><TD>Chernobyl Accident</TD><TD>Chernobyl</TD><TD>Ukraine</TD></TR><TR><TD>BP Oil Spill</TD><TD>NULL</TD><TD>Gulf of Mexico</TD></TR><TR><TD>9-11</TD><TD>New York City</TD><TD>United States</TD></TR><TR><TD>1900 Galveston Hurricane</TD><TD>Galveston</TD><TD>United States</TD></TR><TR><TD>Cuban Missile Crisis</TD><TD>NUll</TD><TD>Cuba</TD></TR><TR><TD>Boston Marathon Bombing</TD><TD>Boston</TD><TD>USA</TD></TR><TR><TD>West Plant Explosion</TD><TD>West</TD><TD>NULL</TD></TR><TR><TD>2008 Financial Crises</TD><TD>NULL</TD><TD>USA</TD></TR><TR><TD>Darfur Genocides</TD><TD>NULL</TD><TD>Darfur</TD></TR><TR><TD>Tropical Storm Allison</TD><TD>NULL</TD><TD>USA</TD></TR><TR><TD>Egypt Revolution of 2011</TD><TD>Arab Spring</TD><TD>Egypt</TD></TR><TR><TD>Hurricane Sandy</TD><TD>Null</TD><TD>North America</TD></TR><TR><TD>Nixon Shock</TD><TD>Washington DC</TD><TD>United States</TD></TR><TR><TD>Iran Hostage Crisis</TD><TD>consealed information</TD><TD>Iran</TD></TR><TR><TD>Oklahoma City Bombing</TD><TD>OKC</TD><TD>North America</TD></TR></TABLE>--------------
+select "Which crises occurred outside US?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises occurred outside US?</TH></TR><TR><TD>Which crises occurred outside US?</TD></TR></TABLE>--------------
+select name, country from Crises where country <> 'United States' and country <> 'USA' and country <> 'US'
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>country</TH></TR><TR><TD>2012 Benghazi Attack</TD><TD>Libya</TD></TR><TR><TD>2010 Icelandic Volcano Eruption</TD><TD>Iceland</TD></TR><TR><TD>Fukushima Daiichi nuclear disaster</TD><TD>Japan</TD></TR><TR><TD>Tohuku Earthquake and Tsunami</TD><TD>Japan</TD></TR><TR><TD>Sumatra-Andaman Earthquake</TD><TD>Indonesia</TD></TR><TR><TD>Chernobyl Accident</TD><TD>Ukraine</TD></TR><TR><TD>BP Oil Spill</TD><TD>Gulf of Mexico</TD></TR><TR><TD>Cuban Missile Crisis</TD><TD>Cuba</TD></TR><TR><TD>Darfur Genocides</TD><TD>Darfur</TD></TR><TR><TD>Egypt Revolution of 2011</TD><TD>Egypt</TD></TR><TR><TD>Hurricane Sandy</TD><TD>North America</TD></TR><TR><TD>Iran Hostage Crisis</TD><TD>Iran</TD></TR><TR><TD>Oklahoma City Bombing</TD><TD>North America</TD></TR></TABLE>--------------
+select "Which crises relief effort was American Red Cross part of?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises relief effort was American Red Cross part of?</TH></TR><TR><TD>Which crises relief effort was American Red Cross part of?</TD></TR></TABLE>--------------
+Select distinct C.name, O.name from CrisisOrgs as CO inner join Crises as C on CO.crisisId = C.crisisId inner join Orgs as O on CO.orgId= O.orgId where O.name = 'American Red Cross'
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>name</TH></TR><TR><TD>Hurricane Ike</TD><TD>American Red Cross</TD></TR><TR><TD>Tropical Storm Allison</TD><TD>American Red Cross</TD></TR></TABLE>--------------
+select "Which presidents were related to the crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which presidents were related to the crises?</TH></TR><TR><TD>Which presidents were related to the crises?</TD></TR></TABLE>--------------
+Select distinct C.name, P.kind, P.name from CrisisPeople as CP inner join Crises as C on CP.crisisId = C.crisisId inner join People as P on CP.personId = P.personId where P.kind =1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>kind</TH><TH>name</TH></TR><TR><TD>Haiti Earthquake</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>Hurricane Ike</TD><TD>President</TD><TD>Michele Pierre Louis</TD></TR><TR><TD>Hurricane Ike</TD><TD>President</TD><TD>George W. Bush</TD></TR><TR><TD>Hurricane Ike</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>2012 Benghazi Attack</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>2010 Icelandic Volcano Eruption</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>Cold War</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>Arctic Vortex</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>Fukushima Daiichi nuclear disaster</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>Tohuku Earthquake and Tsunami</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>Sumatra-Andaman Earthquake</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>Chernobyl Accident</TD><TD>President</TD><TD>Richard A. Meserve</TD></TR><TR><TD>9-11</TD><TD>President</TD><TD>Osama bin Laden</TD></TR><TR><TD>Cuban Missile Crisis</TD><TD>President</TD><TD>Fidel Castro</TD></TR><TR><TD>West Plant Explosion</TD><TD>President</TD><TD>Barack Obama</TD></TR><TR><TD>2008 Financial Crises</TD><TD>President</TD><TD>George W. Bush</TD></TR><TR><TD>Darfur Genocides</TD><TD>President</TD><TD>George W. Bush</TD></TR><TR><TD>Tropical Storm Allison</TD><TD>President</TD><TD>George W. Bush</TD></TR><TR><TD>Egypt Revolution of 2011</TD><TD>President</TD><TD>Hosni Mubarak</TD></TR><TR><TD>Nixon Shock</TD><TD>President</TD><TD>Richard Nixon</TD></TR><TR><TD>Iran Hostage Crisis</TD><TD>President</TD><TD>Jimmy Carter</TD></TR></TABLE>--------------
+select "Which crises had fatalities less than 100?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises had fatalities less than 100?</TH></TR><TR><TD>Which crises had fatalities less than 100?</TD></TR></TABLE>--------------
+select name, fatalities from Crises where fatalities < 100
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>fatalities</TH></TR><TR><TD>2012 Benghazi Attack</TD><TD>4</TD></TR><TR><TD>2010 Icelandic Volcano Eruption</TD><TD>0</TD></TR><TR><TD>Cold War</TD><TD>12</TD></TR><TR><TD>UT Tower Shooting</TD><TD>16</TD></TR><TR><TD>Hindenburg Crash</TD><TD>36</TD></TR><TR><TD>Arctic Vortex</TD><TD>12</TD></TR><TR><TD>BP Oil Spill</TD><TD>11</TD></TR><TR><TD>Cuban Missile Crisis</TD><TD>1</TD></TR><TR><TD>Boston Marathon Bombing</TD><TD>3</TD></TR><TR><TD>West Plant Explosion</TD><TD>15</TD></TR><TR><TD>2008 Financial Crises</TD><TD>0</TD></TR><TR><TD>Tropical Storm Allison</TD><TD>41</TD></TR><TR><TD>Nixon Shock</TD><TD>0</TD></TR><TR><TD>Iran Hostage Crisis</TD><TD>10</TD></TR></TABLE>--------------
+select "Of the people classified as presidents, how many natural disasters were each of them connected to?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Of the people classified as presidents, how many natural disasters were each of them connected to?</TH></TR><TR><TD>Of the people classified as presidents, how many natural disasters were each of them connected to?</TD></TR></TABLE>--------------
+Select distinct P.name, P.kind as Person_Kind,C.kind as Crisis_Kind, C.name as Crisis_Name from CrisisPeople as CP inner join Crises as C on CP.crisisId = C.crisisId inner join People as P on CP.personId = P.personId where P.kind =1 and C.kind =1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>Person_Kind</TH><TH>Crisis_Kind</TH><TH>Crisis_Name</TH></TR><TR><TD>Barack Obama</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Haiti Earthquake</TD></TR><TR><TD>Michele Pierre Louis</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Hurricane Ike</TD></TR><TR><TD>George W. Bush</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Hurricane Ike</TD></TR><TR><TD>Barack Obama</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Hurricane Ike</TD></TR><TR><TD>Barack Obama</TD><TD>President</TD><TD>Natural Disaster</TD><TD>2010 Icelandic Volcano Eruption</TD></TR><TR><TD>Barack Obama</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Arctic Vortex</TD></TR><TR><TD>Barack Obama</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Tohuku Earthquake and Tsunami</TD></TR><TR><TD>Barack Obama</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Sumatra-Andaman Earthquake</TD></TR><TR><TD>George W. Bush</TD><TD>President</TD><TD>Natural Disaster</TD><TD>Tropical Storm Allison</TD></TR></TABLE>--------------
+select "Which organizations were involved in crises that occurred outside of the country its HQs are based in?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which organizations were involved in crises that occurred outside of the country its HQs are based in?</TH></TR><TR><TD>Which organizations were involved in crises that occurred outside of the country its HQs are based in?</TD></TR></TABLE>--------------
+Select distinct O.name, O.country, C.name, C.country from CrisisOrgs as CO inner join Crises as C on CO.crisisId = C.crisisId inner join Orgs as O on CO.orgId = O.orgId where O.country <> C.country
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>country</TH><TH>name</TH><TH>country</TH></TR><TR><TD>Haitian Government</TD><TD>Haiti</TD><TD>Haiti Earthquake</TD><TD>United States</TD></TR><TR><TD>World Health Organization</TD><TD>Switzerland</TD><TD>Haiti Earthquake</TD><TD>United States</TD></TR><TR><TD>Haitian Government</TD><TD>Haiti</TD><TD>Hurricane Ike</TD><TD>United States</TD></TR><TR><TD>US Coast Guard</TD><TD>USA</TD><TD>Hurricane Ike</TD><TD>United States</TD></TR><TR><TD>American Red Cross</TD><TD>USA</TD><TD>Hurricane Ike</TD><TD>United States</TD></TR><TR><TD>United Nations</TD><TD>United States</TD><TD>2012 Benghazi Attack</TD><TD>Libya</TD></TR><TR><TD>Homeland Security</TD><TD>US</TD><TD>2012 Benghazi Attack</TD><TD>Libya</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD><TD>England</TD><TD>2010 Icelandic Volcano Eruption</TD><TD>Iceland</TD></TR><TR><TD>United Nations</TD><TD>United States</TD><TD>2010 Icelandic Volcano Eruption</TD><TD>Iceland</TD></TR><TR><TD>US Coast Guard</TD><TD>USA</TD><TD>Cold War</TD><TD>United States</TD></TR><TR><TD>World Health Organization</TD><TD>Switzerland</TD><TD>Cold War</TD><TD>United States</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD><TD>Germany</TD><TD>Hindenburg Crash</TD><TD>United States</TD></TR><TR><TD>United Nations</TD><TD>United States</TD><TD>Arctic Vortex</TD><TD>USA</TD></TR><TR><TD>UNICEF</TD><TD>United States</TD><TD>Fukushima Daiichi nuclear disaster</TD><TD>Japan</TD></TR><TR><TD>World Health Organization</TD><TD>Switzerland</TD><TD>Fukushima Daiichi nuclear disaster</TD><TD>Japan</TD></TR><TR><TD>Japan Society</TD><TD>USA</TD><TD>Tohuku Earthquake and Tsunami</TD><TD>Japan</TD></TR><TR><TD>UNICEF</TD><TD>United States</TD><TD>Tohuku Earthquake and Tsunami</TD><TD>Japan</TD></TR><TR><TD>World Health Organization</TD><TD>Switzerland</TD><TD>Tohuku Earthquake and Tsunami</TD><TD>Japan</TD></TR><TR><TD>International Medical Corps</TD><TD>United States</TD><TD>Sumatra-Andaman Earthquake</TD><TD>Indonesia</TD></TR><TR><TD>Mercy Corps</TD><TD>United States</TD><TD>Sumatra-Andaman Earthquake</TD><TD>Indonesia</TD></TR><TR><TD>International Nuclear Safety Group (INSAG)</TD><TD>Austria</TD><TD>Chernobyl Accident</TD><TD>Ukraine</TD></TR><TR><TD>BP</TD><TD>United Kingdom</TD><TD>BP Oil Spill</TD><TD>Gulf of Mexico</TD></TR><TR><TD>Al-Qaeda</TD><TD>NULL</TD><TD>9-11</TD><TD>United States</TD></TR><TR><TD>Defense Intellegence Agency</TD><TD>United States</TD><TD>Cuban Missile Crisis</TD><TD>Cuba</TD></TR><TR><TD>Homeland Security</TD><TD>US</TD><TD>Boston Marathon Bombing</TD><TD>USA</TD></TR><TR><TD>United Nations</TD><TD>United States</TD><TD>Darfur Genocides</TD><TD>Darfur</TD></TR><TR><TD>UNICEF</TD><TD>United States</TD><TD>Darfur Genocides</TD><TD>Darfur</TD></TR><TR><TD>US Air Force</TD><TD>USA</TD><TD>Hurricane Sandy</TD><TD>North America</TD></TR><TR><TD>Dow Jones and Company</TD><TD>USA</TD><TD>Nixon Shock</TD><TD>United States</TD></TR><TR><TD>US Army</TD><TD>USA</TD><TD>Iran Hostage Crisis</TD><TD>Iran</TD></TR><TR><TD>FBI</TD><TD>USA</TD><TD>Oklahoma City Bombing</TD><TD>North America</TD></TR></TABLE>--------------
+select "What was the average cost damage in USD done by crises that caused over 1000 fatalities?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What was the average cost damage in USD done by crises that caused over 1000 fatalities?</TH></TR><TR><TD>What was the average cost damage in USD done by crises that caused over 1000 fatalities?</TD></TR></TABLE>--------------
+Select avg(damageinUSD) as Average_Cost from Crises where fatalities > 1000
+--------------
+
+<TABLE BORDER=1><TR><TH>Average_Cost</TH></TR><TR><TD>67353000076.0000</TD></TR></TABLE>--------------
+select "How many natural disasters had over 500 fatalities and costed over 10 billion dollars?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many natural disasters had over 500 fatalities and costed over 10 billion dollars?</TH></TR><TR><TD>How many natural disasters had over 500 fatalities and costed over 10 billion dollars?</TD></TR></TABLE>--------------
+select count(name) as Natural_Disaster_Count from Crises where fatalities > 500 and damageinUSD > 10000000000 and kind =1
+--------------
+
+<TABLE BORDER=1><TR><TH>Natural_Disaster_Count</TH></TR><TR><TD>2</TD></TR></TABLE>--------------
+select "Ignoring nulls, what is the total damage cost of disasters in our century?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Ignoring nulls, what is the total damage cost of disasters in our century?</TH></TR><TR><TD>Ignoring nulls, what is the total damage cost of disasters in our century?</TD></TR></TABLE>--------------
+select sum(damageInUSD) as Total_Damage_Cost from Crises where dateAndTime > '2000-00-00 00:00:00'
+--------------
+
+<TABLE BORDER=1><TR><TH>Total_Damage_Cost</TH></TR><TR><TD>759999416014</TD></TR></TABLE>--------------
+select "What is the first (earliest) crisis in the database?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the first (earliest) crisis in the database?</TH></TR><TR><TD>What is the first (earliest) crisis in the database?</TD></TR></TABLE>--------------
+select name, min(dateAndTime) as Date from Crises
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>Date</TH></TR><TR><TD>Haiti Earthquake</TD><TD>1900-09-08 08:45:00</TD></TR></TABLE>--------------
+select "What is the total number of deaths caused by natural disasters?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the total number of deaths caused by natural disasters?</TH></TR><TR><TD>What is the total number of deaths caused by natural disasters?</TD></TR></TABLE>--------------
+select sum(fatalities) as Total_Fatalities from Crises where kind =1
+--------------
+
+<TABLE BORDER=1><TR><TH>Total_Fatalities</TH></TR><TR><TD>545175</TD></TR></TABLE>--------------
+select "Count the number of politicians grouped by country."
+--------------
+
+<TABLE BORDER=1><TR><TH>Count the number of politicians grouped by country.</TH></TR><TR><TD>Count the number of politicians grouped by country.</TD></TR></TABLE>--------------
+select count(kind) as Number_of_Politicians, country from People where kind = 5 group by country
+--------------
+
+<TABLE BORDER=1><TR><TH>Number_of_Politicians</TH><TH>country</TH></TR><TR><TD>1</TD><TD>Haiti</TD></TR><TR><TD>1</TD><TD>Iceland</TD></TR><TR><TD>1</TD><TD>Sudan</TD></TR><TR><TD>1</TD><TD>United States</TD></TR><TR><TD>3</TD><TD>USA</TD></TR></TABLE>--------------
+select "Count the number of crisis that each organization helped."
+--------------
+
+<TABLE BORDER=1><TR><TH>Count the number of crisis that each organization helped.</TH></TR><TR><TD>Count the number of crisis that each organization helped.</TD></TR></TABLE>--------------
+select distinct O.name as Org_Name, count(C.name) as Crisis_Count from CrisisOrgs as CO inner join Crises as C on CO.crisisId = C.crisisId inner join Orgs as O on CO.orgId = O.orgId group by O.name
+--------------
+
+<TABLE BORDER=1><TR><TH>Org_Name</TH><TH>Crisis_Count</TH></TR><TR><TD>Al-Qaeda</TD><TD>1</TD></TR><TR><TD>American Red Cross</TD><TD>2</TD></TR><TR><TD>Austin Police Department</TD><TD>1</TD></TR><TR><TD>BP</TD><TD>1</TD></TR><TR><TD>Defense Intellegence Agency</TD><TD>1</TD></TR><TR><TD>Dow Jones and Company</TD><TD>1</TD></TR><TR><TD>Egyptian Red Crescent</TD><TD>1</TD></TR><TR><TD>FBI</TD><TD>1</TD></TR><TR><TD>Federal Reserve</TD><TD>1</TD></TR><TR><TD>FEMA</TD><TD>1</TD></TR><TR><TD>Goldman Sachs</TD><TD>1</TD></TR><TR><TD>Haitian Government</TD><TD>3</TD></TR><TR><TD>Homeland Security</TD><TD>3</TD></TR><TR><TD>International Medical Corps</TD><TD>2</TD></TR><TR><TD>International Nuclear Safety Group (INSAG)</TD><TD>1</TD></TR><TR><TD>Japan Society</TD><TD>1</TD></TR><TR><TD>Johnson and Johnson</TD><TD>1</TD></TR><TR><TD>Lehman Brothers</TD><TD>1</TD></TR><TR><TD>Liberation and Justice Movement</TD><TD>1</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD><TD>1</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD><TD>2</TD></TR><TR><TD>Mercy Corps</TD><TD>1</TD></TR><TR><TD>Salvation Army</TD><TD>3</TD></TR><TR><TD>U.S. Marine Corps</TD><TD>1</TD></TR><TR><TD>UNICEF</TD><TD>5</TD></TR><TR><TD>United Nations</TD><TD>8</TD></TR><TR><TD>US Air Force</TD><TD>1</TD></TR><TR><TD>US Army</TD><TD>1</TD></TR><TR><TD>US Coast Guard</TD><TD>4</TD></TR><TR><TD>World Health Organization</TD><TD>5</TD></TR></TABLE>--------------
+select "What is the most common resource needed?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the most common resource needed?</TH></TR><TR><TD>What is the most common resource needed?</TD></TR></TABLE>--------------
+select count(C.name) as Resource_Count, R.resource from CrisisResources as CR inner join Crises as C on CR.crisisId=C.crisisId inner join Resources as R on CR.resourceId=R.resourceId group by resource order by Resource_Count desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>Resource_Count</TH><TH>resource</TH></TR><TR><TD>12</TD><TD>Food</TD></TR></TABLE>
