@@ -267,9 +267,51 @@ class TestWCDB (unittest.TestCase) :
 		c, 
 		"select country from crises where country='USA';")
 		self.assertTrue(str(t[0][0]) == str('USA'))
-	# ----
-	# main
-	# ----
+
+	#---------
+	#exportXML
+	#---------
+	def test_exporXML_1(self):
+	  t1 = []
+	  v = exportXML(t1)
+	  self.assertTrue(v == "<root>\n</root>")
+    
+	def test_exporXML_2(self):
+	  t1 = ['crises']
+	  v = exportXML(t1)
+	  self.assertTrue(v != "<root>\n</root>")
+
+	def test_exporXML_3(self):
+	  t1 = ['crises']
+	  v = exportXML(t1)
+	  self.assertFalse(v == "")
+
+	#-----------
+	#test_create
+	#-----------
+
+	def test_create_xml_1(self):
+	  t = ('1', '2')
+	  name = 'orgUrlPair_att'
+	  idx = 14
+	  v = create_xml(t, name, idx)
+	  self.assertTrue(v == "\t\t<crisisUrlPair>\n\t\t\t<crisisId>CRI_1</crisisId>\n\t\t\t<urlId>URL_2</urlId>\n\t\t</crisisUrlPair>")
+	def test_create_xml_2(self):
+	  t = ('1', '2')
+	  name = 'personUrlPair_att'
+	  idx = 15
+	  v = create_xml(t, name, idx)
+	  self.assertTrue(v != "\t\t<crisisUrlPair>\n\t\t\t<crisisId>CRI_1</crisisId>\n\t\t\t<urlId>URL_2</urlId>\n\t\t</crisisUrlPair>")
+	def test_create_xml_3(self):
+	  t = ('1', '2')
+	  name = 'crisisOrgPair_att'
+	  idx = 16
+	  v = create_xml(t, name, idx)
+	  self.assertTrue(v != "")
+
+#-----
+# main
+# ----
 
 print("TestWCDB.py")
 unittest.main()
