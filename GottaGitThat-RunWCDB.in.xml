@@ -10,7 +10,7 @@
             <country>Ukraine</country>
             <dateAndTime>1986-04-26T01:23:48</dateAndTime>
             <fatalities>290000</fatalities>
-            <injuries>270000</injuries>
+            <injuries></injuries>
 			<populationIll>270000</populationIll>
 			<populationDisplaced>335000</populationDisplaced>
             <environmentalImpact>Up to 60 sq. mi. of farmland is likely to remain contaminated for decades</environmentalImpact>
@@ -33,7 +33,7 @@
             <fatalities>16</fatalities>
             <injuries>31</injuries>
 			<populationIll>31</populationIll>
-			<populationDisplaced>NULL</populationDisplaced>
+			<populationDisplaced>0</populationDisplaced>
             <environmentalImpact>NULL</environmentalImpact>
 			<politicalChanges>NULL</politicalChanges>
 			<culturalChanges>NULL</culturalChanges>
@@ -70,7 +70,7 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <country>Haiti, USA, Bahamas, Cuba, Dominican Republic</country>
+            <country>United States</country>
             <dateAndTime>2008-09-01T00:00:00</dateAndTime>
             <fatalities>195</fatalities>
             <injuries>1000000</injuries>
@@ -196,12 +196,12 @@
             <streetAddress>NULL</streetAddress>
             <city>NULL</city>
             <stateOrProvince>NULL</stateOrProvince>
-            <country>USA</country>
+            <country>United States</country>
             <dateAndTime>1947-01-01T11:48:00</dateAndTime>
             <fatalities>12</fatalities>
             <injuries>44</injuries>
 			<populationIll>0</populationIll>
-			<populationDisplaced>NULL</populationDisplaced>
+			<populationDisplaced>0</populationDisplaced>
             <environmentalImpact>NULL</environmentalImpact>
 			<politicalChanges>US as the sole superpower post World War II</politicalChanges>
 			<culturalChanges>Fear and war orientate movies and tv programs</culturalChanges>
@@ -326,7 +326,7 @@
             <city>Washington</city>
             <stateOrProvince>District of Columbia</stateOrProvince>
             <postalCode>NULL</postalCode>
-            <country>USA</country>
+            <country>United States</country>
             <foundingMission>DIA is first in all-source defense intellengece to prevent strategic surprise and deliver a decision advantage to warfighters, defense planners, and policymakers.</foundingMission>
             <dateFounded>1961-10-01</dateFounded>
             <majorEvents>Failed to adequately act against one of the organizers of 9/11</majorEvents>
@@ -339,7 +339,7 @@
             <city>New York</city>
             <stateOrProvince>New York</stateOrProvince>
             <postalCode>10017</postalCode>
-            <country>USA</country>
+            <country>United States</country>
             <foundingMission>To save succeeding generations from the scourge of war and to reaffirm faith in fundamental human rights.</foundingMission>
             <dateFounded>1945-06-26</dateFounded>
             <majorEvents>Approving the creation of the state of Israel.</majorEvents>
@@ -355,7 +355,7 @@
             <city>Washington DC</city>
             <stateOrProvince>Maryland</stateOrProvince>
             <postalCode>20005</postalCode>
-            <country>USA</country>
+            <country>United States</country>
         </person>
         <person>
             <personId>PER_002</personId>
@@ -365,7 +365,7 @@
             <city>Lake Worth</city>
             <stateOrProvince>Florida</stateOrProvince>
             <postalCode>NULL</postalCode>
-            <country>USA</country>
+            <country>United States</country>
         </person>
 		<person>
             <personId>PER_003</personId>
@@ -375,7 +375,7 @@
             <city>New York City</city>
             <stateOrProvince>New York</stateOrProvince>
             <postalCode>NULL</postalCode>
-            <country>USA</country>
+            <country>United States</country>
         </person>
         <person>
             <personId>PER_004</personId>
@@ -405,7 +405,7 @@
             <city>Lake Worth</city>
             <stateOrProvince>New York</stateOrProvince>
             <postalCode>NULL</postalCode>
-            <country>USA</country>
+            <country>United States</country>
         </person>
 		<person>
 			<personId>PER_007</personId>
@@ -445,7 +445,7 @@
             <city>Washington</city>
             <stateOrProvince>District of Columbia</stateOrProvince>
             <postalCode>20500</postalCode>
-            <country>USA</country>
+            <country>United States</country>
         </person>
     </people>
 
@@ -1111,10 +1111,6 @@
             <citation>http://en.wikipedia.org/wiki/2010_Haiti_earthquake</citation>
         </citationPair>
         <citationPair>
-            <citationId>CIT_059</citationId>
-            <citation>http://www-ns.iaea.org/downloads/coordination/snr-reg-meeting-2008/1-%20INSAG%20Senior%20Regulators%20Meeting%209-15-08.ppt</citation>
-        </citationPair>
-        <citationPair>
             <citationId>CIT_060</citationId>
             <citation>http://www.who.int/hac/crises/hti/en</citation>
         </citationPair>
@@ -1198,7 +1194,7 @@
             <crisisId>CRI_006</crisisId>
         </crisisCitationPair>
         <crisisCitationPair>
-            <citationId>CIT_059</citationId>
+            <citationId>CIT_008</citationId>
             <crisisId>CRI_006</crisisId>
         </crisisCitationPair>
 		<crisisCitationPair>
