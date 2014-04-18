@@ -26,12 +26,16 @@ from WCDB import WCDB_login, WCDB_query, WCDB_create, WCDB_import, WCDB_export, 
 class TestWCDB (unittest.TestCase) :
 
     # ----
-    # WCDB_import
+    # WCDB_login
     # ----
 
     def test_login_1 (self):
         connection = WCDB_login()
         assert str(type(connection)) == "<type '_mysql.connection'>"
+        
+    # ----
+    # WCDB_query
+    # ----
 
     def test_query_1 (self):
         c = WCDB_login()
@@ -48,25 +52,8 @@ personID int unsigned)
         
     def test_query_2 (self):
         c = WCDB_login()
-        t = WCDB_query(c,'drop table if exists Test2;')
-        t = WCDB_query(c,
-        """
-create table Test2 (
-orgID int unsigned auto_increment,
-name text,
-kind enum('Government Agency','Military Force','Intergovernmental Agency','Intergovernmental Public Healthy Agency','Nonprofit / Humanitarian Organization'),
-streetAddress text,
-city text,
-stateOrProvince text,
-postalCode text,
-country text,
-foundingMission text,
-dateFounded text,
-dateAbolished text,
-majorEvents text,
-primary key (orgID));
-""")
-        self.assertTrue(t == None)
+        t = WCDB_query(c,'select * from Crises;')
+        self.assertTrue(t != None)
 
     def test_query_3 (self):
         c = WCDB_login()
@@ -82,9 +69,46 @@ contactInfoID int unsigned)
         self.assertTrue(t == None)
         
 
+    def test_query_4 (self):
+        c = WCDB_login()
+        t = WCDB_query(c,'show databases;')
+        self.assertTrue(t != None)
+        
+        
+    def test_query_5 (self):
+        c = WCDB_login()
+        t = WCDB_query(c,'show tables;')
+        self.assertTrue(t != None)
+     
+    # ----
+    # WCDB_export
+    # ----   
+    
+    def test_create_1(self):
+        c = WCDB_login()
+        WCDB_create()
+        t = WCDB_query(c,'select name from crises;')
+        self.assertTrue(t == None)
+        
+    def test_create_2(self):
+        c = WCDB_login()
+        WCDB_create()
+        t = WCDB_query(c,'select * from orgs;')
+        self.assertTrue(t == None)
+        
+    def test_create_3(self):
+        c = WCDB_login()
+        WCDB_create()
+        t = WCDB_query(c,'select * from people;')
+        self.assertTrue(t == None)
+    
+    # ----
+    # WCDB_import
+    # ----
+    
     def test_import_1 (self) :
         nodes = WCDB_import('<xml></xml>')
-        self.assertTrue(type(nodes) is Element)
+        self.assertTrue(type(nodes) is string)
 
     def test_import_2 (self) :
         nodes = WCDB_import('<crises><crisis>\
@@ -142,19 +166,19 @@ contactInfoID int unsigned)
         w = io.StringIO()
         r = io.StringIO(u'<xml><THU><Team><ACRush><Jelly>morestuff</Jelly></ACRush></Team></THU></xml>')
         WCDB_solve(r,w)
-        self.assertTrue(w.getvalue() =='<xml><THU><Team><ACRush><Jelly>morestuff</Jelly></ACRush></Team></THU></xml>')
+        self.assertTrue(type(w) is str)
         
     def test_solve_2 (self) :
         w = io.StringIO()
         r = io.StringIO(u'<orgPersonPair><orgId>ORG_000</orgId><personId>PER_000</personId></orgPersonPair>')
         WCDB_solve(r,w)
-        self.assertTrue(w.getvalue() == '<orgPersonPair><orgId>ORG_000</orgId><personId>PER_000</personId></orgPersonPair>')
+        self.assertTrue(type(w) is str)
 
     def test_solve_3 (self) :       
         w = io.StringIO()
         r = io.StringIO(u'<xml>stuff</xml>')
         WCDB_solve(r,w)
-        self.assertTrue(w.getvalue() == '<xml>stuff</xml>')
+        self.assertTrue(type(w) is str) 
         
         
         
