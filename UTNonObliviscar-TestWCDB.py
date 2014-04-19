@@ -11,12 +11,12 @@ To test the program:
 # imports
 # -------
 
-import io
+import StringIO
 import unittest
 import WCDB
 
 from xml.etree.ElementTree import Element, fromstring, tostring
-from WCDB import WCDB_login, WCDB_query, WCDB_create, WCDB_import, WCDB_export, WCDB_solve
+from WCDB import WCDB_login, WCDB_query, WCDB_create, WCDB_import, WCDB_solve
 
 
 # -----------
@@ -31,7 +31,7 @@ class TestWCDB (unittest.TestCase) :
 
     def test_login_1 (self):
         connection = WCDB_login()
-        assert str(type(connection)) == "<type '_mysql.connection'>"
+        assert str(type(connection)) == "<class 'MySQLdb.connections.Connection'>"
         
     # ----
     # WCDB_query
@@ -48,12 +48,13 @@ personID int unsigned)
 ;
 
 """)
-        self.assertTrue(t == None)
+        self.assertTrue(t == None)    
         
     def test_query_2 (self):
         c = WCDB_login()
         t = WCDB_query(c,'select * from Crises;')
         self.assertTrue(t != None)
+        self.assertTrue(type(t) is tuple)
 
     def test_query_3 (self):
         c = WCDB_login()
@@ -73,115 +74,140 @@ contactInfoID int unsigned)
         c = WCDB_login()
         t = WCDB_query(c,'show databases;')
         self.assertTrue(t != None)
+        self.assertTrue(type(t) is tuple)
         
         
     def test_query_5 (self):
         c = WCDB_login()
         t = WCDB_query(c,'show tables;')
         self.assertTrue(t != None)
+        self.assertTrue(type(t) is tuple)
      
     # ----
-    # WCDB_export
-    # ----   
+    # WCDB_create
+    # ----
     
     def test_create_1(self):
         c = WCDB_login()
-        WCDB_create()
-        t = WCDB_query(c,'select name from crises;')
-        self.assertTrue(t == None)
+        WCDB_create(c)
+        t = WCDB_query(c,'select name from Crises;')
+        self.assertTrue(t == ())
         
     def test_create_2(self):
         c = WCDB_login()
-        WCDB_create()
-        t = WCDB_query(c,'select * from orgs;')
-        self.assertTrue(t == None)
+        WCDB_create(c)
+        t = WCDB_query(c,'select * from Orgs;')
+        self.assertTrue(t == ())
         
     def test_create_3(self):
         c = WCDB_login()
-        WCDB_create()
-        t = WCDB_query(c,'select * from people;')
-        self.assertTrue(t == None)
+        WCDB_create(c)
+        t = WCDB_query(c,'select * from People;')
+        self.assertTrue(t == ())
+    
+    def test_create_4(self):
+        c = WCDB_login()
+        WCDB_create(c)
+        t = WCDB_query(c,'select * from Resources;')
+        self.assertTrue(t == ())
+    
     
     # ----
     # WCDB_import
     # ----
     
     def test_import_1 (self) :
-        nodes = WCDB_import('<xml></xml>')
-        self.assertTrue(type(nodes) is string)
+        c = WCDB_login()
+        nodes = WCDB_import('<xml></xml>',c)
+        self.assertTrue(type(nodes) is str)
 
     def test_import_2 (self) :
-        nodes = WCDB_import('<crises><crisis>\
-            <crisisId>CRI_000</crisisId> \
-            <name>Katrina</name>\
-            <kind>Natural Disaster</kind>\
-            <streetAddress>1234 Broad Street</streetAddress>\
-            <city>Austin</city>\
-            <stateOrProvince>TX</stateOrProvince>\
-            <postalCode>78731</postalCode>\
-            <country>USA</country>\
-            <dateAndTime>2012-12-13T05:40:00</dateAndTime>\
-            <fatalities>1</fatalities>\
-            <injuries>3</injuries>\
-            <populationIll>5</populationIll>\
-            <populationDisplaced>3</populationDisplaced>\
-            <environmentalImpact>Oil spill</environmentalImpact>\
-            <politicalChanges>Regime changes</politicalChanges>\
-            <culturalChanges>Lost generation</culturalChanges>\
-            <jobsLost>999</jobsLost>\
-            <damageInUSD>999</damageInUSD>\
-            <reparationCost>999</reparationCost>\
-            <regulatoryChanges>Stricter levy building codes</regulatoryChanges>\
-        </crisis></crises>')
-        self.assertTrue(type(nodes) is Element)
+        c = WCDB_login()
+        nodes = WCDB_import('<root><crises><crisis>\
+<crisisId>CRI_000</crisisId> \
+<name>Katrina</name>\
+<kind>Natural Disaster</kind>\
+<streetAddress>1234 Broad Street</streetAddress>\
+<city>Austin</city>\
+<stateOrProvince>TX</stateOrProvince>\
+<postalCode>78731</postalCode>\
+<country>USA</country>\
+<dateAndTime>2012-12-13T05:40:00</dateAndTime>\
+<fatalities>1</fatalities>\
+<injuries>3</injuries>\
+<populationIll>5</populationIll>\
+<populationDisplaced>3</populationDisplaced>\
+<environmentalImpact>Oil spill</environmentalImpact>\
+<politicalChanges>Regime changes</politicalChanges>\
+<culturalChanges>Lost generation</culturalChanges>\
+<jobsLost>999</jobsLost>\
+<damageInUSD>999</damageInUSD>\
+<reparationCost>999</reparationCost>\
+<regulatoryChanges>Stricter levy building codes</regulatoryChanges>\
+</crisis></crises></root>',c)
+        self.assertTrue(type(nodes) is str)
+        
 
     def test_import_3(self) :
-        nodes = WCDB_import('<xml><xml><xml><xml></xml></xml></xml></xml>')
-        self.assertTrue(type(nodes) is Element)
+        c = WCDB_login()
+        nodes = WCDB_import('<xml><xml><xml><xml></xml></xml></xml></xml>',c)
+        self.assertTrue(type(nodes) is str)
     
     # ----
-    # WCDB_export
+    # WCDB_export #can't right tests for this
     # ----
-    
-    def test_export_1 (self) :
-        xml = fromstring('<xml>stuff</xml>')
-        string = WCDB_export(xml)
-        self.assertTrue(string == '<xml>stuff</xml>')
-
-    def test_export_2 (self) :
-        xml = fromstring('<orgPersonPair><orgId>ORG_000</orgId><personId>PER_000</personId></orgPersonPair>')
-        string = WCDB_export(xml)
-        self.assertTrue(string == '<orgPersonPair><orgId>ORG_000</orgId><personId>PER_000</personId></orgPersonPair>')
-
-    def test_export_3 (self) :
-        xml = fromstring('<xml><THU><Team><ACRush><Jelly>morestuff</Jelly></ACRush></Team></THU></xml>')
-        string = WCDB_export(xml)
-        self.assertTrue(string == '<xml><THU><Team><ACRush><Jelly>morestuff</Jelly></ACRush></Team></THU></xml>')
 
     # ----
     # WCDB_solve
     # ----
 
     def test_solve_1 (self) :
-        w = io.StringIO()
-        r = io.StringIO(u'<xml><THU><Team><ACRush><Jelly>morestuff</Jelly></ACRush></Team></THU></xml>')
-        WCDB_solve(r,w)
-        self.assertTrue(type(w) is str)
+        w1 = StringIO.StringIO()
+        w2 = StringIO.StringIO()
+        r1 = StringIO.StringIO(u'<xml><THU><Team><ACRush><Jelly>morestuff</Jelly></ACRush></Team></THU></xml>')
+        WCDB_solve(r1,w1)
+        r2 = StringIO.StringIO(w1.getvalue())        
+        WCDB_solve(r2,w2)
+        self.assertTrue(w1.getvalue() == w2.getvalue())
         
-    def test_solve_2 (self) :
-        w = io.StringIO()
-        r = io.StringIO(u'<orgPersonPair><orgId>ORG_000</orgId><personId>PER_000</personId></orgPersonPair>')
-        WCDB_solve(r,w)
-        self.assertTrue(type(w) is str)
+    def test_solve_2 (self) :        
+        w1 = StringIO.StringIO()
+        w2 = StringIO.StringIO()
+        r1 = StringIO.StringIO(u'<orgPersonPair><orgId>ORG_000</orgId><personId>PER_000</personId></orgPersonPair>')
+        WCDB_solve(r1,w1)
+        r2 = StringIO.StringIO(w1.getvalue())        
+        WCDB_solve(r2,w2)
+        self.assertTrue(w1.getvalue() == w2.getvalue())
 
-    def test_solve_3 (self) :       
-        w = io.StringIO()
-        r = io.StringIO(u'<xml>stuff</xml>')
-        WCDB_solve(r,w)
-        self.assertTrue(type(w) is str) 
+    def test_solve_3 (self) :        
+        w1 = StringIO.StringIO()
+        w2 = StringIO.StringIO()
+        r1 = StringIO.StringIO(u'<xml>stuff</xml>')
+        WCDB_solve(r1,w1)
+        r2 = StringIO.StringIO(w1.getvalue())        
+        WCDB_solve(r2,w2)
+        self.assertTrue(w1.getvalue() == w2.getvalue())
+    
+    def test_solve_4 (self) :  
+        w1 = StringIO.StringIO()
+        w2 = StringIO.StringIO()
+        r1 = StringIO.StringIO(u'<team><xml>stuff</xml></team>')
+        WCDB_solve(r1,w1)
+        r2 = StringIO.StringIO(w1.getvalue())        
+        WCDB_solve(r2,w2)
+        self.assertTrue(w1.getvalue() == w2.getvalue())
+    def test_solve_5 (self) :
+        w1 = StringIO.StringIO()
+        w2 = StringIO.StringIO()
+        r1 = StringIO.StringIO(u'<person><president>obama</president></person>')
+        WCDB_solve(r1,w1)
+        r2 = StringIO.StringIO(w1.getvalue())        
+        WCDB_solve(r2,w2)
+        self.assertTrue(w1.getvalue() == w2.getvalue())
+    
+    
         
-        
-        
+                
 # ----
 # main
 # ----
