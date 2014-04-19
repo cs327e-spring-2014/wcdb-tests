@@ -83,7 +83,7 @@ select "Ut Non Obliviscar's Queries";
 select "";
 select "Which crisis had the highest reparation cost and what was the cost?";
 
-select name, max(reparationCost) from Crises;
+select name, (reparationCost) from Crises where reparationCost >= all (select reparationCost from Crises);
 
 select "";
 select "Which organizations were founded before 1950?";
@@ -95,9 +95,9 @@ select name
 select "";
 select "How many organizations are intergovernmental agencies?";
 
-select count(distinct(orgID))
+select count(*)
     from Orgs
-    where country like '%,%';
+    where kind like 'Intergovernmental Agency';
     
 select "";
 select "How many people have a Social Network URL?";
@@ -110,11 +110,10 @@ select "";
 select "In what year did the most crises occur?";
 
 select max(num) as 'number of crises', year from 
-    ((select count(*) as num, YEAR(dateAndTime) as year from Crises 
-    group by YEAR(dateAndTime)) 
-    order by num desc) as t;
-
-# ------------------------------------------------------------------------
+    ((select count(*) as num, year(dateAndTime) as year from Crises 
+    group by year(dateAndTime)) 
+    order by year desc) as t;
+    
 
 select "Team Rocket's Queries";
 
@@ -135,15 +134,16 @@ select sum(damageInUSD)
 select "";
 select "Are there more organizations based outside of the United States (within this database) than American organizations?";
 
-select x.num - y.num
-    from
-    (select count(name) as num
-    from Orgs
-    where name !="USA") as x,
-    (select count(name) as num
-    from Orgs
-    where name ="USA") as y;
+select
+    if(
+    (select count(*) as outsideCount
+     from Orgs
+     where country not in ('United States', 'USA', 'U.S.')) >
 
+    (select count(*) as insideCount
+     from Orgs
+     where country in ('United States', 'USA', 'U.S.')), 'True', 'False');
+        
 select "";
 select "What is the least common kind of person?";
 
@@ -215,7 +215,7 @@ select "Which crises occurred outside US?";
 
 select name
     from Crises
-    where country != "United States";
+    where country != "United States"  and country != 'US' and country != 'USA';
 
 select "";
 select "Which crises relief effort was American Red Cross part of?";
@@ -245,10 +245,20 @@ select "BashKetchum's Queries";
 select "";
 select "Of the people classified as presidents, how many natural disasters were each of them connected to?";
 
+SELECT P.name AS PName, COUNT(*) FROM People AS P inner join CrisisPeople USING (personId) inner join Crises as C USING (crisisId)
+    where P.kind = 'President' AND C.kind = 'Natural Disaster'
+    GROUP BY P.name;
+
+
 
 select "";
 select "Which organizations were involved in crises that occurred outside of the country its HQs are based in?";
 
+select distinct(Orgs.name) as OName
+    from Orgs 
+    inner join CrisisOrgs using (orgId)
+    inner join Crises  using (crisisId)
+    where Orgs.country != Crises.country;
 
 
 select "";
@@ -270,7 +280,7 @@ select "Ignoring nulls, what is the total damage cost of disasters in our centur
 
 select sum(damageInUSD)
     from Crises
-    where damageInUSD != NULL and year(dateAndTime) >= 2000;
+    where damageInUSD is not NULL and dateAndTime >= '2000-01-01 00:00:00';
 
 # ------------------------------------------------------------------------
 select "EJADK's Queries";
