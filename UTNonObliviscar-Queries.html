@@ -1,0 +1,612 @@
+--------------
+select "GottaGitThat's Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>GottaGitThat's Queries</TH></TR><TR><TD>GottaGitThat's Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which crisis had the most combined fatalities and injuries?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crisis had the most combined fatalities and injuries?</TH></TR><TR><TD>Which crisis had the most combined fatalities and injuries?</TD></TR></TABLE>--------------
+select name
+    from Crises
+    order by (fatalities + injuries) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Haiti Earthquake</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "How many crises have occurred in the 21st century?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many crises have occurred in the 21st century?</TH></TR><TR><TD>How many crises have occurred in the 21st century?</TD></TR></TABLE>--------------
+select count(distinct(crisisId))
+    from Crises
+    where dateAndTime > "19991231"
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct(crisisId))</TH></TR><TR><TD>6</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which country has the most crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which country has the most crises?</TH></TR><TR><TD>Which country has the most crises?</TD></TR></TABLE>--------------
+select country
+    from Crises
+    group by country
+    order by count(crisisId) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>country</TH></TR><TR><TD>United States</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "How many organizations are related to crises that had 0 damage in USD?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many organizations are related to crises that had 0 damage in USD?</TH></TR><TR><TD>How many organizations are related to crises that had 0 damage in USD?</TD></TR></TABLE>--------------
+select count(distinct(orgId))
+    from Crises natural join CrisisOrgs      
+    where damageInUSD = 0
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct(orgId))</TH></TR><TR><TD>2</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which people are involved in 2 or more crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which people are involved in 2 or more crises?</TH></TR><TR><TD>Which people are involved in 2 or more crises?</TD></TR></TABLE>--------------
+Select name from People inner join CrisisPeople on People.personID=CrisisPeople.personID group by name having count(*)>1
+--------------
+
+--------------
+select "Brigadeiros's Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>Brigadeiros's Queries</TH></TR><TR><TD>Brigadeiros's Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What organizations don't exist anymore?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What organizations don't exist anymore?</TH></TR><TR><TD>What organizations don't exist anymore?</TD></TR></TABLE>--------------
+select name
+    from Orgs 
+    where dateAbolished > 0
+--------------
+
+--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What are the 5 most recent crises"
+--------------
+
+<TABLE BORDER=1><TR><TH>What are the 5 most recent crises</TH></TR><TR><TD>What are the 5 most recent crises</TD></TR></TABLE>--------------
+select name
+    from Crises
+    order by dateAndTime desc limit 5
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Hurricane Sandy</TD></TR><TR><TD>Benghazi Attack</TD></TR><TR><TD>Egypt Revolution of 2011</TD></TR><TR><TD>Eruption of Eyjafjallajokull</TD></TR><TR><TD>Haiti Earthquake</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What are the crises with the most amount of resources?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What are the crises with the most amount of resources?</TH></TR><TR><TD>What are the crises with the most amount of resources?</TD></TR></TABLE>--------------
+select name, max(num) from (
+    select name, count(crisisId) as num 
+    from Crises inner join CrisisResources using(crisisId)
+    group by crisisId) as t
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>max(num)</TH></TR><TR><TD>Haiti Earthquake</TD><TD>5</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What crises expend more money on reconstruction than in the damage done?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What crises expend more money on reconstruction than in the damage done?</TH></TR><TR><TD>What crises expend more money on reconstruction than in the damage done?</TD></TR></TABLE>--------------
+select name
+    from Crises
+    where damageInUSD < reparationCost
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Iran Hostage Crisis</TD></TR><TR><TD>Oklahoma City Bombing</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What's the most common kind of person?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What's the most common kind of person?</TH></TR><TR><TD>What's the most common kind of person?</TD></TR></TABLE>--------------
+Select kind from People group by kind order by count(*) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>kind</TH></TR><TR><TD>Politician</TD></TR></TABLE>--------------
+select "Ut Non Obliviscar's Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>Ut Non Obliviscar's Queries</TH></TR><TR><TD>Ut Non Obliviscar's Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which crisis had the highest reparation cost and what was the cost?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crisis had the highest reparation cost and what was the cost?</TH></TR><TR><TD>Which crisis had the highest reparation cost and what was the cost?</TD></TR></TABLE>--------------
+select name, (reparationCost) from Crises where reparationCost >= all (select reparationCost from Crises)
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>reparationCost</TH></TR><TR><TD>Haiti Earthquake</TD><TD>600000000</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which organizations were founded before 1950?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which organizations were founded before 1950?</TH></TR><TR><TD>Which organizations were founded before 1950?</TD></TR></TABLE>--------------
+select name
+    from Orgs
+    where dateFounded < "19500101"
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Egyptian Red Crescent</TD></TR><TR><TD>US Air Force</TD></TR><TR><TD>US Army</TD></TR><TR><TD>FBI</TD></TR><TR><TD>U.S. Coast Guard</TD></TR><TR><TD>United Nations</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "How many organizations are intergovernmental agencies?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many organizations are intergovernmental agencies?</TH></TR><TR><TD>How many organizations are intergovernmental agencies?</TD></TR></TABLE>--------------
+select count(*)
+    from Orgs
+    where kind like 'Intergovernmental Agency'
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH></TR><TR><TD>3</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "How many people have a Social Network URL?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many people have a Social Network URL?</TH></TR><TR><TD>How many people have a Social Network URL?</TD></TR></TABLE>--------------
+select count(distinct(personId))
+    from PersonUrls natural join Urls
+    where type = "SocialNetwork"
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct(personId))</TH></TR><TR><TD>3</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "In what year did the most crises occur?"
+--------------
+
+<TABLE BORDER=1><TR><TH>In what year did the most crises occur?</TH></TR><TR><TD>In what year did the most crises occur?</TD></TR></TABLE>--------------
+select max(num) as 'number of crises', year from 
+    ((select count(*) as num, year(dateAndTime) as year from Crises 
+    group by year(dateAndTime)) 
+    order by year desc) as t
+--------------
+
+<TABLE BORDER=1><TR><TH>number of crises</TH><TH>year</TH></TR><TR><TD>2</TD><TD>2012</TD></TR></TABLE>--------------
+select "Team Rocket's Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>Team Rocket's Queries</TH></TR><TR><TD>Team Rocket's Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which crises occur within the United States?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises occur within the United States?</TH></TR><TR><TD>Which crises occur within the United States?</TD></TR></TABLE>--------------
+select name
+    from Crises
+    where country = "United States"
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Hurricane Sandy</TD></TR><TR><TD>Nixon Shock</TD></TR><TR><TD>Oklahoma City Bombing</TD></TR><TR><TD>Hindenburg Disaster</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What is the total cost in damages of United States crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the total cost in damages of United States crises?</TH></TR><TR><TD>What is the total cost in damages of United States crises?</TD></TR></TABLE>--------------
+select sum(damageInUSD)
+    from Crises
+    where country = "United States"
+--------------
+
+<TABLE BORDER=1><TR><TH>sum(damageInUSD)</TH></TR><TR><TD>5010456300</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Are there more organizations based outside of the United States (within this database) than American organizations?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Are there more organizations based outside of the United States (within this database) than American organizations?</TH></TR><TR><TD>Are there more organizations based outside of the United States (within this database) than American organizations?</TD></TR></TABLE>--------------
+select
+    if(
+    (select count(*) as outsideCount
+     from Orgs
+     where country not in ('United States', 'USA', 'U.S.')) >
+
+    (select count(*) as insideCount
+     from Orgs
+     where country in ('United States', 'USA', 'U.S.')), 'True', 'False')
+--------------
+
+<TABLE BORDER=1><TR><TH>if(
+    (select count(*) as outsideCount
+     from Orgs
+     where country not in ('United States', 'USA', 'U.S.')) &gt;
+
+    (select count(*) as insideCount
+     from Orgs
+     where country in ('United States', 'USA', 'U.S.')), 'True', 'False')</TH></TR><TR><TD>False</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What is the least common kind of person?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the least common kind of person?</TH></TR><TR><TD>What is the least common kind of person?</TD></TR></TABLE>--------------
+select kind
+    from People
+    group by kind
+    order by count(personId) asc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>kind</TH></TR><TR><TD>Perpetrator</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What is the least common kind of crisis?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the least common kind of crisis?</TH></TR><TR><TD>What is the least common kind of crisis?</TD></TR></TABLE>--------------
+select kind
+    from Crises
+    group by kind
+    order by count(crisisId) asc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>kind</TH></TR><TR><TD>War / Conflict</TD></TR></TABLE>--------------
+select "Databosses' Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>Databosses' Queries</TH></TR><TR><TD>Databosses' Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "How many crises is President Obama involved in?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many crises is President Obama involved in?</TH></TR><TR><TD>How many crises is President Obama involved in?</TD></TR></TABLE>--------------
+select count(distinct(crisisId))
+    from CrisisPeople natural join People
+    where name = "Barack Obama"
+--------------
+
+<TABLE BORDER=1><TR><TH>count(distinct(crisisId))</TH></TR><TR><TD>1</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which 'Way to Help' is most common?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which 'Way to Help' is most common?</TH></TR><TR><TD>Which 'Way to Help' is most common?</TD></TR></TABLE>--------------
+select wayToHelp
+    from WaysToHelp natural join CrisisWaysToHelp
+    group by wayToHelp
+    order by count(crisisId) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>wayToHelp</TH></TR><TR><TD>Bring supplies</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What country are most of the People in?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What country are most of the People in?</TH></TR><TR><TD>What country are most of the People in?</TD></TR></TABLE>--------------
+select country
+    from People
+    group by country
+    order by count(personId) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>country</TH></TR><TR><TD>USA</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What organizations are involved with the Haiti Earthquake?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What organizations are involved with the Haiti Earthquake?</TH></TR><TR><TD>What organizations are involved with the Haiti Earthquake?</TD></TR></TABLE>--------------
+select o.name
+    from Orgs as o inner join CrisisOrgs using (orgId)
+              inner join Crises as c using (crisisId)
+    where c.name = "Haiti Earthquake"
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Haitian Government</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "How many crises have caused over 1 billion USD in damages?"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many crises have caused over 1 billion USD in damages?</TH></TR><TR><TD>How many crises have caused over 1 billion USD in damages?</TD></TR></TABLE>--------------
+select count(*)
+    from Crises
+    where damageInUSD > 1000000000
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH></TR><TR><TD>2</TD></TR></TABLE>--------------
+select "SeekWolves's Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>SeekWolves's Queries</TH></TR><TR><TD>SeekWolves's Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What is the location of each of the crisis (city and country)?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the location of each of the crisis (city and country)?</TH></TR><TR><TD>What is the location of each of the crisis (city and country)?</TD></TR></TABLE>--------------
+select name, city, country
+    from Crises
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>city</TH><TH>country</TH></TR><TR><TD>Egypt Revolution of 2011</TD><TD>NULL</TD><TD>Egypt</TD></TR><TR><TD>Hurricane Sandy</TD><TD>NULL</TD><TD>United States</TD></TR><TR><TD>Nixon Shock</TD><TD>Washington DC</TD><TD>United States</TD></TR><TR><TD>Iran Hostage Crisis</TD><TD>NULL</TD><TD>Iran</TD></TR><TR><TD>Oklahoma City Bombing</TD><TD>Oklahoma City</TD><TD>United States</TD></TR><TR><TD>Haiti Earthquake</TD><TD>NULL</TD><TD>Haiti</TD></TR><TR><TD>Hurricane Ike</TD><TD>NULL</TD><TD>United States, Cuba, Haiti, Bahamas, Turks and Caisocs</TD></TR><TR><TD>Benghazi Attack</TD><TD>Benghazi</TD><TD>Libya</TD></TR><TR><TD>Eruption of Eyjafjallajokull</TD><TD>None</TD><TD>Iceland</TD></TR><TR><TD>Hindenburg Disaster</TD><TD>Lakehurst Borough</TD><TD>United States</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which crises occurred outside US?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises occurred outside US?</TH></TR><TR><TD>Which crises occurred outside US?</TD></TR></TABLE>--------------
+select name
+    from Crises
+    where country != "United States"  and country != 'US' and country != 'USA'
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Egypt Revolution of 2011</TD></TR><TR><TD>Iran Hostage Crisis</TD></TR><TR><TD>Haiti Earthquake</TD></TR><TR><TD>Hurricane Ike</TD></TR><TR><TD>Benghazi Attack</TD></TR><TR><TD>Eruption of Eyjafjallajokull</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which crises relief effort was American Red Cross part of?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises relief effort was American Red Cross part of?</TH></TR><TR><TD>Which crises relief effort was American Red Cross part of?</TD></TR></TABLE>--------------
+select distinct(c.name)
+    from Crises as c inner join CrisisOrgs using (crisisId)
+                inner join Orgs as o using (orgId)
+    where o.name = "American Red Cross"
+--------------
+
+--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which presidents were related to the crises?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which presidents were related to the crises?</TH></TR><TR><TD>Which presidents were related to the crises?</TD></TR></TABLE>--------------
+select distinct(name)
+    from People natural join CrisisPeople
+    where kind = "President"
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Hosni Mubarak</TD></TR><TR><TD>Richard Nixon</TD></TR><TR><TD>Jimmy Carter</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which crises had fatalities less than 100?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which crises had fatalities less than 100?</TH></TR><TR><TD>Which crises had fatalities less than 100?</TD></TR></TABLE>--------------
+select name
+    from Crises
+    where fatalities < 100
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Nixon Shock</TD></TR><TR><TD>Iran Hostage Crisis</TD></TR><TR><TD>Benghazi Attack</TD></TR><TR><TD>Eruption of Eyjafjallajokull</TD></TR><TR><TD>Hindenburg Disaster</TD></TR></TABLE>--------------
+select "BashKetchum's Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>BashKetchum's Queries</TH></TR><TR><TD>BashKetchum's Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Of the people classified as presidents, how many natural disasters were each of them connected to?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Of the people classified as presidents, how many natural disasters were each of them connected to?</TH></TR><TR><TD>Of the people classified as presidents, how many natural disasters were each of them connected to?</TD></TR></TABLE>--------------
+SELECT P.name AS PName, COUNT(*) FROM People AS P inner join CrisisPeople USING (personId) inner join Crises as C USING (crisisId)
+    where P.kind = 'President' AND C.kind = 'Natural Disaster'
+    GROUP BY P.name
+--------------
+
+--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Which organizations were involved in crises that occurred outside of the country its HQs are based in?"
+--------------
+
+<TABLE BORDER=1><TR><TH>Which organizations were involved in crises that occurred outside of the country its HQs are based in?</TH></TR><TR><TD>Which organizations were involved in crises that occurred outside of the country its HQs are based in?</TD></TR></TABLE>--------------
+select distinct(Orgs.name) as OName
+    from Orgs 
+    inner join CrisisOrgs using (orgId)
+    inner join Crises  using (crisisId)
+    where Orgs.country != Crises.country
+--------------
+
+<TABLE BORDER=1><TR><TH>OName</TH></TR><TR><TD>US Air Force</TD></TR><TR><TD>Dow Jones and Company</TD></TR><TR><TD>US Army</TD></TR><TR><TD>FBI</TD></TR><TR><TD>U.S. Coast Guard</TD></TR><TR><TD>United Nations</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What was the average cost damage in USD done by crises that caused over 1000 fatalities?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What was the average cost damage in USD done by crises that caused over 1000 fatalities?</TH></TR><TR><TD>What was the average cost damage in USD done by crises that caused over 1000 fatalities?</TD></TR></TABLE>--------------
+select avg(damageInUSD)
+    from Crises
+    where fatalities > 1000
+--------------
+
+<TABLE BORDER=1><TR><TH>avg(damageInUSD)</TH></TR><TR><TD>1000000000.0000</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "How many natural disasters had over 500 fatalities and costed over 10 billion dollars"
+--------------
+
+<TABLE BORDER=1><TR><TH>How many natural disasters had over 500 fatalities and costed over 10 billion dollars</TH></TR><TR><TD>How many natural disasters had over 500 fatalities and costed over 10 billion dollars</TD></TR></TABLE>--------------
+select count(*)
+    from Crises
+    where kind = "Natural Disaster" and fatalities > 500 and reparationCost > 10000000000
+--------------
+
+<TABLE BORDER=1><TR><TH>count(*)</TH></TR><TR><TD>0</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Ignoring nulls, what is the total damage cost of disasters in our century"
+--------------
+
+<TABLE BORDER=1><TR><TH>Ignoring nulls, what is the total damage cost of disasters in our century</TH></TR><TR><TD>Ignoring nulls, what is the total damage cost of disasters in our century</TD></TR></TABLE>--------------
+select sum(damageInUSD)
+    from Crises
+    where damageInUSD is not NULL and dateAndTime >= '2000-01-01 00:00:00'
+--------------
+
+<TABLE BORDER=1><TR><TH>sum(damageInUSD)</TH></TR><TR><TD>8173756235</TD></TR></TABLE>--------------
+select "EJADK's Queries"
+--------------
+
+<TABLE BORDER=1><TR><TH>EJADK's Queries</TH></TR><TR><TD>EJADK's Queries</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What is the first (earliest) crisis in the database?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the first (earliest) crisis in the database?</TH></TR><TR><TD>What is the first (earliest) crisis in the database?</TD></TR></TABLE>--------------
+select name
+    from Crises
+    order by dateAndTime asc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH></TR><TR><TD>Hindenburg Disaster</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What is the total number of deaths caused by natural disasters?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the total number of deaths caused by natural disasters?</TH></TR><TR><TD>What is the total number of deaths caused by natural disasters?</TD></TR></TABLE>--------------
+select sum(fatalities)
+    from Crises
+    where kind = "Natural Disaster"
+--------------
+
+<TABLE BORDER=1><TR><TH>sum(fatalities)</TH></TR><TR><TD>159343</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Count the number of politicians grouped by country."
+--------------
+
+<TABLE BORDER=1><TR><TH>Count the number of politicians grouped by country.</TH></TR><TR><TD>Count the number of politicians grouped by country.</TD></TR></TABLE>--------------
+select country, count(personId)
+    from People 
+    where kind = "Politician"
+    group by country
+--------------
+
+<TABLE BORDER=1><TR><TH>country</TH><TH>count(personId)</TH></TR><TR><TD>Haiti</TD><TD>1</TD></TR><TR><TD>Iceland</TD><TD>1</TD></TR><TR><TD>USA</TD><TD>3</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "Count the number of crisis that each organization helped."
+--------------
+
+<TABLE BORDER=1><TR><TH>Count the number of crisis that each organization helped.</TH></TR><TR><TD>Count the number of crisis that each organization helped.</TD></TR></TABLE>--------------
+select name, count(crisisId)
+    from Orgs natural join CrisisOrgs
+    group by orgId
+--------------
+
+<TABLE BORDER=1><TR><TH>name</TH><TH>count(crisisId)</TH></TR><TR><TD>United Nations</TD><TD>1</TD></TR><TR><TD>U.S. Coast Guard</TD><TD>1</TD></TR><TR><TD>Haitian Government</TD><TD>1</TD></TR><TR><TD>Luftschiffbau Zeppelin</TD><TD>1</TD></TR><TR><TD>London Volcanic Ash Advisory Center</TD><TD>1</TD></TR><TR><TD>Egyptian Red Crescent</TD><TD>1</TD></TR><TR><TD>US Air Force</TD><TD>1</TD></TR><TR><TD>Dow Jones and Company</TD><TD>1</TD></TR><TR><TD>US Army</TD><TD>1</TD></TR><TR><TD>FBI</TD><TD>1</TD></TR></TABLE>--------------
+select ""
+--------------
+
+<TABLE BORDER=1><TR><TH> &nbsp; </TH></TR><TR><TD></TD></TR></TABLE>--------------
+select "What is the most common resource needed?"
+--------------
+
+<TABLE BORDER=1><TR><TH>What is the most common resource needed?</TH></TR><TR><TD>What is the most common resource needed?</TD></TR></TABLE>--------------
+select resource
+    from CrisisResources natural join Resources
+    group by resourceId
+    order by count(crisisId) desc limit 1
+--------------
+
+<TABLE BORDER=1><TR><TH>resource</TH></TR><TR><TD>LaborUnion</TD></TR></TABLE>
